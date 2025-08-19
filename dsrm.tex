@@ -1,0 +1,199 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{pgfgantt}
+
+
+\begin{document}
+	\section{Atividade 1: Identificação do problema e motivação}
+	
+	O projeto é oriundo de pesquisas e orientações relacionadas ao ensino de engenharia de software e programação, áreas que têm ganho destaque no contexto acadêmico e profissional. A pesquisa está vinculada ao mestrado em Computação Aplicada da UTFPR, cuja subárea de Engenharia de Software aborda temas como educação em computação, desenvolvimento de ferramentas educacionais, redução de custos computacionais e financeiros, e melhoria da usabilidade de softwares. A motivação para este estudo surgiu da necessidade de explorar lacunas no ensino de programação, especialmente no que diz respeito à análise de logs acadêmicos e ao uso de ferramentas de captura de eventos durante o processo de aprendizagem.
+	
+	\section{Atividade 2: Definir os objetivos para uma solução} 
+	
+	A pesquisa tem grande relevância acadêmica e prática, pois busca preencher uma lacuna ainda pouco explorada no ensino de programação: a análise de logs acadêmicos. Através da captura e análise de eventos durante o processo de desenvolvimento de códigos, será possível:
+\begin{itemize}
+	\item  Identificar as principais dificuldades enfrentadas pelos estudantes.
+	\item Propor melhorias no ensino de programação com base em dados quantitativos.
+	\item Criar um dataset de logs acadêmicos que poderá ser compartilhado e utilizado em futuras pesquisas.
+	\item Desenvolver ferramentas educacionais mais eficazes, com foco na usabilidade e na redução de custos computacionais.
+	
+\end{itemize}
+	Além disso, o estudo contribuirá para a formação de profissionais mais qualificados na área de informática, preparando-os para os desafios do mercado de trabalho.
+	
+	\subsection{Objetivos}
+	 
+	O objetivo deste trabalho é desenvolver e implementar uma extensão para coleta e análise de logs durante o processo de ensino-aprendizagem de programação, com o intuito de fornecer métricas que auxiliem na identificação de dificuldades dos alunos, na personalização do ensino e no aprimoramento das práticas pedagógicas
+	
+	\subsubsection{Objetivos Gerais}
+	\begin{enumerate}
+		\item O que pretende: Investigar o processo de aprendizagem de programação por meio da análise de logs acadêmicos, identificando padrões e dificuldades comuns entre os estudantes.
+		\item Como pretende: Utilizando ferramentas de captura de eventos durante as aulas de programação, processando os dados coletados e organizando-os em um repositório acessível.
+		\item Por que pretende: Para melhorar o ensino de programação, oferecendo outras características, objetos de estudos baseados em dados quantitativos e criando um recurso (dataset) que possa ser utilizado por outros pesquisadores e educadores.
+	\end{enumerate}
+	\subsubsection{Objetivos Específicos}
+	\begin{enumerate}
+	\item Desenvolver uma extensão para registro de eventos durante as aulas de programação.
+	\item Implementar o plugin na IDE utilizada na disciplina, com a anuência da instituição e dos estudantes.
+	\item Coletar, sincronizar e armazenar dados de eventos gerados durante o experimento.
+	\item Desenvolver um dataset com os dados coletados, organizados por turma, instituição e disciplina.
+\end{enumerate}
+	
+	\section{Atividade 3: Design e desenvolvimento}
+	
+	Este trabalho adota uma abordagem metodológica composta por duas etapas principais: uma revisão sistemática da literatura e um survey.
+	
+	\subsection{Revisão Sistemática da Literatura}
+	A revisão sistemática foi conduzida para investigar como os logs têm sido aplicados no ensino de programação. Foram consultadas cinco bibliotecas virtuais (Scopus, IEEE Xplore, SOL SBC, ACM e WILEY), utilizando combinações de palavras-chave e operadores lógicos. A questão central que guiou a pesquisa foi: "Como os logs têm sido utilizados no ensino de programação?". Além disso, foram definidas sub-questões para explorar aspectos específicos, como objetivos, ferramentas, métodos e métricas utilizados. Essa etapa visa mapear o estado da arte e identificar lacunas e oportunidades para o desenvolvimento de novas soluções.
+	
+	\subsection{Survey}
+	A segunda etapa consiste na aplicação de um survey, cujo formulário contém perguntas relacionadas ao uso de ferramentas de log no apoio ao ensino de programação. As questões abordam temas como:
+	
+\begin{itemize}
+	\item O uso de monitoramento no processo de ensino-aprendizagem;
+	\item Como os dados de log podem auxiliar na tomada de decisões pedagógicas;
+	\item O editor de texto ou IDE mais utilizado (informação essencial para o desenvolvimento de um plugin);
+	\item A disposição das instituições em adotar a ferramenta proposta, uma vez disponível.
+\end{itemize}
+	O ensino de programação não se limita à transmissão de conhecimentos técnicos, mas abrange também aspectos como licenciamento de código, boas práticas de desenvolvimento e integridade acadêmica. Nesse contexto, o combate ao plágio é uma preocupação central, e os logs emergem como um recurso valioso para apoiar a avaliação discente.
+
+	Por meio da análise de padrões de estilo de programação — registrados em um user profile (perfil de usuário) —, é possível identificar discrepâncias na autoria de códigos. Se um trabalho submetido apresenta características incompatíveis com o histórico do estudante (como estrutura, nomenclatura ou lógica), isso pode indicar plágio ou colaboração não autorizada. Além disso, esses dados permitem:
+	
+	Avaliação personalizada – Acompanhar a evolução individual do discente, detectando dificuldades e adaptando o ensino conforme necessário.
+	Geração de datasets para pesquisa – Os logs podem ser organizados em tabelas para estudos empíricos sobre metodologias de ensino, estilos de codificação ou eficácia de ferramentas educacionais.
+	Dessa forma, os logs não só reforçam a originalidade do trabalho, mas também enriquecem o processo pedagógico, fornecendo informações em dados.
+	
+	A análise dos dados coletados pelo plugin será realizada em três etapas principais:  
+\begin{enumerate}	
+	\item  Coleta e Pré-processamento
+	\begin{enumerate}
+	\item  Registro de Logs:  
+	Os dados brutos são gerados a partir da interação dos estudantes com o ambiente de programação, capturando:  
+		\item  Timestamp (data/hora de cada ação);  
+			\begin{itemize}
+				\item Trechos de código editados;  
+				\item  Padrões de estilo (ex.: nomenclatura de variáveis, estrutura de funções);  
+				\item   Eventos como compilações, erros e correções.  
+			\end{itemize}
+		\item Filtragem e Anonimização:  
+		\item Dados sensíveis (como nomes ou matrículas discentes) são substituídos por identificadores únicos, garantindo a privacidade.  
+	\end{enumerate}
+	\item  Análise de Autoria e Detecção de Plágio
+		\begin{enumerate}
+			\item  Perfil do estudante (*User Profile*):  
+			\item  Frequência de commits;  
+			\item  Uso de estruturas específicas (ex.: loops, funções).  
+		\end{enumerate}
+	\item  Geração de Dados Educacionais a partir de eventos
+	\begin{enumerate}
+		\item  Dataset para Pesquisa
+		\item  Eficácia de metodologias de ensino;  
+		\item  Correlação entre padrões de codificação e desempenho acadêmico.  
+	\end{enumerate}
+\end{enumerate}
+
+	\section{Atividade 4: Demonstração}
+	
+	A pesquisa será realizada no IFAM Campus Boca do Acre, onde um dos pesquisadores atua como professor EBTT na área de informática. O campus disponibilizará a infraestrutura física para a coleta de dados e a realização de experimentos, além de contar com um público-alvo diretamente envolvido com o tema da pesquisa.
+	
+	O público alvo da pesquisa serão os estudantes matriculados no curso técnico em informática do IFAM Campus Boca do Acre. A amostra será aproximadamente 80 estudantes de dois períodos do curso técnico subsequente em Informática nas disciplinas: Lógica de Programação e algoritmos e Estrutura de Dados. Eventualmente, a pesquisa poderá ser estendida para a comunidade local por meio de cursos de programação ofertados pela instituição, ampliando o escopo de coleta de dados e análise.
+	
+	A duração serão três semanas(aulas práticas) na infraestrutura do labin (laboratório de informática). A ferramenta utilizada será o Visual Studio.
+	
+	Todos as etapas seguirão as normas exigidas pelo TCLE e pela Plataforma Brasil. 
+\section{Cronograma}
+\begin{figure}[h]
+	\centering
+	\begin{ganttchart}[
+		vgrid={*{8}{gray!30, dotted}},
+		hgrid,
+		x unit=1.5cm,
+		y unit title=0.7cm,
+		y unit chart=0.6cm,
+		title/.style={draw=none, fill=none},
+		title label font=\bfseries\footnotesize,
+		bar/.style={draw=none, fill=blue!40, rounded corners=2pt},
+		bar height=0.5,
+		bar label font=\scriptsize,
+		bar label node/.append style={left=3pt, text width=3cm, align=right},
+		milestone/.style={fill=red!70, shape=rectangle},
+		milestone label font=\scriptsize\bfseries
+		]{1}{8}
+		
+		% Year and month titles
+		\gantttitle{2025}{5} \gantttitle{2026}{3} \\
+		\gantttitlelist{8,9,10,11,12}{1} \gantttitlelist{1,2,3}{1} \\
+		
+		% Activities
+		\ganttbar{Qualificação}{1}{1} \\
+		\ganttbar{Experimento 1}{2}{3} \\
+		\ganttbar{Experimento 2}{3}{4} \\
+		\ganttbar{Conclusão da pesquisa}{5}{5}\\
+		\ganttbar{Submissão de artigos}{6}{7}\\
+		\ganttbar{Escrita da dissertação}{1}{8} \\
+		\ganttmilestone{Entrega da dissertação}{7}{8}
+		
+	\end{ganttchart}
+	\caption{Cronograma de pesquisa (Agosto 2025 - Março 2026)}
+	\label{fig:gantt}
+\end{figure}
+%
+%\begin{figure}[h]
+%	\centering
+%	\resizebox{\textwidth}{!}{%
+%		\begin{ganttchart}[
+%			x unit=0.8cm,
+%			y unit title=0.8cm,
+%			y unit chart=0.7cm,
+%			title/.style={draw=none, fill=none},
+%			title label font=\bfseries\footnotesize,
+%			bar/.style={draw=none, rounded corners=3pt},
+%			bar height=0.6,
+%			bar label font=\footnotesize,
+%			group/.style={draw=black, fill=gray!20},
+%			group height=0.5,
+%			group peaks height=0.3,
+%			milestone/.style={fill=red, shape=diamond},
+%			milestone label font=\footnotesize\bfseries,
+%			link/.style={-latex, thick, blue!50!black},
+%			link bulge=2
+%			]{8}{15} % Months 8 (Aug) to 15 (Mar next year)
+%			
+%			\gantttitle{Project Timeline (August=8)}{8} \\
+%			\gantttitlelist{8,...,15}{1} \\
+%			
+%			% Phase 1: Qualification and Experiments
+%			\ganttgroup{Pesquisa}{8}{11} \\
+%			\ganttbar[bar/.append style={fill=phase1}]{Qualificação}{8}{8} \\
+%			\ganttbar[bar/.append style={fill=phase1}, name=exp1]{Experimento 1}{9}{10} \\
+%			\ganttbar[bar/.append style={fill=phase2}, name=ajust]{Ajustes}{11}{11} \\
+%			\ganttbar[bar/.append style={fill=phase1}, name=exp2]{Experimento 2}{11}{11} \\
+%			
+%			% Phase 2: Conclusion and Writing
+%			\ganttgroup{Escrita}{12}{15} \\
+%			\ganttbar[bar/.append style={fill=phase3}, name=conc]{Conclusão}{12}{12} \\
+%			\ganttbar[bar/.append style={fill=phase3}, name=artigo]{Artigo}{1}{2} \\
+%			\ganttbar[bar/.append style={fill=phase3}, name=escrita]{Escrita da Dissertação}{8}{15} \\
+%			\ganttmilestone[name=defesa]{Defesa}{3} \\
+%			
+%			% Phase 3: Evaluation
+%			\ganttgroup{Avaliações}{9}{13} \\
+%			\ganttbar[bar/.append style={fill=phase2}]{Coleta de Dados}{9}{10} \\
+%			\ganttbar[bar/.append style={fill=phase2}]{Análise}{10}{12} \\
+%			\ganttbar[bar/.append style={fill=phase2}]{Relatório}{12}{13} \\
+%			
+%			% Dependencies
+%			\ganttlink[link type=f-s]{exp1}{ajust}
+%			\ganttlink[link type=f-s]{ajust}{exp2}
+%			\ganttlink[link type=f-s]{exp2}{conc}
+%			\ganttlink[link type=f-s]{conc}{artigo}
+%			\ganttlink[link type=f-s]{artigo}{defesa}
+%		\end{ganttchart}
+%	}
+%	\caption{Cronograma do Projeto (Agosto=8 até Março=15)}
+%	\label{fig:gantt}
+%\end{figure}
+\end{document}

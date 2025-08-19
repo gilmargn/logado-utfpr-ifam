@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configuração do Plugin</title>
+    <style>
+        /* Seus estilos atuais */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Configuração do Plugin</h1>
+        <form id="configForm">
+            <div class="form-group">
+                <label for="codigoEscola">Código da Escola:</label>
+                <input type="text" id="codigoEscola" required>
+            </div>
+            <div class="form-group">
+                <label for="matricula">Matrícula:</label>
+                <input type="text" id="matricula" required>
+            </div>
+            <div class="form-group">
+                <label for="github">Usuário GitHub:</label>
+                <input type="text" id="github" required>
+            </div>
+            <button type="submit" class="btn-ok">OK</button>
+        </form>
+    </div>
+
+    <script>
+        const vscode = acquireVsCodeApi();
+        
+        document.getElementById('configForm').addEventListener('submit', (event) => {
+            event.preventDefault();
+            
+            const codigoEscola = document.getElementById('codigoEscola').value;
+            const matricula = document.getElementById('matricula').value;
+            const github = document.getElementById('github').value;
+            
+            if (!codigoEscola || !matricula || !github) {
+                vscode.postMessage({
+                    command: 'alert',
+                    text: 'Por favor, preencha todos os campos!'
+                });
+                return;
+            }
+            
+            vscode.postMessage({
+                command: 'saveConfig',
+                codigoEscola: codigoEscola,
+                matricula: matricula,
+                github: github
+            });
+        });
+    </script>
+</body>
+</html>
