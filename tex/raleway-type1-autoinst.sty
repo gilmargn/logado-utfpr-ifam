@@ -1,0 +1,96 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{Raleway}
+    [2025/04/09 (autoinst)  Style file for Raleway fonts.]
+
+\RequirePackage{xkeyval}
+\newcommand*{\Raleway@scale}{1}
+\DeclareOptionX{scale}{\renewcommand*{\Raleway@scale}{#1}}
+\DeclareOptionX{scaled}{\renewcommand*{\Raleway@scale}{#1}}
+
+\DeclareOptionX{lining}{\edef\Raleway@figurestyle{LF}}
+\DeclareOptionX{oldstyle}{\edef\Raleway@figurestyle{OsF}}
+\DeclareOptionX{proportional}{\edef\Raleway@figurealign{}}
+\edef\Raleway@figurestyle{OsF}
+\edef\Raleway@figurealign{}
+
+\DeclareOptionX{mainfont}{
+    \renewcommand{\familydefault}{\sfdefault}
+}
+\DeclareOptionX{black}{\edef\bfseries@sf{black}}
+\DeclareOptionX{extrabold}{\edef\bfseries@sf{extrabold}}
+\DeclareOptionX{semibold}{\edef\bfseries@sf{semibold}}
+\DeclareOptionX{bold}{\edef\bfseries@sf{bold}}
+\DeclareOptionX{medium}{\edef\mdseries@sf{medium}}
+\DeclareOptionX{regular}{\edef\mdseries@sf{regular}}
+
+\ProcessOptionsX\relax
+
+\RequirePackage[T1,LY1]{fontenc}
+\RequirePackage{textcomp}
+\RequirePackage{ifthen}
+\RequirePackage{mweights}
+
+\IfFileExists{fontaxes.sty}{
+    \RequirePackage{fontaxes}
+    \fa@naming@exception{figures}{{superior}{proportional}}{Sup}
+    \fa@naming@exception{figures}{{superior}{tabular}}{Sup}
+    \def\supfigures{\@nomath\supfigures
+        \fontfigurestyle{superior}\selectfont}
+    \let\sufigures\supfigures
+    \DeclareTextFontCommand{\textsup}{\supfigures}
+    \let\textsu\textsup
+    \let\textsuperior\textsup
+    \let\@oldtextsuperscript\textsuperscript
+    \def\textsuperscript{\@ifstar\@oldtextsuperscript\textsup}
+    \def\@makefnmark{%
+        \mbox{\footnotemarkfont\textsuperscript{\@thefnmark}}}
+    \@ifundefined{ftntm@font}%
+        {\let\footnotemarkfont\normalfont}%
+        {\let\footnotemarkfont\ftntm@font}
+
+    \fa@naming@exception{figures}{{inferior}{proportional}}{Inf}
+    \fa@naming@exception{figures}{{inferior}{tabular}}{Inf}
+    \def\inffigures{\@nomath\inffigures
+        \fontfigurestyle{inferior}\selectfont}
+    \let\infigures\inffigures
+    \DeclareTextFontCommand{\textinf}{\inffigures}
+    \let\textin\textinf
+    \let\textinferior\textinf
+    \let\@oldtextsubscript\textsubscript
+    \def\textsubscript{\@ifstar\@oldtextsubscript\textinf}
+
+    \fa@naming@exception{figures}{{numerators}{proportional}}{Numr}
+    \fa@naming@exception{figures}{{numerator}{proportional}}{Numr}
+    \fa@naming@exception{figures}{{numerators}{tabular}}{Numr}
+    \fa@naming@exception{figures}{{numerator}{tabular}}{Numr}
+
+    \fa@naming@exception{figures}{{denominators}{proportional}}{Dnom}
+    \fa@naming@exception{figures}{{denominator}{proportional}}{Dnom}
+    \fa@naming@exception{figures}{{denominators}{tabular}}{Dnom}
+    \fa@naming@exception{figures}{{denominator}{tabular}}{Dnom}
+
+}{}
+
+%   Here we implement the scale=MatchLowercase option.
+%   If this is given, we must compute the correct value of
+%   the "\Raleway@scale" parameter before loading the .fd files;
+%   but to determine that value we of course need the font's x-height.
+%   To avoid triggering the loading of .fd files,
+%   we use plain TeX's \font primitive to load the testfont.
+%   We then compute the ratio of the current x-height to our font's x-height;
+%   this is the "\Raleway@scale" we will pass to the .fd files.
+\ifthenelse{\equal{\Raleway@scale}{MatchLowercase}}
+    {   \newlength{\Raleway@currentx}
+        \settoheight{\Raleway@currentx}{x}
+        \newlength{\Raleway@xheight}
+        \settoheight{\Raleway@xheight}
+            {{\font\testfont=Raleway-Regular-osf-ot1 at \f@size pt\testfont x}}
+        \renewcommand*{\Raleway@scale}
+            {\strip@pt\dimexpr\number\numexpr\number\dimexpr\Raleway@currentx\relax*65536/\number\dimexpr\Raleway@xheight\relax\relax sp\relax}}
+    {}
+
+\renewcommand*
+    {\sfdefault}
+    {Raleway-\Raleway@figurealign\Raleway@figurestyle}
+
+\endinput

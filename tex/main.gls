@@ -1,0 +1,14 @@
+\glossarysection[\glossarytoctitle]{\glossarytitle}\glossarypreamble
+\begin{theglossary}\glossaryheader
+\glsgroupheading{A}\relax \glsresetentrylist %
+\glossentry{abntex2}{\glossaryentrynumbers{\relax 
+		\glsseeformat[\seename ]{latex}{Z}}}%
+\subglossentry{1}{utfprpbtex}{\glossaryentrynumbers{\relax 
+		\glsseeformat[\seename ]{latex}{Z}}}\glsgroupskip
+\glsgroupheading{E}\relax \glsresetentrylist %
+\glossentry{equilibrio}{\glossaryentrynumbers{\relax 
+		\glsseeformat[veja também]{componente}{Z}}}\glsgroupskip
+\glsgroupheading{L}\relax \glsresetentrylist %
+\glossentry{latex}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{21}}}%
+\end{theglossary}\glossarypostamble
