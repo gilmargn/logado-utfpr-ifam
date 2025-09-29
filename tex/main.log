@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.29)  8 SEP 2025 23:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.29)  29 SEP 2025 01:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1778,37 +1778,28 @@ Package: subfig 2005/06/28 ver: 1.3 subfig package
 (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\glswrite=\write20
-\glo@main@file=\write21
-\openout4 = `main.glo'.
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count442
+\float@exts=\toks64
+\float@box=\box75
+\@float@everytoks=\toks65
+\@floatcapt=\box76
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgfgantt/pgfgantt.sty
+Package: pgfgantt 2018/01/10 v5.0 Draw Gantt diagrams with TikZ
 
-Package glossaries Info: Writing glossary file main.glo on input line 108.
-\glo@acronym@file=\write22
-\openout4 = `main.acn'.
-
-Package glossaries Info: Writing glossary file main.acn on input line 108.
-\glo@sigla@file=\write23
-\openout4 = `main.acn2'.
-
-Package glossaries Info: Writing glossary file main.acn2 on input line 108.
-\glo@abreviatura@file=\write24
-\openout4 = `main.acn3'.
-
-Package glossaries Info: Writing glossary file main.acn3 on input line 108.
-
-(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
-Package: tcolorbox 2022/01/07 version 5.0.2 text color boxes
-
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks64
+\pgfutil@everybye=\toks66
 \pgfutil@tempdima=\dimen320
 \pgfutil@tempdimb=\dimen321
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
 ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box75
+\pgfutil@abb=\box77
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
@@ -1821,12 +1812,12 @@ Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
 Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks65
-\pgfkeys@temptoks=\toks66
+\pgfkeys@pathtoks=\toks67
+\pgfkeys@temptoks=\toks68
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
 ex
-\pgfkeys@tmptoks=\toks67
+\pgfkeys@tmptoks=\toks69
 ))
 \pgf@x=\dimen322
 \pgf@y=\dimen323
@@ -1838,16 +1829,16 @@ ex
 \pgf@yc=\dimen329
 \pgf@xd=\dimen330
 \pgf@yd=\dimen331
-\w@pgf@writea=\write25
+\w@pgf@writea=\write20
 \r@pgf@reada=\read6
-\c@pgf@counta=\count442
-\c@pgf@countb=\count443
-\c@pgf@countc=\count444
-\c@pgf@countd=\count445
-\t@pgf@toka=\toks68
-\t@pgf@tokb=\toks69
-\t@pgf@tokc=\toks70
-\pgf@sys@id@count=\count446
+\c@pgf@counta=\count443
+\c@pgf@countb=\count444
+\c@pgf@countc=\count445
+\c@pgf@countd=\count446
+\t@pgf@toka=\toks70
+\t@pgf@tokb=\toks71
+\t@pgf@tokc=\toks72
+\pgf@sys@id@count=\count447
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
 )
@@ -1863,8 +1854,8 @@ File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfsyssoftpath@smallbuffer@items=\count447
-\pgfsyssoftpath@bigbuffer@items=\count448
+\pgfsyssoftpath@smallbuffer@items=\count448
+\pgfsyssoftpath@bigbuffer@items=\count449
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -1878,11 +1869,11 @@ Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen332
-\pgfmath@count=\count449
-\pgfmath@box=\box76
-\pgfmath@toks=\toks71
-\pgfmath@stack@operand=\toks72
-\pgfmath@stack@operation=\toks73
+\pgfmath@count=\count450
+\pgfmath@box=\box78
+\pgfmath@toks=\toks73
+\pgfmath@stack@operand=\toks74
+\pgfmath@stack@operation=\toks75
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
@@ -1902,7 +1893,7 @@ tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
 thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count450
+\c@pgfmathroundto@lastzeros=\count451
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
@@ -1938,10 +1929,10 @@ File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
 x
 File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfpic=\box77
-\pgf@hbox=\box78
-\pgf@layerbox@main=\box79
-\pgf@picture@serial@count=\count451
+\pgfpic=\box79
+\pgf@hbox=\box80
+\pgf@layerbox@main=\box81
+\pgf@picture@serial@count=\count452
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
@@ -1974,8 +1965,8 @@ File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@max=\dimen356
-\pgf@sys@shading@range@num=\count452
-\pgf@shadingcount=\count453
+\pgf@sys@shading@range@num=\count453
+\pgf@shadingcount=\count454
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
@@ -1983,7 +1974,7 @@ File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
 tex
 File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfexternal@startupbox=\box80
+\pgfexternal@startupbox=\box82
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
 x
@@ -2002,7 +1993,7 @@ File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodeparttextbox=\box81
+\pgfnodeparttextbox=\box83
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
@@ -2015,23 +2006,169 @@ Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
 .sty
 Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
-)) (/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen359
+\pgffor@skip=\dimen360
+\pgffor@stack=\toks76
+\pgffor@toks=\toks77
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count455
+\pgfplotmarksize=\dimen361
+)
+\tikz@lastx=\dimen362
+\tikz@lasty=\dimen363
+\tikz@lastxsaved=\dimen364
+\tikz@lastysaved=\dimen365
+\tikz@lastmovetox=\dimen366
+\tikz@lastmovetoy=\dimen367
+\tikzleveldistance=\dimen368
+\tikzsiblingdistance=\dimen369
+\tikz@figbox=\box84
+\tikz@figbox@bg=\box85
+\tikz@tempbox=\box86
+\tikz@tempbox@bg=\box87
+\tikztreelevel=\count456
+\tikznumberofchildren=\count457
+\tikznumberofcurrentchild=\count458
+\tikz@fig@count=\count459
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count460
+\pgfmatrixcurrentcolumn=\count461
+\pgf@matrix@numberofcolumns=\count462
+)
+\tikz@expandcount=\count463
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
+tex
+File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\arrowsize=\dimen370
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@layerbox@background=\box88
+\pgf@layerboxsaved@background=\box89
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.cod
+e.tex
+File: pgflibrarypatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfcalendar.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfcalendar.code.tex
+File: pgfcalendar.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+\pgfcalendarcurrentjulian=\count464
+\pgf@cal@easter@Y=\count465
+\pgf@cal@easter@G=\count466
+\pgf@cal@easter@C=\count467
+\pgf@cal@easter@X=\count468
+\pgf@cal@easter@Z=\count469
+\pgf@cal@easter@D=\count470
+\pgf@cal@easter@E=\count471
+\pgf@cal@easter@N=\count472
+\pgf@cal@easter@M=\count473
+\pgf@cal@easter@julianday=\count474
+))
+\gtt@currentline=\count475
+\gtt@lasttitleline=\count476
+\gtt@currgrid=\count477
+\gtt@chartwidth=\count478
+\gtt@lasttitleslot=\count479
+\gtt@elementid=\count480
+\gtt@today@slot=\count481
+\gtt@startjulian=\count482
+\gtt@endjulian=\count483
+\gtt@chartid=\count484
+\gtt@vrule@slot=\count485
+\gtt@calendar@slots=\count486
+\gtt@calendar@weeknumber=\count487
+\gtt@calendar@startofweek=\count488
+\gtt@left@slot=\count489
+\gtt@right@slot=\count490
+)
+\glswrite=\write21
+\glo@main@file=\write22
+\openout4 = `main.glo'.
+
+Package glossaries Info: Writing glossary file main.glo on input line 118.
+\glo@acronym@file=\write23
+\openout4 = `main.acn'.
+
+Package glossaries Info: Writing glossary file main.acn on input line 118.
+\glo@sigla@file=\write24
+\openout4 = `main.acn2'.
+
+Package glossaries Info: Writing glossary file main.acn2 on input line 118.
+\glo@abreviatura@file=\write25
+\openout4 = `main.acn3'.
+
+Package glossaries Info: Writing glossary file main.acn3 on input line 118.
+
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2022/01/07 version 5.0.2 text color boxes
+
+(/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
 
 (/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-\tcb@titlebox=\box82
-\tcb@upperbox=\box83
-\tcb@lowerbox=\box84
-\tcb@phantombox=\box85
-\c@tcbbreakpart=\count454
-\c@tcblayer=\count455
-\c@tcolorbox@number=\count456
-\tcb@temp=\box86
-\tcb@temp=\box87
-\tcb@temp=\box88
-\tcb@temp=\box89
+\tcb@titlebox=\box90
+\tcb@upperbox=\box91
+\tcb@lowerbox=\box92
+\tcb@phantombox=\box93
+\c@tcbbreakpart=\count491
+\c@tcblayer=\count492
+\c@tcolorbox@number=\count493
+\tcb@temp=\box94
+\tcb@temp=\box95
+\tcb@temp=\box96
+\tcb@temp=\box97
 ))
 (./variaveis.tex)
 \main@idxfile=\write26
@@ -2062,14 +2199,10 @@ File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 10.79993pt on input line 106.
  (./main.aux
-(./PreTexto/dedicatoria.aux) (./PreTexto/agradecimentos.aux)
-(./PreTexto/epigrafe.aux) (./PreTexto/resumo.aux) (./PreTexto/abstract.aux)
-(./PreTexto/lista-simbolos.aux) (./capitulos/cap-introducao.aux)
-(./capitulos/cap-conceitos.aux) (./capitulos/cap-trabalhos-relacionados.aux)
-(./capitulos/cap-proposta.aux) (./capitulos/cap-metodologia.aux)
-(./capitulos/cap-experimentos-resultados.aux) (./capitulos/cap-conclusoes.aux)
-(./PosTexto/apendicea.aux) (./PosTexto/apendiceb.aux) (./PosTexto/anexoa.aux)
-(./PosTexto/anexob.aux))
+(./PreTexto/resumo.aux) (./PreTexto/abstract.aux)
+(./capitulos/cap-introducao.aux) (./capitulos/cap-conceitos.aux)
+(./capitulos/cap-metodologia.aux) (./PosTexto/apendicea.aux)
+(./PosTexto/apendiceb.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
@@ -2093,17 +2226,17 @@ LaTeX Font Info:    ... okay on input line 106.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count457
-\scratchdimen=\dimen359
-\scratchbox=\box90
-\nofMPsegments=\count458
-\nofMParguments=\count459
-\everyMPshowfont=\toks74
-\MPscratchCnt=\count460
-\MPscratchDim=\dimen360
-\MPnumerator=\count461
-\makeMPintoPDFobject=\count462
-\everyMPtoPDFconversion=\toks75
+\scratchcounter=\count494
+\scratchdimen=\dimen371
+\scratchbox=\box98
+\nofMPsegments=\count495
+\nofMParguments=\count496
+\everyMPshowfont=\toks78
+\MPscratchCnt=\count497
+\MPscratchDim=\dimen372
+\MPnumerator=\count498
+\makeMPintoPDFobject=\count499
+\everyMPtoPDFconversion=\toks79
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -2124,7 +2257,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count463
+\c@section@level=\count500
 )
 Redoing nameref's sectioning
 Redoing nameref's label
@@ -2134,7 +2267,7 @@ LaTeX Info: Redefining \pageref on input line 106.
 LaTeX Info: Redefining \nameref on input line 106.
 LaTeX Info: Redefining \degres on input line 106.
 LaTeX Info: Redefining \up on input line 106.
-\myptabbox=\box91
+\myptabbox=\box99
 \myptabboxwidth=\skip315
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -2173,7 +2306,23 @@ LaTeX Info: Redefining \up on input line 106.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 106.
-<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
+
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-months-dictionar
+y-English.dict
+Dictionary: translator-months-dictionary, Language: English 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-months-dictionar
+y-French.dict
+Dictionary: translator-month-dictionary, Language: French 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-months-dictionar
+y-Spanish.dict
+Dictionary: translator-months-dictionary, Language: Spanish 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-months-dictionar
+y-Portuguese.dict
+Dictionary: translator-month-dictionary, Language: portuguese 
+)<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
 LaTeX Font Info:    Trying to load font information for U+msa on input line 106
 .
 
@@ -2194,6 +2343,7 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )<<ot1tt.cmap>>
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: xtab package is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -2238,7 +2388,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-\c@lstlisting=\count464
+\c@lstlisting=\count501
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 12.9599pt on input line 115.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
@@ -2394,13 +2544,28 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 \openout4 = `main.mw'.
 
 
-Underfull \hbox (badness 2922) in paragraph at lines 119--119
-\T1/phv/m/n/12 do Curso de Ba-cha-re-lado em Ci-ên-cia da
+Underfull \hbox (badness 1215) in paragraph at lines 119--119
+[]\T1/phv/m/n/12 Proposta de Dis-ser-ta-ção apre-sen-tado como
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 119--119
-\T1/phv/m/n/12 Com-pu-ta-ção da Uni-ver-si-dade Tec-no-ló-gica
+\T1/phv/m/n/12 em Ci-ên-cia da Com-pu-ta-ção do Mes-tre
+ []
+
+
+Underfull \hbox (badness 3386) in paragraph at lines 119--119
+\T1/phv/m/n/12 em Com-pu-ta-ção Apli-cada da Uni-ver-si-dade
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+[][] \T1/phv/m/n/12 Prof. Dr. Lau-de-lino Cor-deiro
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+[][] \T1/phv/m/n/12 Profa. Dra. Ma-ria Clau-dia
  []
 
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
@@ -2412,7 +2577,7 @@ Package epstopdf Info: Source file: <./PreTexto/arquivos/licencasCC/by.eps>
 (epstopdf)                    size: 36313 bytes
 (epstopdf)             Output file: <./PreTexto/arquivos/licencasCC/by-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2025-09-08 23:00:55
+(epstopdf)                    date: 2025-09-28 22:31:11
 (epstopdf)                    size: 4610 bytes
 (epstopdf)             Command: <repstopdf --outfile=./PreTexto/arquivos/licenc
 asCC/by-eps-converted-to.pdf ./PreTexto/arquivos/licencasCC/by.eps>
@@ -2440,81 +2605,23 @@ Overfull \hbox (14.73956pt too wide) in paragraph at lines 119--119
  <./PreTexto/arquivos/licencasCC/by-eps-converted-to.pdf>] (./main.mw)
 \openout4 = `main.mw'.
 
-
-Underfull \hbox (badness 2922) in paragraph at lines 133--133
-\T1/phv/m/n/12 do Curso de Ba-cha-re-lado em Ci-ên-cia da
- []
+\openout2 = `./PreTexto/resumo.aux'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\T1/phv/m/n/12 Com-pu-ta-ção da Uni-ver-si-dade Tec-no-ló-gica
- []
-
+(./PreTexto/resumo.tex
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 9.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 10.79993pt on input line 9.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.138 \include{./PreTexto/dedicatoria}
-                                      %% Comente para remover este item
+l.21 \end{resumoutfpr}
+                      
 \openout4 = `main.mw'.
 
-
-[2
-
-
-] (./main.mw)
-\openout4 = `main.mw'.
-
-\openout2 = `./PreTexto/dedicatoria.aux'.
-
- (./PreTexto/dedicatoria.tex)
-\openout4 = `main.mw'.
-
- [3
-
-] (./main.mw)
-\openout4 = `main.mw'.
-
-\openout2 = `./PreTexto/agradecimentos.aux'.
-
-
-(./PreTexto/agradecimentos.tex
-\openout4 = `main.mw'.
-
- [4
-
-
-
-
-] (./main.mw)
-\openout4 = `main.mw'.
-
-)
-\openout2 = `./PreTexto/epigrafe.aux'.
-
- (./PreTexto/epigrafe.tex
-
-LaTeX Warning: Citation `Candido2002' on page 5 undefined on input line 10.
-
-\openout4 = `main.mw'.
-
-[5
-
-
-
-
-] (./main.mw)
-\openout4 = `main.mw'.
-
-)
-\openout2 = `./PreTexto/resumo.aux'.
-
- (./PreTexto/resumo.tex
-\openout4 = `main.mw'.
-
- [6
-
-
+ [2
 
 
 ] (./main.mw)
@@ -2523,11 +2630,10 @@ LaTeX Warning: Citation `Candido2002' on page 5 undefined on input line 10.
 )
 \openout2 = `./PreTexto/abstract.aux'.
 
-
-(./PreTexto/abstract.tex
+ (./PreTexto/abstract.tex
 \openout4 = `main.mw'.
 
- [7
+ [3
 
 
 
@@ -2535,7 +2641,42 @@ LaTeX Warning: Citation `Candido2002' on page 5 undefined on input line 10.
 ] (./main.mw)
 \openout4 = `main.mw'.
 
-) (./main.loge)
+) (./main.lof)
+\openout4 = `main.mw'.
+
+ [4
+
+
+
+] (./main.mw)
+\openout4 = `main.mw'.
+
+ (./main.lot)
+\openout4 = `main.mw'.
+
+ [5
+
+] (./main.mw)
+\openout4 = `main.mw'.
+
+ (./main.toc
+\openout4 = `main.mw'.
+
+
+[6
+
+] (./main.mw)
+\openout4 = `main.mw'.
+
+)
+\openout4 = `main.mw'.
+
+ [7] (./main.mw)
+\openout4 = `main.mw'.
+
+\openout2 = `./capitulos/cap-introducao.aux'.
+
+ (./capitulos/cap-introducao.tex
 \openout4 = `main.mw'.
 
  [8
@@ -2545,134 +2686,60 @@ LaTeX Warning: Citation `Candido2002' on page 5 undefined on input line 10.
 ] (./main.mw)
 \openout4 = `main.mw'.
 
-
-(./main.lot
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 7.19995pt on input line 5.
-)
 \openout4 = `main.mw'.
 
- [9
-
-] (./main.mw)
+ [9] (./main.mw)
 \openout4 = `main.mw'.
 
- (./main.acr3) (./main.acr2
-Overfull \hbox (5.99997pt too wide) in paragraph at lines 2--10
-[] 
- []
 
-) (./main.acr)
+
+Package hyperref Warning: Suppressing empty link on input line 91.
+
 \openout4 = `main.mw'.
 
- [10
-
-
-] (./main.mw)
+[10] (./main.mw)
 \openout4 = `main.mw'.
 
-\openout2 = `./PreTexto/lista-simbolos.aux'.
+\openout4 = `main.mw'.
 
- (./PreTexto/lista-simbolos.tex
-Overfull \hbox (5.99995pt too wide) in paragraph at lines 9--15
-[] 
- []
+ [11] (./main.mw)
+\openout4 = `main.mw'.
 
 )
 \openout4 = `main.mw'.
 
- [11
-
-
-
-] (./main.mw)
+ [12] (./main.mw)
 \openout4 = `main.mw'.
 
- (./main.toc
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 17.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 10.79993pt on input line 17.
-)
-\openout4 = `main.mw'.
-
- [12
+\openout2 = `./capitulos/cap-conceitos.aux'.
 
 
-
-] (./main.mw)
-\openout4 = `main.mw'.
-
-\openout2 = `./capitulos/cap-introducao.aux'.
-
-
-(./capitulos/cap-introducao.tex
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 11
+(./capitulos/cap-conceitos.tex
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 13
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 2
+2.
 
-LaTeX Warning: Citation `Moore:2000:CMC:333067.333074' on page 13 undefined on 
-input line 14.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
+File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
+)
+LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
+(Font)              scaled to size 9.85492pt on input line 22.
 
-
-LaTeX Warning: Citation `Coulouris2013' on page 13 undefined on input line 18.
-
-
-LaTeX Warning: Citation `Coulouris2013' on page 13 undefined on input line 20.
-
-
-LaTeX Warning: Citation `Coulouris2013' on page 13 undefined on input line 22.
-
-
-LaTeX Warning: Citation `Coulouris2013' on page 13 undefined on input line 24.
+Underfull \hbox (badness 10000) in paragraph at lines 18--28
+[]\T1/phv/m/n/12 Para es-ta-be-le-cer uma base ter-mi-no-ló-gica uni-fi-cada, a
+dota-se a ta-
+ []
 
 
-LaTeX Warning: Citation `NBR6023:2018' on page 13 undefined on input line 27.
-
-
-LaTeX Warning: Citation `NBR6027:2012' on page 13 undefined on input line 30.
-
-
-LaTeX Warning: Citation `NBR6028:2021' on page 13 undefined on input line 33.
-
-
-LaTeX Warning: Citation `NBR14724:2011' on page 13 undefined on input line 35.
-
-
-LaTeX Warning: Citation `NBR10520:2002' on page 13 undefined on input line 37.
-
-
-LaTeX Warning: Citation `NBR14724:2011' on page 13 undefined on input line 39.
-
-
-LaTeX Warning: Citation `Andrade2005' on page 13 undefined on input line 42.
-
-
-LaTeX Warning: Citation `Borges2014' on page 13 undefined on input line 45.
-
-
-LaTeX Warning: Citation `BRASIL:1998' on page 13 undefined on input line 48.
-
-
-LaTeX Warning: Citation `KROGH:2001' on page 13 undefined on input line 51.
-
-
-LaTeX Warning: Citation `Faina2001' on page 13 undefined on input line 53.
-
-
-LaTeX Warning: Citation `Davenport2012' on page 13 undefined on input line 56.
-
-
-LaTeX Warning: Citation `Monteiro2009' on page 13 undefined on input line 59.
-
-
-LaTeX Warning: Citation `Sanches2024' on page 13 undefined on input line 62.
-
-
-LaTeX Warning: Citation `Renaux2001' on page 13 undefined on input line 65.
+Underfull \hbox (badness 10000) in paragraph at lines 18--28
+\T1/phv/m/n/12 xo-no-mia de ([][]Gu \T1/phv/m/sl/12 et al.[][]\T1/phv/m/n/12 , 
+[][]2022[][]), que de-fine os con-cei-tos fun-da-men-tais:
+ []
 
 \openout4 = `main.mw'.
 
@@ -2680,75 +2747,30 @@ LaTeX Warning: Citation `Renaux2001' on page 13 undefined on input line 65.
 
 
 
+
 ] (./main.mw)
 \openout4 = `main.mw'.
 
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 9.85492pt on input line 75.
-Package epstopdf Info: Source file: <figuras//foto1.eps>
-(epstopdf)                    date: 2025-05-22 21:08:24
-(epstopdf)                    size: 1548013 bytes
-(epstopdf)             Output file: <figuras//foto1-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-09-08 23:00:56
-(epstopdf)                    size: 76643 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras//foto1-eps-convert
-ed-to.pdf figuras//foto1.eps>
-(epstopdf)             \includegraphics on input line 77.
-Package epstopdf Info: Output file is already uptodate.
-<figuras//foto1-eps-converted-to.pdf, id=188, 602.25pt x 424.58624pt>
-File: figuras//foto1-eps-converted-to.pdf Graphic file (type pdf)
-<use figuras//foto1-eps-converted-to.pdf>
-Package pdftex.def Info: figuras//foto1-eps-converted-to.pdf  used on input lin
-e 77.
-(pdftex.def)             Requested size: 240.89572pt x 169.83148pt.
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 7.19995pt on input line 85.
-Package epstopdf Info: Source file: <figuras//grafico2.eps>
-(epstopdf)                    date: 2025-05-22 21:08:26
-(epstopdf)                    size: 2856534 bytes
-(epstopdf)             Output file: <figuras//grafico2-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-09-08 23:00:57
-(epstopdf)                    size: 69154 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras//grafico2-eps-conv
-erted-to.pdf figuras//grafico2.eps>
-(epstopdf)             \includegraphics on input line 97.
-Package epstopdf Info: Output file is already uptodate.
-<figuras//grafico2-eps-converted-to.pdf, id=190, 1129.21875pt x 418.56375pt>
-File: figuras//grafico2-eps-converted-to.pdf Graphic file (type pdf)
-<use figuras//grafico2-eps-converted-to.pdf>
-Package pdftex.def Info: figuras//grafico2-eps-converted-to.pdf  used on input 
-line 97.
-(pdftex.def)             Requested size: 451.6795pt x 167.42252pt.
-
-
-LaTeX Warning: Citation `UTFPR2008' on page 14 undefined on input line 98.
-
-
-LaTeX Warning: Citation `UTFPR2008' on page 14 undefined on input line 98.
-
+LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
+(Font)              scaled to size 10.79993pt on input line 46.
 \openout4 = `main.mw'.
 
-[14 <./figuras//foto1-eps-converted-to.pdf>] (./main.mw)
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
- [15 <./figuras//grafico2-eps-converted-to.pdf>] (./main.mw)
+ [14] (./main.mw)
 \openout4 = `main.mw'.
 
 )
 \openout4 = `main.mw'.
 
- [16] (./main.mw)
+ [15] (./main.mw)
 \openout4 = `main.mw'.
 
-\openout2 = `./capitulos/cap-conceitos.aux'.
+\openout2 = `./capitulos/cap-metodologia.aux'.
 
 
-(./capitulos/cap-conceitos.tex
+(./capitulos/cap-metodologia.tex
 \openout4 = `main.mw'.
 
- [17
+ [16
 
 
 
@@ -2756,122 +2778,67 @@ LaTeX Warning: Citation `UTFPR2008' on page 14 undefined on input line 98.
 ] (./main.mw)
 \openout4 = `main.mw'.
 
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 9.85492pt on input line 60.
+<figuras//../figuras/caso-de-uso-discentes.png, id=362, 834.11626pt x 461.725pt
+>
+File: figuras//../figuras/caso-de-uso-discentes.png Graphic file (type png)
+<use figuras//../figuras/caso-de-uso-discentes.png>
+Package pdftex.def Info: figuras//../figuras/caso-de-uso-discentes.png  used on
+ input line 78.
+(pdftex.def)             Requested size: 500.77129pt x 277.20622pt.
 
-
-LaTeX Warning: Citation `Pressman2009' on page 18 undefined on input line 44.
-
-
-LaTeX Warning: Citation `Pressman2009' on page 18 undefined on input line 44.
-
-
-LaTeX Warning: Citation `Pressman2009' on page 18 undefined on input line 44.
-
-
-LaTeX Warning: Citation `Pressman2009' on page 18 undefined on input line 49.
-
-\openout4 = `main.mw'.
-
-[18] (./main.mw)
-\openout4 = `main.mw'.
-
-
-
-LaTeX Warning: Citation `Pressman2009' on page 19 undefined on input line 52.
-
-
-LaTeX Warning: Citation `Pressman2009' on page 19 undefined on input line 52.
-
-
-LaTeX Warning: Citation `Pinto2000' on page 19 undefined on input line 54.
-
-
-LaTeX Warning: Citation `Guimaraes2003' on page 19 undefined on input line 54.
-
-
-LaTeX Warning: Citation `Coulouris2013' on page 19 undefined on input line 64.
-
-
-LaTeX Warning: Citation `Coulouris2013' on page 19 undefined on input line 66.
-
-
-LaTeX Warning: Citation `Coulouris2013' on page 19 undefined on input line 68.
-
-
-Underfull \hbox (badness 1565) in paragraph at lines 68--69
-\OMS/cmsy/m/n/12 n$\T1/pcr/m/n/12 fonte{} \T1/phv/m/n/12 ti-ver al-gum con-teúd
-o (não es-ti-ver em branco), tal con-teúdo será in-se-rido
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 78--79
+ [][] 
  []
 
 \openout4 = `main.mw'.
 
-[19] (./main.mw)
+[17] (./main.mw)
 \openout4 = `main.mw'.
 
-\openout4 = `main.mw'.
+<figuras//../figuras/caso-de-uso-pesquisa.png, id=373, 863.225pt x 587.19376pt>
 
-\openout4 = `main.mw'.
+File: figuras//../figuras/caso-de-uso-pesquisa.png Graphic file (type png)
+<use figuras//../figuras/caso-de-uso-pesquisa.png>
+Package pdftex.def Info: figuras//../figuras/caso-de-uso-pesquisa.png  used on 
+input line 85.
+(pdftex.def)             Requested size: 500.77129pt x 340.63533pt.
 
-<figuras//cs2.png, id=232, 837.1275pt x 303.1325pt>
-File: figuras//cs2.png Graphic file (type png)
-<use figuras//cs2.png>
-Package pdftex.def Info: figuras//cs2.png  used on input line 76.
-(pdftex.def)             Requested size: 334.84506pt x 121.25084pt.
-
-
-LaTeX Warning: Citation `Coulouris2013' on page 20 undefined on input line 77.
-
-
-LaTeX Warning: Citation `Coulouris2013' on page 20 undefined on input line 77.
-
-<figuras//cadastro-paciente.png, id=234, 244.66406pt x 192.72pt>
-File: figuras//cadastro-paciente.png Graphic file (type png)
-<use figuras//cadastro-paciente.png>
-Package pdftex.def Info: figuras//cadastro-paciente.png  used on input line 89.
-
-(pdftex.def)             Requested size: 171.26366pt x 134.90306pt.
-File: figuras//cadastro-paciente.png Graphic file (type png)
-<use figuras//cadastro-paciente.png>
-Package pdftex.def Info: figuras//cadastro-paciente.png  used on input line 92.
-
-(pdftex.def)             Requested size: 171.26366pt x 134.90306pt.
-
-Overfull \hbox (455.24411pt too wide) detected at line 156
- [] 
- []
-
-
-Overfull \hbox (455.24411pt too wide) detected at line 161
- [] 
- []
-
-
-LaTeX Warning: Citation `Smallen2014' on page 20 undefined on input line 172.
-
-
-LaTeX Warning: Citation `Smallen2014' on page 20 undefined on input line 172.
-
-
-Overfull \hbox (455.24411pt too wide) detected at line 172
- [] 
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 85--86
+ [][] 
  []
 
 \openout4 = `main.mw'.
 
-[20 <./figuras//cs2.png> <./figuras//cadastro-paciente.png>] (./main.mw)
+[18 <./figuras//../figuras/caso-de-uso-discentes.png> <./figuras//../figuras/ca
+so-de-uso-pesquisa.png>] (./main.mw)
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
 
+ [19] (./main.mw)
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
 
-
-[21] (./main.mw)
+ [20] (./main.mw)
 \openout4 = `main.mw'.
 
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 8.09995pt on input line 178.
+
+Underfull \hbox (badness 1590) in paragraph at lines 178--178
+ [][]|\T1/phv/m/n/9 Qualificação
+ []
+
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 8.09995pt on input line 184.
+Missing character: There is no 8 in font nullfont!
+)
 \openout4 = `main.mw'.
 
+ [21] (./main.mw)
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
@@ -2879,58 +2846,104 @@ Overfull \hbox (455.24411pt too wide) detected at line 172
  [22] (./main.mw)
 \openout4 = `main.mw'.
 
-
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-)
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 277.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 9.85492pt on input line 277.
-)
+ (./main.bbl
+bibitemlist
 \openout4 = `main.mw'.
 
- [23]
-(./main.mw)
+[23
+
+
+
+] (./main.mw)
 \openout4 = `main.mw'.
 
+)
 \openout4 = `main.mw'.
 
  [24] (./main.mw)
 \openout4 = `main.mw'.
 
-\openout2 = `./capitulos/cap-trabalhos-relacionados.aux'.
+\openout2 = `./PosTexto/apendicea.aux'.
 
- (./capitulos/cap-trabalhos-relacionados.tex)
+ (./PosTexto/apendicea.tex
 \openout4 = `main.mw'.
 
-
-[25
-
-
+ [25
 
 
 ] (./main.mw)
 \openout4 = `main.mw'.
 
-\openout2 = `./capitulos/cap-proposta.aux'.
+<figuras//../figuras/prisma-fluxograma.png, id=433, 937.5025pt x 787.94376pt>
+File: figuras//../figuras/prisma-fluxograma.png Graphic file (type png)
+<use figuras//../figuras/prisma-fluxograma.png>
+Package pdftex.def Info: figuras//../figuras/prisma-fluxograma.png  used on inp
+ut line 13.
+(pdftex.def)             Requested size: 500.77129pt x 420.87846pt.
 
- (./capitulos/cap-proposta.tex)
-\openout2 = `./capitulos/cap-metodologia.aux'.
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 13--14
+ [][] 
+ []
 
 
-(./capitulos/cap-metodologia.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+[]|\T1/phv/m/n/10.95 Arabyarmohamady
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+[]|\T1/phv/m/n/10.95 Dificuldades de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+[]|\T1/phv/m/n/10.95 Comportamento
+ []
+
+
+Underfull \hbox (badness 2790) in paragraph at lines 37--38
+[]|\T1/phv/m/n/10.95 Logs de IDE + On-line
+ []
+
+
+Underfull \hbox (badness 1931) in paragraph at lines 47--47
+[]|\T1/phv/m/n/10.95 Avaliação au-to-má-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+[]|\T1/phv/m/n/10.95 Complexidade vs
+ []
+
+
+Underfull \hbox (badness 1540) in paragraph at lines 53--53
+[]|\T1/phv/m/n/10.95 Erros de com-pi-la-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
+[]|\T1/phv/m/n/10.95 Liz-Domínguez et
+ []
+
+
+Underfull \hbox (badness 2591) in paragraph at lines 55--55
+[]|\T1/phv/m/n/10.95 Desempenho aca-
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figuras//../figuras/caracteristicas.png, id=435, 704.6325pt x 592.46344pt>
+File: figuras//../figuras/caracteristicas.png Graphic file (type png)
+<use figuras//../figuras/caracteristicas.png>
+Package pdftex.def Info: figuras//../figuras/caracteristicas.png  used on input
+ line 69.
+(pdftex.def)             Requested size: 341.43307pt x 287.08224pt.
 \openout4 = `main.mw'.
 
- [26
+[26
 
-
-
-
-
-
-
-] (./main.mw)
+ <./figuras//../figuras/prisma-fluxograma.png>] (./main.mw)
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
@@ -2938,193 +2951,135 @@ LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
  [27] (./main.mw)
 \openout4 = `main.mw'.
 
-\openout2 = `./capitulos/cap-experimentos-resultados.aux'.
-
-
-(./capitulos/cap-experimentos-resultados.tex
 \openout4 = `main.mw'.
 
- [28
-
-
-
-
-] (./main.mw)
-\openout4 = `main.mw'.
-
-File: figuras//cadastro-paciente.png Graphic file (type png)
-<use figuras//cadastro-paciente.png>
-Package pdftex.def Info: figuras//cadastro-paciente.png  used on input line 43.
-
-(pdftex.def)             Requested size: 195.7315pt x 154.1762pt.
-\openout4 = `main.mw'.
-
- [29] (./main.mw)
+[28 <./figuras//../figuras/caracteristicas.png (PNG copy)>] (./main.mw)
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
 
 
-[30] (./main.mw)
+[29] (./main.mw)
 \openout4 = `main.mw'.
 
-)
 \openout4 = `main.mw'.
 
- [31] (./main.mw)
-\openout4 = `main.mw'.
-
-\openout2 = `./capitulos/cap-conclusoes.aux'.
-
- (./capitulos/cap-conclusoes.tex)
-\openout4 = `main.mw'.
-
- [32
-
-
-
-
-]
-(./main.mw)
+ [30] (./main.mw)
 \openout4 = `main.mw'.
 
 
-No file main.bbl.
-\openout2 = `./PosTexto/apendicea.aux'.
+Overfull \hbox (12.79996pt too wide) in paragraph at lines 151--172
+ [][] 
+ []
 
-(./PosTexto/apendicea.tex
 \openout4 = `main.mw'.
 
- [33
+[31] (./main.mw)
+\openout4 = `main.mw'.
 
+\openout4 = `main.mw'.
 
-
-
-] (./main.mw)
+ [32] (./main.mw)
 \openout4 = `main.mw'.
 
 )
 \openout4 = `main.mw'.
 
- [34
-
-] (./main.mw)
+ [33] (./main.mw)
 \openout4 = `main.mw'.
 
 \openout2 = `./PosTexto/apendiceb.aux'.
 
+ (./PosTexto/apendiceb.tex
+\openout4 = `main.mw'.
 
-(./PosTexto/apendiceb.tex
+
+[34
+
+
+
+
+] (./main.mw)
+\openout4 = `main.mw'.
+
 \openout4 = `main.mw'.
 
  [35
 
-
-
-
 ] (./main.mw)
 \openout4 = `main.mw'.
 
+<figuras//../figuras/instituicoes.png, id=507, 762.85pt x 401.5pt>
+File: figuras//../figuras/instituicoes.png Graphic file (type png)
+<use figuras//../figuras/instituicoes.png>
+Package pdftex.def Info: figuras//../figuras/instituicoes.png  used on input li
+ne 38.
+(pdftex.def)             Requested size: 455.24411pt x 239.60306pt.
+<figuras//../figuras/ferramentas.png, id=508, 706.13812pt x 592.46344pt>
+File: figuras//../figuras/ferramentas.png Graphic file (type png)
+<use figuras//../figuras/ferramentas.png>
+Package pdftex.def Info: figuras//../figuras/ferramentas.png  used on input lin
+e 46.
+(pdftex.def)             Requested size: 455.24411pt x 381.9597pt.
+\openout4 = `main.mw'.
+
+ [36 <./figuras//../figuras/instituicoes.png>] (./main.mw)
+\openout4 = `main.mw'.
+
+<figuras//../figuras/comparacoes.png, id=516, 705.38531pt x 197.98969pt>
+File: figuras//../figuras/comparacoes.png Graphic file (type png)
+<use figuras//../figuras/comparacoes.png>
+Package pdftex.def Info: figuras//../figuras/comparacoes.png  used on input lin
+e 56.
+(pdftex.def)             Requested size: 455.24411pt x 127.7794pt.
+\openout4 = `main.mw'.
+
+ [37 <./figuras//../figuras/ferramentas.png (PNG copy)>] (./main.mw)
+\openout4 = `main.mw'.
+
+<figuras//../figuras/dataset-e-correcoes-automatizada.png, id=522, 706.13812pt 
+x 592.46344pt>
+File: figuras//../figuras/dataset-e-correcoes-automatizada.png Graphic file (ty
+pe png)
+<use figuras//../figuras/dataset-e-correcoes-automatizada.png>
+Package pdftex.def Info: figuras//../figuras/dataset-e-correcoes-automatizada.p
+ng  used on input line 66.
+(pdftex.def)             Requested size: 341.43307pt x 286.46751pt.
+\openout4 = `main.mw'.
+
+ [38 <./figuras//../figuras/comparacoes.png> <./figuras//../figuras/dataset-e-c
+orrecoes-automatizada.png (PNG copy)>] (./main.mw)
+\openout4 = `main.mw'.
+
+<figuras//../figuras/plugins-no-ensino-opiniao.png, id=529, 706.13812pt x 592.4
+6344pt>
+File: figuras//../figuras/plugins-no-ensino-opiniao.png Graphic file (type png)
+
+<use figuras//../figuras/plugins-no-ensino-opiniao.png>
+Package pdftex.def Info: figuras//../figuras/plugins-no-ensino-opiniao.png  use
+d on input line 76.
+(pdftex.def)             Requested size: 455.24411pt x 381.9597pt.
+\openout4 = `main.mw'.
+
+ [39 <./figuras//../figuras/plugins-no-ensino-opiniao.png (PNG copy)>] (./main.
+mw)
+\openout4 = `main.mw'.
+
+<figuras//../figuras/IDEs.png, id=535, 987.69pt x 472.76625pt>
+File: figuras//../figuras/IDEs.png Graphic file (type png)
+<use figuras//../figuras/IDEs.png>
+Package pdftex.def Info: figuras//../figuras/IDEs.png  used on input line 94.
+(pdftex.def)             Requested size: 455.24411pt x 217.90073pt.
 )
 \openout4 = `main.mw'.
 
- [36
-
-] (./main.mw)
-\openout4 = `main.mw'.
-
-\openout2 = `./PosTexto/anexoa.aux'.
-
-
-(./PosTexto/anexoa.tex
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 8.99994pt on input line 7.
-\openout4 = `main.mw'.
-
- [37
-
-
-
-
-] (./main.mw)
-\openout4 = `main.mw'.
-
-<./PosTexto/Ilustracoes/lei-n9610-p1.pdf, id=373, 597.23125pt x 844.15375pt>
-File: ./PosTexto/Ilustracoes/lei-n9610-p1.pdf Graphic file (type pdf)
-<use ./PosTexto/Ilustracoes/lei-n9610-p1.pdf>
-Package pdftex.def Info: ./PosTexto/Ilustracoes/lei-n9610-p1.pdf  used on input
- line 9.
-(pdftex.def)             Requested size: 455.24411pt x 643.46986pt.
-<./PosTexto/Ilustracoes/lei-n9610-p2.pdf, id=374, 597.23125pt x 844.15375pt>
-File: ./PosTexto/Ilustracoes/lei-n9610-p2.pdf Graphic file (type pdf)
-<use ./PosTexto/Ilustracoes/lei-n9610-p2.pdf>
-Package pdftex.def Info: ./PosTexto/Ilustracoes/lei-n9610-p2.pdf  used on input
- line 11.
-(pdftex.def)             Requested size: 455.24411pt x 643.46986pt.
-)
-\openout4 = `main.mw'.
-
- [38
-
- <./PosTexto/Ilustracoes/lei-n9610-p1.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./PosTexto/Ilustracoes/lei-n9610-p1.pdf
-): PDF inclusion: invalid other resource which is no dict (key 'ProcSets', type
- <array>); ignored.
->] (./main.mw)
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
- [39 <./PosTexto/Ilustracoes/lei-n9610-p2.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./PosTexto/Ilustracoes/lei-n9610-p2.pdf
-): PDF inclusion: invalid other resource which is no dict (key 'ProcSets', type
- <array>); ignored.
->] (./main.mw)
-\openout4 = `main.mw'.
-
-\openout2 = `./PosTexto/anexob.aux'.
-
- (./PosTexto/anexob.tex
-\openout4 = `main.mw'.
-
- [40
-
-
-
-
-] (./main.mw)
-\openout4 = `main.mw'.
-
-<figuras//normas.jpg, id=415, 752.8125pt x 651.18282pt>
-File: figuras//normas.jpg Graphic file (type jpg)
-<use figuras//normas.jpg>
-Package pdftex.def Info: figuras//normas.jpg  used on input line 14.
-(pdftex.def)             Requested size: 409.71692pt x 354.41563pt.
-
-
-LaTeX Warning: Citation `UTFPR2008' on page 41 undefined on input line 15.
-
-
-LaTeX Warning: Citation `UTFPR2008' on page 41 undefined on input line 15.
-
-)
-\openout4 = `main.mw'.
-
- [41
-
- <./figuras//normas.jpg>] (./main.mw)
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
+ [40 <./figuras//../figuras/IDEs.png>] (./main.mw)
 \openout4 = `main.mw'.
 
  
 AED: lastpage setting LastPage
-\tf@loge=\write28
-\openout4 = `main.loge'.
+\tf@lof=\write28
+\openout4 = `main.lof'.
 
 \tf@lot=\write29
 \openout4 = `main.lot'.
@@ -3149,13 +3104,11 @@ AED: lastpage setting LastPage
 
 \openout4 = `main.mw'.
 
- (./PreTexto/dedicatoria.aux) (./PreTexto/agradecimentos.aux
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
 
-)
-(./PreTexto/epigrafe.aux) (./PreTexto/resumo.aux) (./PreTexto/abstract.aux)
+ (./PreTexto/resumo.aux) (./PreTexto/abstract.aux)
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
@@ -3169,17 +3122,15 @@ AED: lastpage setting LastPage
 \openout4 = `main.mw'.
 
 
-(./PreTexto/lista-simbolos.aux
+(./capitulos/cap-introducao.aux
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
 
-)
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
 
- (./capitulos/cap-introducao.aux
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
@@ -3208,6 +3159,7 @@ AED: lastpage setting LastPage
 
 \openout4 = `main.mw'.
 
+) (./capitulos/cap-conceitos.aux
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
@@ -3228,67 +3180,10 @@ AED: lastpage setting LastPage
 
 \openout4 = `main.mw'.
 
-)
-(./capitulos/cap-conceitos.aux
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
 
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-) (./capitulos/cap-trabalhos-relacionados.aux
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-)
-(./capitulos/cap-proposta.aux) (./capitulos/cap-metodologia.aux
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
@@ -3306,7 +3201,7 @@ AED: lastpage setting LastPage
 \openout4 = `main.mw'.
 
 )
-(./capitulos/cap-experimentos-resultados.aux
+(./capitulos/cap-metodologia.aux
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
@@ -3335,31 +3230,6 @@ AED: lastpage setting LastPage
 
 \openout4 = `main.mw'.
 
-) (./capitulos/cap-conclusoes.aux
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-)
-(./PosTexto/apendicea.aux
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-)
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
- (./PosTexto/apendiceb.aux
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
@@ -3376,7 +3246,50 @@ AED: lastpage setting LastPage
 
 \openout4 = `main.mw'.
 
-) (./PosTexto/anexoa.aux
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
@@ -3398,16 +3311,147 @@ AED: lastpage setting LastPage
 
 \openout4 = `main.mw'.
 
+\openout4 = `main.mw'.
 
-(./PosTexto/anexob.aux
+\openout4 = `main.mw'.
+
+ (./PosTexto/apendicea.aux
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+)
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+
+(./PosTexto/apendiceb.aux
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
 
 ))
-
-LaTeX Warning: There were undefined references.
-
 \openout4 = `main.glo'.
 
 \openout4 = `main.acn'.
@@ -3420,7 +3464,7 @@ LaTeX Warning: There were undefined references.
 
 \openout4 = `main.nlo'.
 
-\openout4 = `main.loge'.
+\openout4 = `main.lof'.
 
 \openout4 = `main.lot'.
 
@@ -3428,31 +3472,22 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 48781 strings out of 478287
- 885734 string characters out of 5849289
- 1497644 words of memory out of 5000000
- 65656 multiletter control sequences out of 15000+600000
- 518141 words of font info for 121 fonts, out of 8000000 for 9000
+ 53097 strings out of 478287
+ 996819 string characters out of 5849289
+ 1426604 words of memory out of 5000000
+ 69960 multiletter control sequences out of 15000+600000
+ 505362 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,19n,131p,1182b,2593s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{glo:latex} has been referenced but does not exist
-, replaced by a fixed one
-
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (42 pages, 667390 bytes).
+ 125i,19n,131p,1398b,2593s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic
+/uhvro8a.pfb>
+Output written on main.pdf (41 pages, 549950 bytes).
 PDF statistics:
- 619 PDF objects out of 1000 (max. 8388607)
- 525 compressed objects within 6 object streams
- 153 named destinations out of 1000 (max. 500000)
- 401 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 796 PDF objects out of 1000 (max. 8388607)
+ 712 compressed objects within 8 object streams
+ 178 named destinations out of 1000 (max. 500000)
+ 616 words of extra memory for PDF output out of 10000 (max. 10000000)
 

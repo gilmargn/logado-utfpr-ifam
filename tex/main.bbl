@@ -1,0 +1,212 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[Annamaa 2015]{annamaa2015thonny}
+\abntrefinfo{Annamaa}{Annamaa}{2015}
+{ANNAMAA, A. Thonny, a python ide for learning programming. \textit{In}:
+  PROCEEDINGS OF THE 2015 ACM CONFERENCE ON INNOVATION AND TECHNOLOGY IN
+  COMPUTER SCIENCE EDUCATION. 2015. \textbf{Anais [...]} [\textit{S.l.}:
+  \textit{s.n.}], 2015. p. 343--343.}
+
+\bibitem[Arabyarmohamady, Moradi e Asadpour 2012]{arabyarmohamady2012coding}
+\abntrefinfo{Arabyarmohamady, Moradi e Asadpour}{Arabyarmohamady; Moradi;
+  Asadpour}{2012}
+{ARABYARMOHAMADY, S.; MORADI, H.; ASADPOUR, M. A coding style-based plagiarism
+  detection. \textit{In}: IEEE. PROCEEDINGS OF 2012 INTERNATIONAL CONFERENCE ON
+  INTERACTIVE MOBILE AND COMPUTER AIDED LEARNING (IMCL). 2012. \textbf{Anais
+  [...]} [\textit{S.l.}], 2012. p. 180--186.}
+
+\bibitem[Clemente 2008]{clemente2008arquitetura}
+\abntrefinfo{Clemente}{Clemente}{2008}
+{CLEMENTE, R.~G. Uma arquitetura para processamento de eventos de log em tempo
+  real.
+\textbf{Agosto de}, ,,, 2008.}
+
+\bibitem[Du e Wagner 2005]{du2005learning}
+\abntrefinfo{Du e Wagner}{Du; Wagner}{2005}
+{DU, H.~S.; WAGNER, C. Learning with weblogs: An empirical investigation.
+  \textit{In}: IEEE. PROCEEDINGS OF THE 38TH ANNUAL HAWAII INTERNATIONAL
+  CONFERENCE ON SYSTEM SCIENCES. 2005. \textbf{Anais [...]} [\textit{S.l.}],
+  2005. p. 7b--7b.}
+
+\bibitem[Educa{\c{c}}{\~a}o 2020]{IFAM2020}
+\abntrefinfo{Educa{\c{c}}{\~a}o}{Educa{\c{c}}{\~a}o}{2020}
+{EDUCA{\c{C}}{\~A}O, C. e. T. d.~A. Instituto Federal~de. \textbf{Projeto
+  Pedagógico do Curso Técnico de Nível Médio em Informática, na Forma
+  Subsequente}.
+Boca do Acre: ,  2020. Dispon{\'\i}vel em:
+  \url{https:cbda.ifam.edu.br/cursos/subsequentes/info/ppc-info-subse
+  quente.pdf}.}
+
+\bibitem[Foundation]{theLinuxFoundation-2024}
+\abntrefinfo{Foundation}{Foundation}{}
+{FOUNDATION, L. \textbf{The Linux Foundation}. [\textit{S.l.}]: , .
+  \url{https://trainingportal.linuxfoundation.org/learn/course/getting-started-with-opentelemetry-lfs148/why-do-we-need-opentelemetry/how-we-got-here?page=5}.
+Accessed: 2024-12-3.}
+
+\bibitem[Fu \textit{et al.} 2014]{fu_where_2014}
+\abntrefinfo{Fu \textit{et al.}}{Fu \textit{et al.}}{2014}
+{FU, Q. \textit{et al.} Where do developers log? an empirical study on logging
+  practices in industry. \textit{In}: COMPANION PROCEEDINGS OF THE 36TH
+  INTERNATIONAL CONFERENCE ON SOFTWARE ENGINEERING. 2014, Hyderabad India.
+  \textbf{Anais [...]} Hyderabad India: ACM, 2014. p. 24--33.
+ISBN 978-1-4503-2768-8. Dispon{\'\i}vel em:
+  \url{https://dl.acm.org/doi/10.1145/2591062.2591175}.}
+
+\bibitem[Gatev 2021]{Gatev2021}
+\abntrefinfo{Gatev}{Gatev}{2021}
+{GATEV, R. Observability: Logs, metrics, and traces. \textit{In}:
+  \textbf{Introducing Distributed Application Runtime (Dapr): Simplifying
+  Microservices Applications Development Through Proven and Reusable Patterns
+  and Practices}. Berkeley, CA: Apress,  2021. p. 233--252.
+ISBN 978-1-4842-6998-5.
+Dispon{\'\i}vel em: \url{https://doi.org/10.1007/978-1-4842-6998-5\_12}.}
+
+\bibitem[Gu \textit{et al.} 2022]{gu2022logging}
+\abntrefinfo{Gu \textit{et al.}}{Gu \textit{et al.}}{2022}
+{GU, S. \textit{et al.} Logging practices in software engineering: A systematic
+  mapping study.
+\textbf{IEEE Transactions on Software Engineering},  IEEE v.~49, n.~2, p.
+  902--923, 2022.}
+
+\bibitem[Gupta, Jindal e Goyal 2024]{gupta2024identification}
+\abntrefinfo{Gupta, Jindal e Goyal}{Gupta; Jindal; Goyal}{2024}
+{GUPTA, A.; JINDAL, M.; GOYAL, A. Identification of student programming
+  patterns through clickstream data. \textit{In}: IEEE. 2024 IEEE INTERNATIONAL
+  CONFERENCE ON COMPUTING, POWER AND COMMUNICATION TECHNOLOGIES (IC2PCT). ~5.,
+  2024. \textbf{Anais [...]} [\textit{S.l.}], 2024. p. 1153--1158.}
+
+\bibitem[Hevner \textit{et al.} 2004]{hevner2004design}
+\abntrefinfo{Hevner \textit{et al.}}{Hevner \textit{et al.}}{2004}
+{HEVNER, A.~R. \textit{et al.} Design science in information systems research.
+\textbf{MIS quarterly},  JSTOR,, p. 75--105, 2004.}
+
+\bibitem[Huang \textit{et al.} 2020]{huang2020predicting}
+\abntrefinfo{Huang \textit{et al.}}{Huang \textit{et al.}}{2020}
+{HUANG, A.~Y. \textit{et al.} Predicting students’ academic performance by
+  using educational big data and learning analytics: evaluation of
+  classification methods and learning logs.
+\textbf{Interactive Learning Environments},  Taylor \& Francis v.~28, n.~2, p.
+  206--230, 2020.}
+
+\bibitem[Kennedy 2015]{russo2015towards}
+\abntrefinfo{Kennedy}{Kennedy}{2015}
+{KENNEDY, A. R.
+\textbf{Towards a data-driven analysis of programming tutorials' telemetry to
+  improve the educational experience in introductory programming courses}.
+2015. Tese (Doutorado) 2015.}
+
+\bibitem[Kitchenham 2004]{kitchenham2004procedures}
+\abntrefinfo{Kitchenham}{Kitchenham}{2004}
+{KITCHENHAM, B. Procedures for performing systematic reviews.
+\textbf{Keele, UK, Keele University},  v.~33, n.~2004, p. 1--26, 2004.}
+
+\bibitem[Lima \textit{et al.} 2022]{lima2022avaliaccao}
+\abntrefinfo{Lima \textit{et al.}}{Lima \textit{et al.}}{2022}
+{LIMA, N.~A. \textit{et al.} Avalia{\c{c}}{\~a}o da aprendizagem nos institutos
+  federais em goi{\'a}s durante a pandemia: uma investiga{\c{c}}{\~a}o
+  documental, .
+Insitituto Federal de Educa{\c{c}}{\~a}o, Ci{\^e}ncia e Tecnologia de
+  Goi{\'a}s,,, 2022.}
+
+\bibitem[Liu \textit{et al.} 2018]{liu2018user}
+\abntrefinfo{Liu \textit{et al.}}{Liu \textit{et al.}}{2018}
+{LIU, C. \textit{et al.} User behavior discovery from low-level software
+  execution log.
+\textbf{IEEJ Transactions on Electrical and Electronic Engineering},  Wiley
+  Online Library v.~13, n.~11, p. 1624--1632, 2018.}
+
+\bibitem[Mangaroska \textit{et al.} 2022]{mangaroska_exploring_2022}
+\abntrefinfo{Mangaroska \textit{et al.}}{Mangaroska \textit{et al.}}{2022}
+{MANGAROSKA, K. \textit{et al.} Exploring students' cognitive and affective
+  states during problem solving through multimodal data: {Lessons} learned from
+  a programming activity.
+\textbf{Computer Assisted Learning},  v.~38, n.~1, p. 40--59, fev. 2022.
+ISSN 0266-4909, 1365-2729.
+Dispon{\'\i}vel em:
+  \url{https://onlinelibrary.wiley.com/doi/10.1111/jcal.12590}.}
+
+\bibitem[Nguyen, Ha e Chen 2023]{nguyen_analyzing_2023}
+\abntrefinfo{Nguyen, Ha e Chen}{Nguyen; Ha; Chen}{2023}
+{NGUYEN, B.-A.; HA, T.-V.~T.; CHEN, H.-M. Analyzing git log in an code-quality
+  aware automated programming assessment system: A case study.
+\textbf{tvujs}, ,,, set. 2023.
+ISSN 2815-6099, 2815-6072.
+Dispon{\'\i}vel em:
+  \url{https://journal.tvu.edu.vn/index.php/journal/article/view/2430}.}
+
+\bibitem[Page \textit{et al.} 2021]{page2021prisma}
+\abntrefinfo{Page \textit{et al.}}{Page \textit{et al.}}{2021}
+{PAGE, M.~J. \textit{et al.} The prisma 2020 statement: an updated guideline
+  for reporting systematic reviews.
+\textbf{Systematic reviews},  Springer v.~10, n.~1, p. 1--11, 2021.}
+
+\bibitem[Peffers \textit{et al.} 2007]{peffers2007design}
+\abntrefinfo{Peffers \textit{et al.}}{Peffers \textit{et al.}}{2007}
+{PEFFERS, K. \textit{et al.} A design science research methodology for
+  information systems research.
+\textbf{Journal of management information systems},  Taylor \& Francis v.~24,
+  n.~3, p. 45--77, 2007.}
+
+\bibitem[Pereira \textit{et al.} 2020]{pereira2020using}
+\abntrefinfo{Pereira \textit{et al.}}{Pereira \textit{et al.}}{2020}
+{PEREIRA, F.~D. \textit{et al.} Using learning analytics in the amazonas:
+  understanding students’ behaviour in introductory programming.
+\textbf{British journal of educational technology},  Wiley Online Library
+  v.~51, n.~4, p. 955--972, 2020.}
+
+\bibitem[Qian e Lehman 2017]{qian2017students}
+\abntrefinfo{Qian e Lehman}{Qian; Lehman}{2017}
+{QIAN, Y.; LEHMAN, J. Students’ misconceptions and other difficulties in
+  introductory programming: A literature review.
+\textbf{ACM Transactions on Computing Education (TOCE)},  ACM New York, NY, USA
+  v.~18, n.~1, p. 1--24, 2017.}
+
+\bibitem[Raabe e Silva 2005]{raabe2005ambiente}
+\abntrefinfo{Raabe e Silva}{Raabe; Silva}{2005}
+{RAABE, A. L.~A.; SILVA, J.~d. Um ambiente para atendimento as dificuldades de
+  aprendizagem de algoritmos. \textit{In}: SN. XIII WORKSHOP DE
+  EDUCA{\c{C}}{\~A}O EM COMPUTA{\c{C}}{\~A}O (WEI’2005). S{\~A}O LEOPOLDO,
+  RS, BRASIL. ~3 n.~5., 2005. \textbf{Anais [...]} [\textit{S.l.}], 2005.}
+
+\bibitem[Rice e Borgman 1983]{rice1983use}
+\abntrefinfo{Rice e Borgman}{Rice; Borgman}{1983}
+{RICE, R.~E.; BORGMAN, C.~L. The use of computer-monitored data in information
+  science and communication research.
+\textbf{Journal of the American Society for Information Science},  Wiley Online
+  Library v.~34, n.~4, p. 247--256, 1983.}
+
+\bibitem[Rodrigues e Gava 2016]{rodriguesuniversidades}
+\abntrefinfo{Rodrigues e Gava}{Rodrigues; Gava}{2016}
+{RODRIGUES, F. C.~R.; GAVA, R. Universidades federais no estado de minas
+  gerais: Um estudo comparativo.
+\textbf{REAd | Porto Alegre – Edição 83},  SciELO Brasil,,, 2016.}
+
+\bibitem[Silva \textit{et al.} 2022]{silva2022previsao}
+\abntrefinfo{Silva \textit{et al.}}{Silva \textit{et al.}}{2022}
+{SILVA, E.~S. \textit{et al.} Previsão de indicadores de dificuldade de
+  questões de programação a partir de métricas do código de solução.
+  \textit{In}: SBC. ANAIS DO XXXIII SIMPóSIO BRASILEIRO DE INFORMáTICA NA
+  EDUCAçãO. 2022. \textbf{Anais [...]} [\textit{S.l.}], 2022. p. 859--870.}
+
+\bibitem[Umezawa \textit{et al.} 2020]{umezawa2020analysis}
+\abntrefinfo{Umezawa \textit{et al.}}{Umezawa \textit{et al.}}{2020}
+{UMEZAWA, K. \textit{et al.} Analysis of logic errors utilizing a large amount
+  of file history during programming learning. \textit{In}: IEEE. 2020 IEEE
+  INTERNATIONAL CONFERENCE ON TEACHING, ASSESSMENT, AND LEARNING FOR
+  ENGINEERING (TALE). 2020. \textbf{Anais [...]} [\textit{S.l.}], 2020. p.
+  630--634.}
+
+\bibitem[Yang \textit{et al.} 2021]{yang2021interview}
+\abntrefinfo{Yang \textit{et al.}}{Yang \textit{et al.}}{2021}
+{YANG, N. \textit{et al.} An interview study of how developers use execution
+  logs in embedded software engineering. \textit{In}: IEEE. 2021 IEEE/ACM 43RD
+  INTERNATIONAL CONFERENCE ON SOFTWARE ENGINEERING: SOFTWARE ENGINEERING IN
+  PRACTICE (ICSE-SEIP). 2021. \textbf{Anais [...]} [\textit{S.l.}], 2021. p.
+  61--70.}
+
+\end{thebibliography}

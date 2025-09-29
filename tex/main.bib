@@ -1,660 +1,443 @@
-%%%% REFERÊNCIAS
-%%
-%% Conjunto padronizado de elementos descritivos retirados de um documento, que permite sua identificação individual.
-%%
-%% Cada entrada no arquivo BibTeX segue um formato padrão. Este formato muda ligeiramente baseado no tipo de entrada, mas a sintaxe
-%% continua a mesma.
-%%
-%% O rótulo de cada entrada não pode conter caracteres especiais, acentuados ou cedilha.
-%%
-%% A formatação do texto no campo "AUTHOR" deve obedecer algumas regras:
-%%   - Acento agudo:        "á = {\'a}".
-%%   - Acento crase:        "à = {\`a}".
-%%   - Acento til:          "ã = {\~a}".
-%%   - Acento circunflexo:  "ê = {\^e}".
-%%   - Acento trema:        "ü = {\"u}".
-%%   - Acento na letra i:   "í = {\'\i}".
-%%   - Cedilha:             "ç = {\c{c}}".
-%%   - Sobrenome composto:  "Santos, Filho, Jos{\'e} C. S.; da Silva, Erivanildo Lopes".
-%%   - Nome de organização: "{\mbox IONA Technologies PLC}".
-%%
-%% A formatação do texto no campo "TITLE" deve obedecer algumas regras (também válidas para o texto no campo "AUTHOR"):
-%%   - MAIÚSCULAS: "REAL = {REAL}".
-%%   - Minúsculas: "real = {real}".
-%%   - CamelCase:  "Real = {R}eal".
-
-%% TIPOS DE ENTRADA
-%%
-%% Ao inserir uma referência no banco de dados, a primeira coisa a decidir é o tipo de entrada. Existem vários tipos de entrada, mas
-%% não são completas, porém são suficientes para o BibTeX fornecer entradas para lidar com praticamente qualquer tipo de referência
-%% razoavelmente bem.
-
-%% ARTICLE - Um artigo de um jornal ou revista.
-%%   - Campos requeridos: AUTHOR, TITLE, JOURNAL e YEAR.
-%%   - Campos opcionais: VOLUME, NUMBER, PAGES, MONTH e NOTE.
-
-CÂNDIDO, A. A literatura e a formação do homem. In: Textos de intervenção. São
-Paulo: Duas Cidades, 2002. p. 67. (Coleção espírito crítico). (Modelo de referência:
-capítulo de livro).
-
-
-% VON KROGH, G.; ICHIJO, K.; NONAKA, I. Facilitando a criação de
-conhecimento: reinventando a empresa com o poder da inovação contínua. Rio de
-Janeiro: Campus, 2001. (Modelo de referência: livro com subtítulo).
-
-@MANUAL{NBR6023:2018,
-  TITLE         = {{ABNT NBR} 6023},
-  AUTHOR        = {{ABNT}},
-  ORGANIZATION  = {Associação Brasileira de Normas Técnicas},
-  ADDRESS       = {Rio de Janeiro},
-  YEAR          = {2018},
-  ORG-SHORT     = {ABNT},
-  SUBTITLE      = {informação e documentação: referências: elaboração}
+@inproceedings{raabe2005ambiente,
+    title={Um ambiente para atendimento as dificuldades de aprendizagem de algoritmos},
+    author={Raabe, André Luís Alice and Silva, JMC da},
+    booktitle={XIII Workshop de Educa{\c{c}}{\~a}o em Computa{\c{c}}{\~a}o (WEI’2005). S{\~a}o Leopoldo, RS, Brasil},
+    volume={3},
+    number={5},
+    year={2005},
+    organization={sn}
+}
+@article{lima2022avaliaccao,
+    title={Avalia{\c{c}}{\~a}o da aprendizagem nos Institutos Federais 
+    em Goi{\'a}s durante a pandemia: uma investiga{\c{c}}{\~a}o 
+    documental},
+    author={Lima, Niele Alves and others},
+    year={2022},
+    publisher={Insitituto Federal de Educa{\c{c}}{\~a}o, Ci{\^e}ncia e 
+    Tecnologia de Goi{\'a}s}
 }
 
-@MANUAL{NBR6028:2021,
-  TITLE         = {{ABNT NBR} 6028},
-  AUTHOR        = {{ABNT}},
-  ORGANIZATION  = {Associação Brasileira de Normas Técnicas},
-  ADDRESS       = {Rio de Janeiro},
-  YEAR          = {2021},
-  ORG-SHORT     = {ABNT},
-  SUBTITLE      = {informação e documentação: resumo -- apresentação}
+@manual{IFAM2020,
+    author    = {Instituto Federal de Educa{\c{c}}{\~a}o, 
+    Ci{\^e}ncia e Tecnologia do Amazonas},
+    year      = {2020},
+    title     = {Projeto Pedagógico do Curso Técnico de Nível 
+    Médio em Informática, na Forma Subsequente},
+    address   = {Boca do Acre},
+    publisher = {IFAM},
+    url       = 
+    {https:cbda.ifam.edu.br/cursos/subsequentes/info/ppc-info-subse
+    quente.pdf},
+    urldate   = {2024-05-14}
+}
+@article{rice1983use,
+  title={The use of computer-monitored data in information science and communication research},
+  author={Rice, Ronald E and Borgman, Christine L},
+  journal={Journal of the American Society for Information Science},
+  volume={34},
+  number={4},
+  pages={247--256},
+  year={1983},
+  publisher={Wiley Online Library}
 }
 
-@MANUAL{NBR6027:2012,
-  TITLE         = {{ABNT NBR} 6027},
-  AUTHOR        = {{ABNT}},
-  ORGANIZATION  = {Associação Brasileira de Normas Técnicas},
-  ADDRESS       = {Rio de Janeiro},
-  YEAR          = {2012},
-  ORG-SHORT     = {ABNT},
-  SUBTITLE      = {informação e documentação: sumário -- apresentação}
+@phdthesis{russo2015towards,
+    title={Towards a data-driven analysis of programming tutorials' telemetry to improve the educational experience in introductory programming courses},
+    author={Russo Kennedy, Anna},
+    publisher = {University of Victoria},
+    year={2015}
+}
+@article{de2022software,
+  title={Software quality metrics in the automatic evaluation of Python introductory programming: M{\'e}tricas de qualidade de software na avalia{\c{c}}{\~a}o autom{\'a}tica da programa{\c{c}}{\~a}o introdut{\'o}ria Python},
+  author={de Barros Reis, Andrew Nunes and Neto, Silv{\'e}rio Sirotheau Corr{\^e}a and Favero, Eloi Luiz and dos Santos, Jo{\~a}o Carlos Alves and da Silva, Pollianni Le{\~a}o and da Silva Moura, Thiago Rafael},
+  journal={Brazilian Applied Science Review},
+  volume={6},
+  number={5},
+  pages={14087--14100},
+  year={2022}
 }
 
-@BOOK{KROGH:2001,
-  AUTHOR    = {Georg Von{ }Ichijo and Kazuo Nonaka and Ikujiro Krogh},
-  TITLE     = {Facilitando a criação de conhecimento},
-  PUBLISHER = {Campus},
-  YEAR      = {2001},
-  ADDRESS   = {Rio de Janeiro},
-  SUBTITLE  = {reinventando a empresa com o poder da inovação contínua}
+@article{effenberger2019difficulty,
+  title={Difficulty and complexity of introductory programming problems},
+  author={Effenberger, Tom{\'a}{\v{s}} and Cech{\'a}k, Jaroslav and Pel{\'a}nek, Radek},
+  journal={Educational Data Mining in Computer Science Education (CSEDM)},
+  year={2019}
 }
 
-@MANUAL{NBR10520:2002,
-  TITLE         = {{ABNT NBR} 10520},
-  AUTHOR        = {{ABNT}},
-  ORGANIZATION  = {Associação Brasileira de Normas Técnicas},
-  ADDRESS       = {Rio de Janeiro},
-  MONTH         = aug,
-  YEAR          = {2002},
-  ORG-SHORT     = {ABNT},
-  SUBTITLE      = {informação e documentação -- apresentação de citações em documentos}
+@article{hevner2004design,
+    title={Design science in information systems research},
+    author={Hevner, Alan R and March, Salvatore T and Park, Jinsoo and Ram, Sudha},
+    journal={MIS quarterly},
+    pages={75--105},
+    year={2004},
+    publisher={JSTOR}
+}
+@article{kitchenham2004procedures,
+  title={Procedures for performing systematic reviews},
+  author={Kitchenham, Barbara},
+  journal={Keele, UK, Keele University},
+  volume={33},
+  number={2004},
+  pages={1--26},
+  year={2004}
 }
 
-@MANUAL{NBR14724:2011,
-  TITLE         = {{ABNT NBR} 14724},
-  AUTHOR        = {{ABNT}},
-  ORGANIZATION  = {Associação Brasileira de Normas Técnicas},
-  ADDRESS       = {Rio de Janeiro, RJ},
-  MONTH         = mar,
-  YEAR          = {2024},
-  ORG-SHORT     = {ABNT},
-  SUBTITLE      = {informação e documentação -- trabalhos acadêmicos -- apresentação}
+@article{page2021prisma,
+  title={The PRISMA 2020 statement: an updated guideline for reporting systematic reviews},
+  author={Page, Matthew J and McKenzie, Joanne E and Bossuyt, Patrick M and Boutron, Isabelle and Hoffmann, Tammy C and Mulrow, Cynthia D and Shamseer, Larissa and Tetzlaff, Jennifer M and Akl, Elie A and Brennan, Sue E and others},
+  journal={Systematic reviews},
+  volume={10},
+  number={1},
+  pages={1--11},
+  year={2021},
+  publisher={Springer}
+}
+@article{peffers2007design,
+    title={A design science research methodology for information systems research},
+    author={Peffers, Ken and Tuunanen, Tuure and Rothenberger, Marcus A and Chatterjee, Samir},
+    journal={Journal of management information systems},
+    volume={24},
+    number={3},
+    pages={45--77},
+    year={2007},
+    publisher={Taylor \& Francis}
 }
 
-@MASTERSTHESIS{Andrade2005,
-  AUTHOR  = {M. M. Andrade},
-  TITLE   = {Competências requeridas pelos gestores de Instituições de ensino superior privadas},
-  SCHOOL  = {Programa de Pós-Graduação em
-Tecnologia, Universidade Tecnológica Federal do Paraná},
-  YEAR    = {2005},
-  ADDRESS = {Curitiba},
-  PAGES   = {150},
-  SUBTITLE= {um estudo em Curitiba e região metropolitana}
-}
-
-@INBOOK{Borges2014,
-  AUTHOR    = {L. O. BORGES and O. H. YAMAMOTO},
-  booktitle  = {Psicologia, organizações e trabalho no Brasil},
-  title = {Mundo do trabalho},
-  SUBTITLE = {construção histórica e desafios contemporâneos},
-  PAGES     = {25--72},
-  PUBLISHER = {Artmed},
-  YEAR      = {2014},
-  ADDRESS   = {Porto Alegre},
-  edition      = {2}
-}
-
-@INBOOK{Candido2002,
-  AUTHOR    = {A. Cândido},
-  booktitle  = {Textos de intervenção},
-  title = {A literatura e a formação do homem},
-  PAGES     = {67},
-  PUBLISHER = {Duas Cidades},
-  YEAR      = {2002},
-  ADDRESS   = {São Paulo},
-  SERIES    = {Coleção Espírito Crítico},
-}
-
-%BRASIL. Lei n. 9.610, de 19 de fevereiro de 1998. Altera, atualiza e consolida a legislação sobre direitos autorais e dá outras providências. Brasília, DF: Casa Civil, 1998. Disponível em: http://www.planalto.gov.br/ccivil_03/leis/L9610.htm. Acesso
-em: 11 mar. 2025.
-
-@MISC{BRASIL:1998,
-  TITLE         = {Lei n. 9.610, de 19 de fevereiro de 1998},
-  AUTHOR        = {{BRASIL}},
-  ORGANIZATION  = {Casa Civil},
-  ADDRESS       = {Brasília, DF},
-  ORG-SHORT     = {Casa Civil},
-  YEAR          = {1998},
-  URL = {http://www.planalto.gov.br/ccivil_03/leis/L9610.htm},
-  URLACCESSDATE = {11 mar. 2025},
-  SUBTITLE      = {Altera, atualiza e consolida a legislação sobre direitos autorais e dá outras providências}
-}
-
-@Article{Sanches2024,
-author={Cust{\'o}dio{ }Junior, Elton and Sanches, Silvio Ricardo Rodrigues
-and Corr{\^e}a, Cl{\'e}ber Gimenez
-and Oliveira, Claiton
-and Freire, Valdinei
-and Saito, Priscila Tiemi Maeda
-and Bugatti, Pedro Henrique},
-title={Automatic generation of difficulty maps for datasets using neural network},
-journal={Multimedia Tools and Applications},
-year={2024},
-volume={83},
-number={25},
-pages={66499-66516},
-issn={1573-7721},
-doi={10.1007/s11042-024-18271-3},
+@inproceedings{yang2021interview,
+  title={An interview study of how developers use execution logs in embedded software engineering},
+  author={Yang, Nan and Cuijpers, Pieter and Schiffelers, Ramon and Lukkien, Johan and Serebrenik, Alexander},
+  booktitle={2021 IEEE/ACM 43rd International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP)},
+  pages={61--70},
+  year={2021},
+  organization={IEEE}
 }
 
 
-
-
-@ARTICLE{Guimaraes2003,
-  AUTHOR   = {Guimar{\~a}es, Eliane G. and Maffeis, Antonio T. and Pereira, James L. and Russo, Bruno G. and Cardozo, Eleri and Bergerman, Marcel and Magalh{\~a}es, Mauricio F.},
-  TITLE    = {{REAL}},
-  JOURNAL  = {IEEE Transactions on Education},
-  YEAR     = {2003},
-  VOLUME   = {46},
-  NUMBER   = {1},
-  PAGES    = {37--42},
-  MONTH    = feb,
-  SUBTITLE = {a virtual laboratory for mobile robot experiment}
+@inproceedings{annamaa2015introducing,
+    title={Introducing Thonny, a Python IDE for learning programming},
+    author={Annamaa, Aivar},
+    booktitle={Proceedings of the 15th koli calling conference on computing education research},
+    pages={117--121},
+    year={2015}
+}
+@inproceedings{arabyarmohamady2012coding,
+    title={A coding style-based plagiarism detection},
+    author={Arabyarmohamady, S and Moradi, Hadi and Asadpour, Masoud},
+    booktitle={Proceedings of 2012 International Conference on Interactive Mobile and Computer Aided Learning (IMCL)},
+    pages={180--186},
+    year={2012},
+    organization={IEEE}
+}
+@inproceedings{arguson2022analysis,
+    title={Analysis of C Programming Performance: A correlational study of novice programmers’ compiler error logs},
+    author={Arguson, Angelo and Malasaga, Elisa and Aquino, Anthony and Cheng, Reginald and Ambat, Shaneth and Tejuco, Hadji},
+    booktitle={2022 IEEE 14th International Conference on Humanoid, Nanotechnology, Information Technology, Communication and Control, Environment, and Management (HNICEM)},
+    pages={1--5},
+    year={2022},
+    organization={IEEE}
+}
+@article{liu2018user,
+  title={User behavior discovery from low-level software execution log},
+  author={Liu, Cong and Wang, Shi and Gao, Shangce and Zhang, Feng and Cheng, Jiujun},
+  journal={IEEJ Transactions on Electrical and Electronic Engineering},
+  volume={13},
+  number={11},
+  pages={1624--1632},
+  year={2018},
+  publisher={Wiley Online Library}
+}
+@inproceedings{annamaa2015thonny,
+  title={Thonny, a Python IDE for learning programming},
+  author={Annamaa, Aivar},
+  booktitle={Proceedings of the 2015 ACM Conference on Innovation and Technology in Computer Science Education},
+  pages={343--343},
+  year={2015}
+}
+@inproceedings{liz2022lms,
+    title={Lms logs and student performance: The influence of retaking a course},
+    author={Liz-Dom{\'\i}nguez, Mart{\'\i}n and Llamas-Nistal, Mart{\'\i}n and Caeiro-Rodr{\'\i}guez, Manuel and Mikic-Fonte, Fernando},
+    booktitle={2022 IEEE Global Engineering Education Conference (EDUCON)},
+    pages={1970--1974},
+    year={2022},
+    organization={IEEE}
+}
+@article{candido_log-based_2021,
+    title = {Log-based software monitoring: a systematic mapping study},
+    author = {Cândido, Jeanderson and Aniche, Maurício and Van Deursen, Arie},
+    journal = {PeerJ Computer Science},
+    keywords = {Logging practices, Log infrastructure, Log analysis, DevOps	Monitoring},
+    year = {2021},
+    volume = {7},
+    copyright = {https://creativecommons.org/licenses/by/4.0/},
+    issn = {2376-5992},
+    shorttitle = {Log-based software monitoring},
+    url = {https://peerj.com/articles/cs-489},
+    doi = {10.7717/peerj-cs.489},
+    language = {en},
+    urldate = {2024-08-29},
+    pages = {e489}
+}
+@article{clemente2008arquitetura,
+    title={Uma arquitetura para processamento de eventos de log em tempo real},
+    author={Clemente, Ricardo Gomes},
+    journal={Agosto de},
+    year={2008}
+}
+@article{da2022slim,
+    title={SLIM: a process for analyzing learners’ behavior and discourse within large online communities},
+    author={da Silva, Rog{\'e}rio Ferreira},
+    journal={Revista Brasileira de Inform{\'a}tica na Educa{\c{c}}{\~a}o},
+    volume={30},
+    pages={573--597},
+    year={2022}
+}
+@inproceedings{du2005learning,
+  title={Learning with weblogs: An empirical investigation},
+  author={Du, Helen S and Wagner, Christian},
+  booktitle={Proceedings of the 38th Annual Hawaii International Conference on System Sciences},
+  pages={7b--7b},
+  year={2005},
+  organization={IEEE}
+}
+@inproceedings{fu_where_2014,
+    title = {Where do developers log? an empirical study on logging practices in industry},
+    author = {Fu, Qiang and Zhu, Jieming and Hu, Wenlu and Lou, Jian-Guang and Ding, Rui and Lin, Qingwei and Zhang, Dongmei and Xie, Tao},
+    publisher = {ACM},
+    keywords = {Logging practice, automatic logging, developer survey},
+    year = {2014},
+    isbn = {978-1-4503-2768-8},
+    shorttitle = {Where do developers log?},
+    url = {https://dl.acm.org/doi/10.1145/2591062.2591175},
+    doi = {10.1145/2591062.2591175},
+    language = {en},
+    urldate = {2024-08-29},
+    booktitle = {Companion Proceedings of the 36th International Conference on Software Engineering},
+    address = {Hyderabad India},
+    month = may,
+    pages = {24--33}
 }
 
-@ARTICLE{Frederico2012,
-  AUTHOR    = {Frederico, Guilherme Francisco and Martins, Roberto Antonio},
-  TITLE     = {Modelo para alinhamento entre a maturidade dos sistemas de medição de desempenho e a maturidade da gestão da cadeia de suprimentos},
-  JOURNAL   = {Gestão \& Produção},
-  YEAR      = {2012},
-  VOLUME    = {19},
-  PAGES     = {857--871},
-  MONTH     = dec,
-  ISSN      = {0104-530X},
-  PUBLISHER = {Scielo},
-  URL       = {http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0104-530X2012000400014&nrm=iso},
-  URLACCESSDATE = {21 ago. 2013}
+@Inbook{Gatev2021,
+    author="Gatev, Radoslav",
+    title="Observability: Logs, Metrics, and Traces",
+    bookTitle="Introducing Distributed Application Runtime (Dapr): Simplifying Microservices Applications Development Through Proven and Reusable Patterns and Practices ",
+    year="2021",
+    publisher="Apress",
+    address="Berkeley, CA",
+    pages="233--252",
+    abstract="Knowing what happens inside a system while it is running is beneficial for debugging, maintenance, and analysis purposes. In this chapter, we will explore the three pillars of observability -- logs, metrics, and traces. You will learn what they are, how they are used, and what are the differences between them. After that, we will explore how Dapr allows you to put the telemetry data into practice by mostly leveraging the open standards such as the OpenTelemetry project. Then you will understand how to use various monitoring systems to collect, analyze, and visualize the information coming from Dapr and your applications.",
+    isbn="978-1-4842-6998-5",
+    doi="10.1007/978-1-4842-6998-5_12",
+    url="https://doi.org/10.1007/978-1-4842-6998-5_12"
 }
 
-%% BOOK - Um livro com uma editora explícita.
-%%   - Campos requeridos: AUTHOR ou EDITOR, TITLE, PUBLISHER e YEAR.
-%%   - Campos opcionais: VOLUME ou NUMBER, SERIES, ADDRESS, EDITION, MONTH e NOTE.
-
-@book{Coulouris2013,
-  title={Sistemas Distribu{\'\i}dos},
-  subtitle={conceitos e projeto},
-  author={Coulouris, George and Dollimore, Jean and Kindberg, Tim and Blair, Gordon},
-  isbn={9788582600542},
-  url={https://books.google.com.br/books?id=6WU3AgAAQBAJ},
-  year={2013},
-  publisher={Bookman Editora},
-  URLACCESSDATE = {21 ago. 2013}
+@article{gu2022logging,
+    title={Logging practices in software engineering: A systematic mapping study},
+    author={Gu, Shenghui and Rong, Guoping and Zhang, He and Shen, Haifeng},
+    journal={IEEE Transactions on Software Engineering},
+    keywords = {Logging practices, log, empirical study,systematic mapping},
+    year={2022},
+    volume={49},
+    number={2},
+    pages={902--923},
+    publisher={IEEE}
 }
 
-
-@book{Pressman2009,
-  title={Engenharia de Software - 7.ed.},
-  author={Pressman, Roger S.},
-  pages = {107},
-  isbn={9788580550443},
-  url={https://books.google.com.br/books?id=y0rH9wuXe68C},
-  year={2009},
-  publisher={McGraw Hill Brasil},
-  URLACCESSDATE = {21 ago. 2013}
+@inproceedings{gupta2024identification,
+    title={Identification of Student Programming Patterns through Clickstream Data},
+    author={Gupta, Anika and Jindal, Mani and Goyal, Ankush},
+    organization={IEEE},
+    keywords = {computer programming, student programming patterns,	educational data mining	clustering, regression},
+    year={2024},
+    booktitle={2024 IEEE International Conference on Computing, Power and Communication Technologies (IC2PCT)},
+    volume={5},
+    pages={1153--1158},
+}
+@article{huang2020predicting,
+  title={Predicting students’ academic performance by using educational big data and learning analytics: evaluation of classification methods and learning logs},
+  author={Huang, Anna YQ and Lu, Owen HT and Huang, Jeff CH and Yin, CJ and Yang, Stephen JH},
+  journal={Interactive Learning Environments},
+  volume={28},
+  number={2},
+  pages={206--230},
+  year={2020},
+  publisher={Taylor \& Francis}
+}
+@article{leffingwell2002role,
+  title={The role of requirements traceability in system development},
+  author={Leffingwell, Dean and Widrig, Don},
+  journal={The Rational Edge},
+  volume={2},
+  year={2002},
+  publisher={Citeseer}
 }
 
-@BOOK{Pedrycz1998,
-  AUTHOR    = {Pedrycz, Witold and Gomide, Fernando A. C.},
-  TITLE     = {An Introduction to Fuzzy Sets},
-  PUBLISHER = {MIT Press},
-  YEAR      = {1998},
-  ADDRESS   = {Massachusetts, USA},
-  MONTH     = apr,
-  PAGES     = {465},
-  SUBTITLE  = {analysis and design (complex adaptive systems)}
+@article{liang_learning_2021,
+    title = {Learning log-based automatic group formation: system design and classroom implementation study},
+    author = {Liang, Changhao and Majumdar, Rwitajit and Ogata, Hiroaki},	
+    journal = {RPTEL},
+    keywords = {Group formation, Computer-Supported Collaborative Learning (CSCL), group work evaluation},
+    year = {2021},
+    volume = {16},
+    issn = {1793-7078},
+    shorttitle = {Learning log-based automatic group formation},
+    url = {https://telrp.springeropen.com/articles/10.1186/s41039-021-00156-w},
+    doi = {10.1186/s41039-021-00156-w},
+    language = {en},
+    number = {1},
+    urldate = {2024-08-29},	
+    month = dec,
+    pages = {14}
 }
 
-%% BOOKLET - Uma obra impressa mas sem uma editora ou instituição patrocinadora.
-%%   - Campos requeridos: TITLE.
-%%   - Campos opcionais: AUTHOR, HOWPUBLISHED, ADDRESS, MONTH, YEAR e NOTE.
-
-@BOOKLET{Thompson2001,
-  TITLE        = {X-Ray Data Booklet},
-  AUTHOR       = {Thompson, Albert C. and Vaughan, Douglas},
-  HOWPUBLISHED = {Lawrence Berkeley National Laboratory, University of California},
-  ADDRESS      = {California, USA},
-  MONTH        = jan,
-  YEAR         = {2001},
-  PAGES        = {457}
+@MISC{theLinuxFoundation-2024,
+    title        = "The Linux Foundation",
+    author = {Linux Foundation},
+    booktitle    = "Linuxfoundation.org",
+    howpublished = "\url{https://trainingportal.linuxfoundation.org/learn/course/getting-started-with-opentelemetry-lfs148/why-do-we-need-opentelemetry/how-we-got-here?page=5}",
+    note         = "Accessed: 2024-12-3",
+    language     = "en"
 }
 
-%% CONFERENCE - O mesmo que "INPROCEEDINGS", incluído para compatibilidade de escrita.
-%%   - Campos requeridos: AUTHOR, TITLE, BOOKTITLE e YEAR.
-%%   - Campos opcionais: EDITOR, VOLUME ou NUMBER, SERIES, PAGES, ADDRESS, MONTH, ORGANIZATION, PUBLISHER e NOTE.
-
-@CONFERENCE{Alt1995,
-  AUTHOR       = {Alt, Martin and Martin, Florian},
-  TITLE        = {Generation of Efficient Interprocedural Analyzers with {PAG}},
-  BOOKTITLE    = {SAS'95, Static Analysis Symposium},
-  YEAR         = {1995},
-  EDITOR       = {Mycroft, Alan},
-  PAGES        = {33--50},
-  MONTH        = sep,
-  PUBLISHER    = {Springer}
+@article{mangaroska_exploring_2022,
+    title = {Exploring students' cognitive and affective states during problem solving through multimodal data: {Lessons} learned from a programming activity},
+    author = {Mangaroska, Katerina and Sharma, Kshitij and Gašević, Dragan and Giannakos, Michail},
+    journal = {Computer Assisted Learning},
+    keywords = {code-debugging task, cognitive-affective states, higher education, multimodal data, multimodal learning analytics},	
+    year = {2022},
+    volume = {38},
+    issn = {0266-4909, 1365-2729},
+    shorttitle = {Exploring students cognitive and affective states during problem solving through multimodal data},
+    url = {https://onlinelibrary.wiley.com/doi/10.1111/jcal.12590},
+    doi = {10.1111/jcal.12590},
+    language = {en},
+    number = {1},
+    urldate = {2024-08-29},
+    month = feb,	
+    pages = {40--59}
 }
 
-%% INBOOK - Uma parte de um livro, que pode ser um capítulo e/ou um intervalo de páginas.
-%%   - Campos requeridos: AUTHOR ou EDITOR, TITLE, CHAPTER ou PAGES, PUBLISHER e YEAR.
-%%   - Campos opcionais: VOLUME ou NUMBER, SERIES, TYPE, ADDRESS, EDITION, MONTH, NOTE.
-
-
-%DAVENPORT, T. H.; PRUSAK, L. Conhecimento empresarial: como as organizações gerenciam o seu capital intelectual. Rio de Janeiro: Campus, 2012. (Modelo de referência: livro com subtítulo).
-@BOOK{Davenport2012,
-  AUTHOR    = {DAVENPORT, T. H. and PRUSAK, L.},
-  TITLE     = {Conhecimento empresarial},
-  PUBLISHER = {Campus},
-  YEAR      = {2012},
-  ADDRESS   = {Rio de Janeiro},
-  SUBTITLE  = {como as organizações gerenciam o seu capital intelectual}
+@article{nguyen_analyzing_2023,
+    title = {ANALYZING GIT LOG IN AN CODE-QUALITY AWARE AUTOMATED PROGRAMMING ASSESSMENT SYSTEM: A CASE STUDY},
+    author = {Nguyen, Bao-An and Ha, Thuy-Vi Thi and Chen, Hsi-Min},
+    journal = {tvujs},
+    keywords = {APAS, code quality, data analytics,	programming education},
+    year = {2023},
+    issn = {2815-6099, 2815-6072},
+    url = {https://journal.tvu.edu.vn/index.php/journal/article/view/2430},
+    doi = {10.35382/tvujs.13.3.2023.2430},
+    urldate = {2024-08-29},
+    month = sep	
 }
 
-
-@BOOK{Santos2000,
-  AUTHOR    = {Santos, Euripedes P. and von Zuben, Fernando J.},
-  TITLE     = {Recurrent Neural Networks},
-  CHAPTER   = {3},
-  PAGES     = {47--75},
-  PUBLISHER = {CRC Press},
-  YEAR      = {2000},
-  VOLUME    = {13},
-  ADDRESS   = {USA},
-  SERIES    = {International Series on Computational Intelligence},
-  SUBTITLE  = {design, applications}
+@article{pereira2020using,
+    title={Using learning analytics in the Amazonas: understanding students’ behaviour in introductory programming},
+    author={Pereira, Filipe D and Oliveira, Elaine HT and Oliveira, David BF and Cristea, Alexandra I and Carvalho, Leandro SG and Fonseca, Samuel C and Toda, Armando and Isotani, Seiji},
+    journal={British journal of educational technology},
+    keywords =  {analytics	keystrokes, introductory programming, logs, online judge},
+    year={2020},	
+    volume={51},
+    number={4},
+    pages={955--972},
+    publisher={Wiley Online Library}
+}
+@article{qian2017students,
+    title={Students’ misconceptions and other difficulties in introductory programming: A literature review},
+    author={Qian, Yizhou and Lehman, James},
+    journal={ACM Transactions on Computing Education (TOCE)},
+    volume={18},
+    number={1},
+    pages={1--24},
+    year={2017},
+    publisher={ACM New York, NY, USA}
 }
 
-%% INCOLLECTION - Uma parte de um livro com o seu próprio título.
-%%   - Campos requeridos: AUTHOR, TITLE, BOOKTITLE, PUBLISHER e YEAR.
-%%   - Campos opcionais: EDITOR, VOLUME OR NUMBER, SERIES, TYPE, CHAPTER, PAGES, ADDRESS, EDITION, MONTH e NOTE.
-
-@INCOLLECTION{Pinto2000,
-  AUTHOR    = {Pinto, Alexandre S. and Faina, Luis F. and Cardozo, Eleri},
-  TITLE     = {A {TINA}-Based Distributed Environment for Mobile Multimedia Applications},
-  BOOKTITLE = {Managing QoS in Multimedia Networks, Services},
-  PUBLISHER = {Kluwer Academic Publishers},
-  YEAR      = {2000},
-  EDITOR    = {de Souza, Jos{\'e} Neuman and Boutaba, Raouf},
-  PAGES     = {163--175}
+@article{rodriguesuniversidades,
+    title={UNIVERSIDADES FEDERAIS NO ESTADO DE MINAS GERAIS: UM ESTUDO COMPARATIVO},
+    author={Rodrigues, Fl{\'a}via Couto Ruback and Gava, Rodrigo},
+    journal={REAd | Porto Alegre – Edição 83},
+    year={2016},
+    publisher={SciELO Brasil}
 }
 
-%% INPROCEEDINGS - Um artigo nos anais de uma conferência.
-%%   - Campos requeridos: AUTHOR, TITLE, BOOKTITLE e YEAR.
-%%   - Campos opcionais: EDITOR, VOLUME ou NUMBER, SERIES, PAGES, ADDRESS, MONTH, ORGANIZATION, PUBLISHER e NOTE.
-
-
-@INPROCEEDINGS{Renaux2001,
-  AUTHOR       = {Douglas P. B. Renaux and Faimara do Rocio Strauhs and Aline França Abreu and Leandro Gustavo Biss Becker},
-  TITLE        = {Gestão do conhecimento de um laboratório de pesquisa: uma abordagem prática},
-  BOOKTITLE    = {Simpósio Internacional de Gestão do Conhecimento},
-  YEAR         = {2001},
-  VOLUME        = {4},
-  PAGES        = {195--208},
-  pUBLISHER = {PUC-PR},
-  ADDRESS      = {Curitiba},
+@article{siemens2013learning,
+    title={Learning analytics: The emergence of a discipline},
+    author={Siemens, George},
+    journal={American Behavioral Scientist},
+    keywords = {learning,programming,logs},
+    year={2013},
+    volume={57},
+    number={10},
+    pages={1380--1400},
+    publisher={SAGE Publications Sage CA: Los Angeles, CA}
 }
 
-
-
-@INPROCEEDINGS{Faina2001,
-  AUTHOR       = {Faina, Luis F. and Pinto, Rossano P. and Guimar{\~a}es, Eliane G. and Cardozo, Eleri},
-  TITLE        = {Mobile Agents for Supporting Ubiquity in Telecommunication Services},
-  BOOKTITLE    = {Second Latin American Network Operation, Management Symposium (LANOMS)},
-  YEAR         = {2001},
-  EDITOR       = {Loureiro, A. and Nogueira, J.},
-  PAGES        = {50--61},
-  ADDRESS      = {Belo Horizonte},
-  MONTH        = aug
+@inproceedings{silva2022previsao,
+    title={Previsão de indicadores de dificuldade de questões de programação a partir de métricas do código de solução},
+    author={Silva, Elrik Souza and Carvalho, Leandro SG and de Oliveira, David BF and Oliveira, Elaine HT and Lauschner, Tanara and de Lima, Marcos AP and Pereira, Filipe Dwan},
+    organization={SBC},
+    keywords = {},	
+    year={2022},
+    booktitle={Anais do XXXIII Simpósio Brasileiro de Informática na Educação},
+    pages={859--870}
+	
 }
 
-
-
-
-%% MANUAL - Uma documentação técnica.
-%%   - Campos requeridos: TITLE.
-%%   - Campos opcionais: AUTHOR, ORGANIZATION, ADDRESS, EDITION, MONTH, YEAR e NOTE.
-
-@MANUAL{IONA1999,
-  TITLE        = {Orbix Programming Reference},
-  AUTHOR       = {{\mbox IONA Technologies PLC}},
-  ORGANIZATION = {IONA Technologies PLC},
-  ADDRESS      = {Dublin, Ireland},
-  MONTH        = oct,
-  YEAR         = {1999}
+@inproceedings{educomp,
+    author = {Jackson Fernandes and Leandro Carvalho and David Oliveira and Elaine Oliveira and Filipe Pereira and Tanara Lauschner},
+    title = { Correlação Entre Complexidade e Dificuldade de Questões de Programação em Juízes Online},
+    booktitle = {Anais do III Simpósio Brasileiro de Educação em Computação},
+    location = {Evento Online},
+    year = {2023},
+    keywords = {},
+    issn = {0000-0000},
+    pages = {97--107},
+    publisher = {SBC},
+    address = {Porto Alegre, RS, Brasil},
+    doi = {10.5753/educomp.2023.228217},
+    url = {https://sol.sbc.org.br/index.php/educomp/article/view/23879}
+}
+@article{gu2022logging,
+    title={Logging practices in software engineering: A systematic mapping study},
+    author={Gu, Shenghui and Rong, Guoping and Zhang, He and Shen, Haifeng},
+    journal={IEEE transactions on software engineering},
+    volume={49},
+    number={2},
+    pages={902--923},
+    year={2022},
+    publisher={IEEE}
 }
 
-
-
-@MANUAL{NBR6024:2012,
-  TITLE         = {{NBR} 6024},
-  AUTHOR        = {{ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS}},
-  ORGANIZATION  = {Associação Brasileira de Normas Técnicas},
-  ADDRESS       = {Rio de Janeiro},
-  MONTH         = feb,
-  YEAR          = {2012},
-  DATE-ADDED    = {2012-12-15 21:24:06 +0000},
-  DATE-MODIFIED = {2012-12-15 21:24:28 +0000},
-  ORG-SHORT     = {ABNT},
-  PAGES         = {4},
-  SUBTITLE      = {numeração progressiva das seções de um documento}
+@article{santana2024aplicaccoes,
+    title={Aplica{\c{c}}{\~o}es do processamento de linguagem natural no ambiente educacional: Uma revis{\~a}o sistem{\'a}tica da literatura},
+    author={Santana, Fernanda Pereira and Magalh{\~a}es, Leandro Corr{\^e}a},
+    journal={Revista Foco},
+    volume={17},
+    number={1},
+    pages={e3921--e3921},
+    year={2024}
+}
+@inproceedings{silva2022previsao,
+    title={Previs{\~a}o de indicadores de dificuldade de quest{\~o}es de programa{\c{c}}{\~a}o a partir de m{\'e}tricas do c{\'o}digo de solu{\c{c}}{\~a}o},
+    author={Silva, Elrik Souza and Carvalho, Leandro SG and de Oliveira, David BF and Oliveira, Elaine HT and Lauschner, Tanara and de Lima, Marcos AP and Pereira, Filipe Dwan},
+    booktitle={Simp{\'o}sio Brasileiro de Inform{\'a}tica na Educa{\c{c}}{\~a}o (SBIE)},
+    pages={859--870},
+    year={2022},
+    organization={SBC}
 }
 
-
-
-
-
-@MANUAL{abnTeX2:2013,
-  TITLE         = {A classe abntex2},
-  AUTHOR        = {abnTeX2 and Araujo, Lauro C{\'e}sar},
-  ORGANIZATION  = {Equipe abnTeX2},
-  YEAR          = {2013},
-  BDSK-URL-1    = {http://code.google.com/p/abntex2/},
-  DATE-ADDED    = {2013-01-09 10:37:38 +0000},
-  DATE-MODIFIED = {2013-04-05 11:03:48 +0000},
-  URL           = {http://www.abntex.net.br/},
-  SUBTITLE      = {{modelo canônico de trabalhos acadêmicos brasileiros compatível com as normas ABNT NBR 14724:2011, ABNT NBR 6024:2012 e outras}},
-  URLACCESSDATE = {21 ago. 2013}
+@inproceedings{umezawa2020analysis,
+    title={Analysis of logic errors utilizing a large amount of file history during programming learning},
+    author={Umezawa, Katsuyuki and Nakazawa, Makoto and Kobayashi, Manabu and Ishii, Yutaka and Nakano, Michiko and Hirasawa, Shigeichi},
+    booktitle={2020 IEEE International Conference on Teaching, Assessment, and Learning for Engineering (TALE)},
+    pages={630--634},
+    year={2020},
+    organization={IEEE}
 }
 
-@MANUAL{abnTeX2:2013Cite,
-  TITLE         = {O pacote abntex2cite},
-  AUTHOR        = {abnTeX2 and Araujo, Lauro C{\'e}sar},
-  ORGANIZATION  = {Equipe abnTeX2},
-  YEAR          = {2013},
-  BDSK-URL-1    = {http://code.google.com/p/abntex2/},
-  DATE-ADDED    = {2013-01-09 10:37:45 +0000},
-  DATE-MODIFIED = {2013-04-05 10:47:36 +0000},
-  URL           = {http://www.abntex.net.br/},
-  SUBTITLE      = {{estilos bibliográficos compatíveis com a ABNT NBR 6023}},
-  URLACCESSDATE = {21 ago. 2013}
-}
-
-@MANUAL{abnTeX2:2013CiteAlf,
-  TITLE         = {O pacote abntex2cite},
-  AUTHOR        = {abnTeX2 and Araujo, Lauro C{\'e}sar},
-  ORGANIZATION  = {Equipe abnTeX2},
-  YEAR          = {2013},
-  BDSK-URL-1    = {http://code.google.com/p/abntex2/},
-  DATE-ADDED    = {2013-01-09 10:37:45 +0000},
-  DATE-MODIFIED = {2013-04-05 11:03:05 +0000},
-  URL           = {http://www.abntex.net.br/},
-  SUBTITLE      = {{tópicos específicos da ABNT NBR 10520:2002 e o estilo bibliográfico alfabético (sistema autor-data)}},
-  URLACCESSDATE = {21 ago. 2013}
-}
-
-@MANUAL{UTFPR2008,
-  TITLE        = {Orientação para a entrega de trabalhos acadêmicos},
-  AUTHOR       = {{UTFPR}},
-  ORGANIZATION = {Universidade Tecnológica Federal do Paraná},
-  ADDRESS      = {Curitiba},
-  EDITION      = {1a},
-  YEAR         = {2021},
-  URL          = {http://www.utfpr.edu.br/biblioteca/trabalhos-academicos/discentes},
-  URLACCESSDATE = {08 nov. 2021}
-}
-
-@MANUAL{Wilson2010,
-  TITLE         = {The Memoir Class for Configurable Typesetting - User Guide},
-  AUTHOR        = {Wilson, Peter and Madsen, Lars},
-  ORGANIZATION  = {The Herries Press},
-  ADDRESS       = {Normandy Park, WA, USA},
-  YEAR          = {2010},
-  BDSK-URL-1    = {http://ctan.tche.br/macros/latex/contrib/memoir/memman.pdf},
-  DATE-ADDED    = {2013-01-09 10:37:50 +0000},
-  DATE-MODIFIED = {2013-03-21 13:23:25 +0000},
-  URL           = {http://mirrors.ctan.org/macros/latex/contrib/memoir/memman.pdf},
-  URLACCESSDATE = {21 ago. 2013}
-}
-
-%% MASTERSTHESIS - Uma dissertação de mestrado.
-%%   - Campos requeridos: AUTHOR, TITLE, SCHOOL e YEAR.
-%%   - Campos opcionais: TYPE, ADDRESS, MONTH e NOTE.
-
-
-
-@MASTERSTHESIS{Araujo2012,
-  AUTHOR        = {Araujo, Lauro C{\'e}sar},
-  TITLE         = {Configuração},
-  SCHOOL        = {Universidade de Brasília},
-  YEAR          = {2012},
-  ADDRESS       = {Brasília},
-  DATE-ADDED    = {2013-01-09 11:04:42 +0000},
-  DATE-MODIFIED = {2013-01-09 11:04:42 +0000},
-  SUBTITLE      = {uma perspectiva de arquitetura da informação da escola de {B}rasília}
-}
-
-%% MISC - Use esse tipo quando nada mais se encaixa.
-%%   - Campos requeridos: "NENHUM".
-%%   - Campos opcionais: AUTHOR, TITLE, HOWPUBLISHED, MONTH, YEAR e NOTE.
-
-
-@MISC{Larsson2003,
-  AUTHOR        = {Larsson, Alexander},
-  TITLE         = {Dia's Homepage},
-  HOWPUBLISHED  = {Lysator, The Academic Computer Society},
-  MONTH         = aug,
-  YEAR          = {2003},
-  URL           = {http://www.lysator.liu.se/~alla/dia/dia.html},
-  urlaccessdate = {28 nov. 2003}
-}
-
-@book{date2004,
-  title = {Introdução a sistemas de bancos de dados},
-  author = {Date, C.J.},
-  isbn = {9788535212730},
-  url = {https://books.google.com.br/books?id=xBeO9LSlK7UC},
-  year = {2004},
-  publisher = {ELSEVIER EDITORA},
-  URLACCESSDATE = {21 ago. 2013}
-}
-
-@MISC{Hadian1982,
-  AUTHOR       = {Hadian, R.},
-  TITLE        = {{Fotografia da erupção vulcânica em 1982 do Galungung, Indonésia (com descargas de raios), produzida pelo Serviço Geológico dos Estados Unidos da América}},
-  MONTH        = dec,
-  YEAR         = {1982},
-  NOTE         =  {Galunggung, Indonesia; 07.25 S 108.05 E; 2,168 m. His image is in the public domain because it contains materials that originally came from the U.S. National Oceanic and Atmospheric Administration, taken or made as part of an employee's official duties.},
-  ORGANIZATION = {U.S. National Oceanic and Atmospheric Administration},
-  URL          = {http://www.ngdc.noaa.gov/seg/hazard/img/200_res/30/30_603.tif},
-  URLACCESSDATE = {21 ago. 2013}
-}
-
-@MISC{Sartore2013,
-  AUTHOR       = {Sartore, Joel},
-  TITLE        = {{Camaleão pantera fotografado por Joel Sartore, National Geographic}},
-  MONTH        = mar,
-  YEAR         = {2013},
-  NOTE         = {Published March 5, 2013},
-  ORGANIZATION = {National Geographic},
-  URL          = {http://images.nationalgeographic.com/wpf/media-live/photos/000/649/cache/08-tedx-photo-ark-panther-chameleon_64915_600x450.jpg},
-  URLACCESSDATE = {21 ago. 2013}
-}
-
-@MISC{daSilva2009,
-  AUTHOR       = {da Silva, Erivanildo Lopes and Bahia, Marcus Vinicius},
-  TITLE        = {Compostos orgânicos: fórmulas estruturais e principais classes},
-  HOWPUBLISHED = {Site UOL Educação},
-  MONTH        = feb,
-  YEAR         = {2009},
-  ORGANIZATION = {Universidade Federal da Bahia},
-  URL          = {http://educacao.uol.com.br/disciplinas/quimica/compostos-organicos-formulas-estruturais-e-principais-classes.htm},
-  URLACCESSDATE = {21 ago. 2013}
-}
-
-@MISC{Smallen2014,
-  AUTHOR       = {Smallen, Shava},
-  TITLE        = {My \LaTeX\ notes},
-  HOWPUBLISHED = {San Diego Supercomputer Center},
-  MONTH        = feb,
-  YEAR         = {2014},
-  URL          = {http://users.sdsc.edu/~ssmallen/},
-  URLACCESSDATE = {21 ago. 2014}
-}
-
-%% PHDTHESIS - Uma tese de doutorado.
-%%   - Campos requeridos: AUTHOR, TITLE, SCHOOL e YEAR.
-%%   - Campos opcionais: TYPE, ADDRESS, MONTH e NOTE.
-
-@PHDTHESIS{Faina2000,
-  AUTHOR  = {Faina, Luis F.},
-  TITLE   = {Uma Arquitetura para Suporte à Ubiquidade dos Serviços de Telecomunicações Baseada na Arquitetura {TINA} e em Agentes Móveis},
-  SCHOOL  = {Faculdade de Engenharia Elétrica e de Computação, Universidade Estadual de Campinas},
-  YEAR    = {2000},
-  ADDRESS = {Campinas},
-  MONTH   = dec,
-  PAGES   = {150}
-}
-
-%% PROCEEDINGS - As deliberações de uma conferência.
-%%   - Campos requeridos: TITLE e YEAR.
-%%   - Campos opcionais: EDITOR, VOLUME ou NUMBER, SERIES, ADDRESS, MONTH, ORGANIZATION, PUBLISHER e NOTE.
-
-@PROCEEDINGS{Pirmez2002,
-  TITLE        = {{Anais do XX Simpósio Brasileiro de Redes de Computadores}},
-  YEAR         = {2002},
-  EDITOR       = {Pirmez, Luci and Carmo, Luis Fernando and Mac{\^e}do, Raimundo Jos{\'e}},
-  ADDRESS      = {Rio de Janeiro},
-  MONTH        = may,
-  ORGANIZATION = {Sociedade Brasileira de Computação},
-  PUBLISHER    = {Núcleo de Computação Eletrônica da UFRJ}
-}
-
-%% TECHREPORT - Um relatório publicado por uma escola ou uma outra instituição, geralmente dentro de uma série numerada.
-%%   - Campos requeridos: AUTHOR, TITLE, INSTITUTION e YEAR.
-%%   - Campos opcionais: TYPE, NUMBER, ADDRESS, MONTH e NOTE.
-
-@TECHREPORT{OMG2000,
-  AUTHOR      = {{OMG}},
-  TITLE       = {Audio/Video Streams, Version 1.0},
-  INSTITUTION = {Object Management Group (OMG)},
-  YEAR        = {2000},
-  TYPE        = {OMG Specification},
-  ADDRESS     = {Massachusetts, USA},
-  MONTH       = jan,
-  NOTE        = {formal/2000-01-03},
-  URL         = {http://www.omg.org/},
-  URLACCESSDATE = {21 ago. 2013}
-}
-
-%% UNPUBLISHED - Um documento com um autor e um título, mas não publicado formalmente.
-%%   - Campos requeridos: AUTHOR, TITLE e NOTE.
-%%   - Campos opcionais: MONTH e YEAR.
-
-@UNPUBLISHED{Sichman2002,
-  AUTHOR = {Sichman, Jaime S.},
-  TITLE  = {Sobre Agentes Móveis e Fixos},
-  NOTE   = {Comunicação pessoal por e-mail},
-  MONTH  = mar,
-  YEAR   = {2002}
-}
-
-%% CAMPOS
-%%
-%% Os tipos de entradas bibliográficas contém alguns subconjuntos padrões de entradas de dados:
-%%   - ADDRESS: Endereço da editora (normalmente, apenas a cidade, mas pode ser o endereço completo para editoras menos conhecidas).
-%%   - ANNOTE: Uma anotação para estilos bibliográficos adotados (não típico).
-%%   - AUTHOR: O(s) nome(s) do(s) autor(es) (no caso de haver mais de um autor, separá-los por "and").
-%%   - BOOKTITLE: O título do livro, mesmo que apenas parte dele esteja sendo citado.
-%%   - CHAPTER: O número do capítulo.
-%%   - CROSSREF: A chave de entrada da referência cruzada.
-%%   - EDITION: A edição de um livro, forma longa (como o "primeiro" ou "segundo").
-%%   - EDITOR: O(s) nome(s) do(s) editor(es).
-%%   - EPRINT: A especificação de uma publicação eletrônica, muitas vezes um "preprint" ou um relatório técnico.
-%%   - HOWPUBLISHED: Como ele foi publicado, se o método de publicação não é típico.
-%%   - INSTITUTION: A instituição que esteve envolvida na publicação, mas não é necessariamente a editora.
-%%   - JOURNAL: O jornal ou a revista onde o trabalho foi publicado.
-%%   - KEY: Um campo oculto utilizado para especificar ou colocar em ordem alfabética as entradas (quando o campos "autor" e
-%%     "editor" estão em falta). Note que isto é muito diferente da chave (mencionados apenas após esta lista) que é usado para
-%%     citar ou fazer uma referência cruzada à entrada.
-%%   - MONTH: O mês de publicação (ou, se não publicado, no mês de criação).
-%%   - NOTE: Diversas informações extras.
-%%   - NUMBER: O "número" de um jornal, uma revista, ou um relatório técnico, se aplicável. (A maioria das publicações tem um campo
-%%     "volume", mas não o campo "número").
-%%   - ORGANIZATION: A organização patrocinadora.
-%%   - PAGES: números de página, separados por vírgulas ou hifens duplo. Para os livros, o número total de páginas.
-%%   - PUBLISHER: O nome da editora.
-%%   - SCHOOL: A escola onde a tese ou dissertação foi escrita.
-%%   - SERIES: A série de livros onde foi publicado em (por exemplo: "A Hardy Boys" ou "Lecture Notes in Computer Science").
-%%   - TITLE: o título do trabalho.
-%%   - TYPE: O tipo de relatório técnico, por exemplo, "Nota de Investigação".
-%%   - URL: O endereço da web.
-%%   - VOLUME: O volume de uma revista ou de um livro com vários volumes.
-%%   - YEAR: O ano de publicação (ou, se não publicado, o ano de criação).
-%%
-%% Além disto, cada entrada contém uma chave (rótulo) que é usada para citar ou uma entrada de referência cruzada. Esta chave é o
-%% primeiro item em uma entrada BibTeX, e não faz parte de qualquer domínio.
-
-% MONTEIRO, S. Breve espaço entre cor e sombra: o romance da maturidade literária de Cristóvão Tezza. Revista de Letras, Curitiba, v. 13, n. 11, p. 183-200, dez. 2009. (Modelo de referência: artigo de periódico).
-
-@article{Monteiro2009,
-  author = {S. Monteiro},
-  title = {Breve espaço entre cor e sombra},
-  journal = {Revista de Letras},
-  year = {2009},
-  month = {dez},
-  number = {11},
-  pages = {183--200},
-  volume = {13},
-  subtitle = {o romance da maturidade literária de Cristóvão Tezza},
-}
-
-@article{tomasulo:algorithm:5392028,
-  author = {Tomasulo, R. M.},
-  title = {An Efficient Algorithm for Exploiting Multiple Arithmetic Units},
-  journal = {IBM Journal of Research and Development},
-  year = {1967},
-  month = {Jan},
-  number = {1},
-  pages = {25-33},
-  volume = {11},
-  doi = {10.1147/rd.111.0025},
-  ISSN = {0018-8646}
-}
-
-@article{Cruz2003,
-  author = {Cruz, Renato},
-  title = {Padrão Brasileiro de {TV} Enfrenta Oposição},
-  journal = {O Estado de São Paulo},
-  ADDRESS  = {São Paulo},
-  year = {2003},
-  month = {fev},
-  day = {2}
-}
-
-@misc{Moore:2000:CMC:333067.333074,
- author = {Moore, Gordon E.},
- title = {Readings in Computer Architecture},
- year = {2000},
- url = {http://dl.acm.org/citation.cfm?id=333067.333074},
- URLACCESSDATE = {21 ago. 2013}
+@article{neiva2016revisao,
+    title={Revisao sistem{\'a}tica da literatura em ci{\^e}ncia da computa{\c{c}}ao um guia pr{\'a}tico},
+    author={Neiva, Fr{\^a}ncila Weidt and da Silva, RL d S},
+    journal={Universidade Federal de Juiz de Fora},
+    year={2016}
 }
