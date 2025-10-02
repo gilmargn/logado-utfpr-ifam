@@ -1,36 +1,38 @@
-This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
 A level-1 auxiliary file: ./PreTexto/resumo.aux
+Reallocating 'name_of_file' (item size: 1) to 24 items.
 A level-1 auxiliary file: ./PreTexto/abstract.aux
-A level-1 auxiliary file: ./capitulos/cap-introducao.aux
+Reallocating 'name_of_file' (item size: 1) to 30 items.
 A level-1 auxiliary file: ./capitulos/cap-conceitos.aux
-A level-1 auxiliary file: ./capitulos/cap-metodologia.aux
-A level-1 auxiliary file: ./PosTexto/apendicea.aux
-A level-1 auxiliary file: ./PosTexto/apendiceb.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+Reallocating 'name_of_file' (item size: 1) to 5 items.
+Reallocating 'name_of_file' (item size: 1) to 12 items.
 The style file: abntex2-alf.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
 write is an unknown function---line 1736 of file abntex2-alf.bst
 write is an unknown function---line 1744 of file abntex2-alf.bst
 write is an unknown function---line 1745 of file abntex2-alf.bst
 write is an unknown function---line 1746 of file abntex2-alf.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocating 'singl_function' (item size: 4) to 100 items.
 write is an unknown function---line 1762 of file abntex2-alf.bst
 write is an unknown function---line 1811 of file abntex2-alf.bst
 write is an unknown function---line 1856 of file abntex2-alf.bst
 write is an unknown function---line 1861 of file abntex2-alf.bst
 write is an unknown function---line 1862 of file abntex2-alf.bst
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 write is an unknown function---line 1907 of file abntex2-alf.bst
 write is an unknown function---line 1927 of file abntex2-alf.bst
 write is an unknown function---line 1930 of file abntex2-alf.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: abntex2-options.bib
 Database file #2: main.bib
 Repeated entry---line 400 of file main.bib
@@ -41,56 +43,54 @@ Repeated entry---line 420 of file main.bib
  : @inproceedings{silva2022previsao
  :                                 ,
 I'm skipping whatever remains of this entry
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
-Reallocated global_strs (elt_size=200001) to 20 items from 10.
-Reallocated glb_str_end (elt_size=4) to 20 items from 10.
-Warning--campo year vazio ou faltando em theLinuxFoundation-2024
-Warning--faltando school em russo2015towards
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.7           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 36 entries,
+You've used 15 entries,
             7039 wiz_defined-function locations,
-            1438 strings with 17157 characters,
-and the built_in function-call counts, 33257 in all, are:
-= -- 3048
-> -- 957
-< -- 342
-+ -- 693
-- -- 287
-* -- 2364
-:= -- 4219
-add.period$ -- 122
-call.type$ -- 38
-change.case$ -- 367
-chr.to.int$ -- 77
-cite$ -- 30
-duplicate$ -- 2075
-empty$ -- 2222
-format.name$ -- 1385
-if$ -- 7604
+            1299 strings with 11907 characters,
+and the built_in function-call counts, 10767 in all, are:
+= -- 997
+> -- 275
+< -- 66
++ -- 204
+- -- 83
+* -- 714
+:= -- 1343
+add.period$ -- 34
+call.type$ -- 17
+change.case$ -- 123
+chr.to.int$ -- 29
+cite$ -- 7
+duplicate$ -- 506
+empty$ -- 895
+format.name$ -- 399
+if$ -- 2632
 int.to.chr$ -- 7
 int.to.str$ -- 3
-missing$ -- 583
-newline$ -- 146
-num.names$ -- 140
-pop$ -- 688
+missing$ -- 212
+newline$ -- 40
+num.names$ -- 35
+pop$ -- 218
 preamble$ -- 1
-purify$ -- 144
+purify$ -- 57
 quote$ -- 0
-skip$ -- 2506
+skip$ -- 912
 stack$ -- 1
-substring$ -- 1521
-swap$ -- 898
-text.length$ -- 48
+substring$ -- 502
+swap$ -- 234
+text.length$ -- 14
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 5
-warning$ -- 2
-while$ -- 242
+type$ -- 1
+warning$ -- 0
+while$ -- 70
 width$ -- 0
-write$ -- 492
+write$ -- 136
 (There were 14 error messages)

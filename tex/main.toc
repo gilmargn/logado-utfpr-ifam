@@ -5,67 +5,15 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdução}}{8}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Contexto, motivação e justificativa}{9}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Questões de pesquisa}{11}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Objetivos}{11}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Objetivos Gerais}{11}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Objetivos Específicos}{12}{subsection.1.3.2}%
-\contentsline {section}{\numberline {1.4}Contribuições esperadas}{12}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Estrutura do trabalho}{12}{section.1.5}%
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Fundamentação Teórica}}{13}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Desafios no Ensino de Programação e a Lacuna Instrucional sobre Logging}{13}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Logging: Conceitos e Aplicações na Engenharia de Software}{13}{section.2.2}%
-\contentsline {section}{\numberline {2.3}A Análise de Logs como Ferramenta Educacional}{14}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Metodologia para Análise de Logs Educacionais}{14}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Coleta e Pré-processamento}{14}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Geração de Indicadores Educacionais}{14}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Análise de Padrões e Autoria}{15}{subsection.2.4.3}%
-\contentsline {section}{\numberline {2.5}A Extensão Logado: Proposta de Implementação}{15}{section.2.5}%
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {METODOLOGIA E CRONOGRAMA}}{16}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Abordagem Metodológica}{16}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Revisão Sistemática da Literatura}{16}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Survey Exploratório}{16}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Design Science Research}{16}{subsection.3.1.3}%
-\contentsline {subsubsection}{\numberline {3.1.3.1}Atividade 1: Identificação do Problema e Motivação}{17}{subsubsection.3.1.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.3.2}Atividade 2: Definição dos Objetivos da Solução}{17}{subsubsection.3.1.3.2}%
-\contentsline {subsubsection}{\numberline {3.1.3.3}Atividade 3: Design e Desenvolvimento}{17}{subsubsection.3.1.3.3}%
-\contentsline {subsubsection}{\numberline {3.1.3.4}Especificação de Requisitos do Artefato}{17}{subsubsection.3.1.3.4}%
-\contentsline {paragraph}{\numberline {3.1.3.4.1}Requisitos Funcionais}{19}{paragraph.3.1.3.4.1}%
-\contentsline {paragraph}{\numberline {3.1.3.4.2}Requisitos Não-Funcionais}{19}{paragraph.3.1.3.4.2}%
-\contentsline {paragraph}{\numberline {3.1.3.4.3}Desenvolvimento do Artefato}{19}{paragraph.3.1.3.4.3}%
-\contentsline {subsubsection}{\numberline {3.1.3.5}Atividade 4: Demonstração e Avaliação}{20}{subsubsection.3.1.3.5}%
-\contentsline {paragraph}{\numberline {3.1.3.5.1}Contexto e Participantes}{20}{paragraph.3.1.3.5.1}%
-\contentsline {paragraph}{\numberline {3.1.3.5.2}Procedimentos de Coleta}{20}{paragraph.3.1.3.5.2}%
-\contentsline {section}{\numberline {3.2}Plano de Análise de Dados}{20}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Pré-processamento e Limpeza}{20}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Geração de Métricas Educacionais}{20}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Análise Estatística e Identificação de Padrões}{20}{subsection.3.2.3}%
-\contentsline {section}{\numberline {3.3}Cronograma}{20}{section.3.3}%
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase []{Fundamentação Teórica}}{7}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Desafios no Ensino de Programação e a Lacuna Instrucional sobre Logging}{7}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Logging: Conceitos e Aplicações na Engenharia de Software}{7}{section.1.2}%
+\contentsline {section}{\numberline {1.3}A Análise de Logs como Ferramenta Educacional}{8}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Metodologia para Análise de Logs Educacionais}{8}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Coleta e Pré-processamento}{8}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Geração de Indicadores Educacionais}{8}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}Análise de Padrões e Autoria}{9}{subsection.1.4.3}%
+\contentsline {section}{\numberline {1.5}A Extensão Logado: Proposta de Implementação}{9}{section.1.5}%
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{23}{section*.12}%
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Mapeamento Sistemático da Literatura}}{26}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Objetivo e questões de pesquisa}{26}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Resultados da Busca e Caracterização dos Estudos}{26}{section.A.2}%
-\contentsline {subsection}{\numberline {A.2.1}Perfil dos Estudos Incluídos}{27}{subsection.A.2.1}%
-\contentsline {subsection}{\numberline {A.2.2}Respostas para QP1: Quais são os principais objetivos e aplicações do uso de logs no ensino de programação?}{27}{subsection.A.2.2}%
-\contentsline {subsection}{\numberline {A.2.3}Respostas para QP2: Quais ferramentas, métodos e métricas são mais utilizados para capturar, armazenar e analisar logs em ambientes de ensino de programação?}{30}{subsection.A.2.3}%
-\contentsline {section}{\numberline {A.3}Identificação dos Estudos}{31}{section.A.3}%
-\contentsline {subsection}{\numberline {A.3.1}Estratégia de Busca}{31}{subsection.A.3.1}%
-\contentsline {subsection}{\numberline {A.3.2}Idioma dos Trabalhos}{32}{subsection.A.3.2}%
-\contentsline {subsection}{\numberline {A.3.3}Critérios de Inclusão}{32}{subsection.A.3.3}%
-\contentsline {subsection}{\numberline {A.3.4}Critérios de Exclusão}{32}{subsection.A.3.4}%
-\contentsline {section}{\numberline {A.4}Lacunas Identificadas e Trabalhos Futuros}{32}{section.A.4}%
-\renewcommand *{\cftappendixname }{AP\^ENDICE \space }
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Survey}}{35}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Método}{35}{section.B.1}%
-\contentsline {section}{\numberline {B.2}Instrumento de pesquisa}{35}{section.B.2}%
-\contentsline {section}{\numberline {B.3}Respostas}{36}{section.B.3}%
-\contentsline {subsection}{\numberline {B.3.1}Análise de Ferramentas Utilizadas}{37}{subsection.B.3.1}%
-\contentsline {subsection}{\numberline {B.3.2}Comparações entre Grupos}{38}{subsection.B.3.2}%
-\contentsline {subsection}{\numberline {B.3.3}Análise de Dataset e Correções}{38}{subsection.B.3.3}%
-\contentsline {subsection}{\numberline {B.3.4}Opinião sobre Plugins no Ensino}{39}{subsection.B.3.4}%
-\contentsline {subsection}{\numberline {B.3.5}IDEs utilizados por Instituições}{39}{subsection.B.3.5}%
+\contentsline {chapter}{\uppercase {Refer\^encias}}{10}{section*.8}%
