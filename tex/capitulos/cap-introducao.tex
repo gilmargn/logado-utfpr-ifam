@@ -8,28 +8,25 @@
 
 
 Enquanto o ensino tradicional foca na leitura e escrita de textos, os cursos de programação introduzem uma nova
-de forma de pensamento: os algoritmos. Estes, que são sequências lógicas interpretadas por humanos 
+de forma de pensamento: os algoritmos. Estes são sequências lógicas interpretadas por humanos 
 e máquinas. Essa disciplina, presente em cursos de áreas tecnológicas, é ``considerada desafiadora para alunos 
-e professores" \cite{raabe2005ambiente}, pois exige o desenvolvimento de uma lógica formal.
+e professores"~ \cite{raabe2005ambiente}, pois exige o desenvolvimento de uma lógica formal.
 
 Ainda segundo \cite{raabe2005ambiente}, as dificuldades no aprendizado de programação podem ser categorizadas
 em três grupos distintos, que vão além da simples aptidão individual: Problemas de natureza didática 
-(relacionados aos métodos de ensino), cognitiva(relacionados aos desafios de raciocínio lógico e  abstração) e 
+(relacionados aos métodos de ensino), cognitiva (relacionados aos desafios de raciocínio lógico e  abstração) e 
 afetiva(relacionados à motivação, ansiedade e confiança do aluno). Essa categorização sistêmica ajuda a
 entender que o desafio requer iniciativas diferentes.  
 
-No contexto educacional, a avaliação é entendida como uma etapa ao processo de ensino e aprendizagem, o que a 
+No contexto educacional, a avaliação é entendida como uma etapa do processo de ensino e aprendizagem, o que a 
 torna um tema permanente de reflexão e estudo entre especialistas da área, que buscam constantemente refinar 
 suas práticas para alcançar melhores resultados \cite{lima2022avaliaccao}
 
-A avaliação no curso técnico é um processo bifronte, contemplando tanto a avaliação da aprendizagem do 
-estudante quanto a avaliação do sistema educacional como um todo. No que tange à aprendizagem, o projeto 
-pedagógico estabelece que seu objetivo central é a progressão do discente para o alcance do perfil profissional
-almejado. Nesse sentido, a Resolução que rege o curso determina que esse processo ``é contínua e cumulativa,
-com prevalência dos aspectos qualitativos sobre os quantitativos, bem como dos resultados ao longo do processo 
-sobre os de eventuais provas finais" \cite{IFAM2020}. Paralelamente, a avaliação do sistema, referente ao 
-rendimento acadêmico, deve ser realizada para cada disciplina individualmente, considerando de forma simultânea 
-e obrigatória a frequência do aluno e seu aproveitamento na aquisição de conhecimentos \cite{IFAM2020}.
+A avaliação no curso técnico configura-se como um processo bifronte, pois contempla tanto a avaliação da aprendizagem do estudante quanto a avaliação do sistema educacional como um todo.
+
+No que se refere à aprendizagem, o projeto pedagógico estabelece como objetivo central a progressão do discente para o alcance do perfil profissional almejado. Nesse sentido, o Art. 34º da Resolução CNE/CEB nº 6, de 20 de setembro de 2012, que rege o curso, determina que esse processo "é contínuo e cumulativo, com prevalência dos aspectos qualitativos sobre os quantitativos, bem como dos resultados ao longo do processo sobre os de eventuais provas finais" ~\cite{IFAM2020}.
+
+Paralelamente, a avaliação do sistema, referente ao rendimento acadêmico, deve ser realizada para cada disciplina individualmente, considerando de forma simultânea e obrigatória a frequência do aluno e seu aproveitamento na aquisição de competências e conhecimentos \cite{IFAM2020}.
 
 O ensino de programação é uma atividade multidisciplinar que demanda uma práxis pedagógica apurada -- ou seja, 
 uma constante reflexão que integre teoria e prática em sala de aula. Uma estratégia comum é utilizar exemplos 
@@ -41,12 +38,12 @@ registros conhecidos como logs. Mas como esses logs podem ser utilizados para tr
 aprendizagem? Este texto explora a interseção entre tecnologia e educação, mostrando como a análise de logs 
 pode oferecer perspectivas valiosas para personalizar o ensino e identificar dificuldades dos alunos.
 
-Essas interações, além de transformar entradas em saídas, geram logs. De acordo com Sah (2002, apud 
-\cite{clemente2008arquitetura}), ``log é definido como um conjunto de registros com marcação temporal, que 
-suporta apenas inserção, e que representa eventos que aconteceram em um computador ou equipamento de rede". 
-Além disso, segundo \cite{gu2022logging}, ``um log geralmente contém um grande número de entradas, também 
-conhecidas como mensagens de registro". Em geral, o nível do log, seu conteúdo e o local adequado para declará-
-lo são decisões tomadas pelos desenvolvedores durante a criação do software.
+Esses registros, ou logs, são gerados continuamente durante as interações entre humanos e máquinas. De acordo 
+com Sah (2002, apud \cite{clemente2008arquitetura}), ``log é definido como um conjunto de registros com 
+marcação temporal, que suporta apenas inserção, e que representa eventos que aconteceram em um computador ou 
+equipamento de rede". Além disso, segundo \cite{gu2022logging}, ``um log geralmente contém um grande número de 
+entradas, também conhecidas como mensagens de registro". Em geral, o nível do log, seu conteúdo e o local 
+adequado para declará-lo são decisões tomadas pelos desenvolvedores durante a criação do software.
 
 O processo de ensino pode ser compreendido analogamente a uma tecnologia que pode ser atualizada, adaptada ou 
 aplicada em diferentes contextos. No entanto, para estimar o tempo de produção de um código, métodos 
@@ -58,7 +55,7 @@ Ademais, a análise de logs pode revelar padrões de comportamento e envio, forn
 não apenas para a intervenção individual, mas para a melhoria contínua  e baseada em evidências do processo 
 educacional como um todo.
 
-É aqui que entram métricas de análise de código. para além das tradicionais métricas de complexidade 
+É aqui que entram métricas de análise de código. Para além das tradicionais métricas de complexidade 
 computacional (como tempo de execução), o professor pode lançar mão de métricas de similaridade e 
 adequação estrutural, que avaliam, por exemplo, o uso esperado de variáveis, a aplicação correta de laços de 
 repetição e o emprego adequado das palavras reservadas da linguagem. 
@@ -71,28 +68,12 @@ letivos e diferentes metodologias de ensino para a avaliação em larga escala.
 
 \section{Contexto, motivação e justificativa}\label{sec:consideracoesIniciais}
 
-Diferentemente da avaliação quantitativa, que prioriza resultados 
-finais, a avaliação qualitativa é fundamental para aferir o processo de 
-aprendizado. Em cursos de algoritmos, esse acompanhamento processual 
-pode ser significativamente ampliado com o uso de telemetria.  Conforme 
-proposto por \cite{russo2015towards}, essa abordagem é sinérgica em 
-relação aos mecanismos tradicionais de \textit{feedback}, como notas em 
-laboratórios, tarefas e exames. A telemetria não os substitui, mas 
-oferece uma camada adicional de dados contínuos e objetivos sobre o 
-comportamento do estudante, enriquecendo a análise do docente.
-Saber o que acontece dentro de um sistema enquanto ele está em execução 
-é benéfico para fins de depuração, manutenção e para fins de 
-análise.\cite{Gatev2021} (tradução nossa). Nosso trabalho buscará 
-entender como os discentes produzem os códigos focando em algumas 
-observações geradas por logs.
+Diferentemente da avaliação quantitativa, que prioriza resultados finais, a avaliação qualitativa é fundamental para aferir o processo de aprendizado. Em cursos de algoritmos, esse acompanhamento processual pode ser significativamente ampliado com o uso da telemetria. Conforme proposto por \cite{russo2015towards}, essa abordagem é sinérgica em relação aos mecanismos tradicionais de \textit{feedback}, como notas em laboratórios, tarefas e exames. A telemetria não os substitui, mas oferece uma camada adicional de dados contínuos e objetivos sobre o comportamento do estudante, enriquecendo a análise do docente.
 
-A telemetria proveniente de seus aplicativos geralmente pode ser dividida em três categorias: logs, métricas e rastros. Idealmente, você deve trabalhar para ter um único painel de vidro que possa mostrar todas as três categorias para que você possa navegar entre elas. \cite{Gatev2021}
 
-Para \cite{theLinuxFoundation-2024}``Telemetria é o processo de coleta 
-e transmissão automática de dados de sistemas remotos ou distribuídos 
-para monitorar, medir e rastrear o desempenho ou o status desses 
-sistemas. Os dados de telemetria fornecem percepções em tempo real 
-sobre o desempenho de diferentes partes de um aplicativo". 
+O valor desses dados é claro, pois ``saber o que acontece dentro de um sistema enquanto ele está em execução é benéfico para fins de depuração, manutenção e para fins de análise" \cite{Gatev2021}. De fato, um log -- registro com marcação temporal que captura eventos de um sistema -- contém um grande número de entradas que formam um rico histórico de execução \cite{gu2022logging}. Nosso trabalho buscará entender como os discentes produzem os códigos, focando em observação geradas pela análise desses logs.
+
+Embora a Mineração de Dados Educacionais tradicional pressuponha bases de dados estruturadas, a fase de coleta por meio de \textit{logs} nativos de programação — e não através de acessos em LMS — permanece pouco explorada na literatura. \cite{kennedy2015towards} é uma exceção notável, abordando a captura de telemetria em tutoriais de programação. Nosso trabalho avança nessa direção, propondo uma metodologia para coleta sistemática de \textit{logs} durante o desenvolvimento de algoritmos.
 
 %KENNEDY, Anna Russo. Towards a Data-Driven Analysis of Programming Tutorials. Telemetry to Improve the Educational Experience in Introductory Programming Courses?, Diss. University of Victoria, 2015.
 Apesar do uso consolidado em ferramentas de desenvolvimento de 

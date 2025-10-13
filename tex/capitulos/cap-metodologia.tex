@@ -3,10 +3,9 @@
 
 Este capítulo descreve a abordagem metodológica adotada, que combina uma Revisão Sistemática da Literatura (detalhada no Apêndice A) e um survey exploratório (resultados completos no Apêndice B) com a metodologia de Design Science Research para o desenvolvimento do artefato proposto. 
 
-% --- SEÇÃO PRINCIPAL SOBRE METODOLOGIA ---
 \section{Abordagem Metodológica}
 \label{sec:abordagem-metodologica}
-Este trabalho adota uma abordagem metodológica mista, combinando métodos de pesquisa bibliográfica e empírica para garantir uma fundamentação sólida tanto no estado da arte quanto no contexto prático do problema investigado.
+Este trabalho adota uma abordagem metodológica mista, combinando métodos de pesquisa bibliográfica e empírica para garantir uma fundamentação sólida tanto no estado da arte quanto no contexto prático do problema investigado. Os procedimentos metodológicos da presente pesquisa respeitam os preceitos éticos constantes na resolução que trata de pesquisas com seres humanos, Resolução n° 510 de 2016 (Resolução CNS no 466/2012, item III e item XIV (CAAE: xxxxxx).
 
 \subsection{Revisão Sistemática da Literatura}
 \label{subsec:revisao-sistematica}
@@ -36,11 +35,11 @@ O problema central identificado é a carência de ferramentas específicas para 
 Com base no problema identificado, definiram-se os seguintes objetivos:
 
 \textbf{Objetivo Geral:}
-Desenvolver e validar uma extensão para coleta e análise de logs durante o processo de ensino-aprendizagem de programação.
+Desenvolver e validar um \textit{plugin} para coleta e análise de logs durante o processo de ensino-aprendizagem de programação.
 
 \textbf{Objetivos Específicos:}
 \begin{enumerate}
-    \item Desenvolver uma extensão para registro de eventos em IDE
+    \item Desenvolver um \textit{plugin} para registro de eventos em IDE
     \item Implementar o plugin na IDE utilizada na disciplina
     \item Coletar, sincronizar e armazenar dados de eventos
     \item Desenvolver um dataset com os dados coletados
@@ -53,7 +52,7 @@ Desenvolver e validar uma extensão para coleta e análise de logs durante o pro
 \subsubsection{Especificação de Requisitos do Artefato}
 \label{subsubsec:requisitos}
 
-Para garantir que a extensão \textit{Logado} atenda aos objetivos da pesquisa e às necessidades dos usuários finais, foi realizada uma etapa de especificação de requisitos. A análise inicial identificou dois atores principais, cujas necessidades são sumarizadas na Tabela \ref{tab:analise-atores}.
+Para garantir que um \textit{plugin} \textit{Logado} atenda aos objetivos da pesquisa e às necessidades dos usuários finais, foi realizada uma etapa de especificação de requisitos. A análise inicial identificou dois atores principais, cujas necessidades são sumarizadas na Tabela \ref{tab:analise-atores}.
 
 \begin{table}[h!]
 \centering
@@ -76,21 +75,21 @@ Com base nesta análise, foram elaborados diagramas de casos de uso para especif
 \begin{figure}[H]
     \centering
     \includegraphics[width=1.1\textwidth]{../figuras/caso-de-uso-discentes.png}
-    \caption{Casos de uso da extensão Logado - Visão do Discente}
+    \caption{Casos de uso de um \textit{plugin} Logado - Visão do Discente}
     \label{fig:casos-uso-discente}
 \end{figure}
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1.1\textwidth]{../figuras/caso-de-uso-pesquisa.png}
-    \caption{Casos de uso da extensão Logado - Visão do Pesquisador}
+    \caption{Casos de uso de um \textit{plugin} Logado - Visão do Pesquisador}
     \label{fig:casos-de-usos-pesquisa}
 \end{figure}
 
 A partir dos casos de uso, foram derivados os requisitos formais do sistema:
 
 \paragraph{Requisitos Funcionais}
-Os requisitos funcionais definem as funcionalidades que o sistema deve executar. Para o ator \textbf{Discente}, a extensão deve:
+Os requisitos funcionais definem as funcionalidades que o sistema deve executar. Para o ator \textbf{Discente}, um \textit{plugin} deve:
 \begin{itemize}
     \item \textbf{RF01:} Registrar automaticamente eventos de edição de código (e.g., inserção, deleção de caracteres).
     \item \textbf{RF02:} Capturar eventos de compilação e execução de código, incluindo sucesso ou falha.
@@ -99,7 +98,7 @@ Os requisitos funcionais definem as funcionalidades que o sistema deve executar.
     \item \textbf{RF05:} Exibir notificações de confirmação de operações para o usuário.
 \end{itemize}
 
-Para o ator \textbf{Pesquisador}, a extensão deve:
+Para o ator \textbf{Pesquisador}, um \textit{plugin} deve:
 \begin{itemize}
     \item \textbf{RF06:} Fornecer uma interface de configuração para parametrizar os eventos a serem capturados.
     \item \textbf{RF07:} Gerar identificadores únicos anônimos para cada sessão de uso.
@@ -108,14 +107,14 @@ Para o ator \textbf{Pesquisador}, a extensão deve:
 \paragraph{Requisitos Não-Funcionais}
 Estes requisitos definem os critérios de qualidade para o sistema:
 \begin{itemize}
-    \item \textbf{RNF01 (Desempenho):} A extensão não deve impactar significativamente o desempenho da IDE. O tempo de resposta deve ser inferior a 100ms para operações de registro.
+    \item \textbf{RNF01 (Desempenho):} um \textit{plugin} não deve impactar significativamente o desempenho da IDE. O tempo de resposta deve ser inferior a 100ms para operações de registro.
     \item \textbf{RNF02 (Usabilidade):} A instalação e o uso devem ser simples, não requerendo configuração complexa por parte do discente.
-    \item \textbf{RNF03 (Confiabilidade):} A extensão deve garantir a persistência dos logs mesmo em caso de fechamento inesperado da IDE.
+    \item \textbf{RNF03 (Confiabilidade):} um \textit{plugin} deve garantir a persistência dos logs mesmo em caso de fechamento inesperado da IDE.
     \item \textbf{RNF04 (Segurança e Privacidade):} Todos os dados pessoais devem ser anonimizados antes do envio ao servidor, conforme a LGPD.
 \end{itemize}
 
 \paragraph{Desenvolvimento do Artefato}
-Desenvolvimento da extensão LOGADO para Visual Studio Code, com funcionalidades de captura de eventos de programação.
+Desenvolvimento de um \textit{plugin} LOGADO para Visual Studio Code, com funcionalidades de captura de eventos de programação.
 
 \subsubsection{Atividade 4: Demonstração e Avaliação}
 \label{subsubsec:demonstracao-avaliacao}

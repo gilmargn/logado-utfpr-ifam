@@ -1,0 +1,177 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{Gilmar Gomes do Nascimento}
+\title{Termo de Consentimento Livre e Esclarecido (TCLE)}
+\definecolor{labelcolor}{RGB}{70, 70, 70}
+\definecolor{linecolor}{RGB}{150, 150, 150}
+
+% Custom command for form fields
+\newcommand{\formfield}[2][1]{%
+	\textcolor{labelcolor}{\textbf{#2}} \\[0.3cm]
+	\textcolor{linecolor}{\makebox[\linewidth]{\hrulefill}} \\[#1cm]
+}
+
+% Custom command for two-column fields
+\newcommand{\twocolfield}[4]{%
+	\begin{minipage}[t]{#1\textwidth}
+		\formfield[#2]{#3}
+	\end{minipage}%
+	\hfill
+	\begin{minipage}[t]{#4\textwidth}
+		\formfield[#2]{#3}
+	\end{minipage}
+}
+
+% Custom command for three-column fields
+\newcommand{\threecolfield}[6]{%
+	\begin{minipage}[t]{#1\textwidth}
+		\formfield[0.8]{#2}
+	\end{minipage}%
+	\hfill
+	\begin{minipage}[t]{#3\textwidth}
+		\formfield[0.8]{#4}
+	\end{minipage}%
+	\hfill
+	\begin{minipage}[t]{#5\textwidth}
+		\formfield[0.8]{#6}
+	\end{minipage}
+}
+\begin{document}
+
+\begin{center}
+\textbf{TERMO DE CONSENTIMENTO LIVRE E ESCLARECIDO(TCLE)}
+\end{center}
+
+\vspace{2\baselineskip} % Multiples of line height (more robust)
+\noindent
+\textbf{Título da Pesquisa:} Uso de logs no auxílio no ensino de programação \\
+\textbf{Instituição Proponente:} Universidade Tecnológica Federal do Paraná(UTFPR-CT)\\
+\textbf{Programa:} Programa de Pós-Graduação em Computação Aplicada (PPGCA/UTFPR-CT)\\
+\textbf{Endereço:} Av. Sete de Setembro, 3165 - Rebouças, Curitiba - PR, CEP 80230-901 \\
+\textbf{Telefone:} (41) 3310-4524 \\
+
+\vspace{\baselineskip}
+\noindent \textbf{Pesquisador Responsável:} Laudelino Cordeiro Bastos\\
+\textbf{Vínculo Institucional:} Docente no PPGCA/UTFPR-CT \\
+\textbf{Endereço:} Av. Sete de Setembro, 3165 - Rebouças, Curitiba - PR, CEP 80230-901 \\
+\textbf{E-mail:} bastos@utfpr.edu.br \\
+\textbf{Telefone:} 41 9972-8239 \\
+
+\vspace{\baselineskip}
+\noindent\textbf{Pesquisador:} Gilmar Gomes do Nascimento \\
+\textbf{Vínculo Institucional:} Professor EBTT IFAM/CBDA - Discente PPGCA/UTFPR-CT \\
+\textbf{Endereço:} Rua Fontenele de Castro, sn \\
+\textbf{E-mail:} gilmar.nascimento@ifam.edu.br \\
+\textbf{Telefone:} (97) 999149-5919 \\
+
+\vspace{\baselineskip}
+\noindent
+\textbf{Pesquisadora:} Maria Claudia Emer \\
+\textbf{Vínculo Institucional:} Docente no PPGCA/UTFPR-CT\\
+\textbf{Endereço:} Av. Sete de Setembro, 3165 - Rebouças, Curitiba - PR, CEP 80230-901 \\
+\textbf{E-mail:} mciemer@gmail.com \\
+\textbf{Telefone:} 41 9282-4938
+\vspace{\baselineskip}
+
+\section{AO PARTICIPANTE}
+\subsection{Apresentação da pesquisa}
+
+\noindent Você está sendo convidado(a) a participar de uma pesquisa científica intitula ``O uso de logs no auxílio de ensino de programação". Esta pesquisa é de responsabilidade de Laudelino Cordeiro Bastos, Gilmar Gomes do Nascimento e Maria Claudia Emer, pesquisadores(as) vinculados(as) ao Programa de Pós-Graduação em Computação Aplicada (PPGCA) da Universidade Tecnológica Federal do Paraná, campus Curitiba(UTFPR-CT).
+
+Este documento é nomeado Termo de Consentimento Livre e Esclarecido(TCLE). Nele estão contidas as principais informações sobre a pesquisa. Para que possa assegurar seus direitos quanto à participação no estudo é importante e necessário que você mantenha sob a sua guarda uma cópia deste termo, sendo o mesmo aplicável aos demais questionários da pesquisa. Assim, lhe orientamos para que, sempre após a leitura e preenchimento dos termos e questionários que lhe forem apresentados, você realize o download e impressão de documento/página do navegador. 
+
+Contexto e justificativa da pesquisa: O uso de dispositivos deixam rastros, esses logs geralmente são de acesso ou de uso de algum software, este trabalho busca armazenar logs no ensino-aprendizagem de desenvolvimento de códigos nas aulas de programação no laboratório de informática utilizando um editor de texto e ao plugin que será adicionado com informações básicas de acesso, como nome de usuário, uma senha e o código da disciplina. 
+
+\section{Objetivos da pesquisa}
+
+O objetivo geral deste trabalho é desenvolver e implementar uma extensão para coleta e análise de logs durante o processo de ensino-aprendizagem de programação, com o intuito de fornecer métricas que auxiliem na identificação de dificuldades dos alunos, na personalização do ensino e no aprimoramento das práticas pedagógicas
+
+\section{Participação na pesquisa}
+
+Sua participação nesta pesquisa é voluntária (sem remuneração e ou recompensas) e não obrigatória. Você possui plena liberdade para decidir se deseja participar dela, não sofrendo qualquer tipo de penalização caso opte por não participar. 
+
+O método utilizado será a Pesquisa de Ciência do Design. Assim os(as) estudantes que aceitarem participar serão divididos em grupos. Os grupos preencherão questionários e participarão de um momento de ensino e aprendizado do conteúdo os dados separados em arquivos de textos com os logs e na próxima etapa os dados estarão aglomerados sem identificação em uma base de dados maior com outros dados. 
+
+O experimento será realizado em laboratórios de informática do IFAM-CBDA durante o horário das disciplinas ``Algoritmo e Lógica de Programação" e ``Estrutura de Dados".
+
+
+\section*{ESCLARECIMENTOS SOBRE O COMITÊ DE ÉTICA EM PESQUISA}
+ O Comitê de Ética em Pesquisa envolvendo Seres Humanos (CEP) é constituído por uma equipe de profissionais com formação multidisciplinar que está trabalhando para assegurar o respeito aos seus direitos como participante da pesquisa. Ele tem por objetivo avaliar se a pesquisa não está sendo realizada da forma como você foi informado ou que você está sendo prejudicado de alguma forma, entre em contato com o Comitê de Ética em Pesquisa envolvendo Seres Humanos do Instituto Federal de Educação, Ciência e Tecnologia do Amazonas. \textbf{E-mail:} cepsh.ppgi@ifam.edu.br
+\newpage
+\subsection*{CONSENTIMENTO}
+
+Declaro que, após a leitura deste termo, reflexão e um tempo razoável para a tomada de decisão, aceito livre e voluntariamente participar desta pesquisa.\\[1cm]
+
+\noindent
+\begin{minipage}{\textwidth}
+	\formfield[1.2]{Nome completo:}
+\end{minipage}
+
+% RG and Birth date (two columns)
+\noindent
+\begin{minipage}[t]{0.48\textwidth}
+	\formfield[1]{RG:}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+	\formfield[1]{Data de Nascimento:}
+\end{minipage}
+
+% Phone number
+\noindent
+\begin{minipage}{\textwidth}
+	\formfield[1.2]{Celular:}
+\end{minipage}
+
+% Address (with two lines)
+\noindent
+\begin{minipage}{\textwidth}
+	\textcolor{labelcolor}{\textbf{Endereço:}} \\[0.3cm]
+	\textcolor{linecolor}{\makebox[\textwidth]{\hrulefill}} \\[0.3cm]
+	\textcolor{linecolor}{\makebox[\textwidth]{\hrulefill}} \\[1.2cm]
+\end{minipage}
+
+% ZIP, City, State (three columns)
+\noindent
+\begin{minipage}[t]{0.25\textwidth}
+	\formfield[0.8]{CEP:}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+	\formfield[0.8]{Cidade:}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.25\textwidth}
+	\formfield[0.8]{Estado:}
+\end{minipage}
+
+\vspace{1cm}
+
+% Signature field
+\noindent
+\begin{minipage}{\textwidth}
+	\formfield[0.5]{Assinatura:}
+\end{minipage}
+
+\vspace{0.5cm}
+
+% Date field for signature
+\noindent
+\begin{minipage}[t]{0.6\textwidth}
+	\formfield[0.5]{Local:}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.35\textwidth}
+	\formfield[0.5]{Data:}
+\end{minipage}
+\end{document}
