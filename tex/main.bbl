@@ -22,9 +22,10 @@
 
 \bibitem[Clemente 2008]{clemente2008arquitetura}
 \abntrefinfo{Clemente}{Clemente}{2008}
-{CLEMENTE, R.~G. Uma arquitetura para processamento de eventos de log em tempo
-  real.
-\textbf{Agosto de}, ,,, 2008.}
+{CLEMENTE, R.~G.
+\textbf{Uma arquitetura para processamento de eventos de log em tempo real}.
+2008. 15--77~p. Disserta\c{c}\~{a}o (Mestrado) --- Pontifícia Universidade
+  Católica do Rio de Janeiro 2008.}
 
 \bibitem[Du e Wagner 2005]{du2005learning}
 \abntrefinfo{Du e Wagner}{Du; Wagner}{2005}
@@ -32,21 +33,6 @@
   \textit{In}: IEEE. PROCEEDINGS OF THE 38TH ANNUAL HAWAII INTERNATIONAL
   CONFERENCE ON SYSTEM SCIENCES. 2005. \textbf{Anais [...]} [\textit{S.l.}],
   2005. p. 7b--7b.}
-
-\bibitem[Educa{\c{c}}{\~a}o 2020]{IFAM2020}
-\abntrefinfo{Educa{\c{c}}{\~a}o}{Educa{\c{c}}{\~a}o}{2020}
-{EDUCA{\c{C}}{\~A}O, C. e. T. d.~A. Instituto Federal~de. \textbf{Projeto
-  Pedagógico do Curso Técnico de Nível Médio em Informática, na Forma
-  Subsequente}.
-Boca do Acre: ,  2020. Dispon{\'\i}vel em:
-  \url{https:cbda.ifam.edu.br/cursos/subsequentes/info/ppc-info-subse
-  quente.pdf}.}
-
-\bibitem[Foundation]{theLinuxFoundation-2024}
-\abntrefinfo{Foundation}{Foundation}{}
-{FOUNDATION, L. \textbf{The Linux Foundation}. [\textit{S.l.}]: , .
-  \url{https://trainingportal.linuxfoundation.org/learn/course/getting-started-with-opentelemetry-lfs148/why-do-we-need-opentelemetry/how-we-got-here?page=5}.
-Accessed: 2024-12-3.}
 
 \bibitem[Fu \textit{et al.} 2014]{fu_where_2014}
 \abntrefinfo{Fu \textit{et al.}}{Fu \textit{et al.}}{2014}
@@ -83,7 +69,7 @@ Dispon{\'\i}vel em: \url{https://doi.org/10.1007/978-1-4842-6998-5\_12}.}
 \bibitem[Hevner \textit{et al.} 2004]{hevner2004design}
 \abntrefinfo{Hevner \textit{et al.}}{Hevner \textit{et al.}}{2004}
 {HEVNER, A.~R. \textit{et al.} Design science in information systems research.
-\textbf{MIS quarterly},  JSTOR,, p. 75--105, 2004.}
+\textbf{MIS Quarterly},  JSTOR v.~28, n.~1, p. 75--105, 2004.}
 
 \bibitem[Huang \textit{et al.} 2020]{huang2020predicting}
 \abntrefinfo{Huang \textit{et al.}}{Huang \textit{et al.}}{2020}
@@ -93,7 +79,14 @@ Dispon{\'\i}vel em: \url{https://doi.org/10.1007/978-1-4842-6998-5\_12}.}
 \textbf{Interactive Learning Environments},  Taylor \& Francis v.~28, n.~2, p.
   206--230, 2020.}
 
-\bibitem[Kennedy 2015]{russo2015towards}
+\bibitem[IFAM 2020]{IFAM2020}
+\abntrefinfo{IFAM}{Ifam}{2020}
+{IFAM. \textbf{Projeto Pedagógico do Curso Técnico de Nível Médio em
+  Informática, na Forma Subsequente}.
+[\textit{S.l.}],  2020. Dispon{\'\i}vel em:
+  \url{https://portal.ifam.edu.br/documents/754/INFORMATICA.pdf}.}
+
+\bibitem[Kennedy 2015]{kennedy2015towards}
 \abntrefinfo{Kennedy}{Kennedy}{2015}
 {KENNEDY, A. R.
 \textbf{Towards a data-driven analysis of programming tutorials' telemetry to
@@ -107,11 +100,9 @@ Dispon{\'\i}vel em: \url{https://doi.org/10.1007/978-1-4842-6998-5\_12}.}
 
 \bibitem[Lima \textit{et al.} 2022]{lima2022avaliaccao}
 \abntrefinfo{Lima \textit{et al.}}{Lima \textit{et al.}}{2022}
-{LIMA, N.~A. \textit{et al.} Avalia{\c{c}}{\~a}o da aprendizagem nos institutos
-  federais em goi{\'a}s durante a pandemia: uma investiga{\c{c}}{\~a}o
-  documental, .
-Insitituto Federal de Educa{\c{c}}{\~a}o, Ci{\^e}ncia e Tecnologia de
-  Goi{\'a}s,,, 2022.}
+{LIMA, N.~A. \textit{et al.} \textbf{Avaliação da aprendizagem nos Institutos
+  Federais em Goiás durante a pandemia: uma investigação documental}.
+[\textit{S.l.}],  2022.}
 
 \bibitem[Liu \textit{et al.} 2018]{liu2018user}
 \abntrefinfo{Liu \textit{et al.}}{Liu \textit{et al.}}{2018}
@@ -134,8 +125,8 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Nguyen, Ha e Chen}{Nguyen; Ha; Chen}{2023}
 {NGUYEN, B.-A.; HA, T.-V.~T.; CHEN, H.-M. Analyzing git log in an code-quality
   aware automated programming assessment system: A case study.
-\textbf{tvujs}, ,,, set. 2023.
-ISSN 2815-6099, 2815-6072.
+\textbf{TVU Journal of Science},  v.~13, n.~3, p. 1--15, 2023.
+ISSN 2815-6099.
 Dispon{\'\i}vel em:
   \url{https://journal.tvu.edu.vn/index.php/journal/article/view/2430}.}
 
@@ -158,6 +149,11 @@ Dispon{\'\i}vel em:
   understanding students’ behaviour in introductory programming.
 \textbf{British journal of educational technology},  Wiley Online Library
   v.~51, n.~4, p. 955--972, 2020.}
+
+\bibitem[Pressman 2014]{pressman2014}
+\abntrefinfo{Pressman}{Pressman}{2014}
+{PRESSMAN, R.~S. \textbf{Engenharia de Software: Uma Abordagem Profissional}.
+  7. ed. [\textit{S.l.}]: AMGH,  2014.}
 
 \bibitem[Qian e Lehman 2017]{qian2017students}
 \abntrefinfo{Qian e Lehman}{Qian; Lehman}{2017}
@@ -193,6 +189,11 @@ Dispon{\'\i}vel em:
   \textit{In}: SBC. ANAIS DO XXXIII SIMPóSIO BRASILEIRO DE INFORMáTICA NA
   EDUCAçãO. 2022. \textbf{Anais [...]} [\textit{S.l.}], 2022. p. 859--870.}
 
+\bibitem[Sommerville 2011]{sommerville2011}
+\abntrefinfo{Sommerville}{Sommerville}{2011}
+{SOMMERVILLE, I. \textbf{Engenharia de Software}. 9. ed. [\textit{S.l.}]:
+  Pearson,  2011.}
+
 \bibitem[Umezawa \textit{et al.} 2020]{umezawa2020analysis}
 \abntrefinfo{Umezawa \textit{et al.}}{Umezawa \textit{et al.}}{2020}
 {UMEZAWA, K. \textit{et al.} Analysis of logic errors utilizing a large amount
@@ -200,6 +201,11 @@ Dispon{\'\i}vel em:
   INTERNATIONAL CONFERENCE ON TEACHING, ASSESSMENT, AND LEARNING FOR
   ENGINEERING (TALE). 2020. \textbf{Anais [...]} [\textit{S.l.}], 2020. p.
   630--634.}
+
+\bibitem[Valente 2020]{valente2020}
+\abntrefinfo{Valente}{Valente}{2020}
+{VALENTE, M.~T. \textbf{Engenharia de Software Moderna}. 1. ed.
+  [\textit{S.l.}]: Independente,  2020.}
 
 \bibitem[Yang \textit{et al.} 2021]{yang2021interview}
 \abntrefinfo{Yang \textit{et al.}}{Yang \textit{et al.}}{2021}

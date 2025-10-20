@@ -68,77 +68,67 @@ letivos e diferentes metodologias de ensino para a avaliação em larga escala.
 
 \section{Contexto, motivação e justificativa}\label{sec:consideracoesIniciais}
 
-Diferentemente da avaliação quantitativa, que prioriza resultados finais, a avaliação qualitativa é fundamental para aferir o processo de aprendizado. Em cursos de algoritmos, esse acompanhamento processual pode ser significativamente ampliado com o uso da telemetria. Conforme proposto por \cite{russo2015towards}, essa abordagem é sinérgica em relação aos mecanismos tradicionais de \textit{feedback}, como notas em laboratórios, tarefas e exames. A telemetria não os substitui, mas oferece uma camada adicional de dados contínuos e objetivos sobre o comportamento do estudante, enriquecendo a análise do docente.
+Diferentemente da avaliação quantitativa, que prioriza resultados finais, a avaliação qualitativa é fundamental 
+para aferir o processo de aprendizado. Em cursos de algoritmos, esse acompanhamento processual pode ser 
+significativamente ampliado com o uso da telemetria. Conforme proposto por \cite{russo2015towards}, essa 
+abordagem é sinérgica em relação aos mecanismos tradicionais de \textit{feedback}, como notas em laboratórios, 
+tarefas e exames. A telemetria não os substitui, mas oferece uma camada adicional de dados contínuos e 
+objetivos sobre o comportamento do estudante, enriquecendo a análise do docente.
 
+O valor desses dados é claro, pois ``saber o que acontece dentro de um sistema enquanto ele está em execução é 
+benéfico para fins de depuração, manutenção e para fins de análise" \cite{Gatev2021}. De fato, um log -- 
+registro com marcação temporal que captura eventos de um sistema -- contém um grande número de entradas que 
+formam um rico histórico de execução \cite{gu2022logging}. Nosso trabalho buscará entender como os discentes 
+produzem os códigos, focando em observação geradas pela análise desses logs.
 
-O valor desses dados é claro, pois ``saber o que acontece dentro de um sistema enquanto ele está em execução é benéfico para fins de depuração, manutenção e para fins de análise" \cite{Gatev2021}. De fato, um log -- registro com marcação temporal que captura eventos de um sistema -- contém um grande número de entradas que formam um rico histórico de execução \cite{gu2022logging}. Nosso trabalho buscará entender como os discentes produzem os códigos, focando em observação geradas pela análise desses logs.
-
-Embora a Mineração de Dados Educacionais tradicional pressuponha bases de dados estruturadas, a fase de coleta por meio de \textit{logs} nativos de programação — e não através de acessos em LMS — permanece pouco explorada na literatura. \cite{kennedy2015towards} é uma exceção notável, abordando a captura de telemetria em tutoriais de programação. Nosso trabalho avança nessa direção, propondo uma metodologia para coleta sistemática de \textit{logs} durante o desenvolvimento de algoritmos.
+Embora a Mineração de Dados Educacionais tradicional pressuponha bases de dados estruturadas, a fase de coleta 
+por meio de \textit{logs} nativos de programação — e não através de acessos em LMS — permanece pouco explorada 
+na literatura. \cite{kennedy2015towards} é uma exceção notável, abordando a captura de telemetria em tutoriais 
+de programação. Nosso trabalho avança nessa direção, propondo uma metodologia para coleta sistemática de 
+\textit{logs} durante o desenvolvimento de algoritmos.
 
 %KENNEDY, Anna Russo. Towards a Data-Driven Analysis of Programming Tutorials. Telemetry to Improve the Educational Experience in Introductory Programming Courses?, Diss. University of Victoria, 2015.
-Apesar do uso consolidado em ferramentas de desenvolvimento de 
-software, a aplicação de telemetria no ensino de programação ainda não 
-é um prática amplamente utilizada. Seu potencial, no entanto, é 
-significativo: as instituições podem empregar os dados telemetrados 
-para identificar dificuldades específicas dos alunos na compreensão do 
-material, avaliar os nível de desafio apresentado por seus cursos e, 
-consequentemente, intervir de forma mais precisa e personalizada.
+Apesar do uso consolidado em ferramentas de desenvolvimento de software, a aplicação de telemetria no ensino de 
+programação ainda não é um prática amplamente utilizada. Seu potencial, no entanto, é significativo: as 
+instituições podem empregar os dados telemetrados para identificar dificuldades específicas dos alunos na 
+compreensão do material, avaliar os nível de desafio apresentado por seus cursos e, consequentemente, intervir 
+de forma mais precisa e personalizada.
 
-Diante deste potencial, esta pesquisa tem o intuito de entender o 
-processo de construção de algoritmos, as ferramentas e técnicas de 
-engenharia de software utilizados no ensino, por meio de logs criados e 
-armazenados no processo de ensino-aprendizagem em um IF da região 
-Amazônica. Com esta coleta  teremos informações qualiquantitativas 
-sobre a produção de códigos, as quais serão fundamentais para a 
-formulação de modelos com possibilidades de aplicação no ensino de 
-programação e desenvolvimento de soluções para problemas locais. O 
-estabelecimento de tal estrutura, permitiria o compartilhamento de 
-conhecimentos de maneira cumulativa, podendo ser utilizado e aprimorado 
-continuamente por  sucessivas turmas de alunos, de diferentes cursos.
+Diante deste potencial, esta pesquisa visa compreender o processo de construção de algoritmos, as 
+ferramentas utilizadas no ensino, por meio da análise de \textit{logs} gerados durante atividades práticas em ambientes educacionais. A coleta sistemática desses dados fornecerá informações qualiquantitativas sobre a produção de códigos, as quais serão fundamentais para a formulação de modelos aplicáveis ao ensino de programação. A métrica propõe uma análise do desempenho algorítmico para subsidiar intervenções mais efetivas e personalizadas.
 
-Nesse contexto, conforme destacado por \cite{qian2017students}, 
-``esforços para aprimorar o ensino em ciência da computação estão em 
-andamento, e os docentes enfrentam desafios significativos em 
-disciplinas introdutórias de programação, visando facilitar a 
-aprendizagem dos estudantes". 
+Nesse contexto, conforme destacado por \cite{qian2017students}, ``esforços para aprimorar o ensino em ciência 
+da computação estão em andamento, e os docentes enfrentam desafios significativos em disciplinas introdutórias 
+de programação, visando facilitar a aprendizagem dos estudantes". 
 
-Nos cursos técnicos em informática e ou afins ofertados pela Rede de 
-EPCT, disciplinas como Introdução a Algoritmos, Programação Básica, 
-Estrutura de Dados e Programação Orientada a Objetos são frequentemente associadas a altas taxas de dificuldade e evasão. Além dos obstáculos 
-cognitivos, os estudantes frequentemente lidam com questões emocionais, 
-sentindo-se incapazes de dominar os conceitos e, consequentemente, 
-desenvolvendo a crença de que são inaptos para a área de informática 
-como um todo. A aplicação da métrica proposta neste estudo permitiria 
-uma análise qualiquantitativa do desempenho algorítmico e do uso do 
-computador, oferecendo subsídios valiosos para reduzir esses problemas.
+Nos cursos técnicos em informática e ou afins ofertados pela Rede de EPCT, disciplinas como Introdução a 
+Algoritmos, Programação Básica, Estrutura de Dados e Programação Orientada a Objetos são frequentemente 
+associadas a altas taxas de dificuldade e evasão. Além dos obstáculos cognitivos, os estudantes frequentemente 
+lidam com questões emocionais, sentindo-se incapazes de dominar os conceitos e, consequentemente, desenvolvendo 
+a crença de que são inaptos para a área de informática como um todo. A aplicação da métrica proposta neste 
+estudo permitiria uma análise qualiquantitativa do desempenho algorítmico e do uso do computador, oferecendo 
+subsídios valiosos para reduzir esses problemas.
 
-Por fim, esta pesquisa reforça o papel central dos IFs, que é promover 
-o desenvolvimento socioeconômico local e regional, por meio de 
-pesquisas aplicadas e da criação de soluções técnicas e tecnológicas 
-alinhadas às demandas da comunidade, fortalecendo os arranjos 
-produtivos locais \cite{rodriguesuniversidades}, pois demonstra como o 
-corpo docente e técnico buscam alternativas para o aprimoramento do 
-ensino e resultados para a instituição. 
+Por fim, esta pesquisa reforça o papel central dos IFs, que é promover o desenvolvimento socioeconômico local e 
+regional, por meio de pesquisas aplicadas e da criação de soluções técnicas e tecnológicas alinhadas às 
+demandas da comunidade, fortalecendo os arranjos produtivos locais \cite{rodriguesuniversidades}, pois 
+demonstra como o corpo docente e técnico buscam alternativas para o aprimoramento do ensino e resultados para a 
+instituição. 
 
-Sendo assim, pode-se interpretar esta característica dos IFs como um 
-potencializador do uso de plataformas de códigos, estimulando os alunos 
-a se dedicarem ao desenvolvimento de soluções para problemas locais, ao 
-mesmo tempo permitindo a interação com outras experiências e aportes 
-colaborativos diversos.
+Sendo assim, pode-se interpretar esta característica dos IFs como um potencializador do uso de plataformas de 
+códigos, estimulando os alunos a se dedicarem ao desenvolvimento de soluções para problemas locais, ao 
+mesmo tempo permitindo a interação com outras experiências e aportes colaborativos diversos.
 
-A aplicação de princípios de Engenharia de Software aliada à análise de 
-métricas de uso de ambientes de desenvolvimento integrado (IDE) 
-possibilitará avaliações mais robustas. A opção por uma IDE amplamente 
-adotada no setor profissional busca uniformizar as ferramentas 
-utilizadas no contexto acadêmico, eliminando a dissonância entre 
-disciplinas. A solução proposta consiste em um plugin de operação 
-transparente, executando-se em segundo plano sem comprometer a 
-experiência de usuários finais (discentes e docentes) durante suas 
-atividades de desenvolvimento.
+A aplicação e 
+%princípios de Engenharia de Software aliada à
+ análise de métricas em ambientes de desenvolvimento integrado (IDE) possibilitará avaliações mais robustas. A 
+opção por uma IDE amplamente adotada no setor profissional busca uniformizar as ferramentas utilizadas no contexto acadêmico, eliminando a dissonância entre disciplinas. A solução proposta consiste em um plugin de 
+operação transparente, executando-se em segundo plano sem comprometer a experiência de usuários finais 
+(discentes e docentes) durante suas atividades de desenvolvimento.
 
 \section{Questões de pesquisa}\label{sec:questoes-de-pesquisas}
 \begin{enumerate}
-    \item QP1: Quais são os principais objetivos e aplicações do uso de logs no ensino de programação?
+    \item QP1: Quais são as principais aplicações do uso de logs no ensino de programação?
     \item QP2: Quais ferramentas, métodos e métricas são mais utilizados para capturar, armazenar e analisar logs em ambientes de ensino de programação?
 \end{enumerate}
 \section{Objetivos} \label{sec:objetivos}
@@ -150,27 +140,16 @@ aprimoramento das práticas pedagógicas
 
 \subsection{Objetivos Gerais} \label{subsec:objetivos-gerais}
 \begin{enumerate}
-	\item O que pretende: Investigar o processo de aprendizagem de 
-    programação por meio da análise de logs acadêmicos, identificando 
-    padrões e dificuldades comuns entre os estudantes.
-	\item Como pretende: Utilizando ferramentas de captura de 
-    eventos durante as aulas de programação, processando os dados 
-    coletados e organizando-os em um repositório acessível.
-	\item Por que pretende: Para melhorar o ensino de programação, 
-    oferecendo outras características, objetos de estudos baseados em 
-    dados quantitativos e criando um recurso (dataset) que possa ser 
-    utilizado por outros pesquisadores e educadores.
+	\item O que pretende: Investigar o processo de aprendizagem de programação por meio da análise de logs acadêmicos, identificando padrões e dificuldades comuns entre os estudantes.
+	\item Como pretende: Utilizando ferramentas de captura de eventos durante as aulas de programação, processando os dados coletados e organizando-os em um repositório acessível.
+	\item Por que pretende: Para melhorar o ensino de programação, oferecendo outras características, objetos de estudos baseados em dados quantitativos e criando um recurso (\textit{dataset}) que possa ser utilizado por outros pesquisadores e educadores.
 \end{enumerate}
-\subsection{Objetivos Específicos}\label{subsec:objetivos-especificos}
+\subsection{Tarefas metodológicas}\label{subsec:tarefas-metodologicas}
 \begin{enumerate}
-	\item Desenvolver um plugin para registro de eventos durante 
-    as aulas de programação.
-	\item Implementar o plugin na IDE utilizada na disciplina, com 
-    a anuência da instituição e dos estudantes.
-	\item Coletar, sincronizar e armazenar dados de eventos gerados 
-    durante o experimento.
-	\item Desenvolver um dataset com os dados coletados, 
-    organizados por turma, instituição e disciplina.
+	\item Desenvolver um \textit{plugin} para registro de eventos durante as aulas de programação.
+	\item Implementar o \textit{plugin} na IDE utilizada na disciplina, com a anuência da instituição e dos estudantes.
+	\item Coletar, sincronizar e armazenar dados de eventos gerados durante o experimento.
+	\item Desenvolver um \textit{dataset} com os dados coletados, organizados por turma, instituição e disciplina.
 \end{enumerate}
 
 \section{Contribuições esperadas}\label{sec:contribuicoes}
@@ -182,7 +161,7 @@ Este trabalho almeja contribuir com os pontos mencionados na seção 1.1 atenden
     principalmente nas instituições de ensino brasileiras. 
      \item Desenvolvimento de um plugin para uma IDE que possa auxiliar na coleta de logs durante o uso do 
      programa e desenvolvimento de códigos.
-     \item Desenvolvimento e disponibilidade de um dataset dos logs gerados de forma aberta, respeitando a 
+     \item Desenvolvimento e disponibilidade de um \textit{dataset} dos logs gerados de forma aberta, respeitando a 
      privacidade e dados sigilosos de todos os participantes. 
 \end{enumerate}
 \section{Estrutura do trabalho}\label{sec:estrutura-trabalho}
@@ -191,4 +170,4 @@ Neste capítulo foram descritos o contexto, motivação e justificativa do traba
 objetivos (geral e específicos), contribuições esperadas e estrutura. No Capítulo 2 é exposta sua fundamentação 
 teórica, na qual são definidos os termos e conceitos fundamentais ao entendimento da proposta, bem como 
 discorrido acerca dos trabalhos correlatos. Por sua vez, no Capítulo 3 é apresentada a metodologia de pesquisa 
-a ser seguida(com suas fases e cronograma) e por fim, são apresentadas os seus apêndices. 
+a ser seguida(com suas fases e cronograma) e por fim, são apresentadas nos apêndices. 

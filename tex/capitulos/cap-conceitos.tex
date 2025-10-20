@@ -8,14 +8,14 @@ Este capítulo apresenta a fundamentação teórica necessária para o entendime
 
 O ensino de programação transcende a mera transmissão de conhecimentos técnicos, abrangendo aspectos como boas práticas de desenvolvimento, integridade acadêmica e a compreensão do ciclo de vida do software. No entanto, uma análise da literatura pedagógica fundamental revela uma lacuna significativa.
 
-Para mapear o estado da arte, consultou-se os conteúdos de livros-texto amplamente adotados globalmente (como os de Sommerville e Pressman) e a principal referência nacional, ``Engenharia de Software Moderna'' de Marco Tulio Valente. Constatou-se que, embora essas obras abordem tópicos como testes e qualidade de software, não dedicam seções ou discussões substantivas ao \textit{logging} como uma prática de engenharia a ser ensinada, com suas próprias estratégias e melhores práticas \cite{gu2022logging}.
+O mapeamento do estado da arte, realizado por meio da consulta a livros-texto amplamente adotados globalmente (como os de \citeauthor{sommerville2011} e \citeauthor{pressman2014}) e à principal referência nacional ``Engenharia de Software Moderna'' de \citeauthor{valente2020}, revela que, embora essas obras abordem tópicos como testes e qualidade de software, não dedicam seções ou discussões substantivas ao \textit{logging} como uma prática de engenharia a ser ensinada, com suas próprias estratégias e melhores práticas \cite{gu2022logging}.
 
-Esta omissão é notável dada a criticalidade dos \textit{logs} na indústria e contrasta com o potencial educacional da análise dos rastros digitais que os alunos naturalmente geram durante a codificação. No Brasil, o tema é ainda mais incipiente; uma busca no portal da SBC com os termos \texttt{log OR logging AND "ensino de programação"} retorna poucos ou nenhum resultado, indicando um nicho de pesquisa promissor.
+Esta omissão é notável dada a criticalidade dos \textit{logs} na indústria e contrasta com o potencial educacional da análise dos rastros digitais que os alunos naturalmente geram durante a codificação. No Brasil, o tema é ainda mais incipiente; uma busca no portal da SBC com os termos \texttt{log OR logging AND "ensino de programação"} retorna poucos ou nenhum resultado.
 
 \section{Logging: Conceitos e Aplicações na Engenharia de Software}
 \label{sec:conceitos-logging}
+As práticas de registro de rastros em sistemas computacionais abrangem diversos conceitos. Como exemplo, a taxonomia de \cite{gu2022logging} define os seguintes elementos fundamentais:
 
-Para estabelecer uma base terminológica unificada, adota-se a taxonomia de \cite{gu2022logging}, que define os conceitos fundamentais:
 \begingroup
 \renewcommand{\arraystretch}{1.2}
 \begin{tabular}{p{0.3\textwidth}p{0.3\textwidth}p{0.3\textwidth}}
@@ -26,15 +26,35 @@ Para estabelecer uma base terminológica unificada, adota-se a taxonomia de \cit
 \endgroup
 \vspace{2em}
 
+Neste trabalho, \textit{log} refere-se ao registro completo das atividades do sistema, enquanto \textit{log message} compreende entradas individuais com marcação temporal que representam eventos específicos durante o desenvolvimento de código.
+
 Segundo \cite{rice1983use}, o monitoramento de sistemas pode ser entendido como um registro automático de transações. A importância dos \textit{logs} é vasta, sendo utilizados em tarefas como detecção de anomalias, depuração, diagnóstico de desempenho e modelagem de comportamento de sistemas \cite{fu_where_2014}. Estudos como o de \cite{yang2021interview} confirmam que os desenvolvedores os utilizam primariamente para análise de problemas, buscando informações como a propagação de erros, \textit{timestamps} e o \textit{dataflow} entre componentes.
 
 \section{A Análise de Logs como Ferramenta Educacional}
 \label{sec:logs-educacionais}
 
-Aplicar a análise de \textit{logs} no ensino de programação significa transpor essa prática da manutenção de sistemas para a análise do processo de aprendizagem. Os algoritmos de ensino não produzem apenas resultados; geram \textit{logs} e rastros digitais detalhados que, quando analisados, podem fornecer insights sobre a curva de aprendizagem.
+A aplicação de análise de \textit{logs} no ensino de programação representa uma transposição dessa prática da Engenharia de Software para a avaliação do \textbf{processo de aprendizagem}. A Tabela \ref{tab:comparacao-avaliacao} contrasta a abordagem tradicional com a proposta deste trabalho:
 
-Como sugerido por \cite{silva2022previsao}, variáveis preditoras podem ser extraídas do código, tais como: número de linhas lógicas, uso de estruturas de repetição, quantidade de identificadores, funções utilizadas, entre outras. Esta abordagem está alinhada com a \textit{Learning Analytics}, cuja meta é melhorar a qualidade do ensino e da aprendizagem através da análise de dados sobre o comportamento dos estudantes \cite{huang2020predicting}. Os \textit{logs} de programação funcionam, assim, como um registro de aprendizagem (\textit{learning record}) digital, revelando a experiência pessoal e as reflexões do estudante \cite{du2005learning}.
+\begin{table}[h]
+\centering
+\caption{Comparação entre abordagens de avaliação em programação}
+\label{tab:comparacao-avaliacao}
+\begin{tabular}{p{0.45\textwidth}p{0.45\textwidth}}
+\hline
+\textbf{Avaliação Tradicional} & \textbf{Avaliação com Análise de \textit{Logs}} \\
+\hline
+Foca no produto final (código) & Foca no processo de desenvolvimento \\
+Analisa o que foi produzido & Analisa como foi produzido \\
+Avaliação predominantemente quantitativa & Inclui dimensões qualitativas do aprendizado \\
+Visão estática do conhecimento & Visão dinâmica da curva de aprendizagem \\
+Foco no indivíduo & Permite análise individual e em grupo \\
+\hline
+\end{tabular}
+\end{table}
 
+Enquanto a avaliação tradicional concentra-se na lógica, sintaxe e funcionalidade do código entregue, a análise de \textit{logs} captura os rastros digitais do desenvolvimento, revelando padrões de raciocínio, dificuldades específicas e estratégias de resolução de problemas.
+
+Como sugerido por \cite{silva2022previsao}, variáveis preditoras podem ser extraídas diretamente do código-fonte, tais como: número de linhas lógicas, uso de estruturas de repetição, quantidade de identificadores e funções utilizadas. Esta abordagem alinha-se com a \textit{Learning Analytics}, que visa melhorar a qualidade do ensino e da aprendizagem por meio da análise de dados sobre o comportamento dos estudantes \cite{huang2020predicting}. Os \textit{logs} de programação funcionam, assim, como registros de aprendizagem (\textit{learning records}), revelando a experiência pessoal e as reflexões do estudante durante o processo de desenvolvimento \cite{du2005learning}.
 \section{Metodologia para Análise de Logs Educacionais}
 \label{sec:metodologia-analise}
 
@@ -55,5 +75,74 @@ Com base no perfil de usuário (\textit{user profile}) construído—que inclui 
 
 \section{A Extensão Logado: Proposta de Implementação}
 \label{sec:extensao-logado}
+A motivação para o desenvolvimento da extensão Logado reside na contínua evolução dos ambientes de programação e na necessidade de se compreender o processo de aprendizagem de forma mais granular. Embora existam diversos Ambientes de Desenvolvimento Integrado (IDEs) e editores de código — muitos focados em uma linguagem específica ou com ecossistemas próprios de plugins —, argumenta-se que é mais eficaz integrar a funcionalidade de logging de eventos diretamente em um editor já consagrado e amplamente adotado, como o Visual Studio Code (VS Code).
 
-A motivação para o desenvolvimento da extensão \textit{Logado} reside na evolução dos ambientes de programação. Argumenta-se que é mais eficaz integrar a funcionalidade de \textit{logging} em uma IDE já consagrada e amplamente utilizada, evitando a curva de aprendizado associada a novas ferramentas. Dessa forma, a extensão será executada diretamente na IDE do estudante, capturando de forma integrada os eventos de desenvolvimento detalhados na seção \ref{sec:metodologia-analise}.
+A escolha pelo desenvolvimento de uma extensão para o VS Code, em detrimento de um \textit{plugin} para uma IDE menos comum ou de uma ferramenta isolada, é estratégica. Essa abordagem evita a dispersão do foco do aprendiz, que não precisa se adaptar a uma nova ferramenta, permitindo que se concentre exclusivamente na resolução de problemas de programação em um ambiente já familiar. Dessa forma, a extensão Logado será executada de forma transparente na IDE do estudante, capturando de modo integrado e não intrusivo os eventos de desenvolvimento detalhados na Seção \ref{sec:metodologia-analise}.
+
+\subsection{Arquitetura e Armazenamento de Dados}
+\label{subsec:arquitetura-armazenamento}
+
+A extensão será desenvolvida em TypeScript, utilizando a API do VS Code. O mecanismo de coleta será ativado assim que o usuário abrir um workspace contendo arquivos de código. Todos os eventos capturados (e.g., edições, execuções, depuração) serão serializados no formato JSON (JavaScript Object Notation) e armazenados localmente em um arquivo de log. Este formato foi escolhido por sua legibilidade, ampla adoção e facilidade de parsing para análises futuras.
+
+Cada entrada no log representará um evento atômico e conterá um carimbo de data/hora (timestamp) de alta precisão, um identificador único de sessão, o tipo de evento e um conjunto de metadados específicos. 
+
+Para ilustrar a aplicação prática, considere o desenvolvimento do algoritmo de cálculo de impressão apresentado na Listagem \ref{lst:algoritmo-impressao-js}. Durante sua implementação, a extensão Logado capturaria o uso de elementos da linguagem, gerando os registros estruturados apresentados na Listagem \ref{lst:algoritmo-impressao-json}.
+
+\begin{figure}[h!]
+ \centering
+    \begin{lstlisting}[style=jsonstyle, caption={Algoritmo de cálculo de impressão - exemplo didático que simula o desenvolvimento típico de um estudante iniciante}, label={lst:algoritmo-impressao-js}]
+let numero_paginas = parseInt(prompt("Número de páginas"))
+let tipo_impressao = prompt("Tipo de Impressão\n0 - Frente e verso\n1 - Frente")
+
+
+let valor = 0
+
+if(tipo_impressao=='0'){
+    valor = numero_paginas * 0.10
+    document.writeln(`Páginas impressas: ${numero_paginas}<br> Valor final: R$ ${valor.toFixed(2)}`)
+}
+else{
+    valor = numero_paginas * 0.15
+    document.writeln(`Páginas impressas: ${numero_paginas}<br> Valor final: R$ ${valor.toFixed(2)}`)
+}
+    \end{lstlisting}
+\ref{lst:algoritmo-impressao-js}
+\end{figure}
+
+
+\begin{figure}[h!]
+    \centering
+    \begin{lstlisting}[style=jsonstyle, caption={Exemplo de saída da extensão Logado capturando palavras-chave durante o desenvolvimento do algoritmo de cálculo de impressão}, label={lst:algoritmo-impressao-json}, firstnumber=1]
+[
+  {
+    "keyword": "let",
+    "timestamp": "2025-10-27T15:30:45.123Z",
+    "file": "impressao.js",
+    "line": 1,
+    "column": 1
+  },
+  {
+    "keyword": "parseInt", 
+    "timestamp": "2025-10-27T15:30:47.256Z",
+    "file": "impressao.js",
+    "line": 1, 
+    "column": 18
+  }
+]
+    \end{lstlisting}
+    \ref{lst:algoritmo-impressao-json}
+\end{figure}
+
+
+\subsection{Funcionalidades Principais da Extensão}
+\label{subsec:funcionalidades-principais}
+\begin{itemize}
+\item Configuração Granular: O usuário poderá habilitar ou desabilitar a coleta de tipos específicos de eventos (e.g., apenas execuções e erros, sem capturar cada edição de tecla).
+
+\item Gerenciamento de Privacidade: A extensão operará inicialmente em modo estritamente local. Os dados não serão transmitidos para servidores externos sem o consentimento explícito do usuário, assegurando a privacidade.
+
+\item Exportação de Dados: Será fornecida uma funcionalidade para exportar os logs em JSON para facilitar a análise por ferramentas externas ou para compartilhamento com instrutores, em cenários de pesquisa ou tutoria.
+
+\end{itemize}
+
+Esta proposta visa, portanto, criar uma ferramenta leve, eficaz e ética, que se integre perfeitamente ao fluxo de trabalho do estudante, gerando os dados necessários para um entendimento profundo de suas estratégias e dificuldades no ato de programar.
