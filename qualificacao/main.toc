@@ -9,7 +9,9 @@
 \beamer@sectionintoc {6}{Questão de Pesquisa 2}{30}{0}{6}
 \beamer@sectionintoc {7}{Survey Exploratório}{32}{0}{7}
 \beamer@sectionintoc {8}{Design Science Research}{41}{0}{8}
-\beamer@sectionintoc {9}{Cronograma}{57}{0}{9}
-\beamer@sectionintoc {10}{Artigo - Evento}{59}{0}{10}
-\beamer@sectionintoc {11}{Referências}{61}{0}{11}
-\beamer@sectionintoc {12}{Agradecimentos}{69}{0}{12}
+\beamer@sectionintoc {9}{Algoritmo - desenvolvimento e rastros}{53}{0}{9}
+\beamer@sectionintoc {10}{Visual Studio Code Extension}{57}{0}{10}
+\beamer@sectionintoc {11}{Cronograma}{61}{0}{11}
+\beamer@sectionintoc {12}{Artigo - Evento}{63}{0}{12}
+\beamer@sectionintoc {13}{Referências}{65}{0}{13}
+\beamer@sectionintoc {14}{Agradecimentos}{73}{0}{14}
