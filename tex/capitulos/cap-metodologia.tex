@@ -5,7 +5,7 @@ Este capítulo descreve a abordagem metodológica adotada, que combina uma Revis
 
 \section{Abordagem Metodológica}
 \label{sec:abordagem-metodologica}
-Este trabalho será conduzido no Instituto Federal de Educação, Ciência e Tecnologia do Amazonas, no campus avançado Boca do Acre, utilizando uma abordagem metodológica mista, combinando métodos de pesquisa bibliográfica e empírica para garantir uma fundamentação sólida tanto no estado da arte quanto no contexto prático do problema investigado. Os procedimentos metodológicos da presente pesquisa respeitam os preceitos éticos constantes na resolução que trata de pesquisas com seres humanos, Resolução n° 510 de 2016 (Resolução CNS no 466/2012, item III e item XIV (CAAE: xxxxxx).
+Este trabalho será conduzido no Instituto Federal de Educação, Ciência e Tecnologia do Amazonas, no campus avançado Boca do Acre, utilizando uma abordagem metodológica mista, combinando métodos de pesquisa bibliográfica e empírica para garantir uma fundamentação sólida tanto no estado da arte quanto no contexto prático do problema investigado. Os procedimentos metodológicos da presente pesquisa respeitam os preceitos éticos constantes na resolução que trata de pesquisas com seres humanos, Resolução n° 510 de 2016 (Resolução CNS no 466/2012, item III e item XIV (CAAE: 93189825.3.0000.0165).
 
 \subsection{Revisão Sistemática da Literatura}
 \label{subsec:revisao-sistematica}
@@ -160,44 +160,62 @@ Uso de técnicas estatísticas para correlacionar padrões de codificação com 
 \label{sec:cronograma}
 Nesta seção é exposto o cronograma previsto para a realização deste trabalho e obtenção de grau de mestre (considerando os requisitos apresentados no Regulamento Interno do Programa de Pós-Graduação em Computação Aplicada (PPGCA) da Universidade Tecnológica Federal do Paraná (UTFPR), campus Curitiba. 
     Na figura \ref{fig:gantt} são listadas as atividades a serem realizadas e os períodos em que estas pretendem ser executadas. As atividades estão organizadas de acordo com as quatro fases detalhadas abaixo, não sendo apresentadas aquelas já finalizadas(e.g.: revisão da literatura - Fase 1; delineamento inicial da abordagem - parte da Fase 2; obtenção dos créditos exigidos pleo PPGCA em disciplinas ou atividades; e aprovação em exame de suficiência em língua inglesa).
+
+\begin{figure}[H]
+    \centering
+
+    \begin{ganttchart}[
+        vgrid={*{11}{gray!20, dotted}},
+        hgrid,
+        x unit=1.1cm,  % Reduzido de 1.5cm
+        y unit title=0.8cm,
+        y unit chart=0.7cm,
+        title/.style={draw=none, fill=none},
+        title label font=\bfseries\scriptsize,
+        bar/.style={draw=none, rounded corners=1pt},
+        bar height=0.4,
+        bar label font=\tiny,
+        bar label node/.append style={left=1.5pt, text width=2.2cm, align=right},
+        milestone/.style={shape=rectangle},
+        milestone label font=\tiny\bfseries,
+        inline
+        ]{1}{11}
     
-\begin{figure}[ht]
-	\centering
-	\begin{ganttchart}[
-		vgrid={*{8}{gray!30, dotted}},
-		hgrid,
-		x unit=1.5cm,
-		y unit title=0.7cm,
-		y unit chart=0.6cm,
-		title/.style={draw=none, fill=none},
-		title label font=\bfseries\footnotesize,
-		bar/.style={draw=none, fill=blue!40, rounded corners=2pt},
-		bar height=0.5,
-		bar label font=\scriptsize,
-		bar label node/.append style={left=3pt, text width=3cm, align=right},
-		milestone/.style={fill=red!70, shape=rectangle},
-		milestone label font=\scriptsize\bfseries
-		]{1}{8}
-		
-		% Year and month titles
-		\gantttitle{2025}{5} \gantttitle{2026}{3} \\
-		\gantttitlelist{8,9,10,11,12}{1} \gantttitlelist{1,2,3}{1} \\
-		
-		% Activities
-		\ganttbar{Qualificação}{1}{3} \\
-		\ganttbar{Experimento 1}{4}{5} \\
-		\ganttbar{Experimento 2}{5}{6} \\
-		\ganttbar{Conclusão da pesquisa}{6}{7}\\
-		\ganttbar{Submissão de artigos}{1}{7}\\
-		\ganttbar{Escrita da dissertação}{1}{8} \\
-		\ganttmilestone{Entrega da dissertação}{7}{8}
-		
-	\end{ganttchart}
-	\caption{Cronograma do trabalho/mestrado}
-	\label{fig:gantt}
+    % Year and month titles
+    \gantttitle{2025}{5} \gantttitle{2026}{6} \\
+    \gantttitlelist{8,9,10,11,12}{1} \gantttitlelist{1,2,3,4,5,6}{1} \\
+    
+    % Activities com cores diferentes
+    \ganttbar[bar/.append style={fill=blue!60}]{}{3}{5} \\     % Qualificação
+    \ganttbar[bar/.append style={fill=green!60}]{}{7}{8} \\    % Experimento 1
+    \ganttbar[bar/.append style={fill=orange!60}]{}{9}{10} \\   % Experimento 2
+    \ganttbar[bar/.append style={fill=purple!60}]{}{10}{11} \\  % Conclusão pesquisa
+    \ganttbar[bar/.append style={fill=teal!60}]{}{2}{10} \\    % Submissão artigos
+    \ganttbar[bar/.append style={fill=brown!60}]{}{1}{11} \\   % Escrita dissertação
+    \ganttbar[bar/.append style={fill=red!80}]{} {11}{11} % Entrega
+    
+    \end{ganttchart}
+  
+    \vspace{0.3cm}
+    \begin{minipage}{\textwidth}
+    \centering
+    \scriptsize
+    \begin{tabular}{@{}cl@{\hspace{1.5em}}cl@{\hspace{1.5em}}cl@{}}
+    \textcolor{blue}{\rule{6pt}{6pt}} & Qualificação &
+    \textcolor{green}{\rule{6pt}{6pt}} & Experimento 1 &
+    \textcolor{orange}{\rule{6pt}{6pt}} & Experimento 2 \\
+    \textcolor{purple}{\rule{6pt}{6pt}} & Conclusão pesquisa &
+    \textcolor{teal}{\rule{6pt}{6pt}} & Submissão artigos &
+    \textcolor{brown}{\rule{6pt}{6pt}} & Escrita dissertação \\
+    \textcolor{red}{\rule{6pt}{6pt}} & Entrega dissertação & & & &
+    \end{tabular}
+    \end{minipage}
+    
+    \caption{Cronograma do trabalho de mestrado}
+    \label{fig:gantt}
 \end{figure}
 
-Conforme pode ser visualizado na \ref{fig:gantt}, as atividades foram planejadas de modo mensal. Inicialmente, para agosto de 2025 estavam previstas: (1) a qualificação da proposta de dissertação; e (2) a execução da parte da Fase 3, por meio da validação, análise e interpretação dos dados coletados na primeira execução do experimento de avaliação da abordagem (ocorrerá em novembro de 2025). A segunda atividade será finalizada em setembro, sendo seguida pela realização de eventuais ajustes na abordagem (Fase 2), cujo término é previsto para outubro.
+Conforme pode ser visualizado na Figura \ref{fig:gantt}, as atividades foram planejadas de modo mensal. Inicialmente, para agosto de 2025 estavam previstas: (1) a qualificação da proposta de dissertação; e (2) a execução da parte da Fase 3, por meio da validação, análise e interpretação dos dados coletados na primeira execução do experimento de avaliação da abordagem (ocorrerá em novembro de 2025). A segunda atividade será finalizada em setembro, sendo seguida pela realização de eventuais ajustes na abordagem (Fase 2), cujo término é previsto para outubro.
 
 Como forma de validação externa da pesquisa, um artigo com o mesmo tema desta dissertação foi submetido à LACLO (Conferência Latinoamericana de Tecnologias de Aprendizagem) e aceito após processo de revisão por pares. 
 

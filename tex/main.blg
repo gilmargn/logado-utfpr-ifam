@@ -6,6 +6,7 @@ A level-1 auxiliary file: ./PreTexto/abstract.aux
 A level-1 auxiliary file: ./capitulos/cap-introducao.aux
 A level-1 auxiliary file: ./capitulos/cap-conceitos.aux
 A level-1 auxiliary file: ./capitulos/cap-metodologia.aux
+A level-1 auxiliary file: ./capitulos/cap-consideracoes-finais.aux
 A level-1 auxiliary file: ./PosTexto/apendicea.aux
 A level-1 auxiliary file: ./PosTexto/apendiceb.aux
 The style file: abntex2-alf.bst
@@ -41,7 +42,7 @@ Repeated entry---line 433 of file main.bib
  : @inproceedings{silva2022previsao
  :                                 ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "russo2015towards"
+Warning--I didn't find a database entry for "kenney2015"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=200001) to 20 items from 10.
@@ -54,7 +55,7 @@ Warning--faltando school em kennedy2015towards
 +---------------------------------------------------------+
 You've used 38 entries,
             7039 wiz_defined-function locations,
-            1447 strings with 17127 characters,
+            1448 strings with 17161 characters,
 and the built_in function-call counts, 34685 in all, are:
 = -- 3159
 > -- 992

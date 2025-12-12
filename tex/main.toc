@@ -10,7 +10,7 @@
 \contentsline {section}{\numberline {1.2}Questões de pesquisa}{11}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Objetivos}{11}{section.1.3}%
 \contentsline {subsection}{\numberline {1.3.1}Objetivos Gerais}{11}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Tarefas metodológicas}{11}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.2}Tarefas metodológicas}{12}{subsection.1.3.2}%
 \contentsline {section}{\numberline {1.4}Contribuições esperadas}{12}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Estrutura do trabalho}{12}{section.1.5}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
@@ -67,8 +67,8 @@
 \contentsline {section}{\numberline {B.1}Método}{39}{section.B.1}%
 \contentsline {section}{\numberline {B.2}Instrumento de pesquisa}{39}{section.B.2}%
 \contentsline {section}{\numberline {B.3}Respostas}{40}{section.B.3}%
-\contentsline {subsection}{\numberline {B.3.1}Análise de Ferramentas Utilizadas}{41}{subsection.B.3.1}%
-\contentsline {subsection}{\numberline {B.3.2}Comparações entre Grupos}{42}{subsection.B.3.2}%
-\contentsline {subsection}{\numberline {B.3.3}Análise de Dataset e Correções}{42}{subsection.B.3.3}%
-\contentsline {subsection}{\numberline {B.3.4}Opinião sobre Plugins no Ensino}{43}{subsection.B.3.4}%
-\contentsline {subsection}{\numberline {B.3.5}IDEs utilizados por Instituições}{43}{subsection.B.3.5}%
+\contentsline {subsection}{\numberline {B.3.1}Análise de Ferramentas Utilizadas}{42}{subsection.B.3.1}%
+\contentsline {subsection}{\numberline {B.3.2}Comparações entre Grupos}{43}{subsection.B.3.2}%
+\contentsline {subsection}{\numberline {B.3.3}Análise de Dataset e Correções}{43}{subsection.B.3.3}%
+\contentsline {subsection}{\numberline {B.3.4}Opinião sobre Plugins no Ensino}{44}{subsection.B.3.4}%
+\contentsline {subsection}{\numberline {B.3.5}IDEs utilizados por Instituições}{44}{subsection.B.3.5}%
