@@ -8,9 +8,9 @@ Este capítulo apresenta a fundamentação teórica necessária para o entendime
 
 O ensino de programação transcende a mera transmissão de conhecimentos técnicos, abrangendo aspectos como boas práticas de desenvolvimento, integridade acadêmica e a compreensão do ciclo de vida do software. No entanto, uma análise da literatura pedagógica fundamental revela uma lacuna significativa.
 
-O mapeamento do estado da arte, realizado por meio da consulta a livros-texto amplamente adotados globalmente (como os de \citeauthor{sommerville2011} e \citeauthor{pressman2014}) e à principal referência nacional ``Engenharia de Software Moderna'' de \citeauthor{valente2020}, revela que, embora essas obras abordem tópicos como testes e qualidade de software, não dedicam seções ou discussões substantivas ao \textit{logging} como uma prática de engenharia a ser ensinada, com suas próprias estratégias e melhores práticas \cite{gu2022logging}.
+O mapeamento do estado da arte~--~realizado por meio de uma revisão sistemática de livros-texto fundamentais~--~revelou uma lacuna educacional significativa. Obras amplamente adotadas, como as de \citet{sommerville2011} e \citet{pressman2014} em âmbito internacional, e a principal referência nacional, ``Engenharia de Software Moderna'' \citet{valente2020}, dedicam capítulos substanciais a tópicos como testes e qualidade de software. Contudo, nenhuma delas aborda o \textit{logging} de forma pedagógica e estruturada, como uma prática de engenharia com estratégias e boas práticas específicas a serem ensinadas. Esta constatação corrobora observações da literatura recente de pesquisa \cite{gu2022logging}, fortalecendo a pertinência do presente trabalho.
 
-Esta omissão é notável dada a criticalidade dos \textit{logs} na indústria e contrasta com o potencial educacional da análise dos rastros digitais que os alunos naturalmente geram durante a codificação. No Brasil, o tema é ainda mais incipiente; uma busca no portal da SBC com os termos \texttt{log OR logging AND "ensino de programação"} retorna poucos ou nenhum resultado.
+Esta omissão na literatura educacional é notável, dada a criticalidade dos logs na indústria de software, e contrasta fortemente com o potencial pedagógico inexplorado da análise dos rastros digitais que os alunos naturalmente geram durante a codificação. No contexto brasileiro, o tema se revela ainda mais incipiente. Uma busca sistemática conduzida no Portal da Sociedade Brasileira de Computação (SBC) com a string log OR logging AND ``ensino de programação" retornou um número insignificante de trabalhos, resultado consistente com o panorama geral de escassez documentado na busca mais ampla (ver Tabela \ref{tab:repositorios} no Apêndice A).
 
 \section{Logging: Conceitos e Aplicações na Engenharia de Software}
 \label{sec:conceitos-logging}
@@ -33,7 +33,18 @@ Segundo \cite{rice1983use}, o monitoramento de sistemas pode ser entendido como 
 \section{A Análise de Logs como Ferramenta Educacional}
 \label{sec:logs-educacionais}
 
-A aplicação de análise de \textit{logs} no ensino de programação representa uma transposição dessa prática da Engenharia de Software para a avaliação do \textbf{processo de aprendizagem}. A Tabela \ref{tab:comparacao-avaliacao} contrasta a abordagem tradicional com a proposta deste trabalho:
+A aplicação de análise de \textit{logs} no ensino de programação representa uma transposição dessa prática da Engenharia de Software para a avaliação do \textbf{processo de aprendizagem}. Para que essa análise seja viável, é necessário um mecanismo de captura dos rastros gerados durante a atividade. A Figura \ref{fig:fluxograma-logado} ilustra esse modelo conceitual de coleta.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.85\textwidth]{fluxograma-logado.png} % Ajuste o nome do arquivo
+\caption{Modelo de coleta de dados educacionais durante a atividade de codificação. O plugin LOGADO monitora o processo, gerando logs que registram a jornada do aprendiz, em contraste com o artefato final (código) que é o foco da avaliação tradicional.}
+\label{fig:modelo-coleta}
+\end{figure}
+
+
+
+A Tabela \ref{tab:comparacao-avaliacao} contrasta a abordagem tradicional com a proposta deste trabalho:
 
 \begin{table}[h]
 \centering
@@ -82,7 +93,7 @@ A escolha pelo desenvolvimento de uma extensão para o VS Code, em detrimento de
 \subsection{Arquitetura e Armazenamento de Dados}
 \label{subsec:arquitetura-armazenamento}
 
-A extensão será desenvolvida em TypeScript, utilizando a API do VS Code. O mecanismo de coleta será ativado assim que o usuário abrir um workspace contendo arquivos de código. Todos os eventos capturados (e.g., edições, execuções, depuração) serão serializados no formato JSON (JavaScript Object Notation) e armazenados localmente em um arquivo de log. Este formato foi escolhido por sua legibilidade, ampla adoção e facilidade de parsing para análises futuras.
+A extensão será desenvolvida em TypeScript\cite{typescript}, utilizando a API oficial do Visual Studio Code \cite{vscodeapi}. O mecanismo de coleta será ativado assim que o usuário abrir um workspace contendo arquivos de código. Todos os eventos capturados (ex., edições, execuções, depuração) serão serializados no formato JSON (JavaScript Object Notation) \cite {ecmajson} e armazenados localmente em um arquivo de log. Este formato foi escolhido por sua legibilidade, ampla adoção e facilidade de parsing para análises futuras.
 
 Cada entrada no log representará um evento atômico e conterá um carimbo de data/hora (timestamp) de alta precisão, um identificador único de sessão, o tipo de evento e um conjunto de metadados específicos. 
 
@@ -136,8 +147,18 @@ else{
 
 \subsection{Funcionalidades Principais da Extensão}
 \label{subsec:funcionalidades-principais}
+
+A extensão LOGADO foi projetada para ser uma ferramenta leve e integrada ao fluxo natural do estudante. Após o desenvolvimento e testes, ela será disponibilizada no repositório oficial de extensões do VS Code, o \textbf{Visual Studio Code Marketplace} (Figura \ref{fig:marketplace}), de onde poderá ser facilmente instalada por qualquer usuário.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{marketplace-vscode.png} 
+    \caption{Página inicial do Visual Studio Code Marketplace, ambiente onde a extensão LOGADO será publicada e disponibilizada para a comunidade.}
+    \label{fig:marketplace}
+\end{figure}
+
 \begin{itemize}
-\item Configuração Granular: O usuário poderá habilitar ou desabilitar a coleta de tipos específicos de eventos (e.g., apenas execuções e erros, sem capturar cada edição de tecla).
+\item Configuração Granular: O usuário poderá habilitar ou desabilitar a coleta de tipos específicos de eventos (ex., apenas execuções e erros, sem capturar cada edição de tecla).
 
 \item Gerenciamento de Privacidade: A extensão operará inicialmente em modo estritamente local. Os dados não serão transmitidos para servidores externos sem o consentimento explícito do usuário, assegurando a privacidade.
 

@@ -34,6 +34,14 @@
   CONFERENCE ON SYSTEM SCIENCES. 2005. \textbf{Anais [...]} [\textit{S.l.}],
   2005. p. 7b--7b.}
 
+\bibitem[{ECMA International} 2017]{ecmajson}
+\abntrefinfo{{ECMA International}}{{ECMA International}}{2017}
+{{ECMA International}. \textbf{The JSON Data Interchange Syntax}.
+  [\textit{S.l.}]: ,  2017.
+Standard ECMA-404.
+Dispon{\'\i}vel em:
+  \url{https://www.ecma-international.org/publications-and-standards/standards/ecma-404/}.}
+
 \bibitem[Fu \textit{et al.} 2014]{fu_where_2014}
 \abntrefinfo{Fu \textit{et al.}}{Fu \textit{et al.}}{2014}
 {FU, Q. \textit{et al.} Where do developers log? an empirical study on logging
@@ -79,9 +87,9 @@ Dispon{\'\i}vel em: \url{https://doi.org/10.1007/978-1-4842-6998-5\_12}.}
 \textbf{Interactive Learning Environments},  Taylor \& Francis v.~28, n.~2, p.
   206--230, 2020.}
 
-\bibitem[IFAM 2020]{IFAM2020}
-\abntrefinfo{IFAM}{Ifam}{2020}
-{IFAM. \textbf{Projeto Pedagógico do Curso Técnico de Nível Médio em
+\bibitem[{IFAM} 2020]{IFAM2020}
+\abntrefinfo{{IFAM}}{{IFAM}}{2020}
+{{IFAM}. \textbf{Projeto Pedagógico do Curso Técnico de Nível Médio em
   Informática, na Forma Subsequente}.
 [\textit{S.l.}],  2020. Dispon{\'\i}vel em:
   \url{https://portal.ifam.edu.br/documents/754/INFORMATICA.pdf}.}
@@ -121,6 +129,17 @@ ISSN 0266-4909, 1365-2729.
 Dispon{\'\i}vel em:
   \url{https://onlinelibrary.wiley.com/doi/10.1111/jcal.12590}.}
 
+\bibitem[{Microsoft} 2025]{typescript}
+\abntrefinfo{{Microsoft}}{{Microsoft}}{2025a}
+{{Microsoft}. \textbf{TypeScript: JavaScript With Syntax For Types}.
+  [\textit{S.l.}]: ,  2025.
+Dispon{\'\i}vel em: \url{https://www.typescriptlang.org}.}
+
+\bibitem[{Microsoft} 2025]{vscodeapi}
+\abntrefinfo{{Microsoft}}{{Microsoft}}{2025b}
+{{Microsoft}. \textbf{Visual Studio Code API}. [\textit{S.l.}]: ,  2025.
+Dispon{\'\i}vel em: \url{https://code.visualstudio.com/api}.}
+
 \bibitem[Nguyen, Ha e Chen 2023]{nguyen_analyzing_2023}
 \abntrefinfo{Nguyen, Ha e Chen}{Nguyen; Ha; Chen}{2023}
 {NGUYEN, B.-A.; HA, T.-V.~T.; CHEN, H.-M. Analyzing git log in an code-quality
@@ -129,6 +148,12 @@ Dispon{\'\i}vel em:
 ISSN 2815-6099.
 Dispon{\'\i}vel em:
   \url{https://journal.tvu.edu.vn/index.php/journal/article/view/2430}.}
+
+\bibitem[Overflow 2025]{StackOverflowSurvey2025}
+\abntrefinfo{Overflow}{Overflow}{2025}
+{OVERFLOW, S. \textbf{2025 Stack Overflow Developer Survey}. [\textit{S.l.}]: ,
+   2025.
+Dispon{\'\i}vel em: \url{https://survey.stackoverflow.co/2025/technology}.}
 
 \bibitem[Page \textit{et al.} 2021]{page2021prisma}
 \abntrefinfo{Page \textit{et al.}}{Page \textit{et al.}}{2021}

@@ -15,7 +15,7 @@ e professores"~ \cite{raabe2005ambiente}, pois exige o desenvolvimento de uma l�
 Ainda segundo \cite{raabe2005ambiente}, as dificuldades no aprendizado de programação podem ser categorizadas
 em três grupos distintos, que vão além da simples aptidão individual: Problemas de natureza didática 
 (relacionados aos métodos de ensino), cognitiva (relacionados aos desafios de raciocínio lógico e  abstração) e 
-afetiva(relacionados à motivação, ansiedade e confiança do aluno). Essa categorização sistêmica ajuda a
+afetiva~(relacionados à motivação, ansiedade e confiança do aluno). Essa categorização sistêmica ajuda a
 entender que o desafio requer iniciativas diferentes.  
 
 No contexto educacional, a avaliação é entendida como uma etapa do processo de ensino e aprendizagem, o que a 
@@ -28,22 +28,19 @@ No que se refere à aprendizagem, o projeto pedagógico estabelece como objetivo
 
 Paralelamente, a avaliação do sistema, referente ao rendimento acadêmico, deve ser realizada para cada disciplina individualmente, considerando de forma simultânea e obrigatória a frequência do aluno e seu aproveitamento na aquisição de competências e conhecimentos \cite{IFAM2020}.
 
-O ensino de programação é uma atividade multidisciplinar que demanda uma práxis pedagógica apurada -- ou seja, 
-uma constante reflexão que integre teoria e prática em sala de aula. Uma estratégia comum é utilizar exemplos 
-do cotidiano para estimular a resolução de problemas por meio de algoritmos. Contudo, avaliar a qualidade  
-desses algoritmos exige ir além da verificação funcional. 
+O ensino de programação é uma atividade multidisciplinar que demanda uma práxis pedagógica 
+apurada -- ou seja, uma constante reflexão que integre teoria e prática em sala de aula. 
+Uma estratégia comum é utilizar exemplos do cotidiano para estimular a resolução de 
+problemas por meio de algoritmos. Contudo, avaliar a qualidade desses algoritmos exige ir 
+além da verificação funcional. 
 
-Esses algoritmos, definidos como procedimentos computacionais que transformam entradas em saídas, geram 
-registros conhecidos como logs. Mas como esses logs podem ser utilizados para transformar o ensino e a 
-aprendizagem? Este texto explora a interseção entre tecnologia e educação, mostrando como a análise de logs 
-pode oferecer perspectivas valiosas para personalizar o ensino e identificar dificuldades dos alunos.
+Esses algoritmos, definidos como procedimentos computacionais que transformam entradas em 
+saídas, geram registros conhecidos como logs. Mas como esses logs podem ser utilizados 
+para transformar o ensino e a aprendizagem? Este texto explora a interseção entre 
+tecnologia e educação, mostrando como a análise de logs pode oferecer perspectivas 
+valiosas para personalizar o ensino e identificar dificuldades dos alunos.
 
-Esses registros, ou logs, são gerados continuamente durante as interações entre humanos e máquinas. De acordo 
-com Sah (2002, apud \cite{clemente2008arquitetura}), ``log é definido como um conjunto de registros com 
-marcação temporal, que suporta apenas inserção, e que representa eventos que aconteceram em um computador ou 
-equipamento de rede". Além disso, segundo \cite{gu2022logging}, ``um log geralmente contém um grande número de 
-entradas, também conhecidas como mensagens de registro". Em geral, o nível do log, seu conteúdo e o local 
-adequado para declará-lo são decisões tomadas pelos desenvolvedores durante a criação do software.
+Esses registros, ou logs, são gerados continuamente durante as interações entre humanos e máquinas. Conforme trazido por \cite{clemente2008arquitetura}, ``log é definido como um conjunto de registros com marcação temporal, que suporta apenas inserção, e que representa eventos que aconteceram em um computador ou equipamento de rede". Além disso, segundo \cite{gu2022logging}, ``um log geralmente contém um grande número de entradas, também conhecidas como mensagens de registro". Em geral, o nível do log, seu conteúdo e o local adequado para declará-lo são decisões tomadas pelos desenvolvedores durante a criação do software.
 
 O processo de ensino pode ser compreendido analogamente a uma tecnologia que pode ser atualizada, adaptada ou 
 aplicada em diferentes contextos. No entanto, para estimar o tempo de produção de um código, métodos 
@@ -75,17 +72,13 @@ processual pode ser significativamente ampliado com o uso da telemetria. Conform
 \textit{feedback}, como notas em laboratórios, tarefas e exames. A telemetria não os substitui, mas 
 oferece uma camada adicional de dados contínuos e objetivos sobre o comportamento do estudante, enriquecendo a análise do docente.
 
-O valor desses dados é claro, pois ``saber o que acontece dentro de um sistema enquanto ele está em 
-execução é benéfico para fins de depuração, manutenção e para fins de análise" \cite{Gatev2021}. De 
-fato, um log -- registro com marcação temporal que captura eventos de um sistema -- contém um grande 
-número de entradas que formam um rico histórico de execução \cite{gu2022logging}. Nosso trabalho 
-buscará entender como os discentes produzem os códigos, focando em observação geradas pela análise desses logs.
+O valor desses dados é claro, pois ``saber o que acontece dentro de um sistema enquanto 
+ele está em execução é benéfico para fins de depuração, manutenção e para fins de análise" ~ \cite{Gatev2021}. De fato, um log -- registro com marcação temporal que captura eventos de um sistema -- contém um grande número de entradas que formam um rico histórico de execução \cite{gu2022logging}. Nosso trabalho buscará entender como os discentes produzem os códigos, focando em observação geradas pela análise desses logs.
 
-Embora a Mineração de Dados Educacionais tradicional pressuponha bases de dados estruturadas, a fase de 
-coleta por meio de \textit{logs} nativos de programação — e não através de acessos em LMS — permanece 
-pouco explorada na literatura. \cite{kennedy2015towards} é uma exceção notável, abordando a captura de 
-telemetria em tutoriais de programação. Nosso trabalho avança nessa direção, propondo uma metodologia 
-para coleta sistemática de \textit{logs} durante o desenvolvimento de algoritmos.
+Embora a Mineração de Dados Educacionais tradicional pressuponha bases de dados 
+estruturadas, a fase de coleta por meio de \textit{logs} nativos de programação — e não 
+através de acessos em LMS — permanece pouco explorada na literatura. Uma exceção notável é 
+o trabalho de ~\cite{kennedy2015towards}, que aborda a captura de telemetria em tutoriais de programação.
 
 %KENNEDY, Anna Russo. Towards a Data-Driven Analysis of Programming Tutorials. Telemetry to Improve the Educational Experience in Introductory Programming Courses?, Diss. University of Victoria, 2015.
 Apesar do uso consolidado em ferramentas de desenvolvimento de software, a aplicação de telemetria no 
@@ -125,14 +118,16 @@ plataformas de códigos, estimulando os alunos a se dedicarem ao desenvolvimento
 problemas locais, ao mesmo tempo permitindo a interação com outras experiências e aportes colaborativos 
 diversos.
 
-A aplicação e 
-%princípios de Engenharia de Software aliada à
- análise de métricas em ambientes de desenvolvimento integrado (IDE) possibilitará avaliações mais 
- robustas. A opção por uma IDE amplamente adotada no setor profissional busca uniformizar as 
- ferramentas utilizadas no contexto acadêmico, eliminando a dissonância entre disciplinas. A solução 
- proposta consiste em um plugin de operação transparente, executando-se em segundo plano sem 
- comprometer a experiência de usuários finais (discentes e docentes) durante suas atividades de 
- desenvolvimento.
+A aplicação e análise de métricas em ambientes de desenvolvimento integrado (IDE) possibilitará avaliações mais robustas do processo de aprendizagem. A opção por um editor amplamente adotado no setor profissional — o Visual Studio Code (VS Code), que lidera o uso com 75.9\% dos desenvolvedores, segundo o levantamento mais recente da indústria \cite{StackOverflowSurvey2025} — busca uniformizar as ferramentas utilizadas no contexto acadêmico. Esse alinhamento elimina a dissonância entre as ferramentas ensinadas em disciplinas distintas e as exigidas pelo mercado. A solução proposta consiste, portanto, em um plugin de operação transparente para essa plataforma, executando-se em segundo plano sem comprometer a experiência de usuários finais (discentes e docentes) durante suas atividades de desenvolvimento.
+
+%A aplicação e 
+%%princípios de Engenharia de Software aliada à
+% análise de métricas em ambientes de desenvolvimento integrado (IDE) possibilitará avaliações mais 
+% robustas. A opção por uma IDE amplamente adotada no setor profissional busca uniformizar as 
+% ferramentas utilizadas no contexto acadêmico, eliminando a dissonância entre disciplinas. A solução 
+% proposta consiste em um plugin de operação transparente, executando-se em segundo plano sem 
+% comprometer a experiência de usuários finais (discentes e docentes) durante suas atividades de 
+% desenvolvimento.
 
 \section{Questões de pesquisa}\label{sec:questoes-de-pesquisas}
 \begin{enumerate}
