@@ -20,6 +20,13 @@
   INTERACTIVE MOBILE AND COMPUTER AIDED LEARNING (IMCL). 2012. \textbf{Anais
   [...]} [\textit{S.l.}], 2012. p. 180--186.}
 
+\bibitem[Becker \textit{et al.} 2015]{becker2015besouro}
+\abntrefinfo{Becker \textit{et al.}}{Becker \textit{et al.}}{2015}
+{BECKER, K. \textit{et al.} Besouro: A framework for exploring compliance rules
+  in automatic tdd behavior assessment.
+\textbf{Information and Software Technology},  Elsevier v.~57,, p. 494--508,
+  2015.}
+
 \bibitem[Clemente 2008]{clemente2008arquitetura}
 \abntrefinfo{Clemente}{Clemente}{2008}
 {CLEMENTE, R.~G.
@@ -41,6 +48,14 @@
 Standard ECMA-404.
 Dispon{\'\i}vel em:
   \url{https://www.ecma-international.org/publications-and-standards/standards/ecma-404/}.}
+
+\bibitem[Felisbino, Neto e Bastos 2018]{felisbino2018supporting}
+\abntrefinfo{Felisbino, Neto e Bastos}{Felisbino; Neto; Bastos}{2018}
+{FELISBINO, C.~M.; NETO, A. G. S.~S.; BASTOS, L.~C. Supporting to the teaching
+  and learning process in object orientation during the construction of class
+  diagrams. \textit{In}: PROCEEDINGS OF THE XXXII BRAZILIAN SYMPOSIUM ON
+  SOFTWARE ENGINEERING. 2018. \textbf{Anais [...]} [\textit{S.l.}:
+  \textit{s.n.}], 2018. p. 338--347.}
 
 \bibitem[Fu \textit{et al.} 2014]{fu_where_2014}
 \abntrefinfo{Fu \textit{et al.}}{Fu \textit{et al.}}{2014}

@@ -22,11 +22,18 @@ No contexto educacional, a avaliação é entendida como uma etapa do processo d
 torna um tema permanente de reflexão e estudo entre especialistas da área, que buscam constantemente refinar 
 suas práticas para alcançar melhores resultados \cite{lima2022avaliaccao}
 
-A avaliação no curso técnico configura-se como um processo bifronte, pois contempla tanto a avaliação da aprendizagem do estudante quanto a avaliação do sistema educacional como um todo.
+A avaliação no curso técnico configura-se como um processo bifronte, pois contempla tanto a avaliação da 
+aprendizagem do estudante quanto a avaliação do sistema educacional como um todo.
 
-No que se refere à aprendizagem, o projeto pedagógico estabelece como objetivo central a progressão do discente para o alcance do perfil profissional almejado. Nesse sentido, o Art. 34º da Resolução CNE/CEB nº 6, de 20 de setembro de 2012, que rege o curso, determina que esse processo "é contínuo e cumulativo, com prevalência dos aspectos qualitativos sobre os quantitativos, bem como dos resultados ao longo do processo sobre os de eventuais provas finais" ~\cite{IFAM2020}.
+No que se refere à aprendizagem, o projeto pedagógico estabelece como objetivo central a progressão do discente 
+para o alcance do perfil profissional almejado. Nesse sentido, o Art. 34º da Resolução CNE/CEB nº 6, de 20 de 
+setembro de 2012, que rege o curso, determina que esse processo "é contínuo e cumulativo, com prevalência dos 
+aspectos qualitativos sobre os quantitativos, bem como dos resultados ao longo do processo sobre os de 
+eventuais provas finais" ~\cite{IFAM2020}.
 
-Paralelamente, a avaliação do sistema, referente ao rendimento acadêmico, deve ser realizada para cada disciplina individualmente, considerando de forma simultânea e obrigatória a frequência do aluno e seu aproveitamento na aquisição de competências e conhecimentos \cite{IFAM2020}.
+Paralelamente, a avaliação do sistema, referente ao rendimento acadêmico, deve ser realizada para cada 
+disciplina individualmente, considerando de forma simultânea e obrigatória a frequência do aluno e seu 
+aproveitamento na aquisição de competências e conhecimentos \cite{IFAM2020}.
 
 O ensino de programação é uma atividade multidisciplinar que demanda uma práxis pedagógica 
 apurada -- ou seja, uma constante reflexão que integre teoria e prática em sala de aula. 
@@ -52,16 +59,34 @@ Ademais, a análise de logs pode revelar padrões de comportamento e envio, forn
 não apenas para a intervenção individual, mas para a melhoria contínua  e baseada em evidências do processo 
 educacional como um todo.
 
-É aqui que entram métricas de análise de código. Para além das tradicionais métricas de complexidade 
-computacional (como tempo de execução), o professor pode lançar mão de métricas de similaridade e 
-adequação estrutural, que avaliam, por exemplo, o uso esperado de variáveis, a aplicação correta de laços de 
-repetição e o emprego adequado das palavras reservadas da linguagem. 
+A coleta automatizada de logs de programação para análise empírica é uma metodologia consolidada em estudos de 
+Engenharia de Software. O projeto Besouro, por exemplo, foi concebido como um instrumento para capturar dados 
+brutos do processo de TDD, com o objetivo de `comparar definições existentes, avaliá-las com relação à 
+percepção dos usuários e explorar informações do código para análise posterior' \cite{becker2015besouro}. 
+Inspirado por essa abordagem, o presente trabalho propõe a extensão LOGADO, que adapta esse princípio de 
+instrumentação para o contexto educacional. Nosso plugin coleta logs de eventos de digitação (palavras 
+reservadas, timestamps, localização no código) com o objetivo principal de desvendar as estratégias e 
+dificuldades dos estudantes durante a resolução de problemas de programação, fornecendo uma base de dados rica 
+para pesquisas em ensino de computação.
+
+A necessidade de analisar o processo de aprendizagem, e não apenas seu produto final, tem sido reconhecida em 
+diferentes domínios da computação. Em ensino de Paradigma Orientado a Objetos, por exemplo, 
+\cite{felisbino2018supporting}  desenvolveram uma ferramenta com um `Gerador de Logs' como plugin para o 
+Microsoft Visio, justamente para capturar as ações dos alunos durante a construção de Diagramas de Classes e 
+identificar suas dificuldades conceituais. Este trabalho se insere nessa mesma linha de investigação, 
+transladando o princípio da coleta de logs processuais para o domínio do ensino de programação introdutória e 
+de algoritmos.
+
+É aqui que entram as métricas de análise estática de código aplicadas com um viés pedagógico. Para além das 
+métricas tradicionais de complexidade algorítmica (como tempo de execução e uso de memória), o professor pode 
+lançar mão de métricas que avaliam a adequação e a qualidade estrutural do código-fonte. Essas métricas podem 
+mensurar, por exemplo, a aplicação correta de padrões de controle (laços e condicionais), o uso esperado de 
+variáveis e estruturas de dados, e o emprego adequado das palavras reservadas da linguagem.
 
 O potencial inovador dessa abordagem reside na possibilidade de sistematizar a análise: os dados gerados por 
 essas métricas -- coletados em larga escala dos códigos dos estudantes -- podem ser agregados em um dataset. 
 Este, por sua vez, permite comparações objetivas não apenas entre indivíduos, mas entre turmas, períodos 
-letivos e diferentes metodologias de ensino para a avaliação em larga escala. 
-
+letivos e diferentes metodologias de ensino para a avaliação em larga escala.
 
 \section{Contexto, motivação e justificativa}\label{sec:consideracoesIniciais}
 
