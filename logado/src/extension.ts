@@ -52,13 +52,19 @@ export class LogadoGenerator {
         if (this.reservedWords.has(word)) {
           const position = document.positionAt(change.rangeOffset + changedText.indexOf(word));
           
-          const event: CodeEvent = {
-            keyword: word,
-            timestamp: new Date().toISOString(),
-            file: path.basename(fileName),
-            line: position.line + 1,
-            column: position.character + 1
-          };
+          const getFormattedLocalTime = () => {
+        const now = new Date();
+        const pad = (num: number) => num.toString().padStart(2, '0');
+        return `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())} ${pad(now.getHours())}:${pad(now.getMinutes())}:${pad(now.getSeconds())}`;
+        };
+
+        const event: CodeEvent = {
+          keyword: word,
+          timestamp: getFormattedLocalTime(),
+          file: path.basename(fileName),
+          line: position.line + 1,
+          column: position.character + 1
+        };
 
           if (!this.eventsCache.has(fileName)) {
             this.eventsCache.set(fileName, []);
@@ -90,7 +96,7 @@ export class LogadoGenerator {
 
       fs.writeFileSync(jsonFile, JSON.stringify(events, null, 2), 'utf-8');
       
-      vscode.window.showInformationMessage(`✓ ${events.length} eventos salvos em ${path.basename(jsonFile)}`);
+      vscode.window.showInformationMessage(`${events.length} eventos salvos em ${path.basename(jsonFile)}`);
       console.log(`✓ JSON salvo: ${jsonFile}`);
       
       this.eventsCache.delete(fileName);

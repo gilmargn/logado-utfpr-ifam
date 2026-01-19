@@ -73,9 +73,14 @@ class LogadoGenerator {
             words.forEach(word => {
                 if (this.reservedWords.has(word)) {
                     const position = document.positionAt(change.rangeOffset + changedText.indexOf(word));
+                    const getFormattedLocalTime = () => {
+                        const now = new Date();
+                        const pad = (num) => num.toString().padStart(2, '0');
+                        return `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())} ${pad(now.getHours())}:${pad(now.getMinutes())}:${pad(now.getSeconds())}`;
+                    };
                     const event = {
                         keyword: word,
-                        timestamp: new Date().toISOString(),
+                        timestamp: getFormattedLocalTime(),
                         file: path.basename(fileName),
                         line: position.line + 1,
                         column: position.character + 1
@@ -102,7 +107,7 @@ class LogadoGenerator {
             }
             console.log(`Total de eventos: ${events.length}`);
             fs.writeFileSync(jsonFile, JSON.stringify(events, null, 2), 'utf-8');
-            vscode.window.showInformationMessage(`✓ ${events.length} eventos salvos em ${path.basename(jsonFile)}`);
+            vscode.window.showInformationMessage(`${events.length} eventos salvos em ${path.basename(jsonFile)}`);
             console.log(`✓ JSON salvo: ${jsonFile}`);
             this.eventsCache.delete(fileName);
         }

@@ -3,7 +3,7 @@
   "displayName": "LOGADO",
   "publisher": "LOGADO",
   "description": "Rastros acadêmicos no aprendizado de programação ",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/gilmargn/logado-utfpr-ifam/"
@@ -11,6 +11,13 @@
   "license": "MIT",
   "engines": {
     "vscode": "^1.108.1"
+  },
+  "icon": "logado-utfpr-ifam.png",  
+  "contributes": {
+  },
+  "galleryBanner": {
+    "color": "#FFFFFF",      
+    "theme": "light"         
   },
   "categories": [
     "Other"
