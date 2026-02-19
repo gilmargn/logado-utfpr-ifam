@@ -1,7 +1,12 @@
 # Logado
 
-Uma extensão para o Visual Studio Code projetada para apoiar pesquisas no ensino de programação. Ela coleta dados objetivos do processo de codificação ao monitorar, em tempo real, o uso de *palavras reservadas* da linguagem de programação.
+Uma extensão para o Visual Studio Code projetada para apoiar pesquisas no ensino de programação. Ela coleta dados objetivos do processo de codificação ao monitorar, em tempo real, o uso de *palavras reservadas* da linguagem de programação.# LOGADO - Rastros acadêmicos
 
+# Agradecimentos
+
+* Este plugin está sendo desenvolvido como ferramenta de apoio ao ensino de programação. O projeto originou-se nas aulas do PPGCA-CT da UTFPR. A extensão tem fins acadêmico e conta também com a colaboração do IFAM Campus Boca do Acre, instituição de ensino que fomentou a pesquisa concedendo afastamento remunerado para o mestrado e colaborará com o espaço físico (labin) para os testes e aplicação.
+
+# Registros
 Para cada ocorrência, a extensão registra um log estruturado contendo:
 *   A *palavra reservada* digitada.
 *   O *timestamp* (data e hora) do evento.

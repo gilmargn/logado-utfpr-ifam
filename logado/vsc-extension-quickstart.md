@@ -1,4 +1,4 @@
-# Welcome to your VS Code Extension
+# LOGADO - Rastros
 
 ## What's in the folder
 

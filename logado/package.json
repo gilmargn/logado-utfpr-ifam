@@ -1,43 +1,48 @@
 {
-  "name": "LOGADO",
-  "displayName": "LOGADO",
+  "name": "logado",
+  "displayName": "LOGADO - Rastros Acadêmicos",
+  "description": "Coleta automática de logs de programação para pesquisa educacional (TCLE assinado)",
+  "version": "0.0.6",
   "publisher": "LOGADO",
-  "description": "Rastros acadêmicos no aprendizado de programação ",
-  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/gilmargn/logado-utfpr-ifam/"
   },
   "license": "MIT",
   "engines": {
-    "vscode": "^1.108.1"
+    "vscode": "^1.85.0"
   },
-  "icon": "logado-utfpr-ifam.png",  
-  "contributes": {
-  },
-  "galleryBanner": {
-    "color": "#FFFFFF",      
-    "theme": "light"         
-  },
+  "icon": "logado-utfpr-ifam.png",
   "categories": [
+    "Education",
     "Other"
   ],
   "activationEvents": [
-    "onLanguage:javascript"
+    "onLanguage:javascript",
+    "workspaceContains:**/*.js"
   ],
   "main": "./dist/extension.js",
-  "contributes": {},
+  "contributes": {
+    "configuration": {
+      "title": "LOGADO",
+      "properties": {
+        "logado.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Ativar coleta de logs (conforme TCLE assinado)"
+        }
+      }
+    }
+  },
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
-    "pretest": "npm run compile && npm run lint",
-    "lint": "eslint src --ext ts",
-    "test": "vscode-test"
+    "package": "vsce package"
   },
- "devDependencies": {
-  "@types/vscode": "^1.85.0",
-  "@types/node": "^20.x.x",
-  "typescript": "^5.x.x"
-}
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  }
 }

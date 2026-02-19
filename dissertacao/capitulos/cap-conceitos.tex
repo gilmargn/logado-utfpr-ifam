@@ -37,9 +37,9 @@ A aplicação de análise de \textit{logs} no ensino de programação representa
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.85\textwidth]{fluxograma-logado.png} % Ajuste o nome do arquivo
+\includegraphics[width=0.85\textwidth]{fluxograma-logado.png}
 \caption{Modelo de coleta de dados educacionais durante a atividade de codificação. O plugin LOGADO monitora o processo, gerando logs que registram a jornada do aprendiz, em contraste com o artefato final (código) que é o foco da avaliação tradicional.}
-\label{fig:modelo-coleta}
+\label{fig:fluxograma-logado}
 \end{figure}
 
 
@@ -157,13 +157,20 @@ A extensão LOGADO foi projetada para ser uma ferramenta leve e integrada ao flu
     \label{fig:marketplace}
 \end{figure}
 
-\begin{itemize}
-\item Configuração Granular: O usuário poderá habilitar ou desabilitar a coleta de tipos específicos de eventos (ex., apenas execuções e erros, sem capturar cada edição de tecla).
+%\begin{itemize}
+%\item Configuração Granular: O usuário poderá habilitar ou desabilitar a coleta de tipos específicos de eventos (ex., apenas execuções e erros, sem capturar cada edição de tecla).
+%
+%\item Gerenciamento de Privacidade: A extensão operará inicialmente em modo estritamente local. Os dados não serão transmitidos para servidores externos sem o consentimento explícito do usuário, assegurando a privacidade.
+%
+%\item Exportação de Dados: Será fornecida uma funcionalidade para exportar os logs em JSON para facilitar a análise por ferramentas externas ou para compartilhamento com instrutores, em cenários de pesquisa ou tutoria.
+%
+%\end{itemize}
 
-\item Gerenciamento de Privacidade: A extensão operará inicialmente em modo estritamente local. Os dados não serão transmitidos para servidores externos sem o consentimento explícito do usuário, assegurando a privacidade.
-
-\item Exportação de Dados: Será fornecida uma funcionalidade para exportar os logs em JSON para facilitar a análise por ferramentas externas ou para compartilhamento com instrutores, em cenários de pesquisa ou tutoria.
-
-\end{itemize}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.65\textwidth]{logado-explorer.png} 
+    \caption{Evidência do funcionamento do plugin LOGADO. Para cada arquivo JavaScript criado pelo estudante (ex., \texttt{aula.js}), a extensão gera automaticamente um arquivo de log homônimo no formato JSON (\texttt{aula.json}), conforme destacado. A captura mostra na aba do Explorador do VS Code os arquivos no diretório.}
+    \label{fig:vscode-output}
+\end{figure}
 
 Esta proposta visa, portanto, criar uma ferramenta leve, eficaz e ética, que se integre perfeitamente ao fluxo de trabalho do estudante, gerando os dados necessários para um entendimento profundo de suas estratégias e dificuldades no ato de programar.

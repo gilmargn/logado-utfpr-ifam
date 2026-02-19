@@ -41,26 +41,63 @@ const path = __importStar(require("path"));
 const fs = __importStar(require("fs"));
 class LogadoGenerator {
     reservedWords = new Set([
-        'let', 'const', 'var', 'if', 'else', 'for', 'while', 'function',
-        'return', 'parseInt', 'parseFloat', 'prompt', 'alert', 'document',
-        'writeln', 'console', 'log', 'typeof', 'instanceof', 'new', 'class'
+        // Declaração de variáveis
+        'let', 'const', 'var',
+        // Estruturas de controle
+        'if', 'else', 'for', 'while', 'do', 'switch', 'case', 'break', 'continue',
+        // Funções e classes
+        'function', 'return', 'new', 'this', 'class',
+        // Tratamento de erros
+        'try', 'catch', 'finally', 'throw',
+        // Valores literais
+        'null', 'undefined', 'true', 'false',
+        // Operadores
+        'typeof', 'instanceof',
+        // Console
+        'console', 'log', 'error', 'warn',
+        // Conversão e parsing
+        'parseInt', 'parseFloat', 'Number', 'String', 'Boolean', 'Array', 'Object',
+        'Math', 'Date', 'JSON',
+        // Array - métodos
+        'push', 'pop', 'shift', 'unshift', 'length',
+        'forEach', 'map', 'filter', 'reduce',
+        'indexOf', 'includes', 'join', 'slice', 'splice',
+        // String - métodos
+        'charAt', 'concat', 'includes', 'indexOf',
+        'replace', 'slice', 'split', 'substring',
+        'toLowerCase', 'toUpperCase', 'trim',
+        // Interação
+        'prompt', 'alert', 'confirm',
+        // Number - métodos
+        'toFixed', 'toPrecision', 'toString', 'toExponential', 'toLocaleString',
+        'valueOf',
+        // Math - objeto e métodos
+        'Math', 'floor', 'ceil', 'round', 'random', 'max', 'min', 'abs', 'sqrt', 'pow',
+        'PI', 'E', 'sin', 'cos', 'tan', 'asin', 'acos', 'atan', 'atan2',
+        'exp', 'log', 'log10', 'log2', 'sign', 'trunc', 'cbrt', 'hypot'
     ]);
     eventsCache = new Map();
+    sessionId;
+    constructor() {
+        this.sessionId = new Date().toISOString().slice(0, 10) + '_' +
+            Math.random().toString(36).substring(2, 8);
+    }
     start(context) {
-        console.log('Logado iniciado!');
-        // Monitora mudanças em tempo real
+        // Monitora mudanças
         vscode.workspace.onDidChangeTextDocument((event) => {
             if (event.document.languageId === 'javascript') {
                 this.handleTextChange(event);
             }
         }, null, context.subscriptions);
-        // Salva JSON ao salvar arquivo
         vscode.workspace.onDidSaveTextDocument((document) => {
             if (document.languageId === 'javascript') {
                 this.saveJsonFile(document);
             }
         }, null, context.subscriptions);
-        vscode.window.showInformationMessage('Logado: Monitorando arquivos .js');
+        this.showStartupMessage();
+    }
+    showStartupMessage() {
+        vscode.window.showInformationMessage('LOGADO: Coletando rastros acadêmicos para pesquisa', 'OK');
     }
     handleTextChange(event) {
         const document = event.document;
@@ -73,47 +110,45 @@ class LogadoGenerator {
             words.forEach(word => {
                 if (this.reservedWords.has(word)) {
                     const position = document.positionAt(change.rangeOffset + changedText.indexOf(word));
-                    const getFormattedLocalTime = () => {
-                        const now = new Date();
-                        const pad = (num) => num.toString().padStart(2, '0');
-                        return `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())} ${pad(now.getHours())}:${pad(now.getMinutes())}:${pad(now.getSeconds())}`;
-                    };
                     const event = {
                         keyword: word,
-                        timestamp: getFormattedLocalTime(),
+                        timestamp: this.getFormattedLocalTime(),
                         file: path.basename(fileName),
                         line: position.line + 1,
-                        column: position.character + 1
+                        column: position.character + 1,
+                        sessionId: this.sessionId
                     };
                     if (!this.eventsCache.has(fileName)) {
                         this.eventsCache.set(fileName, []);
                     }
                     this.eventsCache.get(fileName).push(event);
-                    console.log(`✓ "${word}" em ${event.file}:${event.line}:${event.column}`);
                 }
             });
         });
     }
+    getFormattedLocalTime() {
+        const now = new Date();
+        const pad = (num) => num.toString().padStart(2, '0');
+        return `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())} ${pad(now.getHours())}:${pad(now.getMinutes())}:${pad(now.getSeconds())}`;
+    }
     saveJsonFile(document) {
-        console.log('=== SALVANDO JSON ===');
-        console.log('Arquivo:', document.fileName);
         try {
             const fileName = document.fileName;
             const jsonFile = fileName.replace(/\.js$/, '.json');
             let events = this.eventsCache.get(fileName) || [];
             if (events.length === 0) {
-                console.log('Cache vazio, escaneando arquivo...');
                 events = this.scanFullDocument(document);
             }
-            console.log(`Total de eventos: ${events.length}`);
+            events = events.map(e => ({
+                ...e,
+                sessionId: e.sessionId || this.sessionId
+            }));
             fs.writeFileSync(jsonFile, JSON.stringify(events, null, 2), 'utf-8');
-            vscode.window.showInformationMessage(`${events.length} eventos salvos em ${path.basename(jsonFile)}`);
-            console.log(`✓ JSON salvo: ${jsonFile}`);
             this.eventsCache.delete(fileName);
         }
         catch (error) {
-            console.error('ERRO:', error);
-            vscode.window.showErrorMessage(`Erro: ${error}`);
+            vscode.window.showErrorMessage(` LOGADO: Erro ao salvar dados - ${error}`);
+            console.error('Erro detalhado:', error);
         }
     }
     scanFullDocument(document) {
@@ -121,7 +156,6 @@ class LogadoGenerator {
         const fileName = path.basename(document.fileName);
         const text = document.getText();
         const lines = text.split('\n');
-        console.log(`scaneando ${lines.length} linhas...`);
         lines.forEach((lineText, lineIndex) => {
             const words = lineText.match(/\b\w+\b/g);
             if (!words)
@@ -134,22 +168,19 @@ class LogadoGenerator {
                         timestamp: new Date().toISOString(),
                         file: fileName,
                         line: lineIndex + 1,
-                        column: column + 1
+                        column: column + 1,
+                        sessionId: this.sessionId
                     });
                 }
             });
         });
-        console.log(`✓ Encontradas ${events.length} palavras reservadas`);
         return events;
     }
 }
 exports.LogadoGenerator = LogadoGenerator;
 function activate(context) {
-    console.log('Extensão Logado ativada!');
     const generator = new LogadoGenerator();
     generator.start(context);
 }
-function deactivate() {
-    console.log('Extensão Logado desativada');
-}
+function deactivate() { }
 //# sourceMappingURL=extension.js.map

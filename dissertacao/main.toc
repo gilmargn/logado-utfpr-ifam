@@ -49,7 +49,7 @@
 \contentsline {section}{\numberline {3.4}Considerações finais}{27}{section.3.4}%
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{28}{section*.17}%
+\contentsline {chapter}{\uppercase {Refer\^encias}}{28}{section*.18}%
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Mapeamento Sistemático da Literatura}}{32}{appendix.A}%
 \contentsline {section}{\numberline {A.1}Objetivo e questões de pesquisa}{32}{section.A.1}%
@@ -67,8 +67,8 @@
 \contentsline {section}{\numberline {B.1}Método}{41}{section.B.1}%
 \contentsline {section}{\numberline {B.2}Instrumento de pesquisa}{41}{section.B.2}%
 \contentsline {section}{\numberline {B.3}Respostas}{42}{section.B.3}%
-\contentsline {subsection}{\numberline {B.3.1}Análise de Ferramentas Utilizadas}{44}{subsection.B.3.1}%
-\contentsline {subsection}{\numberline {B.3.2}Comparações entre Grupos}{45}{subsection.B.3.2}%
-\contentsline {subsection}{\numberline {B.3.3}Análise de Dataset e Correções}{45}{subsection.B.3.3}%
-\contentsline {subsection}{\numberline {B.3.4}Opinião sobre Plugins no Ensino}{46}{subsection.B.3.4}%
-\contentsline {subsection}{\numberline {B.3.5}IDEs utilizados por Instituições}{46}{subsection.B.3.5}%
+\contentsline {subsection}{\numberline {B.3.1}Análise de Ferramentas Utilizadas}{43}{subsection.B.3.1}%
+\contentsline {subsection}{\numberline {B.3.2}Comparações entre Grupos}{44}{subsection.B.3.2}%
+\contentsline {subsection}{\numberline {B.3.3}Análise de Dataset e Correções}{44}{subsection.B.3.3}%
+\contentsline {subsection}{\numberline {B.3.4}Opinião sobre Plugins no Ensino}{45}{subsection.B.3.4}%
+\contentsline {subsection}{\numberline {B.3.5}IDEs utilizados por Instituições}{45}{subsection.B.3.5}%
