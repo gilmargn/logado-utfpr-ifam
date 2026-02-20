@@ -1,8 +1,8 @@
 {
   "name": "logado",
   "displayName": "LOGADO - Rastros Acadêmicos",
-  "description": "Coleta automática de logs de programação para pesquisa educacional (TCLE assinado)",
-  "version": "0.0.6",
+  "description": "Coleta logs no aprendizado de programação para pesquisa educacional - UFTPR & IFAM",
+  "version": "0.0.5",
   "publisher": "LOGADO",
   "repository": {
     "type": "git",
@@ -29,7 +29,7 @@
         "logado.enabled": {
           "type": "boolean",
           "default": true,
-          "description": "Ativar coleta de logs (conforme TCLE assinado)"
+          "description": "Ativar coleta de rastros"
         }
       }
     }

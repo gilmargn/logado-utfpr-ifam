@@ -41,49 +41,17 @@ const path = __importStar(require("path"));
 const fs = __importStar(require("fs"));
 class LogadoGenerator {
     reservedWords = new Set([
-        // Declaração de variáveis
-        'let', 'const', 'var',
-        // Estruturas de controle
-        'if', 'else', 'for', 'while', 'do', 'switch', 'case', 'break', 'continue',
-        // Funções e classes
-        'function', 'return', 'new', 'this', 'class',
-        // Tratamento de erros
-        'try', 'catch', 'finally', 'throw',
-        // Valores literais
-        'null', 'undefined', 'true', 'false',
-        // Operadores
-        'typeof', 'instanceof',
-        // Console
-        'console', 'log', 'error', 'warn',
-        // Conversão e parsing
-        'parseInt', 'parseFloat', 'Number', 'String', 'Boolean', 'Array', 'Object',
-        'Math', 'Date', 'JSON',
-        // Array - métodos
-        'push', 'pop', 'shift', 'unshift', 'length',
-        'forEach', 'map', 'filter', 'reduce',
-        'indexOf', 'includes', 'join', 'slice', 'splice',
-        // String - métodos
-        'charAt', 'concat', 'includes', 'indexOf',
-        'replace', 'slice', 'split', 'substring',
-        'toLowerCase', 'toUpperCase', 'trim',
-        // Interação
-        'prompt', 'alert', 'confirm',
-        // Number - métodos
-        'toFixed', 'toPrecision', 'toString', 'toExponential', 'toLocaleString',
-        'valueOf',
-        // Math - objeto e métodos
-        'Math', 'floor', 'ceil', 'round', 'random', 'max', 'min', 'abs', 'sqrt', 'pow',
-        'PI', 'E', 'sin', 'cos', 'tan', 'asin', 'acos', 'atan', 'atan2',
-        'exp', 'log', 'log10', 'log2', 'sign', 'trunc', 'cbrt', 'hypot'
+        'let', 'const', 'var', 'if', 'else', 'for', 'while', 'do', 'switch', 'case', 'break', 'continue',
+        'function', 'return', 'new', 'this', 'class', 'try', 'catch', 'finally', 'throw', 'null', 'undefined', 'true', 'false',
+        'typeof', 'instanceof', 'console', 'log', 'error', 'warn', 'parseInt', 'parseFloat', 'Number', 'String', 'Boolean', 'Array', 'Object',
+        'Math', 'Date', 'JSON', 'push', 'pop', 'shift', 'unshift', 'length', 'forEach', 'map', 'filter', 'reduce', 'indexOf', 'includes',
+        'join', 'slice', 'splice', 'charAt', 'concat', 'includes', 'indexOf', 'replace', 'slice', 'split', 'substring', 'toLowerCase',
+        'toUpperCase', 'trim', 'prompt', 'alert', 'confirm', 'toFixed', 'toPrecision', 'toString', 'toExponential', 'toLocaleString', 'valueOf',
+        'Math', 'floor', 'ceil', 'round', 'random', 'max', 'min', 'abs', 'sqrt', 'pow', 'PI', 'E', 'sin', 'cos', 'tan', 'asin', 'acos',
+        'atan', 'atan2', 'exp', 'log', 'log10', 'log2', 'sign', 'trunc', 'cbrt', 'hypot'
     ]);
     eventsCache = new Map();
-    sessionId;
-    constructor() {
-        this.sessionId = new Date().toISOString().slice(0, 10) + '_' +
-            Math.random().toString(36).substring(2, 8);
-    }
     start(context) {
-        // Monitora mudanças
         vscode.workspace.onDidChangeTextDocument((event) => {
             if (event.document.languageId === 'javascript') {
                 this.handleTextChange(event);
@@ -97,54 +65,69 @@ class LogadoGenerator {
         this.showStartupMessage();
     }
     showStartupMessage() {
-        vscode.window.showInformationMessage('LOGADO: Coletando rastros acadêmicos para pesquisa', 'OK');
+        vscode.window.showInformationMessage('LOGADO - UTFPR.IFAM', 'OK');
     }
     handleTextChange(event) {
         const document = event.document;
         const fileName = document.fileName;
         event.contentChanges.forEach(change => {
-            const changedText = change.text;
-            const words = changedText.match(/\b\w+\b/g);
-            if (!words)
-                return;
-            words.forEach(word => {
-                if (this.reservedWords.has(word)) {
-                    const position = document.positionAt(change.rangeOffset + changedText.indexOf(word));
-                    const event = {
-                        keyword: word,
-                        timestamp: this.getFormattedLocalTime(),
-                        file: path.basename(fileName),
-                        line: position.line + 1,
-                        column: position.character + 1,
-                        sessionId: this.sessionId
-                    };
-                    if (!this.eventsCache.has(fileName)) {
-                        this.eventsCache.set(fileName, []);
-                    }
-                    this.eventsCache.get(fileName).push(event);
-                }
-            });
+            if (change.text.length > 0) {
+                this.processAddedText(document, change);
+            }
         });
     }
-    getFormattedLocalTime() {
+    processAddedText(document, change) {
+        const fileName = document.fileName;
+        const addedText = change.text;
+        const words = addedText.match(/\b\w+\b/g);
+        if (!words)
+            return;
+        words.forEach(word => {
+            if (this.reservedWords.has(word)) {
+                const position = document.positionAt(change.rangeOffset + addedText.indexOf(word));
+                const event = {
+                    keyword: word,
+                    timestamp: this.getBrasiliaTime(),
+                    file: path.basename(fileName),
+                    line: position.line + 1,
+                    column: position.character + 1
+                };
+                if (!this.eventsCache.has(fileName)) {
+                    this.eventsCache.set(fileName, []);
+                }
+                this.eventsCache.get(fileName).push(event);
+            }
+        });
+    }
+    getBrasiliaTime() {
         const now = new Date();
+        const brasiliaTime = new Date(now.toLocaleString('en-US', {
+            timeZone: 'America/Sao_Paulo'
+        }));
         const pad = (num) => num.toString().padStart(2, '0');
-        return `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())} ${pad(now.getHours())}:${pad(now.getMinutes())}:${pad(now.getSeconds())}`;
+        return `${brasiliaTime.getFullYear()}-${pad(brasiliaTime.getMonth() + 1)}-${pad(brasiliaTime.getDate())} ${pad(brasiliaTime.getHours())}:${pad(brasiliaTime.getMinutes())}:${pad(brasiliaTime.getSeconds())}`;
     }
     saveJsonFile(document) {
         try {
             const fileName = document.fileName;
             const jsonFile = fileName.replace(/\.js$/, '.json');
-            let events = this.eventsCache.get(fileName) || [];
-            if (events.length === 0) {
-                events = this.scanFullDocument(document);
+            const newEvents = this.eventsCache.get(fileName) || [];
+            if (newEvents.length > 0) {
+                let allEvents = [];
+                if (fs.existsSync(jsonFile)) {
+                    const content = fs.readFileSync(jsonFile, 'utf-8');
+                    try {
+                        allEvents = JSON.parse(content);
+                    }
+                    catch (e) {
+                        // Se JSON corrompido, começa novo
+                        console.warn(`JSON corrompido, criando novo: ${jsonFile}`);
+                    }
+                }
+                allEvents.push(...newEvents);
+                fs.writeFileSync(jsonFile, JSON.stringify(allEvents, null, 2), 'utf-8');
+                this.eventsCache.delete(fileName);
             }
-            events = events.map(e => ({
-                ...e,
-                sessionId: e.sessionId || this.sessionId
-            }));
-            fs.writeFileSync(jsonFile, JSON.stringify(events, null, 2), 'utf-8');
-            this.eventsCache.delete(fileName);
         }
         catch (error) {
             vscode.window.showErrorMessage(` LOGADO: Erro ao salvar dados - ${error}`);
@@ -165,11 +148,10 @@ class LogadoGenerator {
                     const column = lineText.indexOf(word);
                     events.push({
                         keyword: word,
-                        timestamp: new Date().toISOString(),
+                        timestamp: this.getBrasiliaTime(),
                         file: fileName,
                         line: lineIndex + 1,
                         column: column + 1,
-                        sessionId: this.sessionId
                     });
                 }
             });
