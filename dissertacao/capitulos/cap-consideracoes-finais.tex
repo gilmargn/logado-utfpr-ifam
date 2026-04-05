@@ -1,14 +1,292 @@
 \section{Considerações finais}
 \label{cap-consideracoes-finais}
+%
+%Neste documento foi apresentada uma proposta para qualificação de mestrado que objetiva contribuir com o aprimoramento do ensino de programação a partir da geração e análise de logs em um ambiente integrado de desenvolvimento. 
+%
+%Tendo conhecimento das informações apresentadas nos capítulos anteriores, é interessante mencionar que até o momento já foram executadas as seguintes atividades:
+%
+%\begin{itemize}
+%\item Revisão da literatura
+%\item Submissão do projeto de pesquisa pelo CEP da UTFPR campus Medianeira
+%\item Desenvolvimento parcial da extensão
+%\item Submissão de artigo correlato ao tema desta proposta ao LACLO.
+%\end{itemize}
+%
 
-Neste documento foi apresentada uma proposta para qualificação de mestrado que objetiva contribuir com o aprimoramento do ensino de programação a partir da geração e análise de logs em um ambiente integrado de desenvolvimento. 
+Este capítulo apresenta os resultados obtidos a partir da coleta de logs de palavras reservadas utilizando o LOGADO. Conforme descrito na metodologia (Seção \ref{cap:metodologia}), a análise assume caráter exploratório, buscando identificar padrões emergentes de uso de palavras-chaves da linguagem de programação JavaScript sem categorias pré-definidas.
 
-Tendo conhecimento das informações apresentadas nos capítulos anteriores, é interessante mencionar que até o momento já foram executadas as seguintes atividades:
+\section{Caracterização da amostra}
+\label{sec:caracterizacao-amostra}
 
+Foram coletados logs de aprendizado de aproximadamente 25 estudantes do curso técnico em Informática do IFAM Campus Boca do Acre, durante atividades práticas da disciplina de Estrutura de Dados. O período de coleta abrangeu 5 semanas, totalizando 19 repositórios registrados. Conforme a assinatura de TCLE e da criação do repositório ``logado" na Plataforma Github. O número de estudantes está diferente do repositórios, pois alguns estudantes não quiseram participar da pesquisa em algum momento ou assinaram e não compareceram nas aulas.
+
+
+A Figura \ref{fig:top20-keywords} apresenta as 20 palavras-chave mais frequentes nos logs coletados.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{figura_resultado_01_top20_keywords.png}
+    \caption{Top 20 palavras-chave mais frequentes nos logs coletados}
+    \label{fig:top20-keywords}
+    \fonte{Elaborado pelo autor}
+\end{figure}
+
+Observa-se que \texttt{let}, \texttt{console} e \texttt{function} estão entre as palavras-chave mais frequentes, o que era esperado dado o conteúdo da disciplina de Estrutura de Dados. O uso dessas palavras reflete operações fundamentais no aprendizado de programação: 
+(i) \texttt{let} indica a declaração de variáveis, essencial para armazenamento e manipulação de dados;
+(ii) \texttt{console} (frequentemente acompanhado de \texttt{log}) é utilizado para exibição de resultados e depuração;
+(iii) \texttt{function} denota a definição de blocos reutilizáveis, um conceito central na disciplina.
+
+Este resultado deve ser interpretado à luz do contexto institucional: trata-se de um curso técnico em Informática na forma subsequente, com estudantes que possuem diferentes níveis de experiência prévia em programação. Aliado a isso, o calendário acadêmico e a necessidade de reprodução de códigos apresentados em sala de aula influenciam diretamente os padrões observados. Os rastros capturados evidenciam, portanto, a tentativa dos estudantes de reproduzir exemplos da docência e de aplicar palavras-chave consultadas na documentação da linguagem.
+
+Vale notar que \texttt{var} aparece com menor frequência que \texttt{let}, o que pode indicar a adoção das práticas modernas de JavaScript ensinadas em aula, embora transições entre os dois sejam observadas em situações envolvendo escopo de variáveis, conforme discutido na Seção \ref{subsec:transicao-let-var}.
+
+A Figura \ref{fig:distribuicao-arquivos} mostra como os logs se distribuem entre os diferentes arquivos criados pelos estudantes.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{figura_resultado_02_distribuicao_arquivos.png}
+    \caption{Distribuição dos logs por arquivo}
+    \label{fig:distribuicao-arquivos}
+    \fonte{Elaborado pelo autor}
+\end{figure}
+
+Nota-se que poucos arquivos concentram a maior parte dos logs, enquanto a maioria dos arquivos apresenta baixa frequência de registros. Este comportamento era esperado: algoritmos mais complexos exigem maior quantidade de palavras-chave e lógica mais elaborada, gerando naturalmente mais rastros. Além disso, a padronização de nomenclatura adotada pela equipe permitiu identificar quais arquivos correspondiam aos exercícios principais da disciplina e quais eram secundários ou experimentais.
+
+A Figura \ref{fig:ocorrencia-hora} mostra a distribuição temporal dos logs ao longo do dia.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{figura_resultado_03_ocorrencia_hora.png}
+    \caption{Ocorrência de logs por hora do dia}
+    \label{fig:ocorrencia-hora}
+    \fonte{Elaborado pelo autor}
+\end{figure}
+
+Observa-se que os logs concentram-se em períodos específicos, com picos acentuados em determinados horários. Este padrão reflete a dinâmica da sala de aula: o professor resolve os algoritmos no quadro em momentos definidos e, a partir daí, os estudantes reproduzem as soluções em seus editores. As ocorrências em horários similares indicam baixa autonomia na produção dos códigos, uma vez que poucos estudantes iniciam ou desenvolvem as atividades por conta própria antes da mediação docente.
+
+As variações observadas entre os horários podem ser atribuídas a diferenças individuais, como ritmo de digitação ou tempo necessário para compreender e transcrever a solução apresentada. Contudo, a ausência de registros significativos fora dos períodos de exposição do professor sugere dependência da mediação pedagógica para o avanço nas atividades.
+% GRÁFICO 4: Rede de co-ocorrência
+A Figura \ref{fig:rede-coocorrencia} apresenta a rede de co-ocorrência entre as palavras-chave utilizadas pelos estudantes.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{figura_resultado_04_rede_coocorrencia.png}
+    \caption{Rede de co-ocorrência entre palavras reservadas}
+    \label{fig:rede-coocorrencia}
+    \fonte{Elaborado pelo autor}
+\end{figure}
+
+A rede revela que os estudantes utilizam um conjunto relativamente restrito de palavras-chave para resolver os algoritmos propostos, evidenciando repertório limitado ou fortemente influenciado pelos exemplos apresentados em sala de aula. Observa-se a formação de clusters bem definidos: condicionais (\texttt{if}, \texttt{else}), laços de repetição (\texttt{for}, \texttt{while}), interação com o usuário (\texttt{prompt}, \texttt{alert}) e funções (\texttt{function}, \texttt{return}).
+
+Um aspecto relevante na estrutura da rede é o papel da palavra \texttt{return}, que atua como elemento de conexão entre o cluster de funções e o cluster de condicionais. Esta interconexão reflete a prática comum em algoritmos que utilizam estruturas condicionais no interior de funções para controlar o fluxo de execução e retornar valores conforme a lógica implementada.
+
+Destaca-se também a presença de \texttt{let} e \texttt{var} como palavras-chave para declaração de variáveis. Embora ambas cumpram funções semelhantes, a análise contextual dos logs — aliada ao conhecimento da dinâmica da turma — indica que \texttt{let} foi predominantemente utilizado para declarações de variáveis locais (dentro de blocos e laços), enquanto \texttt{var} apareceu em situações que exigiam escopo global ou funções específicas de contexto. Esta distinção, embora sutil na rede, é pedagogicamente significativa: revela a transição conceitual dos estudantes em relação ao entendimento de escopo de variáveis.
+
+Não foram identificadas palavras isoladas sem conexões na rede, o que sugere que todo o vocabulário utilizado pelos estudantes está integrado às estruturas básicas da linguagem necessárias para resolver os algoritmos propostos. Este padrão, contudo, pode refletir tanto a adequação das atividades quanto a limitação do repertório dos discentes.
+% GRÁFICO 5: Centralidade
+
+A Figura \ref{fig:centralidade} apresenta as palavras-chave com maior centralidade na rede de co-ocorrência.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{figura_resultado_05_centralidade.png}
+    \caption{Palavras com maior centralidade na rede de co-ocorrência}
+    \label{fig:centralidade}
+    \fonte{Elaborado pelo autor}
+\end{figure}
+
+Das três formas de exibição de resultados — \texttt{document.write}, \texttt{console.log} e \texttt{alert} — os estudantes preferiram \texttt{alert} pela simplicidade e foco no resultado.
+
+Entre os laços de repetição, \texttt{for} foi mais utilizado que \texttt{while}. Esta diferença explica-se pela dificuldade dos estudantes com \texttt{while}: frequentemente esquecem de iterar a variável de controle, gerando laços infinitos. O \texttt{for}, por sua vez, quando apresenta erro de sintaxe, simplesmente não executa, comportamento mais fácil de diagnosticar.
+
+Quanto à declaração de variáveis, \texttt{let} foi o mais frequente entre \texttt{const}, \texttt{var} e \texttt{let}, indicando preferência pela forma moderna.
+
+A Tabela \ref{tab:comparacao-lacos} sintetiza as diferenças observadas entre as duas estruturas de repetição no contexto de aprendizagem.
+
+\begin{table}[H]
+\centering
+\caption{Comparação entre \texttt{for} e \texttt{while} no contexto observado}
+\label{tab:comparacao-lacos}
+\begin{tabular}{|p{0.3\linewidth}|p{0.3\linewidth}|p{0.3\linewidth}|}
+\hline
+\textbf{Aspecto} & \texttt{for} & \texttt{while} \\
+\hline
+Frequência de uso & Alta & Baixa \\
+\hline
+Comportamento com erro de sintaxe & Não executa (seguro) & Pode executar indefinidamente \\
+\hline
+Erro comum & Esquecer a condição de parada & Esquecer a iteração da variável \\
+\hline
+Consequência do erro & Código não produz saída & Laço infinito (travamento) \\
+\hline
+Facilidade de diagnóstico & Alta & Baixa \\
+\hline
+\end{tabular}
+\fonte{Elaborado pelo autor}
+\end{table}
+% GRÁFICO 6: Palavras emergentes
+
+A Figura \ref{fig:palavras-emergentes} apresenta as palavras-chave que tiveram maior crescimento de frequência ao longo das semanas.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{figura_resultado_06_palavras_emergentes.png}
+    \caption{Palavras com maior crescimento ao longo das semanas}
+    \label{fig:palavras-emergentes}
+    \fonte{Elaborado pelo autor}
+\end{figure}
+
+O resultado revela que não houve ampliação significativa do vocabulário técnico dos estudantes durante o período analisado. As palavras emergentes pertencem a categorias já dominadas desde o início: declaração de variáveis (\texttt{let}), conversão de tipos (\textit{cast}), operações de medição (\texttt{length}) e interação com o usuário (\texttt{prompt}, \texttt{console}).
+
+Do ponto de vista pedagógico, a ausência de evolução do tesauro técnico é um achado relevante. Esperar-se-ia que, ao longo de disciplinas como Estrutura de Dados, palavras como \texttt{array}, \texttt{object}, \texttt{class}, \texttt{return} ou \texttt{try} surgissem entre as emergentes. Sua ausência sugere que:
 \begin{itemize}
-\item Revisão da literatura
-\item Submissão do projeto de pesquisa pelo CEP da UTFPR campus Medianeira
-\item Desenvolvimento parcial da extensão
-\item Submissão de artigo correlato ao tema desta proposta ao LACLO.
+    \item Os estudantes não incorporaram novos conceitos ao seu repertório ativo;
+    \item O vocabulário utilizado manteve-se restrito ao mínimo necessário para reproduzir os exemplos do professor;
+    \item A dependência pedagógica, identificada na análise temporal, também se manifesta na estagnação do vocabulário técnico.
 \end{itemize}
 
+Este padrão corrobora a hipótese de que a mediação intensiva do professor, embora necessária no contexto, pode limitar a autonomia e a ampliação do repertório dos estudantes quando não acompanhada de estímulos à exploração independente da linguagem.
+
+Este resultado reforça o argumento central desta pesquisa: os logs de palavras reservadas revelam dimensões do processo de aprendizagem que não seriam capturadas pela análise do código final. A estagnação do vocabulário técnico — evidenciada pela ausência de palavras emergentes mais avançadas — é um fenômeno que apenas os rastros de construção, analisados longitudinalmente, podem revelar.
+
+
+\subsection{Contribuições para a telemetria educacional}
+O agrupamento de logs fortalece a telemetria educacional ao oferecer evidências objetivas sobre 
+dimensões do processo de aprendizagem que  os critérios tradicionais de avaliação não capturam. 
+Estes critérios  concentram-se predominantemente na tríade léxica, semântica e lógica dos programas, 
+ou em métricas computacionais de execução — como número de linhas, funções, métodos e outros 
+indicadores típicos da engenharia de software \cite{pressman2021software, 
+sommerville2019engineering}. Contudo, tais abordagens não consideram os \textbf{rastros da 
+construção do código} ao longo do tempo: a sequência de decisões sintáticas, as tentativas de 
+correção, a alternância entre declarações e interações, e outros padrões processuais que evidenciam 
+o \textit{como} o estudante construiu sua solução, não apenas o produto final ou sua conformidade 
+com critérios estáticos.
+
+\subsection{Limitações contextuais: a contenção de estudantes}
+
+Um fenômeno adicional que caracteriza o contexto investigado, e que não 
+poderia deixar de ser registrado, é a chamada \textit{contenção de 
+estudantes}. Diante de limitações estruturais (falta de computadores, 
+formação prévia fragilizada) e institucionais (pressão por retenção e 
+evasão), docentes raramente aplicam os critérios de avaliação que seriam 
+esperados em disciplinas de algoritmos e estrutura de dados. Esta 
+flexibilização, embora compreensível no curto prazo para manter 
+estudantes matriculados, reforça a descrença na necessidade do 
+conhecimento técnico e compromete a qualidade da formação.
+
+Este trabalho não propõe, nem poderia propor, uma solução para a 
+contenção — um problema estrutural que escapa ao escopo da pesquisa 
+em telemetria educacional. Reconhecer sua existência é, contudo, 
+essencial para situar adequadamente os resultados e as limitações 
+do estudo. A contribuição que se oferece é modesta, mas não trivial: 
+fornecer ao professor evidências baseadas em dados que, mesmo em um 
+contexto de contenção, permitem decisões pedagógicas mais informadas 
+e intervenções mais precisas.
+
+\subsection{Limitações e trabalhos futuros}
+
+A presente pesquisa, embora tenha alcançado seus objetivos e gerado contribuições 
+originais para a área de telemetria educacional no ensino de programação, apresenta 
+limitações que precisam ser explicitamente reconhecidas. Tais limitações, longe de 
+invalidarem os resultados obtidos, qualificam o escopo das conclusões e apontam 
+direções para a continuidade da investigação.
+
+\subsubsection{Limitações do estudo}
+
+\textbf{Especificidade do contexto investigado.} Os dados foram coletados em uma 
+única instituição de ensino, com estudantes de nível técnico cursando Estrutura 
+de Dados, caracterizados por: (i) acesso limitado ou inexistente a computadores 
+fora do ambiente escolar; (ii) baixa autonomia na elaboração de algoritmos, com 
+forte dependência de mediação docente; (iii) descrença na utilidade do conhecimento 
+técnico, alimentada pelo histórico de egressos fora do mercado de trabalho e pelo 
+uso generalizado de LLMs; e (iv) um contexto institucional de contenção, no qual 
+critérios de avaliação são frequentemente flexibilizados para evitar evasão. 
+Os padrões de uso de palavras reservadas identificados refletem, portanto, 
+este conjunto específico de condições, não sendo diretamente generalizáveis 
+para outros contextos educacionais.
+
+\textbf{Plugin não testado em outras instituições.} O artefato desenvolvido 
+(plugin para VS Code) foi utilizado exclusivamente na turma investigada. 
+Não há, neste momento, evidências sobre seu comportamento, usabilidade ou 
+eficácia em outros ambientes institucionais, com diferentes perfis de 
+estudantes, abordagens pedagógicas ou infraestrutura disponível.
+
+\textbf{Natureza exploratória e ausência de categorias prévias.} Conforme 
+explicitado na metodologia, adotou-se uma abordagem exploratória de 
+descoberta de padrões, sem categorias analíticas pré-definidas. Esta 
+escolha, embora legítima e adequada ao caráter inovador da investigação, 
+introduz um grau de subjetividade no processo de identificação e nomeação 
+dos padrões emergentes. A replicabilidade dos achados, portanto, depende 
+da transparência com que as decisões analíticas foram documentadas.
+
+\textbf{Alcance limitado da contribuição.} O trabalho não propõe, nem teria 
+condições de propor, soluções para problemas estruturais do ensino de 
+programação — como a falta de infraestrutura, a desvalorização docente, 
+as políticas institucionais de contenção ou o impacto das LLMs na 
+percepção de valor do conhecimento técnico. A contribuição situa-se 
+em um nível mais modesto, porém não trivial: oferecer ao professor 
+evidências baseadas em dados para decisões pedagógicas mais informadas 
+dentro das margens de manobra que seu contexto permite.
+
+\subsubsection{Trabalhos futuros}
+
+As limitações acima apontam diretamente para desdobramentos possíveis 
+e necessários desta pesquisa:
+
+\textbf{Replicação em outras instituições e contextos.} A aplicação do 
+plugin em diferentes instituições de ensino — com níveis de formação 
+variados (superior, técnico integrado, cursos livres), abordagens 
+pedagógicas distintas (metodologias ativas, sala de aula invertida, 
+aprendizagem baseada em projetos) e diferentes condições de 
+infraestrutura — permitiria: (i) validar a ferramenta em novos 
+cenários; (ii) comparar padrões de uso de palavras reservadas entre 
+contextos; e (iii) construir uma tipologia mais robusta de padrões 
+associados a diferentes perfis de estudantes e práticas docentes.
+
+\textbf{Estudos em contextos de maior autonomia.} Particularmente 
+relevante seria replicar a pesquisa em ambientes nos quais os 
+estudantes elaboram algoritmos sem mediação direta do professor 
+(por exemplo, em atividades extraclasse, em avaliações individuais 
+ou em projetos de longo prazo). A comparação entre os padrões 
+observados neste estudo (marcados pela sincronia temporal e pela 
+cópia do quadro) e aqueles obtidos em contextos de maior autonomia 
+poderia revelar diferenças significativas no processo de construção 
+de conhecimento.
+
+\textbf{Análise longitudinal.} Acompanhar uma mesma turma ao longo 
+de diferentes disciplinas ou semestres permitiria investigar como 
+os padrões de uso de palavras reservadas evoluem com o tempo, 
+possivelmente refletindo o desenvolvimento de competências mais 
+sofisticadas de estruturação algorítmica.
+
+\textbf{Integração com outras fontes de dados.} Trabalhos futuros 
+podem combinar os logs de palavras reservadas com outras fontes 
+de evidência — como entrevistas com estudantes, questionários 
+de percepção de aprendizagem, registros de desempenho acadêmico 
+ou logs de interação com LLMs — para uma compreensão mais rica 
+e multidimensional do fenômeno investigado.
+
+\textbf{Desenvolvimento de dashboards pedagógicos.} A partir da 
+experiência acumulada, um desdobramento natural é o desenvolvimento 
+de interfaces de visualização (dashboards) que apresentem os padrões 
+agrupados de forma intuitiva para o professor, reduzindo a necessidade 
+de conhecimento técnico em análise de dados e ampliando a adoção da 
+telemetria educacional na prática docente cotidiana.
+
+\textbf{Investigação da relação entre padrões de logs e intervenções 
+pedagógicas.} Estudos futuros podem manipular deliberadamente aspectos 
+da prática docente (por exemplo, antecipar explicações sobre escopo 
+quando determinados padrões são identificados) e medir o impacto 
+dessas intervenções nos padrões subsequentes de uso de palavras 
+reservadas, estabelecendo relações causais entre telemetria e 
+melhoria da aprendizagem.
+
+\subsubsection{Síntese}
+
+Em suma, esta pesquisa oferece uma contribuição original e necessária 
+— a introdução da telemetria educacional baseada em logs de palavras 
+reservadas no ensino de programação —, mas o faz de forma situada e 
+consciente de suas limitações. Os trabalhos futuros sugeridos não 
+são meras recomendações protoculares; constituem, antes, um programa 
+de pesquisa que pode legitimamente derivar do que aqui foi construído, 
+testado e problematizado.
