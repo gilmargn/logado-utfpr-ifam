@@ -30,4 +30,3 @@ A principal funcionalidade do Logado é a coleta e agrupamento de *rastros de ap
 ![LOGADO](logado-old.png)
 ![UTFPR](logoPPGCA.png)
 ![IFAM](ifam.png)
-![VENN](venn.png)

@@ -86,9 +86,31 @@ Com base no perfil de usuário (\textit{user profile}) construído—que inclui 
 
 \section{A Extensão Logado: Proposta de Implementação}
 \label{sec:extensao-logado}
+
 A motivação para o desenvolvimento da extensão Logado reside na contínua evolução dos ambientes de programação e na necessidade de se compreender o processo de aprendizagem de forma mais granular. Embora existam diversos Ambientes de Desenvolvimento Integrado (IDEs) e editores de código — muitos focados em uma linguagem específica ou com ecossistemas próprios de plugins —, argumenta-se que é mais eficaz integrar a funcionalidade de logging de eventos diretamente em um editor já consagrado e amplamente adotado, como o Visual Studio Code (VS Code).
 
 A escolha pelo desenvolvimento de uma extensão para o VS Code, em detrimento de um \textit{plugin} para uma IDE menos comum ou de uma ferramenta isolada, é estratégica. Essa abordagem evita a dispersão do foco do aprendiz, que não precisa se adaptar a uma nova ferramenta, permitindo que se concentre exclusivamente na resolução de problemas de programação em um ambiente já familiar. Dessa forma, a extensão Logado será executada de forma transparente na IDE do estudante, capturando de modo integrado e não intrusivo os eventos de desenvolvimento detalhados na Seção \ref{sec:metodologia-analise}.
+
+\subsection{Estado atual da implementação}
+\label{subsec:estado-implementacao}
+
+Atualmente, a extensão Logado encontra-se na versão \texttt{0.0.5} e está disponível para instalação no Visual Studio Code por meio do arquivo \texttt{.vsix}, acessível através da paleta de comandos da IDE. A Figura \ref{fig:icone-logado} apresenta o ícone da extensão, enquanto a Figura \ref{fig:vs-code-logado} ilustra o ambiente de desenvolvimento com o plugin instalado e em execução.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.12\textwidth]{../figuras/logado-icon.png}
+    \caption{Ícone da extensão Logado}
+    \label{fig:icone-logado}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{../figuras/vscode-logado.png}
+    \caption{Visual Studio Code com a extensão Logado instalada e ativa}
+    \label{fig:vs-code-logado}
+\end{figure}
+
+A extensão opera de forma transparente ao estudante, não requerendo configuração adicional ou interrupção do fluxo de trabalho. Uma vez instalada, a coleta de logs ocorre em segundo plano, registrando as palavras reservadas utilizadas, os respectivos \textit{timestamps} e a localização no código (arquivo, linha e coluna).
 
 \subsection{Arquitetura e Armazenamento de Dados}
 \label{subsec:arquitetura-armazenamento}
@@ -144,33 +166,41 @@ else{
     \ref{lst:algoritmo-impressao-json}
 \end{figure}
 
-
 \subsection{Funcionalidades Principais da Extensão}
 \label{subsec:funcionalidades-principais}
 
-A extensão LOGADO foi projetada para ser uma ferramenta leve e integrada ao fluxo natural do estudante. Após o desenvolvimento e testes, ela será disponibilizada no repositório oficial de extensões do VS Code, o \textbf{Visual Studio Code Marketplace} (Figura \ref{fig:marketplace}), de onde poderá ser facilmente instalada por qualquer usuário.
+A extensão LOGADO foi projetada para ser uma ferramenta leve e integrada ao fluxo natural do estudante, operando de forma transparente, mas nunca oculta.
+
+\begin{itemize}
+    \item \textbf{Configuração granular}: o estudante tem controle sobre o que é coletado, sabendo que o plugin não opera como uma ``caixa preta''. A extensão registra apenas códigos escritos em JavaScript, linguagem adotada nas atividades.
+
+    \item \textbf{Gerenciamento de privacidade}: a extensão opera em modo estritamente local. Os dados não são transmitidos para servidores externos sem o consentimento explícito do usuário, assegurando a privacidade e a conformidade com a LGPD.
+
+    \item \textbf{Exportação de dados}: os logs em JSON são salvos concomitantemente aos arquivos \texttt{.js}, podendo ser exportados para repositórios e compartilhados com instrutores em cenários de pesquisa ou tutoria.
+\end{itemize}
+
+\subsubsection{Notificação de Ativação}
+
+Ao iniciar o Visual Studio Code com a extensão instalada, uma notificação visual (\"balão\") é exibida, conforme ilustrado na Figura \ref{fig:notificacao-logado}. Esta notificação tem dupla função: (i) confirmar que a extensão está operacional e (ii) informar explicitamente ao estudante que os logs estão sendo coletados, respeitando os princípios éticos de consentimento informado.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{marketplace-vscode.png} 
-    \caption{Página inicial do Visual Studio Code Marketplace, ambiente onde a extensão LOGADO será publicada e disponibilizada para a comunidade.}
-    \label{fig:marketplace}
+    \includegraphics[width=0.7\textwidth]{../figuras/notificacoes-logado.png}
+    \caption{Notificação exibida pela extensão LOGADO ao ser ativada no Visual Studio Code}
+    \label{fig:notificacao-logado}
 \end{figure}
 
-%\begin{itemize}
-%\item Configuração Granular: O usuário poderá habilitar ou desabilitar a coleta de tipos específicos de eventos (ex., apenas execuções e erros, sem capturar cada edição de tecla).
-%
-%\item Gerenciamento de Privacidade: A extensão operará inicialmente em modo estritamente local. Os dados não serão transmitidos para servidores externos sem o consentimento explícito do usuário, assegurando a privacidade.
-%
-%\item Exportação de Dados: Será fornecida uma funcionalidade para exportar os logs em JSON para facilitar a análise por ferramentas externas ou para compartilhamento com instrutores, em cenários de pesquisa ou tutoria.
-%
-%\end{itemize}
+\subsubsection{Geração de Logs}
+
+Para cada arquivo JavaScript criado ou editado pelo estudante (ex., \texttt{aula.js}), a extensão gera automaticamente um arquivo de log homônimo no formato JSON (\texttt{aula.json}), armazenando os eventos de digitação capturados. A Figura \ref{fig:vscode-output} evidencia este comportamento na aba do Explorador do VS Code.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.65\textwidth]{logado-explorer.png} 
-    \caption{Evidência do funcionamento do plugin LOGADO. Para cada arquivo JavaScript criado pelo estudante (ex., \texttt{aula.js}), a extensão gera automaticamente um arquivo de log homônimo no formato JSON (\texttt{aula.json}), conforme destacado. A captura mostra na aba do Explorador do VS Code os arquivos no diretório.}
+    \caption{Arquivos de log (\texttt{.json}) gerados automaticamente para cada arquivo JavaScript do estudante}
     \label{fig:vscode-output}
 \end{figure}
+
+A extensão opera em segundo plano, não requerendo configuração adicional. Uma vez instalada (por meio do arquivo \texttt{.vsix}), a coleta de logs registra as palavras reservadas utilizadas, os respectivos \textit{timestamps} e a localização no código (arquivo, linha e coluna).
 
 Esta proposta visa, portanto, criar uma ferramenta leve, eficaz e ética, que se integre perfeitamente ao fluxo de trabalho do estudante, gerando os dados necessários para um entendimento profundo de suas estratégias e dificuldades no ato de programar.

@@ -50,6 +50,10 @@
 
 
 
+%\let\pdfcreationdate=\creationdate
+%\let\pdfpageattr=\relax
+%\documentclass[...]{...}
+
 %% Classe e opções de documento
 \documentclass[%% Opções
 %% -- Opções da classe memoir --
@@ -102,6 +106,19 @@
 %% Ferramenta para criação de nomenclaturas
 \makenomenclature%% Não comente esta linha
 
+\makeatletter
+\ifdefined\pdf@box
+\else
+  \let\pdf@box\box
+\fi
+\makeatother
+
+% Definir coverpageone se não existir
+\providecommand{\coverpageone}{}
+
+
+
+
 %% Início do documento
 \begin{document}%% Não comente esta linha
 
@@ -111,7 +128,7 @@
 \pretextual%% Não comente esta linha
 
 %% Capa
-%\incluircapa%% Comente para remover este item
+%\incluircapa %% Comente para remover este item
 \coverpageone
 
 %% Folha de rosto (* coloca a ficha bibliográfica no verso)
@@ -138,7 +155,7 @@
 %\include{./PreTexto/dedicatoria}%% Comente para remover este item
 
 %% Agradecimentos
-%\include{./PreTexto/agradecimentos}%% Comente para remover este item
+\include{./PreTexto/agradecimentos}%% Comente para remover este item
 
 %% Epígrafe
 %\include{./PreTexto/epigrafe}%% Comente para remover este item
@@ -177,7 +194,7 @@
 %\incluirlistadegraficos %% Comente para remover este item
 
 %% Lista de tabelas
-\incluirlistadetabelas%% Comente para remover este item
+%\incluirlistadetabelas%% Comente para remover este item
 
 %% Lista de quadros
 %\incluirlistadequadros
@@ -210,7 +227,7 @@
 %\include{./capitulos/cap-trabalhos-relacionados}%% Comente para remover este item
 
 %% Capítulo
-%\include{./capitulos/cap-proposta}%% Comente para remover este item
+\include{./capitulos/cap-proposta}%% Comente para remover este item
 
 %% Capítulo
 \include{./capitulos/cap-metodologia}%% Comente para remover este item
@@ -249,14 +266,14 @@
  \begin{arquivosdeapendices}%% Os arquivos de apêndices devem se incluídos neste ambiente - Não comente esta linha
 %   %\partapendices%% Página de início dos apêndices - adiciona uma página com o título Apêndices
 %   %% Capítulo de exemplo
-   \include{./PosTexto/apendicea}%% Apêndice - Comente para remover este item
-   \include{./PosTexto/apendiceb}%% Apêndice - Comente para remover este item
-   \includepdf[pages=-]{./PosTexto/Mod1TermodeCompromisso}
-   \includepdf[pages=-]{./PosTexto/autorizacao-labin-assinado}
-   \includepdf[pages=-]{./PosTexto/termo-utilizacao-dados}
-   \includepdf[pages=-]{./capitulos/tcle.pdf}
-   \includepdf[pages=-]{./PosTexto/questionario-previo-tcle.pdf}%% Anexo - Comente para remover este item
-   \includepdf[pages=-]{./PosTexto/feedback}
+  \include{./PosTexto/apendicea}%% Apêndice - Comente para remover este item
+  \include{./PosTexto/apendiceb}%% Apêndice - Comente para remover este item
+  \includepdf[pages=-]{./PosTexto/Mod1TermodeCompromisso}
+  \includepdf[pages=-]{./PosTexto/autorizacao-labin-assinado}
+  \includepdf[pages=-]{./PosTexto/termo-utilizacao-dados}
+  \includepdf[pages=-]{./capitulos/tcle.pdf}
+ % \includepdf[pages=-]{./PosTexto/questionario-previo-tcle.pdf}%% Anexo - Comente para remover este item
+ %  \includepdf[pages=-]{./PosTexto/feedback}
 
  \end{arquivosdeapendices}%% Não comente esta linha
 
@@ -274,7 +291,7 @@
 \begin{arquivosdeanexos}%% Os arquivos de anexos devem se incluídos neste ambiente - Não comente esta linha
   %\partanexos%% Página de início dos anexos - adiciona uma página com o título Anexos
 
-  %\include{./PosTexto/questionario-previo-tcle.pdf}%% Anexo - Comente para remover este item
+\include{./PosTexto/questionario-previo-tcle.pdf}%% Anexo - Comente para remover este item
   %\include{./PosTexto/feedback}%% Anexo - Comente para remover este item
 \end{arquivosdeanexos}%% Não comente esta linha
 

@@ -1,14 +1,17 @@
 This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
+A level-1 auxiliary file: ./PreTexto/agradecimentos.aux
 A level-1 auxiliary file: ./PreTexto/resumo.aux
 A level-1 auxiliary file: ./PreTexto/abstract.aux
 A level-1 auxiliary file: ./capitulos/cap-introducao.aux
 A level-1 auxiliary file: ./capitulos/cap-conceitos.aux
+A level-1 auxiliary file: ./capitulos/cap-proposta.aux
 A level-1 auxiliary file: ./capitulos/cap-metodologia.aux
 A level-1 auxiliary file: ./capitulos/cap-consideracoes-finais.aux
 A level-1 auxiliary file: ./PosTexto/apendicea.aux
 A level-1 auxiliary file: ./PosTexto/apendiceb.aux
+A level-1 auxiliary file: ./PosTexto/questionario-previo-tcle.pdf.aux
 The style file: abntex2-alf.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -34,11 +37,11 @@ write is an unknown function---line 1930 of file abntex2-alf.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: abntex2-options.bib
 Database file #2: main.bib
-Repeated entry---line 459 of file main.bib
+Repeated entry---line 507 of file main.bib
  : @article{gu2022logging
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 479 of file main.bib
+Repeated entry---line 527 of file main.bib
  : @inproceedings{silva2022previsao
  :                                 ,
 I'm skipping whatever remains of this entry
@@ -52,45 +55,45 @@ Warning--faltando school em kennedy2015towards
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 44 entries,
+You've used 53 entries,
             7039 wiz_defined-function locations,
-            1477 strings with 18184 characters,
-and the built_in function-call counts, 42918 in all, are:
-= -- 4090
-> -- 1145
-< -- 534
-+ -- 937
-- -- 344
-* -- 2982
-:= -- 5433
-add.period$ -- 156
-call.type$ -- 46
-change.case$ -- 433
-chr.to.int$ -- 102
-cite$ -- 37
-duplicate$ -- 2909
-empty$ -- 2762
-format.name$ -- 1654
-if$ -- 9672
+            1533 strings with 19609 characters,
+and the built_in function-call counts, 50230 in all, are:
+= -- 4615
+> -- 1405
+< -- 557
++ -- 1029
+- -- 422
+* -- 3543
+:= -- 6390
+add.period$ -- 188
+call.type$ -- 55
+change.case$ -- 523
+chr.to.int$ -- 132
+cite$ -- 46
+duplicate$ -- 3306
+empty$ -- 3318
+format.name$ -- 2025
+if$ -- 11392
 int.to.chr$ -- 8
 int.to.str$ -- 3
-missing$ -- 728
-newline$ -- 184
-num.names$ -- 180
-pop$ -- 859
+missing$ -- 899
+newline$ -- 225
+num.names$ -- 226
+pop$ -- 1077
 preamble$ -- 1
-purify$ -- 172
+purify$ -- 205
 quote$ -- 0
-skip$ -- 3340
+skip$ -- 3706
 stack$ -- 1
-substring$ -- 1974
-swap$ -- 1229
-text.length$ -- 60
+substring$ -- 2261
+swap$ -- 1431
+text.length$ -- 76
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 10
+type$ -- 11
 warning$ -- 1
-while$ -- 307
+while$ -- 379
 width$ -- 0
-write$ -- 625
+write$ -- 774
 (There were 14 error messages)

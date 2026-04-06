@@ -20,7 +20,15 @@ Este capítulo apresenta os resultados obtidos a partir da coleta de logs de pal
 
 Foram coletados logs de aprendizado de aproximadamente 25 estudantes do curso técnico em Informática do IFAM Campus Boca do Acre, durante atividades práticas da disciplina de Estrutura de Dados. O período de coleta abrangeu 5 semanas, totalizando 19 repositórios registrados. Conforme a assinatura de TCLE e da criação do repositório ``logado" na Plataforma Github. O número de estudantes está diferente do repositórios, pois alguns estudantes não quiseram participar da pesquisa em algum momento ou assinaram e não compareceram nas aulas.
 
+\section{Caracterização da amostra}
+\label{sec:caracterizacao-amostra}
 
+Foram coletados logs de aprendizado de aproximadamente 25 estudantes do curso técnico em Informática do IFAM Campus Boca do Acre, durante atividades práticas da disciplina de Estrutura de Dados. O período de coleta abrangeu 5 semanas, totalizando 19 repositórios registrados. Conforme a assinatura de TCLE e da criação do repositório ``logado" na Plataforma Github. O número de estudantes está diferente do repositórios, pois alguns estudantes não quiseram participar da pesquisa em algum momento ou assinaram e não compareceram nas aulas.
+
+\noindent
+\textbf{Processamento dos dados.} Os logs coletados foram processados utilizando a linguagem \texttt{Python} versão 3.x, com o auxílio das bibliotecas \texttt{Pandas} \cite{mckinney2011pandas} para manipulação e agregação dos dados, \texttt{Matplotlib} \cite{hunter2007matplotlib} e \texttt{Seaborn} \cite{waskom2021seaborn} para a geração das visualizações, e \texttt{NetworkX} \cite{hagberg2008exploring} para a construção da rede de co-ocorrência entre palavras-chave. %Os scripts desenvolvidos para este fim encontram-se disponíveis no Apêndice A.
+
+A Figura \ref{fig:top20-keywords} apresenta as 20 palavras-chave mais frequentes nos logs coletados.
 A Figura \ref{fig:top20-keywords} apresenta as 20 palavras-chave mais frequentes nos logs coletados.
 
 \begin{figure}[H]
@@ -31,20 +39,37 @@ A Figura \ref{fig:top20-keywords} apresenta as 20 palavras-chave mais frequentes
     \fonte{Elaborado pelo autor}
 \end{figure}
 
-Observa-se que \texttt{let}, \texttt{console} e \texttt{function} estão entre as palavras-chave mais frequentes, o que era esperado dado o conteúdo da disciplina de Estrutura de Dados. O uso dessas palavras reflete operações fundamentais no aprendizado de programação: 
-(i) \texttt{let} indica a declaração de variáveis, essencial para armazenamento e manipulação de dados;
-(ii) \texttt{console} (frequentemente acompanhado de \texttt{log}) é utilizado para exibição de resultados e depuração;
-(iii) \texttt{function} denota a definição de blocos reutilizáveis, um conceito central na disciplina.
+Observa-se que \texttt{alert}, \texttt{prompt} e \texttt{for} estão entre as 
+palavras-chave mais frequentes nos logs coletados. Este resultado reflete a 
+natureza das atividades práticas da disciplina de Estrutura de Dados, nas 
+quais os algoritmos implementados demandam: (i) interação com o usuário 
+para entrada de dados (\texttt{prompt}); (ii) exibição de resultados 
+(\texttt{alert}); e (iii) estruturas de repetição (\texttt{for}) para 
+processamento de dados.
+
+A palavra \texttt{let}, com 818 ocorrências (quarta posição), indica a 
+necessidade de declaração de variáveis para armazenamento e manipulação 
+de dados. Sua frequência, embora expressiva, é inferior à das palavras 
+relacionadas à interação e repetição, sugerindo que, no contexto 
+observado, a ênfase das atividades recaiu mais sobre o fluxo de entrada-
+processamento-saída do que sobre a complexidade das estruturas de dados 
+em si.
+
+Vale notar a presença relativamente modesta de \texttt{console} (160 
+ocorrências), indicando que a depuração por meio do console não foi uma 
+estratégia frequente entre os estudantes — possivelmente refletindo 
+baixa autonomia na verificação do código ou preferência por métodos 
+mais diretos de exibição de resultados como \texttt{alert}.
 
 Este resultado deve ser interpretado à luz do contexto institucional: trata-se de um curso técnico em Informática na forma subsequente, com estudantes que possuem diferentes níveis de experiência prévia em programação. Aliado a isso, o calendário acadêmico e a necessidade de reprodução de códigos apresentados em sala de aula influenciam diretamente os padrões observados. Os rastros capturados evidenciam, portanto, a tentativa dos estudantes de reproduzir exemplos da docência e de aplicar palavras-chave consultadas na documentação da linguagem.
 
-Vale notar que \texttt{var} aparece com menor frequência que \texttt{let}, o que pode indicar a adoção das práticas modernas de JavaScript ensinadas em aula, embora transições entre os dois sejam observadas em situações envolvendo escopo de variáveis, conforme discutido na Seção \ref{subsec:transicao-let-var}.
+Vale notar que \texttt{var} aparece com menor frequência que \texttt{let}, o que pode indicar a adoção das práticas modernas de JavaScript ensinadas em aula, embora transições entre os dois sejam observadas em situações envolvendo escopo de variáveis.
 
 A Figura \ref{fig:distribuicao-arquivos} mostra como os logs se distribuem entre os diferentes arquivos criados pelos estudantes.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{figura_resultado_02_distribuicao_arquivos.png}
+    \includegraphics[width=0.6\textwidth]{figura_resultado_02_distribuicao_arquivos.png}
     \caption{Distribuição dos logs por arquivo}
     \label{fig:distribuicao-arquivos}
     \fonte{Elaborado pelo autor}
@@ -183,6 +208,22 @@ fornecer ao professor evidências baseadas em dados que, mesmo em um
 contexto de contenção, permitem decisões pedagógicas mais informadas 
 e intervenções mais precisas.
 
+\subsection{Comportamento observado: interação dos estudantes com os logs}
+
+Durante o período de coleta de dados, observou-se um fenômeno não previsto inicialmente: os estudantes frequentemente acessavam e examinavam os arquivos \texttt{.json} gerados pela extensão LOGADO, mesmo sem compreender completamente sua finalidade ou o formato dos dados.
+
+Este comportamento, documentado por meio da observação direta em laboratório e dos próprios registros de acesso aos arquivos, revela aspectos importantes:
+
+\begin{itemize}
+    \item \textbf{Efeito da transparência}: a presença visível dos arquivos de log no explorador do VS Code despertou a curiosidade dos estudantes, confirmando que a coleta de dados não passava despercebida — um aspecto ético relevante;
+
+    \item \textbf{Estranhamento tecnológico}: o fato de estudantes examinarem arquivos cujo propósito não compreendiam plenamente sugere uma lacuna na compreensão sobre telemetria e registro de dados, possivelmente associada à falta de familiaridade com práticas de logging;
+
+    \item \textbf{Oportunidade pedagógica}: este comportamento abre espaço para discussões em sala de aula sobre transparência de dados, privacidade e rastreamento digital — temas transversais relevantes na formação técnica.
+\end{itemize}
+
+
+Embora a análise aprofundada deste fenômeno escape ao escopo central deste trabalho — focado no agrupamento de logs para identificação de padrões de aprendizagem —, sua ocorrência é documentada como um achado secundário que sugere direções para pesquisas futuras sobre a percepção discente acerca de ferramentas de telemetria educacional.
 \subsection{Limitações e trabalhos futuros}
 
 A presente pesquisa, embora tenha alcançado seus objetivos e gerado contribuições 

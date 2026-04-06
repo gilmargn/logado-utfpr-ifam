@@ -1,8 +1,3 @@
-"""
-ANÁLISE COMPLETA DE PALAVRAS RESERVADAS EM PYTHON
-Sem dependência de VOSviewer - visualizações diretas em Python
-"""
-
 import json
 import pandas as pd
 import numpy as np
@@ -12,17 +7,17 @@ from datetime import datetime
 import warnings
 warnings.filterwarnings('ignore')
 
-# Visualização
+# Visualizacao
 import matplotlib.pyplot as plt
 import seaborn as sns
 from matplotlib.patches import Patch
 from matplotlib.lines import Line2D
 
-# Análise de redes
+# Analise de redes
 import networkx as nx
 from networkx.algorithms import community
 
-# Para gráficos interativos (opcional)
+# Para graficos interativos (opcional)
 try:
     import plotly.express as px
     import plotly.graph_objects as go
@@ -30,9 +25,9 @@ try:
     PLOTLY_AVAILABLE = True
 except ImportError:
     PLOTLY_AVAILABLE = False
-    print("Plotly não instalado. Instale com: pip install plotly")
+    print("Plotly nao instalado. Instale com: pip install plotly")
 
-# Configurações de estilo
+# Configuracoes de estilo
 plt.style.use('seaborn-v0_8-darkgrid')
 sns.set_palette("husl")
 plt.rcParams['figure.figsize'] = (12, 8)
@@ -43,7 +38,7 @@ plt.rcParams['font.size'] = 12
 # ============================================
 
 def carregar_logs(caminho_base):
-    """Carrega todos os JSONs do diretório"""
+    """Carrega todos os JSONs do diretorio"""
     caminho = Path(caminho_base)
     arquivos_json = list(caminho.rglob('*.json'))
     
@@ -67,7 +62,7 @@ def carregar_logs(caminho_base):
     
     df = pd.DataFrame(todos_logs)
     print(f"Total de registros: {len(df)}")
-    print(f"Palavras únicas: {df['keyword'].nunique()}")
+    print(f"Palavras unicas: {df['keyword'].nunique()}")
     
     return df
 
@@ -98,11 +93,11 @@ if 'timestamp' in df.columns:
     df['mes'] = df['timestamp'].dt.month_name()
 
 # ============================================
-# 2. ANÁLISE DESCRITIVA E GRÁFICOS BÁSICOS
+# 2. ANALISE DESCRITIVA E GRAFICOS BASICOS
 # ============================================
 
 def analise_descritiva(df):
-    """Gráficos básicos de frequência"""
+    """Graficos basicos de frequencia"""
     fig, axes = plt.subplots(2, 2, figsize=(14, 10))
     
     # Top 20 palavras
@@ -110,48 +105,48 @@ def analise_descritiva(df):
     axes[0,0].barh(range(len(top20)), top20.values, color='steelblue')
     axes[0,0].set_yticks(range(len(top20)))
     axes[0,0].set_yticklabels(top20.index)
-    axes[0,0].set_xlabel('Frequência')
+    axes[0,0].set_xlabel('Frequencia')
     axes[0,0].set_title('Top 20 Palavras Reservadas')
     axes[0,0].invert_yaxis()
     
-    # Distribuição por arquivo (top 10)
+    # Distribuicao por arquivo (top 10)
     top_arquivos = df['file'].value_counts().head(10)
     axes[0,1].pie(top_arquivos.values, labels=top_arquivos.index, autopct='%1.1f%%')
-    axes[0,1].set_title('Distribuição por Arquivo')
+    axes[0,1].set_title('Distribuicao por Arquivo')
     
-    # Distribuição por hora
+    # Distribuicao por hora
     hora_counts = df['hora'].value_counts().sort_index()
     axes[1,0].bar(hora_counts.index, hora_counts.values, color='coral', alpha=0.7)
     axes[1,0].set_xlabel('Hora do Dia')
-    axes[1,0].set_ylabel('Ocorrências')
-    axes[1,0].set_title('Ocorrências por Hora')
+    axes[1,0].set_ylabel('Ocorrencias')
+    axes[1,0].set_title('Ocorrencias por Hora')
     axes[1,0].set_xticks(range(0, 24, 2))
     
-    # Distribuição por dia da semana
+    # Distribuicao por dia da semana
     dias_order = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
     dia_counts = df['dia_semana'].value_counts().reindex(dias_order)
     axes[1,1].bar(dia_counts.index, dia_counts.values, color='forestgreen', alpha=0.7)
     axes[1,1].set_xlabel('Dia da Semana')
-    axes[1,1].set_ylabel('Ocorrências')
-    axes[1,1].set_title('Ocorrências por Dia da Semana')
+    axes[1,1].set_ylabel('Ocorrencias')
+    axes[1,1].set_title('Ocorrencias por Dia da Semana')
     axes[1,1].tick_params(axis='x', rotation=45)
     
     plt.tight_layout()
     plt.savefig('01_analise_descritiva.png', dpi=150, bbox_inches='tight')
     plt.show()
-    print("✓ Gráfico salvo: 01_analise_descritiva.png")
+    print("Grafico salvo: 01_analise_descritiva.png")
 
 analise_descritiva(df)
 
 # ============================================
-# 3. ANÁLISE TEMPORAL
+# 3. ANALISE TEMPORAL
 # ============================================
 
 def analise_temporal(df):
-    """Evolução temporal das palavras"""
+    """Evolucao temporal das palavras"""
     fig, axes = plt.subplots(2, 2, figsize=(14, 10))
     
-    # Evolução diária (top 5 palavras)
+    # Evolucao diaria (top 5 palavras)
     top5 = df['keyword'].value_counts().head(5).index.tolist()
     
     for palavra in top5:
@@ -159,20 +154,20 @@ def analise_temporal(df):
         axes[0,0].plot(diario.index, diario.values, label=palavra, linewidth=2, marker='o', markersize=3)
     
     axes[0,0].set_xlabel('Data')
-    axes[0,0].set_ylabel('Ocorrências')
-    axes[0,0].set_title('Evolução Temporal - Top 5 Palavras')
+    axes[0,0].set_ylabel('Ocorrencias')
+    axes[0,0].set_title('Evolucao Temporal - Top 5 Palavras')
     axes[0,0].legend()
     axes[0,0].tick_params(axis='x', rotation=45)
     
     # Heatmap por hora do dia (top palavras)
     pivot_hora = pd.crosstab(df['hora'], df['keyword'])
     top10_palavras = df['keyword'].value_counts().head(10).index
-    sns.heatmap(pivot_hora[top10_palavras].T, ax=axes[0,1], cmap='YlOrRd', cbar_kws={'label': 'Frequência'})
+    sns.heatmap(pivot_hora[top10_palavras].T, ax=axes[0,1], cmap='YlOrRd', cbar_kws={'label': 'Frequencia'})
     axes[0,1].set_title('Heatmap: Palavra vs Hora do Dia')
     axes[0,1].set_xlabel('Hora')
     axes[0,1].set_ylabel('Palavra')
     
-    # Tendência semanal (média móvel de 7 dias)
+    # Tendencia semanal (media movel de 7 dias)
     df['semana'] = df['timestamp'].dt.isocalendar().week
     semanal = df.groupby(['semana', 'keyword']).size().unstack(fill_value=0)
     
@@ -182,8 +177,8 @@ def analise_temporal(df):
                           label=palavra, linewidth=2)
     
     axes[1,0].set_xlabel('Semana')
-    axes[1,0].set_ylabel('Média Móvel (3 semanas)')
-    axes[1,0].set_title('Tendência Semanal - Top 5 Palavras')
+    axes[1,0].set_ylabel('Media Movel (3 semanas)')
+    axes[1,0].set_title('Tendencia Semanal - Top 5 Palavras')
     axes[1,0].legend()
     
     # Boxplot por hora
@@ -194,29 +189,29 @@ def analise_temporal(df):
         patch.set_facecolor(color)
     axes[1,1].set_xlabel('Palavra')
     axes[1,1].set_ylabel('Hora do Dia')
-    axes[1,1].set_title('Distribuição Horária por Palavra')
+    axes[1,1].set_title('Distribuicao Horaria por Palavra')
     
     plt.tight_layout()
     plt.savefig('02_analise_temporal.png', dpi=150, bbox_inches='tight')
     plt.show()
-    print("✓ Gráfico salvo: 02_analise_temporal.png")
+    print("Grafico salvo: 02_analise_temporal.png")
 
 analise_temporal(df)
 
 # ============================================
-# 4. REDE DE CO-OCORRÊNCIA
+# 4. REDE DE CO-OCORRENCIA
 # ============================================
 
 def construir_rede_coocorrencia(df, window=3):
-    """Constrói rede de co-ocorrência entre palavras"""
+    """Constroi rede de co-ocorrencia entre palavras"""
     G = nx.Graph()
     
-    # Adicionar nós com peso (frequência)
+    # Adicionar nos com peso (frequencia)
     freq = df['keyword'].value_counts()
     for palavra, f in freq.items():
         G.add_node(palavra, weight=f)
     
-    # Calcular co-ocorrências
+    # Calcular co-ocorrencias
     co_ocorrencias = defaultdict(int)
     
     for arquivo in df['file'].unique():
@@ -233,12 +228,12 @@ def construir_rede_coocorrencia(df, window=3):
         if peso >= 1:
             G.add_edge(p1, p2, weight=peso)
     
-    print(f"Rede: {G.number_of_nodes()} nós, {G.number_of_edges()} arestas")
+    print(f"Rede: {G.number_of_nodes()} nos, {G.number_of_edges()} arestas")
     return G
 
 def visualizar_rede(G, max_nodes=50):
-    """Visualiza a rede de co-ocorrência"""
-    # Filtrar nós mais conectados
+    """Visualiza a rede de co-ocorrencia"""
+    # Filtrar nos mais conectados
     if G.number_of_nodes() > max_nodes:
         degrees = dict(G.degree())
         top_nodes = sorted(degrees, key=degrees.get, reverse=True)[:max_nodes]
@@ -254,7 +249,7 @@ def visualizar_rede(G, max_nodes=50):
     # Figura
     fig, ax = plt.subplots(figsize=(16, 12))
     
-    # Nós
+    # Nos
     node_sizes = [G.nodes[n].get('weight', 1) * 20 for n in G.nodes()]
     node_colors = [comunidades[n] for n in G.nodes()]
     
@@ -263,36 +258,36 @@ def visualizar_rede(G, max_nodes=50):
     
     # Arestas
     edge_weights = [G.edges[e].get('weight', 1) for e in G.edges()]
-    edge_widths = [w / max(edge_weights) * 3 for w in edge_weights]
+    edge_widths = [w / max(edge_weights) * 3 for w in edge_weights] if edge_weights else []
     nx.draw_networkx_edges(G, pos, width=edge_widths, alpha=0.3, edge_color='gray', ax=ax)
     
     # Labels
     labels = {n: n for n in G.nodes()}
     nx.draw_networkx_labels(G, pos, labels, font_size=10, font_weight='bold', ax=ax)
     
-    ax.set_title(f'Rede de Co-ocorrência de Palavras Reservadas\n({G.number_of_nodes()} nós, {G.number_of_edges()} arestas)', 
+    ax.set_title(f'Rede de Co-ocorrencia de Palavras Reservadas\n({G.number_of_nodes()} nos, {G.number_of_edges()} arestas)', 
                  fontsize=14, fontweight='bold')
     ax.axis('off')
     
     plt.tight_layout()
     plt.savefig('03_rede_coocorrencia.png', dpi=150, bbox_inches='tight')
     plt.show()
-    print("✓ Gráfico salvo: 03_rede_coocorrencia.png")
+    print("Grafico salvo: 03_rede_coocorrencia.png")
 
 # Construir e visualizar rede
 G = construir_rede_coocorrencia(df, window=3)
 visualizar_rede(G, max_nodes=40)
 
 # ============================================
-# 5. MATRIZ DE CO-OCORRÊNCIA (HEATMAP)
+# 5. MATRIZ DE CO-OCORRENCIA (HEATMAP)
 # ============================================
 
 def matriz_coocorrencia(df, top_n=20):
-    """Cria heatmap da matriz de co-ocorrência"""
+    """Cria heatmap da matriz de co-ocorrencia"""
     # Selecionar top N palavras
     top_palavras = df['keyword'].value_counts().head(top_n).index.tolist()
     
-    # Criar matriz de adjacência
+    # Criar matriz de adjacencia
     matriz = pd.DataFrame(0, index=top_palavras, columns=top_palavras)
     
     for arquivo in df['file'].unique():
@@ -311,9 +306,9 @@ def matriz_coocorrencia(df, top_n=20):
     mask = np.triu(np.ones_like(matriz, dtype=bool))
     sns.heatmap(matriz, mask=mask, annot=True, fmt='d', cmap='YlOrRd', 
                 square=True, linewidths=0.5, ax=ax,
-                cbar_kws={'label': 'Frequência de Co-ocorrência'})
+                cbar_kws={'label': 'Frequencia de Co-ocorrencia'})
     
-    ax.set_title(f'Matriz de Co-ocorrência (Top {top_n} Palavras)', fontsize=14, fontweight='bold')
+    ax.set_title(f'Matriz de Co-ocorrencia (Top {top_n} Palavras)', fontsize=14, fontweight='bold')
     ax.set_xlabel('Palavra', fontsize=12)
     ax.set_ylabel('Palavra', fontsize=12)
     
@@ -322,17 +317,17 @@ def matriz_coocorrencia(df, top_n=20):
     plt.tight_layout()
     plt.savefig('04_matriz_coocorrencia.png', dpi=150, bbox_inches='tight')
     plt.show()
-    print("✓ Gráfico salvo: 04_matriz_coocorrencia.png")
+    print("Grafico salvo: 04_matriz_coocorrencia.png")
 
 matriz_coocorrencia(df, top_n=20)
 
 # ============================================
-# 6. ANÁLISE DE CENTRALIDADE
+# 6. ANALISE DE CENTRALIDADE
 # ============================================
 
 def analise_centralidade(G):
-    """Calcula e visualiza métricas de centralidade"""
-    # Calcular métricas
+    """Calcula e visualiza metricas de centralidade"""
+    # Calcular metricas
     degree_cent = dict(G.degree())
     betweenness_cent = nx.betweenness_centrality(G)
     closeness_cent = nx.closeness_centrality(G)
@@ -347,7 +342,7 @@ def analise_centralidade(G):
         'eigenvector': [eigenvector_cent[n] for n in G.nodes()]
     }).sort_values('grau', ascending=False)
     
-    # Gráfico
+    # Grafico
     fig, axes = plt.subplots(2, 2, figsize=(14, 10))
     
     # Centralidade de Grau
@@ -390,7 +385,7 @@ def analise_centralidade(G):
     plt.savefig('05_centralidade.png', dpi=150, bbox_inches='tight')
     plt.show()
     
-    print("\n📊 TOP 10 PALAVRAS POR CENTRALIDADE DE GRAU:")
+    print("\nTOP 10 PALAVRAS POR CENTRALIDADE DE GRAU:")
     print(cent_df.head(10).to_string(index=False))
     
     return cent_df
@@ -398,12 +393,12 @@ def analise_centralidade(G):
 cent_df = analise_centralidade(G)
 
 # ============================================
-# 7. GRÁFICO DE BURST (PALAVRAS EMERGENTES)
+# 7. GRAFICO DE BURST (PALAVRAS EMERGENTES)
 # ============================================
 
 def grafico_burst(df, periodo='M'):
-    """Identifica palavras com aumento súbito de frequência"""
-    # Agrupar por período
+    """Identifica palavras com aumento subito de frequencia"""
+    # Agrupar por periodo
     if periodo == 'D':
         df['periodo'] = df['timestamp'].dt.date
     elif periodo == 'W':
@@ -411,7 +406,7 @@ def grafico_burst(df, periodo='M'):
     else:
         df['periodo'] = df['timestamp'].dt.to_period('M')
     
-    # Calcular frequência por período
+    # Calcular frequencia por periodo
     freq_periodo = df.groupby(['periodo', 'keyword']).size().reset_index(name='count')
     
     # Para cada palavra, calcular taxa de crescimento
@@ -437,8 +432,8 @@ def grafico_burst(df, periodo='M'):
         bars = ax.barh(range(len(palavras)), crescimentos, color=colors)
         ax.set_yticks(range(len(palavras)))
         ax.set_yticklabels(palavras)
-        ax.set_xlabel('Taxa de Crescimento Máxima (%)')
-        ax.set_title(f'Palavras com Maior Pico de Crescimento\n(Período: {periodo})')
+        ax.set_xlabel('Taxa de Crescimento Maxima (%)')
+        ax.set_title(f'Palavras com Maior Pico de Crescimento\n(Periodo: {periodo})')
         
         # Adicionar valores
         for i, (bar, val) in enumerate(zip(bars, crescimentos)):
@@ -447,19 +442,19 @@ def grafico_burst(df, periodo='M'):
         plt.tight_layout()
         plt.savefig('06_palavras_emergentes.png', dpi=150, bbox_inches='tight')
         plt.show()
-        print("✓ Gráfico salvo: 06_palavras_emergentes.png")
+        print("Grafico salvo: 06_palavras_emergentes.png")
     else:
         print("Nenhuma palavra com crescimento significativo encontrada")
 
 grafico_burst(df, periodo='W')
 
 # ============================================
-# 8. GRÁFICO DE PARALLEL COORDINATES
+# 8. GRAFICO DE PARALLEL COORDINATES
 # ============================================
 
 def parallel_coordinates(df):
-    """Visualização multidimensional de palavras"""
-    # Agrupar métricas por palavra
+    """Visualizacao multidimensional de palavras"""
+    # Agrupar metricas por palavra
     metrics = df.groupby('keyword').agg({
         'keyword': 'count',
         'line': 'mean',
@@ -480,48 +475,48 @@ def parallel_coordinates(df):
                         ax=ax, color=plt.cm.tab20(range(len(metrics_top))))
     
     ax.set_title('Parallel Coordinates - Perfil das Palavras Mais Frequentes')
-    ax.set_xticklabels(['Frequência', 'Linha Média', 'Hora Média'])
+    ax.set_xticklabels(['Frequencia', 'Linha Media', 'Hora Media'])
     ax.legend(loc='center left', bbox_to_anchor=(1, 0.5), fontsize=8)
     ax.grid(True, alpha=0.3)
     
     plt.tight_layout()
     plt.savefig('07_parallel_coordinates.png', dpi=150, bbox_inches='tight')
     plt.show()
-    print("✓ Gráfico salvo: 07_parallel_coordinates.png")
+    print("Grafico salvo: 07_parallel_coordinates.png")
 
 parallel_coordinates(df)
 
 # ============================================
-# 9. RELATÓRIO FINAL
+# 9. RELATORIO FINAL
 # ============================================
 
 def gerar_relatorio(df, G, cent_df):
-    """Gera relatório completo em formato texto e HTML"""
+    """Gera relatorio completo em formato texto e HTML"""
     
-    # Relatório em texto
+    # Relatorio em texto
     with open('relatorio_analise.txt', 'w', encoding='utf-8') as f:
         f.write("="*60 + "\n")
-        f.write("RELATÓRIO DE ANÁLISE DE PALAVRAS RESERVADAS JAVASCRIPT\n")
+        f.write("RELATORIO DE ANALISE DE PALAVRAS RESERVADAS JAVASCRIPT\n")
         f.write("="*60 + "\n\n")
         
-        f.write(f"Data da análise: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
+        f.write(f"Data da analise: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
         
         f.write("RESUMO GERAL:\n")
         f.write("-"*40 + "\n")
         f.write(f"Total de logs analisados: {len(df)}\n")
-        f.write(f"Palavras reservadas únicas: {df['keyword'].nunique()}\n")
+        f.write(f"Palavras reservadas unicas: {df['keyword'].nunique()}\n")
         f.write(f"Arquivos analisados: {df['file'].nunique()}\n")
-        f.write(f"Período: {df['timestamp'].min()} até {df['timestamp'].max()}\n\n")
+        f.write(f"Periodo: {df['timestamp'].min()} ate {df['timestamp'].max()}\n\n")
         
         f.write("TOP 10 PALAVRAS:\n")
         f.write("-"*40 + "\n")
         for palavra, count in df['keyword'].value_counts().head(10).items():
             f.write(f"  {palavra}: {count}\n")
         
-        f.write("\nMÉTRICAS DE REDE:\n")
+        f.write("\nMETRICAS DE REDE:\n")
         f.write("-"*40 + "\n")
-        f.write(f"Nós (palavras): {G.number_of_nodes()}\n")
-        f.write(f"Arestas (conexões): {G.number_of_edges()}\n")
+        f.write(f"Nos (palavras): {G.number_of_nodes()}\n")
+        f.write(f"Arestas (conexoes): {G.number_of_edges()}\n")
         f.write(f"Densidade: {nx.density(G):.4f}\n")
         
         f.write("\nTOP 10 POR CENTRALIDADE:\n")
@@ -529,28 +524,28 @@ def gerar_relatorio(df, G, cent_df):
         for _, row in cent_df.head(10).iterrows():
             f.write(f"  {row['palavra']}: grau={row['grau']:.0f}, betweenness={row['betweenness']:.4f}\n")
     
-    print("\n✅ Relatório salvo: relatorio_analise.txt")
+    print("\nRelatorio salvo: relatorio_analise.txt")
     
-    # Relatório HTML (se plotly estiver disponível)
+    # Relatorio HTML (se plotly estiver disponivel)
     if PLOTLY_AVAILABLE:
         gerar_relatorio_html(df)
     
     # Salvar dados processados
     df.to_csv('dados_processados.csv', index=False)
     cent_df.to_csv('centralidade_palavras.csv', index=False)
-    print("✅ Dados salvos: dados_processados.csv, centralidade_palavras.csv")
+    print("Dados salvos: dados_processados.csv, centralidade_palavras.csv")
 
 def gerar_relatorio_html(df):
-    """Gera relatório HTML interativo"""
+    """Gera relatorio HTML interativo"""
     top20 = df['keyword'].value_counts().head(20).reset_index()
-    top20.columns = ['Palavra', 'Frequência']
+    top20.columns = ['Palavra', 'Frequencia']
     
-    fig = make_subplots(rows=2, cols=2, subplot_titles=('Top 20 Palavras', 'Ocorrências por Hora', 'Distribuição por Arquivo', 'Heatmap Temporal'))
+    fig = make_subplots(rows=2, cols=2, subplot_titles=('Top 20 Palavras', 'Ocorrencias por Hora', 'Distribuicao por Arquivo', 'Heatmap Temporal'))
     
     # Top 20 palavras
-    fig.add_trace(go.Bar(x=top20['Frequência'], y=top20['Palavra'], orientation='h', marker_color='steelblue'), row=1, col=1)
+    fig.add_trace(go.Bar(x=top20['Frequencia'], y=top20['Palavra'], orientation='h', marker_color='steelblue'), row=1, col=1)
     
-    # Ocorrências por hora
+    # Ocorrencias por hora
     hora_counts = df['hora'].value_counts().sort_index()
     fig.add_trace(go.Scatter(x=hora_counts.index, y=hora_counts.values, mode='lines+markers', line=dict(color='coral')), row=1, col=2)
     
@@ -562,11 +557,11 @@ def gerar_relatorio_html(df):
     pivot_hora = pd.crosstab(df['hora'], df['keyword'].apply(lambda x: x[:10]))
     fig.add_trace(go.Heatmap(z=pivot_hora.values.T, x=pivot_hora.index, y=pivot_hora.columns, colorscale='Viridis'), row=2, col=2)
     
-    fig.update_layout(height=800, title_text="Dashboard Interativo - Análise de Palavras Reservadas")
+    fig.update_layout(height=800, title_text="Dashboard Interativo - Analise de Palavras Reservadas")
     fig.write_html('dashboard_interativo.html')
-    print("✅ Dashboard HTML salvo: dashboard_interativo.html")
+    print("Dashboard HTML salvo: dashboard_interativo.html")
 
-# Gerar relatório final
+# Gerar relatorio final
 gerar_relatorio(df, G, cent_df)
 
 # ============================================
@@ -574,9 +569,9 @@ gerar_relatorio(df, G, cent_df)
 # ============================================
 
 print("\n" + "="*60)
-print("✅ ANÁLISE CONCLUÍDA!")
+print("ANALISE CONCLUIDA")
 print("="*60)
-print("\n📁 ARQUIVOS GERADOS:")
+print("\nARQUIVOS GERADOS:")
 print("   - 01_analise_descritiva.png")
 print("   - 02_analise_temporal.png")
 print("   - 03_rede_coocorrencia.png")
@@ -590,13 +585,13 @@ print("   - centralidade_palavras.csv")
 if PLOTLY_AVAILABLE:
     print("   - dashboard_interativo.html")
 
-print("\n📊 RESUMO DOS DADOS:")
+print("\nRESUMO DOS DADOS:")
 print(f"   Total de registros: {len(df)}")
-print(f"   Palavras únicas: {df['keyword'].nunique()}")
+print(f"   Palavras unicas: {df['keyword'].nunique()}")
 print(f"   Arquivos: {df['file'].nunique()}")
-print(f"   Período: {df['timestamp'].min().date()} a {df['timestamp'].max().date()}")
+print(f"   Periodo: {df['timestamp'].min().date()} a {df['timestamp'].max().date()}")
 
-print("\n🏆 TOP 10 PALAVRAS RESERVADAS:")
+print("\nTOP 10 PALAVRAS RESERVADAS:")
 for i, (palavra, count) in enumerate(df['keyword'].value_counts().head(10).items(), 1):
-    bar = "█" * int(count / df['keyword'].value_counts().head(10).max() * 30)
+    bar = " " * int(count / df['keyword'].value_counts().head(10).max() * 30)
     print(f"   {i:2d}. {palavra:12s} {bar} {count}")

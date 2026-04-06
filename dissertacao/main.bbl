@@ -20,6 +20,12 @@
   INTERACTIVE MOBILE AND COMPUTER AIDED LEARNING (IMCL). 2012. \textbf{Anais
   [...]} [\textit{S.l.}], 2012. p. 180--186.}
 
+\bibitem[Baker e Yacef 2009]{baker2009state}
+\abntrefinfo{Baker e Yacef}{Baker; Yacef}{2009}
+{BAKER, R.~S.; YACEF, K. The state of educational data mining in 2009: A review
+  and future visions.
+\textbf{Journal of educational data mining},  v.~1, n.~1, p. 3--17, 2009.}
+
 \bibitem[Becker \textit{et al.} 2015]{becker2015besouro}
 \abntrefinfo{Becker \textit{et al.}}{Becker \textit{et al.}}{2015}
 {BECKER, K. \textit{et al.} Besouro: A framework for exploring compliance rules
@@ -49,6 +55,14 @@ Standard ECMA-404.
 Dispon{\'\i}vel em:
   \url{https://www.ecma-international.org/publications-and-standards/standards/ecma-404/}.}
 
+\bibitem[Fayyad, Piatetsky-Shapiro e Smyth 1996]{fayyad1996knowledge}
+\abntrefinfo{Fayyad, Piatetsky-Shapiro e Smyth}{Fayyad; Piatetsky-shapiro;
+  Smyth}{1996}
+{FAYYAD, U.; PIATETSKY-SHAPIRO, G.; SMYTH, P. From data mining to knowledge
+  discovery in databases.
+\textbf{AI magazine},  American Association for Artificial Intelligence v.~17,
+  n.~3, p. 37--37, 1996.}
+
 \bibitem[Felisbino, Neto e Bastos 2018]{felisbino2018supporting}
 \abntrefinfo{Felisbino, Neto e Bastos}{Felisbino; Neto; Bastos}{2018}
 {FELISBINO, C.~M.; NETO, A. G. S.~S.; BASTOS, L.~C. Supporting to the teaching
@@ -75,6 +89,11 @@ ISBN 978-1-4503-2768-8. Dispon{\'\i}vel em:
 ISBN 978-1-4842-6998-5.
 Dispon{\'\i}vel em: \url{https://doi.org/10.1007/978-1-4842-6998-5\_12}.}
 
+\bibitem[Gil 2018]{gil2018metodos}
+\abntrefinfo{Gil}{Gil}{2018}
+{GIL, A.~C. \textbf{M{\'e}todos e t{\'e}cnicas de pesquisa social}. 7. ed.
+  S{\~a}o Paulo: Atlas,  2018.}
+
 \bibitem[Gu \textit{et al.} 2022]{gu2022logging}
 \abntrefinfo{Gu \textit{et al.}}{Gu \textit{et al.}}{2022}
 {GU, S. \textit{et al.} Logging practices in software engineering: A systematic
@@ -89,6 +108,14 @@ Dispon{\'\i}vel em: \url{https://doi.org/10.1007/978-1-4842-6998-5\_12}.}
   CONFERENCE ON COMPUTING, POWER AND COMMUNICATION TECHNOLOGIES (IC2PCT). ~5.,
   2024. \textbf{Anais [...]} [\textit{S.l.}], 2024. p. 1153--1158.}
 
+\bibitem[Hagberg, Schult e Swart 2008]{hagberg2008exploring}
+\abntrefinfo{Hagberg, Schult e Swart}{Hagberg; Schult; Swart}{2008}
+{HAGBERG, A.~A.; SCHULT, D.~A.; SWART, P.~J. Exploring network structure,
+  dynamics, and function using networkx. \textit{In}: VAROQUAUX, G.; VAUGHT,
+  T.; MILLMAN, J. (Ed.). PROCEEDINGS OF THE 7TH PYTHON IN SCIENCE CONFERENCE
+  (SCIPY2008). 2008, Pasadena, CA USA. \textbf{Anais [...]} Pasadena, CA USA:
+  [\textit{s.n.}], 2008. p. 11--15.}
+
 \bibitem[Hevner \textit{et al.} 2004]{hevner2004design}
 \abntrefinfo{Hevner \textit{et al.}}{Hevner \textit{et al.}}{2004}
 {HEVNER, A.~R. \textit{et al.} Design science in information systems research.
@@ -101,6 +128,11 @@ Dispon{\'\i}vel em: \url{https://doi.org/10.1007/978-1-4842-6998-5\_12}.}
   classification methods and learning logs.
 \textbf{Interactive Learning Environments},  Taylor \& Francis v.~28, n.~2, p.
   206--230, 2020.}
+
+\bibitem[Hunter 2007]{hunter2007matplotlib}
+\abntrefinfo{Hunter}{Hunter}{2007}
+{HUNTER, J.~D. Matplotlib: A 2d graphics environment.
+\textbf{Computing in Science \& Engineering},  v.~9, n.~3, p. 90--95, 2007.}
 
 \bibitem[{IFAM} 2020]{IFAM2020}
 \abntrefinfo{{IFAM}}{{IFAM}}{2020}
@@ -143,6 +175,13 @@ Dispon{\'\i}vel em: \url{https://doi.org/10.1007/978-1-4842-6998-5\_12}.}
 ISSN 0266-4909, 1365-2729.
 Dispon{\'\i}vel em:
   \url{https://onlinelibrary.wiley.com/doi/10.1111/jcal.12590}.}
+
+\bibitem[McKinney 2011]{mckinney2011pandas}
+\abntrefinfo{McKinney}{Mckinney}{2011}
+{MCKINNEY, W. pandas: a foundational python library for data analysis and
+  statistics.
+\textbf{Python for High Performance and Scientific Computing},  v.~14, n.~9,
+  p.~1--9, 2011.}
 
 \bibitem[{Microsoft} 2025]{typescript}
 \abntrefinfo{{Microsoft}}{{Microsoft}}{2025a}
@@ -195,6 +234,11 @@ Dispon{\'\i}vel em: \url{https://survey.stackoverflow.co/2025/technology}.}
 {PRESSMAN, R.~S. \textbf{Engenharia de Software: Uma Abordagem Profissional}.
   7. ed. [\textit{S.l.}]: AMGH,  2014.}
 
+\bibitem[Pressman e Maxim 2021]{pressman2021software}
+\abntrefinfo{Pressman e Maxim}{Pressman; Maxim}{2021}
+{PRESSMAN, R.~S.; MAXIM, B.~R. \textbf{Software Engineering: A Practitioner's
+  Approach}. 9th. ed. New York: McGraw-Hill,  2021.}
+
 \bibitem[Qian e Lehman 2017]{qian2017students}
 \abntrefinfo{Qian e Lehman}{Qian; Lehman}{2017}
 {QIAN, Y.; LEHMAN, J. Students’ misconceptions and other difficulties in
@@ -234,6 +278,11 @@ Dispon{\'\i}vel em: \url{https://survey.stackoverflow.co/2025/technology}.}
 {SOMMERVILLE, I. \textbf{Engenharia de Software}. 9. ed. [\textit{S.l.}]:
   Pearson,  2011.}
 
+\bibitem[Sommerville 2019]{sommerville2019engineering}
+\abntrefinfo{Sommerville}{Sommerville}{2019}
+{SOMMERVILLE, I. \textbf{Engineering Software Products}. Boston: Pearson,
+  2019.}
+
 \bibitem[Umezawa \textit{et al.} 2020]{umezawa2020analysis}
 \abntrefinfo{Umezawa \textit{et al.}}{Umezawa \textit{et al.}}{2020}
 {UMEZAWA, K. \textit{et al.} Analysis of logic errors utilizing a large amount
@@ -246,6 +295,11 @@ Dispon{\'\i}vel em: \url{https://survey.stackoverflow.co/2025/technology}.}
 \abntrefinfo{Valente}{Valente}{2020}
 {VALENTE, M.~T. \textbf{Engenharia de Software Moderna}. 1. ed.
   [\textit{S.l.}]: Independente,  2020.}
+
+\bibitem[Waskom 2021]{waskom2021seaborn}
+\abntrefinfo{Waskom}{Waskom}{2021}
+{WASKOM, M.~L. seaborn: statistical data visualization.
+\textbf{Journal of Open Source Software},  v.~6, n.~60, p.~3021, 2021.}
 
 \bibitem[Yang \textit{et al.} 2021]{yang2021interview}
 \abntrefinfo{Yang \textit{et al.}}{Yang \textit{et al.}}{2021}
