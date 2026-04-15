@@ -1,0 +1,719 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Análise de Palavras Reservadas JavaScript</title>
+            <meta charset="UTF-8">
+            <style>
+                body { font-family: 'Segoe UI', Arial, sans-serif; margin: 20px; background-color: #f5f5f5; }
+                h1 { color: #333; border-bottom: 2px solid #4CAF50; padding-bottom: 10px; }
+                h2 { color: #555; margin-top: 30px; }
+                .summary { background: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+                .stats { display: flex; gap: 20px; flex-wrap: wrap; }
+                .stat-card { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; flex: 1; min-width: 150px; }
+                .stat-card h3 { margin: 0 0 10px 0; font-size: 14px; opacity: 0.9; }
+                .stat-card .number { font-size: 32px; font-weight: bold; margin: 0; }
+                table { border-collapse: collapse; width: 100%; background: white; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+                th { background-color: #4CAF50; color: white; cursor: pointer; }
+                th:hover { background-color: #45a049; }
+                tr:nth-child(even) { background-color: #f2f2f2; }
+                tr:hover { background-color: #ddd; }
+                .keyword { font-weight: bold; color: #4CAF50; }
+                .filter { margin: 20px 0; padding: 15px; background: white; border-radius: 8px; }
+                input, select { padding: 8px; margin: 5px; border: 1px solid #ddd; border-radius: 4px; }
+                button { background-color: #4CAF50; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer; }
+                button:hover { background-color: #45a049; }
+            </style>
+        </head>
+        <body>
+            <h1>📊 Análise de Palavras Reservadas JavaScript</h1>
+            
+            <div class="summary">
+                <div class="stats">
+                    <div class="stat-card">
+                        <h3>Total de Ocorrências</h3>
+                        <p class="number">4614</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Palavras Únicas</h3>
+                        <p class="number">41</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Arquivos Analisados</h3>
+                        <p class="number">208</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Repositórios</h3>
+                        <p class="number">19</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="summary">
+                <h2>📈 Top 10 Palavras Reservadas Mais Frequentes</h2>
+                <table>
+                    <thead>
+                        <tr><th>Palavra</th><th>Frequência</th><th>% do Total</th></tr>
+                    </thead>
+                    <tbody>
+        
+                        <tr>
+                            <td class="keyword">alert</td>
+                            <td>1103</td>
+                            <td>23.9%</td>
+                        </tr>
+            
+                        <tr>
+                            <td class="keyword">prompt</td>
+                            <td>637</td>
+                            <td>13.8%</td>
+                        </tr>
+            
+                        <tr>
+                            <td class="keyword">for</td>
+                            <td>484</td>
+                            <td>10.5%</td>
+                        </tr>
+            
+                        <tr>
+                            <td class="keyword">let</td>
+                            <td>409</td>
+                            <td>8.9%</td>
+                        </tr>
+            
+                        <tr>
+                            <td class="keyword">if</td>
+                            <td>348</td>
+                            <td>7.5%</td>
+                        </tr>
+            
+                        <tr>
+                            <td class="keyword">var</td>
+                            <td>246</td>
+                            <td>5.3%</td>
+                        </tr>
+            
+                        <tr>
+                            <td class="keyword">else</td>
+                            <td>228</td>
+                            <td>4.9%</td>
+                        </tr>
+            
+                        <tr>
+                            <td class="keyword">while</td>
+                            <td>209</td>
+                            <td>4.5%</td>
+                        </tr>
+            
+                        <tr>
+                            <td class="keyword">function</td>
+                            <td>169</td>
+                            <td>3.7%</td>
+                        </tr>
+            
+                        <tr>
+                            <td class="keyword">return</td>
+                            <td>144</td>
+                            <td>3.1%</td>
+                        </tr>
+            
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="summary">
+                <h2>📁 Top 10 Arquivos com Mais Ocorrências</h2>
+                <table>
+                    <thead>
+                        <tr><th>Arquivo</th><th>Ocorrências</th></tr>
+                    </thead>
+                    <tbody>
+        
+                        <tr>
+                            <td>aprovacao.js</td>
+                            <td>571</td>
+                        </tr>
+            
+                        <tr>
+                            <td>funcaovetor.js</td>
+                            <td>274</td>
+                        </tr>
+            
+                        <tr>
+                            <td>funcaosoma.js</td>
+                            <td>262</td>
+                        </tr>
+            
+                        <tr>
+                            <td>aprovacao2.js</td>
+                            <td>199</td>
+                        </tr>
+            
+                        <tr>
+                            <td>merge.js</td>
+                            <td>160</td>
+                        </tr>
+            
+                        <tr>
+                            <td>revisaovetor.js</td>
+                            <td>133</td>
+                        </tr>
+            
+                        <tr>
+                            <td>insertionsort.js</td>
+                            <td>129</td>
+                        </tr>
+            
+                        <tr>
+                            <td>inserto02.js</td>
+                            <td>104</td>
+                        </tr>
+            
+                        <tr>
+                            <td>jogos.js</td>
+                            <td>82</td>
+                        </tr>
+            
+                        <tr>
+                            <td>calculadora.js</td>
+                            <td>80</td>
+                        </tr>
+            
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="summary">
+                <h2>🕒 Últimas 50 Ocorrências</h2>
+                <div class="filter">
+                    <input type="text" id="searchInput" placeholder="Filtrar por palavra..." onkeyup="filterTable()">
+                </div>
+                <table id="logsTable">
+                    <thead>
+                        <tr>
+                            <th onclick="sortTable(0)">Timestamp</th>
+                            <th onclick="sortTable(1)">Palavra</th>
+                            <th onclick="sortTable(2)">Arquivo</th>
+                            <th onclick="sortTable(3)">Linha</th>
+                            <th onclick="sortTable(4)">Coluna</th>
+                            <th onclick="sortTable(5)">Repositório</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+        
+                        <tr>
+                            <td>2026-03-27 20:37:51</td>
+                            <td class="keyword">alert</td>
+                            <td>funcaofatorial.js</td>
+                            <td>8</td>
+                            <td>5</td>
+                            <td>natanaelalvesf92-eng</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-27 20:37:12</td>
+                            <td class="keyword">prompt</td>
+                            <td>funcaofatorial.js</td>
+                            <td>7</td>
+                            <td>25</td>
+                            <td>natanaelalvesf92-eng</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-27 20:33:52</td>
+                            <td class="keyword">while</td>
+                            <td>funcaofatorial.js</td>
+                            <td>3</td>
+                            <td>5</td>
+                            <td>natanaelalvesf92-eng</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-27 20:19:50</td>
+                            <td class="keyword">log</td>
+                            <td>funcaofatorial.js</td>
+                            <td>7</td>
+                            <td>13</td>
+                            <td>natanaelalvesf92-eng</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-27 20:19:44</td>
+                            <td class="keyword">console</td>
+                            <td>funcaofatorial.js</td>
+                            <td>7</td>
+                            <td>5</td>
+                            <td>natanaelalvesf92-eng</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-27 20:19:18</td>
+                            <td class="keyword">return</td>
+                            <td>funcaofatorial.js</td>
+                            <td>6</td>
+                            <td>5</td>
+                            <td>natanaelalvesf92-eng</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-27 19:50:47</td>
+                            <td class="keyword">alert</td>
+                            <td>funcaoidade.js</td>
+                            <td>6</td>
+                            <td>1</td>
+                            <td>natanaelalvesf92-eng</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-27 19:47:12</td>
+                            <td class="keyword">alert</td>
+                            <td>funcaoidade.js</td>
+                            <td>10</td>
+                            <td>5</td>
+                            <td>natanaelalvesf92-eng</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-27 19:46:58</td>
+                            <td class="keyword">else</td>
+                            <td>funcaoidade.js</td>
+                            <td>9</td>
+                            <td>1</td>
+                            <td>natanaelalvesf92-eng</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-27 19:44:57</td>
+                            <td class="keyword">alert</td>
+                            <td>funcaoidade.js</td>
+                            <td>8</td>
+                            <td>5</td>
+                            <td>natanaelalvesf92-eng</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-27 19:41:29</td>
+                            <td class="keyword">if</td>
+                            <td>funcaoidade.js</td>
+                            <td>7</td>
+                            <td>1</td>
+                            <td>natanaelalvesf92-eng</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-27 19:40:22</td>
+                            <td class="keyword">prompt</td>
+                            <td>funcaoidade.js</td>
+                            <td>5</td>
+                            <td>20</td>
+                            <td>natanaelalvesf92-eng</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-26 22:32:32</td>
+                            <td class="keyword">if</td>
+                            <td>funcaoidade.js</td>
+                            <td>5</td>
+                            <td>1</td>
+                            <td>natanaelalvesf92-eng</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-26 22:31:32</td>
+                            <td class="keyword">prompt</td>
+                            <td>funcaoidade.js</td>
+                            <td>4</td>
+                            <td>18</td>
+                            <td>natanaelalvesf92-eng</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-26 22:29:45</td>
+                            <td class="keyword">function</td>
+                            <td>funcaoidade.js</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>natanaelalvesf92-eng</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-26 22:28:16</td>
+                            <td class="keyword">prompt</td>
+                            <td>funcaoidade.js</td>
+                            <td>1</td>
+                            <td>22</td>
+                            <td>natanaelalvesf92-eng</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-26 22:22:33</td>
+                            <td class="keyword">prompt</td>
+                            <td>funcaoagua.js</td>
+                            <td>4</td>
+                            <td>21</td>
+                            <td>natanaelalvesf92-eng</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-26 22:05:50</td>
+                            <td class="keyword">prompt</td>
+                            <td>funcaoagua.js</td>
+                            <td>1</td>
+                            <td>19</td>
+                            <td>natanaelalvesf92-eng</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-26 21:24:33</td>
+                            <td class="keyword">for</td>
+                            <td>funcao.js</td>
+                            <td>9</td>
+                            <td>5</td>
+                            <td>elenizarocha0411-cyber</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-26 21:22:44</td>
+                            <td class="keyword">function</td>
+                            <td>funcao.js</td>
+                            <td>8</td>
+                            <td>1</td>
+                            <td>elenizarocha0411-cyber</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-26 21:20:11</td>
+                            <td class="keyword">prompt</td>
+                            <td>funcao.js</td>
+                            <td>5</td>
+                            <td>31</td>
+                            <td>elenizarocha0411-cyber</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-26 21:18:20</td>
+                            <td class="keyword">for</td>
+                            <td>funcao.js</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>elenizarocha0411-cyber</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-26 21:17:37</td>
+                            <td class="keyword">for</td>
+                            <td>funcaovetor.js</td>
+                            <td>10</td>
+                            <td>5</td>
+                            <td>natanaelalvesf92-eng</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-26 21:17:36</td>
+                            <td class="keyword">function</td>
+                            <td>funcao.js</td>
+                            <td>3</td>
+                            <td>1</td>
+                            <td>elenizarocha0411-cyber</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-26 21:17:23</td>
+                            <td class="keyword">prompt</td>
+                            <td>funcao.js</td>
+                            <td>2</td>
+                            <td>23</td>
+                            <td>elenizarocha0411-cyber</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-26 21:16:40</td>
+                            <td class="keyword">const</td>
+                            <td>funcao.js</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>elenizarocha0411-cyber</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-26 21:14:46</td>
+                            <td class="keyword">for</td>
+                            <td>funcaovetor.js</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>ericasilvacosta25</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-26 21:14:46</td>
+                            <td class="keyword">let</td>
+                            <td>funcaovetor.js</td>
+                            <td>4</td>
+                            <td>9</td>
+                            <td>ericasilvacosta25</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-26 20:53:14</td>
+                            <td class="keyword">prompt</td>
+                            <td>funcaovetor.js</td>
+                            <td>5</td>
+                            <td>28</td>
+                            <td>natanaelalvesf92-eng</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-26 20:53:09</td>
+                            <td class="keyword">for</td>
+                            <td>revisaovetor2.js</td>
+                            <td>19</td>
+                            <td>5</td>
+                            <td>jeilsonsales25</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-26 20:53:03</td>
+                            <td class="keyword">for</td>
+                            <td>funcao_vetor.js</td>
+                            <td>8</td>
+                            <td>9</td>
+                            <td>Tais-Araujo</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-26 20:52:45</td>
+                            <td class="keyword">function</td>
+                            <td>revisaovetor2.js</td>
+                            <td>18</td>
+                            <td>1</td>
+                            <td>jeilsonsales25</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-26 20:52:30</td>
+                            <td class="keyword">prompt</td>
+                            <td>revisaovetor2.js</td>
+                            <td>15</td>
+                            <td>31</td>
+                            <td>jeilsonsales25</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-26 20:51:55</td>
+                            <td class="keyword">let</td>
+                            <td>funcaovetor.js</td>
+                            <td>9</td>
+                            <td>9</td>
+                            <td>ericasilvacosta25</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-26 20:51:55</td>
+                            <td class="keyword">for</td>
+                            <td>funcaovetor.js</td>
+                            <td>9</td>
+                            <td>5</td>
+                            <td>ericasilvacosta25</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-26 20:51:40</td>
+                            <td class="keyword">for</td>
+                            <td>revisaovetor2.js</td>
+                            <td>14</td>
+                            <td>5</td>
+                            <td>jeilsonsales25</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-26 20:51:22</td>
+                            <td class="keyword">function</td>
+                            <td>revisaovetor2.js</td>
+                            <td>13</td>
+                            <td>1</td>
+                            <td>jeilsonsales25</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-26 20:51:10</td>
+                            <td class="keyword">prompt</td>
+                            <td>revisaovetor2.js</td>
+                            <td>12</td>
+                            <td>24</td>
+                            <td>jeilsonsales25</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-26 20:51:01</td>
+                            <td class="keyword">for</td>
+                            <td>funcaovetor.js</td>
+                            <td>15</td>
+                            <td>1</td>
+                            <td>aliciargn</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-26 20:51:01</td>
+                            <td class="keyword">prompt</td>
+                            <td>funcaovetor.js</td>
+                            <td>14</td>
+                            <td>24</td>
+                            <td>aliciargn</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-26 20:51:01</td>
+                            <td class="keyword">prompt</td>
+                            <td>funcaovetor.js</td>
+                            <td>14</td>
+                            <td>24</td>
+                            <td>aliciargn</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-26 20:51:01</td>
+                            <td class="keyword">let</td>
+                            <td>funcaovetor.js</td>
+                            <td>14</td>
+                            <td>1</td>
+                            <td>aliciargn</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-26 20:51:01</td>
+                            <td class="keyword">for</td>
+                            <td>funcaovetor.js</td>
+                            <td>15</td>
+                            <td>1</td>
+                            <td>aliciargn</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-26 20:51:01</td>
+                            <td class="keyword">const</td>
+                            <td>funcaovetor.js</td>
+                            <td>13</td>
+                            <td>1</td>
+                            <td>aliciargn</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-26 20:51:01</td>
+                            <td class="keyword">let</td>
+                            <td>funcaovetor.js</td>
+                            <td>14</td>
+                            <td>1</td>
+                            <td>aliciargn</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-26 20:51:01</td>
+                            <td class="keyword">let</td>
+                            <td>funcaovetor.js</td>
+                            <td>14</td>
+                            <td>1</td>
+                            <td>aliciargn</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-26 20:50:58</td>
+                            <td class="keyword">for</td>
+                            <td>funcaovetor.js</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>natanaelalvesf92-eng</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-26 20:50:52</td>
+                            <td class="keyword">for</td>
+                            <td>funcao_vetor.js</td>
+                            <td>8</td>
+                            <td>9</td>
+                            <td>Raqueli-S</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-26 20:50:50</td>
+                            <td class="keyword">let</td>
+                            <td>funcao_vetor.js</td>
+                            <td>8</td>
+                            <td>8</td>
+                            <td>veronica2006sabrina-bot</td>
+                        </tr>
+            
+                        <tr>
+                            <td>2026-03-26 20:50:25</td>
+                            <td class="keyword">function</td>
+                            <td>funcaovetor.js</td>
+                            <td>7</td>
+                            <td>1</td>
+                            <td>thammyressouza123-spec</td>
+                        </tr>
+            
+                    </tbody>
+                </table>
+            </div>
+            
+            <script>
+                function filterTable() {
+                    var input, filter, table, tr, td, i, txtValue;
+                    input = document.getElementById("searchInput");
+                    filter = input.value.toUpperCase();
+                    table = document.getElementById("logsTable");
+                    tr = table.getElementsByTagName("tr");
+                    
+                    for (i = 0; i < tr.length; i++) {
+                        td = tr[i].getElementsByTagName("td")[1];
+                        if (td) {
+                            txtValue = td.textContent || td.innerText;
+                            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                                tr[i].style.display = "";
+                            } else {
+                                tr[i].style.display = "none";
+                            }
+                        }
+                    }
+                }
+                
+                function sortTable(n) {
+                    var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+                    table = document.getElementById("logsTable");
+                    switching = true;
+                    dir = "asc";
+                    while (switching) {
+                        switching = false;
+                        rows = table.rows;
+                        for (i = 1; i < (rows.length - 1); i++) {
+                            shouldSwitch = false;
+                            x = rows[i].getElementsByTagName("TD")[n];
+                            y = rows[i + 1].getElementsByTagName("TD")[n];
+                            if (dir == "asc") {
+                                if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+                                    shouldSwitch = true;
+                                    break;
+                                }
+                            } else if (dir == "desc") {
+                                if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+                                    shouldSwitch = true;
+                                    break;
+                                }
+                            }
+                        }
+                        if (shouldSwitch) {
+                            rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+                            switching = true;
+                            switchcount++;
+                        } else {
+                            if (switchcount == 0 && dir == "asc") {
+                                dir = "desc";
+                                switching = true;
+                            }
+                        }
+                    }
+                }
+            </script>
+        </body>
+        </html>
+        
