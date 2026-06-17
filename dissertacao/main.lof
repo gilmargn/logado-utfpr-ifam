@@ -1,24 +1,24 @@
 \babel@toc {brazil}{}\relax
 \contentsline {figure}{\numberline {1}{\ignorespaces A posição dos logs na relação entre ensino (input) e produção discente (output)\relax }}{9}{figure.caption.7}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Arquitetura de coleta e agregação de logs pelo plugin LOGADO\relax }}{10}{figure.caption.8}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Modelo de coleta de dados educacionais durante a atividade de codificação. O plugin LOGADO monitora o processo, gerando logs que registram a jornada do aprendiz, em contraste com o artefato final (código) que é o foco da avaliação tradicional.\relax }}{15}{figure.caption.9}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Ícone da extensão Logado\relax }}{17}{figure.caption.11}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Visual Studio Code com a extensão Logado instalada e ativa\relax }}{18}{figure.caption.12}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Notificação exibida pela extensão LOGADO ao ser ativada no Visual Studio Code\relax }}{20}{figure.caption.15}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Arquivos de log (\texttt {.json}) gerados automaticamente para cada arquivo JavaScript do estudante\relax }}{21}{figure.caption.16}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Casos de uso de um \textit {plugin} Logado - Visão do Discente\relax }}{24}{figure.caption.18}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Casos de uso de um \textit {plugin} Logado - Visão do Pesquisador\relax }}{25}{figure.caption.19}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Top 20 palavras-chave mais frequentes nos logs coletados\relax }}{30}{figure.caption.20}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Distribuição dos logs por arquivo\relax }}{31}{figure.caption.21}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Ocorrência de logs por hora do dia\relax }}{32}{figure.caption.22}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Rede de co-ocorrência entre palavras reservadas\relax }}{33}{figure.caption.23}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Palavras com maior centralidade na rede de co-ocorrência\relax }}{34}{figure.caption.24}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Palavras com maior crescimento ao longo das semanas\relax }}{35}{figure.caption.26}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Fluxograma PRISMA do processo de seleção de estudos\relax }}{44}{figure.caption.30}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Distribuição das características principais dos estudos incluídos (n=17)\relax }}{46}{figure.caption.32}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Instituições que participaram do formulário\relax }}{54}{figure.caption.35}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Mapa de calor representando a frequência de uso e familiaridade com diferentes ferramentas tecnológicas (Perguntas 2 e 3). As cores mais quentes indicam maior frequência de uso ou familiaridade, permitindo identificar quais ferramentas são mais dominadas pelos participantes da pesquisa.\relax }}{55}{figure.caption.36}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Gráfico Waffle comparando características ou percepções entre diferentes grupos de participantes (Perguntas 4 e 5). Cada célula representa uma unidade de resposta, permitindo visualizar proporções e distribuições de forma intuitiva.\relax }}{56}{figure.caption.37}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Gráfico de barras agrupadas com facetas mostrando a distribuição de respostas sobre uso de datasets e sistemas de correção automatizada (Perguntas 6 e 7). As facetas permitem comparar subcategorias de respostas simultaneamente.\relax }}{56}{figure.caption.38}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Gráfico de pontos representando a relação entre a percepção sobre plugins educacionais e sua frequência de uso (Perguntas 9 e 11). A posição dos pontos indica a relação entre estas duas variáveis, podendo sugerir correlações.\relax }}{57}{figure.caption.39}%
-\contentsline {figure}{\numberline {23}{\ignorespaces Distribuição de IDEs utilizadas pelas instituições\relax }}{58}{figure.caption.40}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Arquitetura de coleta e agregação de logs pelo plugin LOGADO.Fonte: Elaborado pelo autor.\relax }}{10}{figure.caption.8}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Modelo de coleta de dados educacionais durante a atividade de codificação. O plugin LOGADO monitora o processo, gerando logs que registram a jornada do aprendiz, em contraste com o artefato final (código) que é o foco da avaliação tradicional.\relax }}{18}{figure.caption.9}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Ícone da extensão LOGADO\relax }}{19}{figure.caption.11}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Visual Studio Code com a extensão LOGADO instalada\relax }}{19}{figure.caption.11}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Notificação exibida pela extensão LOGADO ao ser ativada\relax }}{21}{figure.caption.12}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Arquivos de log (\texttt {.json}) gerados para cada arquivo JavaScript\relax }}{21}{figure.caption.13}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Casos de uso do \textit {plugin} LOGADO - Visão do Discente\relax }}{26}{figure.caption.16}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Casos de uso do \textit {plugin} LOGADO - Visão do Pesquisador\relax }}{26}{figure.caption.17}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Top 20 palavras-chave mais frequentes nos logs coletados\relax }}{31}{figure.caption.18}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Distribuição dos logs por arquivo\relax }}{32}{figure.caption.19}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Ocorrência de logs por hora do dia\relax }}{33}{figure.caption.20}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Rede de co-ocorrência entre palavras reservadas\relax }}{34}{figure.caption.21}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Palavras com maior centralidade na rede de co-ocorrência\relax }}{35}{figure.caption.22}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Palavras com maior crescimento ao longo das semanas\relax }}{36}{figure.caption.24}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Fluxograma PRISMA do processo de seleção de estudos\relax }}{49}{figure.caption.31}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Distribuição das características principais dos estudos incluídos (n=17)\relax }}{51}{figure.caption.33}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Instituições que participaram do formulário\relax }}{57}{figure.caption.34}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Mapa de calor representando a frequência de uso e familiaridade com diferentes ferramentas tecnológicas (Perguntas 2 e 3). As cores mais quentes indicam maior frequência de uso ou familiaridade, permitindo identificar quais ferramentas são mais dominadas pelos participantes da pesquisa.\relax }}{58}{figure.caption.35}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Gráfico Waffle comparando características ou percepções entre diferentes grupos de participantes (Perguntas 4 e 5). Cada célula representa uma unidade de resposta, permitindo visualizar proporções e distribuições de forma intuitiva.\relax }}{59}{figure.caption.36}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Gráfico de barras agrupadas com facetas mostrando a distribuição de respostas sobre uso de datasets e sistemas de correção automatizada (Perguntas 6 e 7). As facetas permitem comparar subcategorias de respostas simultaneamente.\relax }}{59}{figure.caption.37}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Gráfico de pontos representando a relação entre a percepção sobre plugins educacionais e sua frequência de uso (Perguntas 9 e 11). A posição dos pontos indica a relação entre estas duas variáveis, podendo sugerir correlações.\relax }}{60}{figure.caption.38}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Distribuição de IDEs utilizadas pelas instituições\relax }}{61}{figure.caption.39}%

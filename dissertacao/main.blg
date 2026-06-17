@@ -6,11 +6,13 @@ A level-1 auxiliary file: ./PreTexto/resumo.aux
 A level-1 auxiliary file: ./PreTexto/abstract.aux
 A level-1 auxiliary file: ./capitulos/cap-introducao.aux
 A level-1 auxiliary file: ./capitulos/cap-conceitos.aux
-A level-1 auxiliary file: ./capitulos/cap-proposta.aux
 A level-1 auxiliary file: ./capitulos/cap-metodologia.aux
+A level-1 auxiliary file: ./capitulos/cap-resultados-discussoes.aux
 A level-1 auxiliary file: ./capitulos/cap-consideracoes-finais.aux
+A level-1 auxiliary file: ./capitulos/cap-conclusoes.aux
 A level-1 auxiliary file: ./PosTexto/apendicea.aux
 A level-1 auxiliary file: ./PosTexto/apendiceb.aux
+A level-1 auxiliary file: ./PosTexto/apendicec.aux
 A level-1 auxiliary file: ./PosTexto/questionario-previo-tcle.pdf.aux
 The style file: abntex2-alf.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -37,11 +39,11 @@ write is an unknown function---line 1930 of file abntex2-alf.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: abntex2-options.bib
 Database file #2: main.bib
-Repeated entry---line 507 of file main.bib
+Repeated entry---line 517 of file main.bib
  : @article{gu2022logging
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 527 of file main.bib
+Repeated entry---line 537 of file main.bib
  : @inproceedings{silva2022previsao
  :                                 ,
 I'm skipping whatever remains of this entry
@@ -55,45 +57,45 @@ Warning--faltando school em kennedy2015towards
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 53 entries,
+You've used 50 entries,
             7039 wiz_defined-function locations,
-            1533 strings with 19609 characters,
-and the built_in function-call counts, 50230 in all, are:
-= -- 4615
-> -- 1405
-< -- 557
-+ -- 1029
-- -- 422
-* -- 3543
-:= -- 6390
-add.period$ -- 188
-call.type$ -- 55
-change.case$ -- 523
-chr.to.int$ -- 132
-cite$ -- 46
-duplicate$ -- 3306
-empty$ -- 3318
-format.name$ -- 2025
-if$ -- 11392
-int.to.chr$ -- 8
+            1522 strings with 19457 characters,
+and the built_in function-call counts, 46332 in all, are:
+= -- 4098
+> -- 1406
+< -- 413
++ -- 884
+- -- 419
+* -- 3342
+:= -- 5894
+add.period$ -- 175
+call.type$ -- 52
+change.case$ -- 515
+chr.to.int$ -- 133
+cite$ -- 43
+duplicate$ -- 2816
+empty$ -- 3165
+format.name$ -- 2017
+if$ -- 10691
+int.to.chr$ -- 7
 int.to.str$ -- 3
-missing$ -- 899
-newline$ -- 225
-num.names$ -- 226
-pop$ -- 1077
+missing$ -- 853
+newline$ -- 209
+num.names$ -- 211
+pop$ -- 1021
 preamble$ -- 1
-purify$ -- 205
+purify$ -- 199
 quote$ -- 0
-skip$ -- 3706
+skip$ -- 3212
 stack$ -- 1
-substring$ -- 2261
-swap$ -- 1431
-text.length$ -- 76
+substring$ -- 2092
+swap$ -- 1284
+text.length$ -- 75
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 11
 warning$ -- 1
-while$ -- 379
+while$ -- 359
 width$ -- 0
-write$ -- 774
+write$ -- 730
 (There were 14 error messages)

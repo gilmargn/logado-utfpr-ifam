@@ -1,0 +1,99 @@
+\chapter{Estrutura do Dataset Gerado}
+\label{apendicec}
+
+Este apêndice documenta a estrutura do \textit{dataset} gerado a partir dos logs coletados pela extensão LOGADO.
+
+\section*{Dimensão do dataset}
+
+O \textit{dataset} consolidado contém \textbf{4.614 registros} (linhas), resultantes do pré-processamento dos logs de 23 estudantes ao longo de 5 semanas de atividades.
+
+\section*{Estrutura das colunas}
+
+A Tabela \ref{tab:dataset-colunas} descreve cada uma das colunas presentes no \textit{dataset}.
+
+\begin{table}[H]
+\centering
+\caption{Descrição das colunas do dataset}
+\label{tab:dataset-colunas}
+\begin{tabular}{|p{0.25\linewidth}|p{0.15\linewidth}|p{0.55\linewidth}|}
+\hline
+\textbf{Coluna} & \textbf{Tipo} & \textbf{Descrição} \\
+\hline
+\texttt{arquivo.json} & Texto & Nome do arquivo de log original (ex.: \texttt{vaquinha.json}, \texttt{jogos.json}) \\
+\hline
+\texttt{keyword} & Texto & Palavra reservada capturada (ex.: \texttt{let}, \texttt{if}, \texttt{for}, \texttt{prompt}) \\
+\hline
+\texttt{timestamp} & Data/Hora & Data e hora do evento no formato \texttt{YYYY-MM-DD HH:MM:SS} \\
+\hline
+\texttt{arquivo.js} & Texto & Nome do arquivo fonte onde a palavra foi digitada \\
+\hline
+\texttt{linha} & Inteiro & Número da linha no arquivo fonte \\
+\hline
+\texttt{coluna} & Inteiro & Posição da coluna onde a palavra foi digitada \\
+\hline
+\texttt{data\_processamento} & Data/Hora & Data de consolidação do registro no formato ISO \\
+\hline
+\end{tabular}
+\end{table}
+
+\section*{Amostra dos dados}
+
+A Tabela \ref{tab:amostra-completa} apresenta uma amostra mais abrangente dos registros coletados.
+
+\begin{table}[H]
+\centering
+\caption{Amostra completa do dataset}
+\label{tab:amostra-completa}
+\scriptsize
+\begin{tabular}{|p{0.14\linewidth}|p{0.10\linewidth}|p{0.18\linewidth}|p{0.12\linewidth}|p{0.06\linewidth}|p{0.06\linewidth}|p{0.14\linewidth}|}
+\hline
+\textbf{arquivo.json} & \textbf{keyword} & \textbf{timestamp} & \textbf{arquivo.js} & \textbf{linha} & \textbf{coluna} & \textbf{data\_processamento} \\
+\hline
+vaquinha.json & prompt & 2026-03-12 19:48:00 & vaquinha.js & 3 & 29 & 2026-04-01 08:13:07 \\
+\hline
+vaquinha.json & for & 2026-03-12 19:49:18 & vaquinha.js & 4 & 5 & 2026-04-01 08:13:07 \\
+\hline
+vaquinha.json & prompt & 2026-03-12 19:54:31 & vaquinha.js & 5 & 29 & 2026-04-01 08:13:07 \\
+\hline
+vaquinha.json & alert & 2026-03-12 19:56:13 & vaquinha.js & 8 & 5 & 2026-04-01 08:13:07 \\
+\hline
+vaquinha.json & for & 2026-03-12 20:08:07 & vaquinha.js & 9 & 5 & 2026-04-01 08:13:07 \\
+\hline
+jogos.json & for & 2026-02-26 20:04:05 & jogos.js & 3 & 1 & 2026-04-01 08:13:07 \\
+\hline
+jogos.json & let & 2026-02-26 20:04:05 & jogos.js & 3 & 6 & 2026-04-01 08:13:07 \\
+\hline
+jogos.json & for & 2026-02-26 20:04:23 & jogos.js & 12 & 5 & 2026-04-01 08:13:07 \\
+\hline
+jogos.json & let & 2026-02-26 20:04:23 & jogos.js & 12 & 10 & 2026-04-01 08:13:07 \\
+\hline
+jogos.json & for & 2026-02-26 20:13:38 & jogos.js & 16 & 1 & 2026-04-01 08:13:07 \\
+\hline
+jogos.json & alert & 2026-02-26 20:28:34 & jogos.js & 16 & 1 & 2026-04-01 08:13:07 \\
+\hline
+main.json & alert & 2026-02-20 20:35:53 & main.js & 1 & 1 & 2026-04-01 08:13:07 \\
+\hline
+par\_impar.json & prompt & 2026-02-26 22:20:19 & par\_impar.js & 2 & 22 & 2026-04-01 08:13:07 \\
+\hline
+par\_impar.json & else & 2026-02-26 22:24:30 & par\_impar.js & 8 & 1 & 2026-04-01 08:13:07 \\
+\hline
+par\_impar.json & alert & 2026-02-26 22:24:57 & par\_impar.js & 10 & 1 & 2026-04-01 08:13:07 \\
+\hline
+funcao\_soma.json & function & 2026-03-25 21:17:02 & funcao\_soma.js & 1 & 1 & 2026-04-01 08:13:07 \\
+\hline
+funcao\_soma.json & return & 2026-03-25 21:17:54 & funcao\_soma.js & 2 & 5 & 2026-04-01 08:13:07 \\
+\hline
+funcao\_soma.json & prompt & 2026-03-25 21:18:47 & funcao\_soma.js & 4 & 16 & 2026-04-01 08:13:07 \\
+\hline
+funcao\_soma.json & prompt & 2026-03-25 21:20:01 & funcao\_soma.js & 5 & 16 & 2026-04-01 08:13:07 \\
+\hline
+funcao\_soma.json & alert & 2026-03-25 21:21:13 & funcao\_soma.js & 6 & 1 & 2026-04-01 08:13:07 \\
+\hline
+funcao\_soma.json & function & 2026-03-25 21:34:18 & funcao\_soma.js & 7 & 10 & 2026-04-01 08:13:07 \\
+\hline
+\end{tabular}
+\end{table}
+
+\section*{Script de geração}
+
+O \textit{dataset} foi gerado por meio do script Python desenvolvido com as bibliotecas \texttt{Pandas} e \texttt{json}, cujo código-fonte encontra-se no Apêndice \ref{apendicec}.

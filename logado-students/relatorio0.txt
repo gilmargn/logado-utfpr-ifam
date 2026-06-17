@@ -1,0 +1,1197 @@
+Encontrados 532 arquivos JSON
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Raqueli-S/domingos.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Raqueli-S/vaquinha.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Raqueli-S/jogos.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Raqueli-S/main.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Raqueli-S/par_impar.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Raqueli-S/funcao_soma.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Raqueli-S/revisao_vetor.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Raqueli-S/vetor_tabuada.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Raqueli-S/aprovacao.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Raqueli-S/jogo2.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Raqueli-S/copa.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Raqueli-S/maior-de-tres.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Raqueli-S/for.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Raqueli-S/espalhamento-minimo.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Raqueli-S/decremento.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Raqueli-S/espalhamento.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Raqueli-S/vetor_par_impar.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Raqueli-S/maior-de-tresMath.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Raqueli-S/funcao_vetor.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Raqueli-S/time.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Raqueli-S/quick_sort.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Raqueli-S/troca.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Raqueli-S/vetor_jogos.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/thammyressouza123-spec/execicio_04_prato.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/thammyressouza123-spec/domingos.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/thammyressouza123-spec/vaquinha.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/thammyressouza123-spec/bubble_2.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/thammyressouza123-spec/atividade_3.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/thammyressouza123-spec/funcaosoma.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/thammyressouza123-spec/jogos.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/thammyressouza123-spec/execicio_01_festa.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/thammyressouza123-spec/main.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/thammyressouza123-spec/atividade_4.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/thammyressouza123-spec/olimpiadas.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/thammyressouza123-spec/exercicio_01.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/thammyressouza123-spec/execicio_03_caixa.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/thammyressouza123-spec/revisaovetor.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/thammyressouza123-spec/atividade_2.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/thammyressouza123-spec/maiorde3Math.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/thammyressouza123-spec/execicio_02_cinema.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/thammyressouza123-spec/aprovacao_01.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/thammyressouza123-spec/vetor_tabuada.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/thammyressouza123-spec/for.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/thammyressouza123-spec/maiorde3.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/thammyressouza123-spec/espalhamento-minimo.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/thammyressouza123-spec/espalhamento.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/thammyressouza123-spec/vetor_par_impar.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/thammyressouza123-spec/funcaovetor.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/thammyressouza123-spec/par-impar.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/thammyressouza123-spec/estudante.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/thammyressouza123-spec/bubble_sort.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/thammyressouza123-spec/time.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/thammyressouza123-spec/bublle_sort.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/thammyressouza123-spec/atividade_1.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/thammyressouza123-spec/bubble_sort_2.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/thammyressouza123-spec/bubble.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/thammyressouza123-spec/aprovacao_02.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/thammyressouza123-spec/dcremento.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/thammyressouza123-spec/troca.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/thammyressouza123-spec/vetor_jogos.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/ribamarvasconcelos51-dotcom/main.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/ribamarvasconcelos51-dotcom/for.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mariabessagn/domingos.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mariabessagn/vaquinha.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mariabessagn/funcaosoma.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mariabessagn/exercicio_05.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mariabessagn/espalhamento_minimo.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mariabessagn/jogos.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mariabessagn/maiorde3math.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mariabessagn/main.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mariabessagn/exercicio_01.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mariabessagn/exercicio_08.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mariabessagn/jogos02.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mariabessagn/exercicio_02.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mariabessagn/revisaovetor.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mariabessagn/vetor_tabuada.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mariabessagn/vetor_par-impar.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mariabessagn/aprovacao.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mariabessagn/exercicio_09.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mariabessagn/copa.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mariabessagn/for.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mariabessagn/exercicio_03.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mariabessagn/maiorde3.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mariabessagn/decremento.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mariabessagn/espalhamento.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mariabessagn/funcaovetor.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mariabessagn/par-impar.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mariabessagn/exercicio_06.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mariabessagn/time.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mariabessagn/exercicio_04.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mariabessagn/exercicio_07.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mariabessagn/bubble.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mariabessagn/aprovacao02.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mariabessagn/troca.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mariabessagn/vetor_jogos.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Brenda-ketleyn/vetor_par1.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Brenda-ketleyn/domingos.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Brenda-ketleyn/vaquinha.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Brenda-ketleyn/exercicio_12.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Brenda-ketleyn/funcaosoma.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Brenda-ketleyn/vetor_par.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Brenda-ketleyn/exercicio_05.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Brenda-ketleyn/notas1.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Brenda-ketleyn/jogos.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Brenda-ketleyn/maiorde3math.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Brenda-ketleyn/funcaovetorr.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Brenda-ketleyn/notas.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Brenda-ketleyn/main.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Brenda-ketleyn/par=impar.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Brenda-ketleyn/exercicio_01.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Brenda-ketleyn/exercicio_08.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Brenda-ketleyn/exercicio_02.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Brenda-ketleyn/revisaovetor.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Brenda-ketleyn/vetor_tabuada.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Brenda-ketleyn/exercicio_09.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Brenda-ketleyn/copa.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Brenda-ketleyn/for.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Brenda-ketleyn/exercicio_03.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Brenda-ketleyn/maiorde3.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Brenda-ketleyn/espalhamento-minimo.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Brenda-ketleyn/decremento.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Brenda-ketleyn/espalhamento.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Brenda-ketleyn/funcaovetor.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Brenda-ketleyn/exercicio_10.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Brenda-ketleyn/pa.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Brenda-ketleyn/exercicio_06.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Brenda-ketleyn/time.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Brenda-ketleyn/exercicio_04.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Brenda-ketleyn/exercicio_07.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Brenda-ketleyn/merge.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Brenda-ketleyn/dowhile.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Brenda-ketleyn/jogos1.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Brenda-ketleyn/troca.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Brenda-ketleyn/exercicio_11.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Brenda-ketleyn/vetor_jogos.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/algoritmo09.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/vetor-tabuada.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/exercicio03.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/vaquinha.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/exercicio04.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/algoritmo2.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/domigos.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/funcaosoma.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/vetor-par-impar.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/festaidade.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/amanese.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/espalhamentominimo.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/maiordetresmath.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/jogos.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/algoritmo04.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/main.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/calculadora.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/algoritmo3.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/algoritmo06.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/revisaovetor.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/insertion.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/exercicio02.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/aprovacao_01.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/algoritmo1.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/algoritmo07.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/saque2.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/aprovacao.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/inserto02.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/copa.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/for.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/decremento.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/espalhamento.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/funcaovetor.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/par-impar.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/restaurante.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/time.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/km.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/algoritmo4.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/maiordetres.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/troca.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/algoritmo08.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/teste.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/tarefa2.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/vetor_jogos.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/exercicio05.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/barbosalevir3-rgb/jogos2.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/joerlenss/domingos.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/joerlenss/vaquinha.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/joerlenss/funcaosoma.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/joerlenss/espalhamentominimo.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/joerlenss/jogos.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/joerlenss/maiorde3math.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/joerlenss/revisaovetor.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/joerlenss/tabuada_vetor.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/joerlenss/aprovacao.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/joerlenss/copa.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/joerlenss/maiorde3.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/joerlenss/decremento.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/joerlenss/espalhamento.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/joerlenss/pan.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/joerlenss/funcaovetor.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/joerlenss/insertionsort.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/joerlenss/aprovacao2.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/joerlenss/time.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/joerlenss/par-impa.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/joerlenss/troca.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/tamilabl/domingos.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/tamilabl/vaquinha.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/tamilabl/funcaosoma.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/tamilabl/n1.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/tamilabl/espalhamentominimo.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/tamilabl/maiordetresmath.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/tamilabl/jogos.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/tamilabl/vetor_parimpa.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/tamilabl/funcaooperacao.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/tamilabl/vetor_inverno.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/tamilabl/revisaovetor.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/tamilabl/vetor_tabuada.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/tamilabl/aprovacao.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/tamilabl/copa.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/tamilabl/decremento.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/tamilabl/espalhamento.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/tamilabl/funcaovetor.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/tamilabl/aprovacao2.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/tamilabl/time.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/tamilabl/maiordetres.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/tamilabl/troca.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/tamilabl/vetor_jogos.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/tamilabl/jogos2.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/jeilsonsales25/ds.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/jeilsonsales25/04a.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/jeilsonsales25/espalhamento_minimo.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/jeilsonsales25/02.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/jeilsonsales25/jogos.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/jeilsonsales25/main.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/jeilsonsales25/de.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/jeilsonsales25/par_impar.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/jeilsonsales25/olimpiada.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/jeilsonsales25/exercicio_02.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/jeilsonsales25/revisaovetor.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/jeilsonsales25/revisaovetor2.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/jeilsonsales25/sunday.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/jeilsonsales25/01.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/jeilsonsales25/dfs.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/jeilsonsales25/04.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/jeilsonsales25/aprovacao.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/jeilsonsales25/copa.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/jeilsonsales25/for.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/jeilsonsales25/exercicio_03.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/jeilsonsales25/decremento.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/jeilsonsales25/funcaovetor.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/jeilsonsales25/aprovacao2.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/jeilsonsales25/sunday1.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/jeilsonsales25/funcasoma.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/jeilsonsales25/time.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/jeilsonsales25/exercicio_04.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/jeilsonsales25/03.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/jeilsonsales25/tabuada.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/jeilsonsales25/troca2.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/jeilsonsales25/troca.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/jeilsonsales25/05.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/jeilsonsales25/buble.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/elenizarocha0411-cyber/domingos.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/elenizarocha0411-cyber/exercicio03.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/elenizarocha0411-cyber/vaquinha.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/elenizarocha0411-cyber/exercicio04.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/elenizarocha0411-cyber/funcaosoma.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/elenizarocha0411-cyber/vetor-par-impar.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/elenizarocha0411-cyber/supermercado_revisão.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/elenizarocha0411-cyber/idade.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/elenizarocha0411-cyber/espalhamentominimo.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/elenizarocha0411-cyber/maiordetresmath.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/elenizarocha0411-cyber/caixa eletronico.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/elenizarocha0411-cyber/Quick sort.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/elenizarocha0411-cyber/main.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/elenizarocha0411-cyber/evento_revisão.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/elenizarocha0411-cyber/exercicio07.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/elenizarocha0411-cyber/funcao.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/elenizarocha0411-cyber/exercicio02.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/elenizarocha0411-cyber/revisao_vetor.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/elenizarocha0411-cyber/vetor_tabuada.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/elenizarocha0411-cyber/for.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/elenizarocha0411-cyber/espalhamento.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/elenizarocha0411-cyber/par-impar.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/elenizarocha0411-cyber/tarefas.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/elenizarocha0411-cyber/viagem_revisão.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/elenizarocha0411-cyber/celular_revisão.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/elenizarocha0411-cyber/maiordetres.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/elenizarocha0411-cyber/troca.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/elenizarocha0411-cyber/exercicio01.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/elenizarocha0411-cyber/vetor_jogos.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/elenizarocha0411-cyber/exercicio05.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/genilsonsouzzaa-alt/maior.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/genilsonsouzzaa-alt/vaquinha.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/genilsonsouzzaa-alt/funcaosoma.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/genilsonsouzzaa-alt/exercicio_05.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/genilsonsouzzaa-alt/espalhamentominimo.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/genilsonsouzzaa-alt/maiordetresmath.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/genilsonsouzzaa-alt/jogos.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/genilsonsouzzaa-alt/main.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/genilsonsouzzaa-alt/exercicio_01.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/genilsonsouzzaa-alt/exercicio_08.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/genilsonsouzzaa-alt/par_impar.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/genilsonsouzzaa-alt/atividade4.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/genilsonsouzzaa-alt/exercicio_02.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/genilsonsouzzaa-alt/selecition2.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/genilsonsouzzaa-alt/revisaovetor.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/genilsonsouzzaa-alt/atividade2.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/genilsonsouzzaa-alt/atividade1.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/genilsonsouzzaa-alt/calendario.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/genilsonsouzzaa-alt/aprovacao.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/genilsonsouzzaa-alt/exercicio_09.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/genilsonsouzzaa-alt/copa.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/genilsonsouzzaa-alt/for.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/genilsonsouzzaa-alt/exercicio_03.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/genilsonsouzzaa-alt/decremento.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/genilsonsouzzaa-alt/ativade3.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/genilsonsouzzaa-alt/espalhamento.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/genilsonsouzzaa-alt/pan.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/genilsonsouzzaa-alt/vetor_par_impar.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/genilsonsouzzaa-alt/funcaovetor.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/genilsonsouzzaa-alt/aprovacao2.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/genilsonsouzzaa-alt/exercicio_06.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/genilsonsouzzaa-alt/time.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/genilsonsouzzaa-alt/domingo.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/genilsonsouzzaa-alt/exercicio_04.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/genilsonsouzzaa-alt/exercicio_07.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/genilsonsouzzaa-alt/tabuada.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/genilsonsouzzaa-alt/troca.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/genilsonsouzzaa-alt/select.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/genilsonsouzzaa-alt/vetor_jogos.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/genilsonsouzzaa-alt/jogos2.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/natanaelalvesf92-eng/vaquinha.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/natanaelalvesf92-eng/funcaoagua.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/natanaelalvesf92-eng/funcaosoma.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/natanaelalvesf92-eng/vetor-par-impar.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/natanaelalvesf92-eng/maiordetresmath.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/natanaelalvesf92-eng/funcaofatorial.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/natanaelalvesf92-eng/funcaosoma2.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/natanaelalvesf92-eng/exercicio_2.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/natanaelalvesf92-eng/estruturapo1.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/natanaelalvesf92-eng/jogospan.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/natanaelalvesf92-eng/exercicio_02.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/natanaelalvesf92-eng/revisaovetor.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/natanaelalvesf92-eng/05.2.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/natanaelalvesf92-eng/estruturapo2.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/natanaelalvesf92-eng/06.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/natanaelalvesf92-eng/04.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/natanaelalvesf92-eng/funcaoidade.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/natanaelalvesf92-eng/aprovacao.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/natanaelalvesf92-eng/espalhamento-minimo.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/natanaelalvesf92-eng/decremento.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/natanaelalvesf92-eng/espalhamento.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/natanaelalvesf92-eng/funcaovetor.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/natanaelalvesf92-eng/aprovacao2.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/natanaelalvesf92-eng/exercicio_4.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/natanaelalvesf92-eng/Exercicio_01.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/natanaelalvesf92-eng/time.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/natanaelalvesf92-eng/tabuada.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/natanaelalvesf92-eng/maiordetres.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/natanaelalvesf92-eng/troca.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/natanaelalvesf92-eng/05.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/ketilaAnjos/domingos.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/ketilaAnjos/vaquinha.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/ketilaAnjos/exercicio3.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/ketilaAnjos/atividade5.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/ketilaAnjos/funcaosoma.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/ketilaAnjos/vetorpar_impar.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/ketilaAnjos/espalhamentominimo.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/ketilaAnjos/jogos.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/ketilaAnjos/maiorde3math.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/ketilaAnjos/exercicio_01.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/ketilaAnjos/par_impar.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/ketilaAnjos/espalhamentominino.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/ketilaAnjos/atividade4.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/ketilaAnjos/revisaovetor.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/ketilaAnjos/exercicio5.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/ketilaAnjos/atividade2.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/ketilaAnjos/exercicio1.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/ketilaAnjos/atividade3.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/ketilaAnjos/exercicio2.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/ketilaAnjos/atividade1.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/ketilaAnjos/vetor_jogos2.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/ketilaAnjos/tabuada_vetor.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/ketilaAnjos/Exercicio_02.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/ketilaAnjos/quicksort.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/ketilaAnjos/copa.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/ketilaAnjos/for.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/ketilaAnjos/maiorde3.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/ketilaAnjos/espalhamento.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/ketilaAnjos/funcaovetor.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/ketilaAnjos/exercicio4.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/ketilaAnjos/Exercicio_03.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/ketilaAnjos/time.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/ketilaAnjos/troca.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/ketilaAnjos/vetor_jogos.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/jady2025/maior_de_tresMath.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/jady2025/espalhamento_minimo.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/jady2025/maior_de_tres.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/jady2025/espalhamento.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/jady2025/troca.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/aliciargn/domingos.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/aliciargn/vaquinha.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/aliciargn/selection.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/aliciargn/funcaosoma.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/aliciargn/exercicio_05.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/aliciargn/espalhamento_minimo.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/aliciargn/maiordetresmath.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/aliciargn/jogos.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/aliciargn/main.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/aliciargn/exercicio_01.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/aliciargn/exercicio_08.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/aliciargn/exercicio_02.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/aliciargn/revisaovetor.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/aliciargn/tabuada_vetor.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/aliciargn/aprovacao.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/aliciargn/exercicio_09.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/aliciargn/copa.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/aliciargn/for.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/aliciargn/exercicio_03.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/aliciargn/maiorde3.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/aliciargn/decremento.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/aliciargn/espalhamento.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/aliciargn/pan.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/aliciargn/vetor_par_impar.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/aliciargn/funcaovetor.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/aliciargn/par-impar.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/aliciargn/aprovacao2.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/aliciargn/exercicio_06.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/aliciargn/time.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/aliciargn/exercicio_04.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/aliciargn/exercicio_07.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/aliciargn/troca.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/aliciargn/vetor_jogos.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/veronica2006sabrina-bot/domingos.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/veronica2006sabrina-bot/vaquinha.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/veronica2006sabrina-bot/atv6.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/veronica2006sabrina-bot/selection.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/veronica2006sabrina-bot/atv.7.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/veronica2006sabrina-bot/login.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/veronica2006sabrina-bot/maiorde3Math.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/veronica2006sabrina-bot/desempenho.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/veronica2006sabrina-bot/funcao_soma.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/veronica2006sabrina-bot/revisao_vetor.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/veronica2006sabrina-bot/aprovacao.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/veronica2006sabrina-bot/evento.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/veronica2006sabrina-bot/maiorde3.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/veronica2006sabrina-bot/decremento.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/veronica2006sabrina-bot/espalhamento.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/veronica2006sabrina-bot/pan.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/veronica2006sabrina-bot/vetor_par_impar.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/veronica2006sabrina-bot/par-impar.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/veronica2006sabrina-bot/funcao_vetor.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/veronica2006sabrina-bot/aprovacao2.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/veronica2006sabrina-bot/time.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/veronica2006sabrina-bot/supermercado.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/veronica2006sabrina-bot/Viagem.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/veronica2006sabrina-bot/troca.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/veronica2006sabrina-bot/vetor_jogos.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Tais-Araujo/evento_vip.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Tais-Araujo/vaquinha.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Tais-Araujo/viagem_economica.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Tais-Araujo/insertion_sort.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Tais-Araujo/sundays.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Tais-Araujo/sistema_login.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Tais-Araujo/jogos.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Tais-Araujo/maior-de-tres-math.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Tais-Araujo/revisaovetor.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Tais-Araujo/funcao_soma.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Tais-Araujo/Exercicio_06.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Tais-Araujo/vetor_tabuada.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Tais-Araujo/aprovacao.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Tais-Araujo/copa.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Tais-Araujo/maior-de-tres.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Tais-Araujo/for.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Tais-Araujo/espalhamento-minimo.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Tais-Araujo/espalhamento.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Tais-Araujo/vetor_par_impar.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Tais-Araujo/Exercicio_04.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Tais-Araujo/par-impar.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Tais-Araujo/compras_supermecado.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Tais-Araujo/funcao_vetor.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Tais-Araujo/desempenho_turma.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Tais-Araujo/Exercicio_03.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Tais-Araujo/Exercicio_07.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Tais-Araujo/Exercicio_05.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Tais-Araujo/Exercicio_01.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Tais-Araujo/time.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Tais-Araujo/troca.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Tais-Araujo/teste.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/Tais-Araujo/vetor_jogos.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mel13-source/domingos.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mel13-source/revisao1.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mel13-source/exercicio-02.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mel13-source/functionvetor.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mel13-source/main.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mel13-source/exercicio-04.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mel13-source/newFile.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mel13-source/revisao2.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mel13-source/exercicio-05.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mel13-source/exercicio-03.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mel13-source/revisaovetor.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mel13-source/maiorde-tres.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mel13-source/revisao3.json
+  - /home/gilmar/Documents/algoritmos/logado-utfpr-ifam/logado-students/repos_logado/mel13-source/functionsoma.json
+ Lido: domingos.json - 7 registros
+ Lido: vaquinha.json - 7 registros
+ Lido: jogos.json - 6 registros
+ Lido: main.json - 1 registros
+ Lido: par_impar.json - 6 registros
+ Lido: funcao_soma.json - 33 registros
+ Lido: revisao_vetor.json - 10 registros
+ Lido: vetor_tabuada.json - 8 registros
+ Lido: aprovacao.json - 108 registros
+ Lido: jogo2.json - 2 registros
+ Lido: copa.json - 6 registros
+ Lido: maior-de-tres.json - 8 registros
+ Lido: for.json - 3 registros
+ Lido: espalhamento-minimo.json - 4 registros
+ Lido: decremento.json - 2 registros
+ Lido: espalhamento.json - 2 registros
+ Lido: vetor_par_impar.json - 14 registros
+ Lido: maior-de-tresMath.json - 3 registros
+ Lido: funcao_vetor.json - 19 registros
+ Lido: time.json - 7 registros
+ Lido: quick_sort.json - 15 registros
+ Lido: troca.json - 8 registros
+ Lido: vetor_jogos.json - 8 registros
+ Lido: execicio_04_prato.json - 1 registros
+ Lido: domingos.json - 5 registros
+ Lido: vaquinha.json - 3 registros
+ Lido: bubble_2.json - 5 registros
+ Lido: atividade_3.json - 5 registros
+ Lido: funcaosoma.json - 14 registros
+ Lido: jogos.json - 3 registros
+ Lido: execicio_01_festa.json - 14 registros
+ Lido: main.json - 1 registros
+ Lido: atividade_4.json - 5 registros
+ Lido: olimpiadas.json - 2 registros
+ Lido: exercicio_01.json - 3 registros
+ Lido: execicio_03_caixa.json - 6 registros
+ Lido: revisaovetor.json - 4 registros
+ Lido: atividade_2.json - 6 registros
+ Lido: maiorde3Math.json - 3 registros
+ Lido: execicio_02_cinema.json - 6 registros
+ Lido: aprovacao_01.json - 28 registros
+ Lido: vetor_tabuada.json - 1 registros
+ Lido: for.json - 1 registros
+ Lido: maiorde3.json - 10 registros
+ Lido: espalhamento-minimo.json - 4 registros
+ Lido: espalhamento.json - 12 registros
+ Lido: vetor_par_impar.json - 3 registros
+ Lido: funcaovetor.json - 27 registros
+ Lido: par-impar.json - 7 registros
+ Lido: estudante.json - 23 registros
+ Lido: bubble_sort.json - 16 registros
+ Lido: time.json - 4 registros
+ Lido: bublle_sort.json - 12 registros
+ Lido: atividade_1.json - 7 registros
+ Lido: bubble_sort_2.json - 12 registros
+ Lido: bubble.json - 52 registros
+ Lido: aprovacao_02.json - 25 registros
+ Lido: dcremento.json - 4 registros
+ Lido: troca.json - 6 registros
+ Lido: vetor_jogos.json - 3 registros
+ Lido: main.json - 3 registros
+ Lido: for.json - 3 registros
+ Lido: domingos.json - 15 registros
+ Lido: vaquinha.json - 4 registros
+ Lido: funcaosoma.json - 55 registros
+ Lido: exercicio_05.json - 5 registros
+ Lido: espalhamento_minimo.json - 4 registros
+ Lido: jogos.json - 5 registros
+ Lido: maiorde3math.json - 3 registros
+ Lido: main.json - 2 registros
+ Lido: exercicio_01.json - 4 registros
+ Lido: exercicio_08.json - 3 registros
+ Lido: jogos02.json - 8 registros
+ Lido: exercicio_02.json - 5 registros
+ Lido: revisaovetor.json - 22 registros
+ Lido: vetor_tabuada.json - 2 registros
+ Lido: vetor_par-impar.json - 21 registros
+ Lido: aprovacao.json - 50 registros
+ Lido: exercicio_09.json - 1 registros
+ Lido: copa.json - 3 registros
+ Lido: for.json - 4 registros
+ Lido: exercicio_03.json - 3 registros
+ Lido: maiorde3.json - 8 registros
+ Lido: decremento.json - 3 registros
+ Lido: espalhamento.json - 3 registros
+ Lido: funcaovetor.json - 36 registros
+ Lido: par-impar.json - 6 registros
+ Lido: exercicio_06.json - 5 registros
+ Lido: time.json - 6 registros
+ Lido: exercicio_04.json - 4 registros
+ Lido: exercicio_07.json - 5 registros
+ Lido: bubble.json - 7 registros
+ Lido: aprovacao02.json - 44 registros
+ Lido: troca.json - 2 registros
+ Lido: vetor_jogos.json - 4 registros
+ Lido: vetor_par1.json - 10 registros
+ Lido: domingos.json - 14 registros
+ Lido: vaquinha.json - 9 registros
+ Lido: exercicio_12.json - 11 registros
+ Lido: funcaosoma.json - 34 registros
+ Lido: vetor_par.json - 23 registros
+ Lido: exercicio_05.json - 2 registros
+ Lido: notas1.json - 39 registros
+ Lido: jogos.json - 12 registros
+ Lido: maiorde3math.json - 4 registros
+ Lido: funcaovetorr.json - 3 registros
+ Lido: notas.json - 50 registros
+ Lido: main.json - 3 registros
+ Lido: par=impar.json - 14 registros
+ Lido: exercicio_01.json - 6 registros
+ Lido: exercicio_08.json - 4 registros
+ Lido: exercicio_02.json - 4 registros
+ Lido: revisaovetor.json - 18 registros
+ Lido: vetor_tabuada.json - 13 registros
+ Lido: exercicio_09.json - 9 registros
+ Lido: copa.json - 4 registros
+ Lido: for.json - 4 registros
+ Lido: exercicio_03.json - 8 registros
+ Lido: maiorde3.json - 9 registros
+ Lido: espalhamento-minimo.json - 4 registros
+ Lido: decremento.json - 11 registros
+ Lido: espalhamento.json - 3 registros
+ Lido: funcaovetor.json - 27 registros
+ Lido: exercicio_10.json - 7 registros
+ Lido: pa.json - 4 registros
+ Lido: exercicio_06.json - 5 registros
+ Lido: time.json - 9 registros
+ Lido: exercicio_04.json - 7 registros
+ Lido: exercicio_07.json - 6 registros
+ Lido: merge.json - 172 registros
+ Lido: dowhile.json - 4 registros
+ Lido: jogos1.json - 2 registros
+ Lido: troca.json - 2 registros
+ Lido: exercicio_11.json - 6 registros
+ Lido: vetor_jogos.json - 4 registros
+ Lido: algoritmo09.json - 2 registros
+ Lido: vetor-tabuada.json - 13 registros
+ Lido: exercicio03.json - 11 registros
+ Lido: vaquinha.json - 10 registros
+ Lido: exercicio04.json - 3 registros
+ Lido: algoritmo2.json - 10 registros
+ Lido: domigos.json - 39 registros
+ Lido: funcaosoma.json - 1 registros
+ Lido: vetor-par-impar.json - 18 registros
+ Lido: festaidade.json - 2 registros
+ Lido: amanese.json - 10 registros
+ Lido: espalhamentominimo.json - 6 registros
+ Lido: maiordetresmath.json - 2 registros
+ Lido: jogos.json - 7 registros
+ Lido: algoritmo04.json - 4 registros
+ Lido: main.json - 2 registros
+ Lido: calculadora.json - 95 registros
+ Lido: algoritmo3.json - 7 registros
+ Lido: algoritmo06.json - 18 registros
+ Lido: revisaovetor.json - 8 registros
+ Lido: insertion.json - 19 registros
+ Lido: exercicio02.json - 8 registros
+ Lido: aprovacao_01.json - 6 registros
+ Lido: algoritmo1.json - 5 registros
+ Lido: algoritmo07.json - 2 registros
+ Lido: saque2.json - 2 registros
+ Lido: aprovacao.json - 65 registros
+ Lido: inserto02.json - 110 registros
+ Lido: copa.json - 14 registros
+ Lido: for.json - 4 registros
+ Lido: decremento.json - 3 registros
+ Lido: espalhamento.json - 11 registros
+ Lido: funcaovetor.json - 33 registros
+ Lido: par-impar.json - 8 registros
+ Lido: restaurante.json - 1 registros
+ Lido: time.json - 5 registros
+ Lido: km.json - 1 registros
+ Lido: algoritmo4.json - 3 registros
+ Lido: maiordetres.json - 4 registros
+ Lido: troca.json - 6 registros
+ Lido: algoritmo08.json - 6 registros
+ Lido: teste.json - 5 registros
+ Lido: tarefa2.json - 1 registros
+ Lido: vetor_jogos.json - 19 registros
+ Lido: exercicio05.json - 5 registros
+ Lido: jogos2.json - 8 registros
+ Lido: domingos.json - 14 registros
+ Lido: vaquinha.json - 3 registros
+ Lido: funcaosoma.json - 43 registros
+ Lido: espalhamentominimo.json - 3 registros
+ Lido: jogos.json - 7 registros
+ Lido: maiorde3math.json - 3 registros
+ Lido: revisaovetor.json - 17 registros
+ Lido: tabuada_vetor.json - 1 registros
+ Lido: aprovacao.json - 58 registros
+ Lido: copa.json - 1 registros
+ Lido: maiorde3.json - 5 registros
+ Lido: decremento.json - 3 registros
+ Lido: espalhamento.json - 3 registros
+ Lido: pan.json - 7 registros
+ Lido: funcaovetor.json - 31 registros
+ Lido: insertionsort.json - 5 registros
+ Lido: aprovacao2.json - 29 registros
+ Lido: time.json - 10 registros
+ Lido: par-impa.json - 16 registros
+ Lido: troca.json - 2 registros
+ Lido: domingos.json - 7 registros
+ Lido: vaquinha.json - 11 registros
+ Lido: funcaosoma.json - 3 registros
+ Lido: n1.json - 8 registros
+ Lido: espalhamentominimo.json - 2 registros
+ Lido: maiordetresmath.json - 2 registros
+ Lido: jogos.json - 6 registros
+ Lido: vetor_parimpa.json - 43 registros
+ Lido: funcaooperacao.json - 14 registros
+ Lido: vetor_inverno.json - 1 registros
+ Lido: revisaovetor.json - 9 registros
+ Lido: vetor_tabuada.json - 1 registros
+ Lido: aprovacao.json - 31 registros
+ Lido: copa.json - 6 registros
+ Lido: decremento.json - 3 registros
+ Lido: espalhamento.json - 1 registros
+ Lido: funcaovetor.json - 16 registros
+ Lido: aprovacao2.json - 40 registros
+ Lido: time.json - 10 registros
+ Lido: maiordetres.json - 9 registros
+ Lido: troca.json - 4 registros
+ Lido: vetor_jogos.json - 9 registros
+ Lido: jogos2.json - 7 registros
+ Lido: ds.json - 2 registros
+ Lido: 04a.json - 9 registros
+ Lido: espalhamento_minimo.json - 14 registros
+ Lido: 02.json - 19 registros
+ Lido: jogos.json - 5 registros
+ Lido: main.json - 3 registros
+ Lido: de.json - 7 registros
+ Lido: par_impar.json - 8 registros
+ Lido: olimpiada.json - 7 registros
+ Lido: exercicio_02.json - 6 registros
+ Lido: revisaovetor.json - 11 registros
+ Lido: revisaovetor2.json - 35 registros
+ Lido: sunday.json - 10 registros
+ Lido: 01.json - 15 registros
+ Lido: dfs.json - 3 registros
+ Lido: 04.json - 10 registros
+ Lido: aprovacao.json - 68 registros
+ Lido: copa.json - 2 registros
+ Lido: for.json - 6 registros
+ Lido: exercicio_03.json - 4 registros
+ Lido: decremento.json - 11 registros
+ Lido: funcaovetor.json - 2 registros
+ Lido: aprovacao2.json - 35 registros
+ Lido: sunday1.json - 5 registros
+ Lido: funcasoma.json - 35 registros
+ Lido: time.json - 12 registros
+ Lido: exercicio_04.json - 2 registros
+ Lido: 03.json - 8 registros
+ Lido: tabuada.json - 12 registros
+ Lido: troca2.json - 1 registros
+ Lido: troca.json - 2 registros
+ Lido: 05.json - 3 registros
+ Lido: buble.json - 2 registros
+ Lido: domingos.json - 8 registros
+ Lido: exercicio03.json - 5 registros
+ Lido: vaquinha.json - 7 registros
+ Lido: exercicio04.json - 11 registros
+ Lido: funcaosoma.json - 26 registros
+ Lido: vetor-par-impar.json - 21 registros
+ Lido: supermercado_revisão.json - 6 registros
+ Lido: idade.json - 11 registros
+ Lido: espalhamentominimo.json - 8 registros
+ Lido: maiordetresmath.json - 3 registros
+ Lido: caixa eletronico.json - 6 registros
+ Lido: Quick sort.json - 28 registros
+ Lido: main.json - 4 registros
+ Lido: evento_revisão.json - 8 registros
+ Lido: exercicio07.json - 2 registros
+ Lido: funcao.json - 12 registros
+ Lido: exercicio02.json - 4 registros
+ Lido: revisao_vetor.json - 13 registros
+ Lido: vetor_tabuada.json - 6 registros
+ Lido: for.json - 3 registros
+ Lido: espalhamento.json - 5 registros
+ Lido: par-impar.json - 8 registros
+ Lido: tarefas.json - 1 registros
+ Lido: viagem_revisão.json - 6 registros
+ Lido: celular_revisão.json - 3 registros
+ Lido: maiordetres.json - 10 registros
+ Lido: troca.json - 2 registros
+ Lido: exercicio01.json - 5 registros
+ Lido: vetor_jogos.json - 4 registros
+ Lido: exercicio05.json - 6 registros
+ Lido: maior.json - 4 registros
+ Lido: vaquinha.json - 4 registros
+ Lido: funcaosoma.json - 56 registros
+ Lido: exercicio_05.json - 16 registros
+ Lido: espalhamentominimo.json - 3 registros
+ Lido: maiordetresmath.json - 3 registros
+ Lido: jogos.json - 16 registros
+ Lido: main.json - 2 registros
+ Lido: exercicio_01.json - 10 registros
+ Lido: exercicio_08.json - 7 registros
+ Lido: par_impar.json - 23 registros
+ Lido: atividade4.json - 8 registros
+ Lido: exercicio_02.json - 2 registros
+ Lido: selecition2.json - 17 registros
+ Lido: revisaovetor.json - 34 registros
+ Lido: atividade2.json - 11 registros
+ Lido: atividade1.json - 9 registros
+ Lido: calendario.json - 4 registros
+ Lido: aprovacao.json - 183 registros
+ Lido: exercicio_09.json - 9 registros
+ Lido: copa.json - 3 registros
+ Lido: for.json - 12 registros
+ Lido: exercicio_03.json - 3 registros
+ Lido: decremento.json - 6 registros
+ Lido: ativade3.json - 37 registros
+ Lido: espalhamento.json - 3 registros
+ Lido: pan.json - 1 registros
+ Lido: vetor_par_impar.json - 15 registros
+ Lido: funcaovetor.json - 36 registros
+ Lido: aprovacao2.json - 29 registros
+ Lido: exercicio_06.json - 6 registros
+ Lido: time.json - 10 registros
+ Lido: domingo.json - 53 registros
+ Lido: exercicio_04.json - 31 registros
+ Lido: exercicio_07.json - 8 registros
+ Lido: tabuada.json - 18 registros
+ Lido: troca.json - 3 registros
+ Lido: select.json - 30 registros
+ Lido: vetor_jogos.json - 3 registros
+ Lido: jogos2.json - 1 registros
+ Lido: vaquinha.json - 6 registros
+ Lido: funcaoagua.json - 4 registros
+ Lido: funcaosoma.json - 3 registros
+ Lido: vetor-par-impar.json - 10 registros
+ Lido: maiordetresmath.json - 5 registros
+ Lido: funcaofatorial.json - 7 registros
+ Lido: funcaosoma2.json - 16 registros
+ Lido: exercicio_2.json - 5 registros
+ Lido: estruturapo1.json - 5 registros
+ Lido: jogospan.json - 1 registros
+ Lido: exercicio_02.json - 10 registros
+ Lido: revisaovetor.json - 5 registros
+ Lido: 05.2.json - 3 registros
+ Lido: estruturapo2.json - 5 registros
+ Lido: 06.json - 2 registros
+ Lido: 04.json - 6 registros
+ Lido: funcaoidade.json - 13 registros
+ Lido: aprovacao.json - 30 registros
+ Lido: espalhamento-minimo.json - 3 registros
+ Lido: decremento.json - 3 registros
+ Lido: espalhamento.json - 3 registros
+ Lido: funcaovetor.json - 13 registros
+ Lido: aprovacao2.json - 32 registros
+ Lido: exercicio_4.json - 11 registros
+ Lido: Exercicio_01.json - 10 registros
+ Lido: time.json - 4 registros
+ Lido: tabuada.json - 3 registros
+ Lido: maiordetres.json - 11 registros
+ Lido: troca.json - 1 registros
+ Lido: 05.json - 2 registros
+ Lido: domingos.json - 10 registros
+ Lido: vaquinha.json - 4 registros
+ Lido: exercicio3.json - 7 registros
+ Lido: atividade5.json - 1 registros
+ Lido: funcaosoma.json - 19 registros
+ Lido: vetorpar_impar.json - 7 registros
+ Lido: espalhamentominimo.json - 3 registros
+ Lido: jogos.json - 9 registros
+ Lido: maiorde3math.json - 3 registros
+ Lido: exercicio_01.json - 3 registros
+ Lido: par_impar.json - 10 registros
+ Lido: espalhamentominino.json - 4 registros
+ Lido: atividade4.json - 5 registros
+ Lido: revisaovetor.json - 11 registros
+ Lido: exercicio5.json - 9 registros
+ Lido: atividade2.json - 4 registros
+ Lido: exercicio1.json - 3 registros
+ Lido: atividade3.json - 3 registros
+ Lido: exercicio2.json - 5 registros
+ Lido: atividade1.json - 7 registros
+ Lido: vetor_jogos2.json - 1 registros
+ Lido: tabuada_vetor.json - 2 registros
+ Lido: Exercicio_02.json - 1 registros
+ Lido: quicksort.json - 16 registros
+ Lido: copa.json - 3 registros
+ Lido: for.json - 4 registros
+ Lido: maiorde3.json - 13 registros
+ Lido: espalhamento.json - 3 registros
+ Lido: funcaovetor.json - 40 registros
+ Lido: exercicio4.json - 2 registros
+ Lido: Exercicio_03.json - 2 registros
+ Lido: time.json - 3 registros
+ Lido: troca.json - 5 registros
+ Lido: vetor_jogos.json - 2 registros
+ Lido: maior_de_tresMath.json - 3 registros
+ Lido: espalhamento_minimo.json - 3 registros
+ Lido: maior_de_tres.json - 4 registros
+ Lido: espalhamento.json - 3 registros
+ Lido: troca.json - 4 registros
+ Lido: domingos.json - 10 registros
+ Lido: vaquinha.json - 2 registros
+ Lido: selection.json - 19 registros
+ Lido: funcaosoma.json - 40 registros
+ Lido: exercicio_05.json - 8 registros
+ Lido: espalhamento_minimo.json - 3 registros
+ Lido: maiordetresmath.json - 3 registros
+ Lido: jogos.json - 5 registros
+ Lido: main.json - 2 registros
+ Lido: exercicio_01.json - 1 registros
+ Lido: exercicio_08.json - 5 registros
+ Lido: exercicio_02.json - 1 registros
+ Lido: revisaovetor.json - 25 registros
+ Lido: tabuada_vetor.json - 2 registros
+ Lido: aprovacao.json - 35 registros
+ Lido: exercicio_09.json - 4 registros
+ Lido: copa.json - 3 registros
+ Lido: for.json - 6 registros
+ Lido: exercicio_03.json - 3 registros
+ Lido: maiorde3.json - 13 registros
+ Lido: decremento.json - 1 registros
+ Lido: espalhamento.json - 2 registros
+ Lido: pan.json - 7 registros
+ Lido: vetor_par_impar.json - 18 registros
+ Lido: funcaovetor.json - 29 registros
+ Lido: par-impar.json - 10 registros
+ Lido: aprovacao2.json - 47 registros
+ Lido: exercicio_06.json - 5 registros
+ Lido: time.json - 10 registros
+ Lido: exercicio_04.json - 3 registros
+ Lido: exercicio_07.json - 5 registros
+ Lido: troca.json - 5 registros
+ Lido: vetor_jogos.json - 13 registros
+ Lido: domingos.json - 3 registros
+ Lido: vaquinha.json - 5 registros
+ Lido: atv6.json - 3 registros
+ Lido: selection.json - 2 registros
+ Lido: atv.7.json - 4 registros
+ Lido: login.json - 5 registros
+ Lido: maiorde3Math.json - 3 registros
+ Lido: desempenho.json - 5 registros
+ Lido: funcao_soma.json - 15 registros
+ Lido: revisao_vetor.json - 6 registros
+ Lido: aprovacao.json - 55 registros
+ Lido: evento.json - 11 registros
+ Lido: maiorde3.json - 6 registros
+ Lido: decremento.json - 3 registros
+ Lido: espalhamento.json - 3 registros
+ Lido: pan.json - 6 registros
+ Lido: vetor_par_impar.json - 7 registros
+ Lido: par-impar.json - 6 registros
+ Lido: funcao_vetor.json - 19 registros
+ Lido: aprovacao2.json - 25 registros
+ Lido: time.json - 7 registros
+ Lido: supermercado.json - 5 registros
+ Lido: Viagem.json - 9 registros
+ Lido: troca.json - 2 registros
+ Lido: vetor_jogos.json - 3 registros
+ Lido: evento_vip.json - 6 registros
+ Lido: vaquinha.json - 6 registros
+ Lido: viagem_economica.json - 7 registros
+ Lido: insertion_sort.json - 3 registros
+ Lido: sundays.json - 6 registros
+ Lido: sistema_login.json - 2 registros
+ Lido: jogos.json - 2 registros
+ Lido: maior-de-tres-math.json - 3 registros
+ Lido: revisaovetor.json - 9 registros
+ Lido: funcao_soma.json - 24 registros
+ Lido: Exercicio_06.json - 4 registros
+ Lido: vetor_tabuada.json - 4 registros
+ Lido: aprovacao.json - 15 registros
+ Lido: copa.json - 1 registros
+ Lido: maior-de-tres.json - 4 registros
+ Lido: for.json - 1 registros
+ Lido: espalhamento-minimo.json - 1 registros
+ Lido: espalhamento.json - 3 registros
+ Lido: vetor_par_impar.json - 9 registros
+ Lido: Exercicio_04.json - 6 registros
+ Lido: par-impar.json - 1 registros
+ Lido: compras_supermecado.json - 1 registros
+ Lido: funcao_vetor.json - 12 registros
+ Lido: desempenho_turma.json - 7 registros
+ Lido: Exercicio_03.json - 1 registros
+ Lido: Exercicio_07.json - 1 registros
+ Lido: Exercicio_05.json - 10 registros
+ Lido: Exercicio_01.json - 2 registros
+ Lido: time.json - 6 registros
+ Lido: troca.json - 2 registros
+ Lido: teste.json - 1 registros
+ Lido: vetor_jogos.json - 4 registros
+ Lido: domingos.json - 6 registros
+ Lido: revisao1.json - 6 registros
+ Lido: exercicio-02.json - 3 registros
+ Lido: functionvetor.json - 25 registros
+ Lido: main.json - 3 registros
+ Lido: exercicio-04.json - 3 registros
+ Lido: newFile.json - 4 registros
+ Lido: revisao2.json - 12 registros
+ Lido: exercicio-05.json - 3 registros
+ Lido: exercicio-03.json - 2 registros
+ Lido: revisaovetor.json - 5 registros
+ Lido: maiorde-tres.json - 6 registros
+ Lido: revisao3.json - 7 registros
+ Lido: functionsoma.json - 32 registros
+ Lido: aprovacao.json - 22 registros
+ Lido: exercicio-01.json - 7 registros
+ Lido: copa.json - 12 registros
+ Lido: for.json - 1 registros
+ Lido: espalhamento.json - 1 registros
+ Lido: par-impar.json - 5 registros
+ Lido: time.json - 6 registros
+ Lido: tabuadavetor.json - 3 registros
+ Lido: maiorde-tres-math.json - 2 registros
+ Lido: aprovacao1.json - 38 registros
+ Lido: domingos.json - 7 registros
+ Lido: vaquinha.json - 5 registros
+ Lido: funcaosoma.json - 21 registros
+ Lido: vetorpar_impar.json - 19 registros
+ Lido: espalhamentominimo.json - 9 registros
+ Lido: maiordetresmath.json - 1 registros
+ Lido: jogos.json - 6 registros
+ Lido: main.json - 2 registros
+ Lido: revisaovetor.json - 8 registros
+ Lido: aprovacao.json - 33 registros
+ Lido: copa.json - 3 registros
+ Lido: for.json - 5 registros
+ Lido: decremento.json - 2 registros
+ Lido: espalhamento.json - 2 registros
+ Lido: funcaovetor.json - 54 registros
+ Lido: insertionsort.json - 133 registros
+ Lido: time.json - 14 registros
+ Lido: jogos1.json - 7 registros
+ Lido: maiordetres.json - 11 registros
+ Lido: troca.json - 7 registros
+ Lido: inser.json - 13 registros
+ Lido: vetor_jogos.json - 6 registros
+
+✅ Total de registros: 5821
+✅ Colunas: ['keyword', 'timestamp', 'file', 'line', 'column', 'arquivo_origem', 'repositorio']
+
+============================================================
+VISUALIZAÇÃO DO AGRUPAMENTO
+============================================================
+
+📊 PRIMEIRAS LINHAS:
+    keyword            timestamp  ... arquivo_origem  repositorio
+0  parseInt  2026-02-27 20:11:28  ...  domingos.json    Raqueli-S
+1         E  2026-02-27 20:13:59  ...  domingos.json    Raqueli-S
+2  parseInt  2026-02-27 20:44:57  ...  domingos.json    Raqueli-S
+3    prompt  2026-02-27 20:45:11  ...  domingos.json    Raqueli-S
+4       var  2026-02-27 20:45:41  ...  domingos.json    Raqueli-S
+5       for  2026-02-27 22:23:15  ...  domingos.json    Raqueli-S
+6     alert  2026-02-27 22:25:42  ...  domingos.json    Raqueli-S
+7  parseInt  2026-03-12 19:47:52  ...  vaquinha.json    Raqueli-S
+8    prompt  2026-03-12 19:48:00  ...  vaquinha.json    Raqueli-S
+9       for  2026-03-12 19:49:18  ...  vaquinha.json    Raqueli-S
+
+[10 rows x 7 columns]
+
+📊 INFORMAÇÕES DO DATAFRAME:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 5821 entries, 0 to 5820
+Data columns (total 7 columns):
+ #   Column          Non-Null Count  Dtype 
+---  ------          --------------  ----- 
+ 0   keyword         5821 non-null   object
+ 1   timestamp       5821 non-null   object
+ 2   file            5821 non-null   object
+ 3   line            5821 non-null   int64 
+ 4   column          5821 non-null   int64 
+ 5   arquivo_origem  5821 non-null   object
+ 6   repositorio     5821 non-null   object
+dtypes: int64(2), object(5)
+memory usage: 318.5+ KB
+None
+
+📊 ESTATÍSTICAS BÁSICAS:
+              line       column
+count  5821.000000  5821.000000
+mean      7.087270     9.482907
+std       7.046381    11.259677
+min       1.000000     1.000000
+25%       2.000000     1.000000
+50%       5.000000     5.000000
+75%       9.000000    14.000000
+max      60.000000   130.000000
+
+============================================================
+AGRUPAMENTO POR PALAVRA RESERVADA
+============================================================
+
+Agrupado por keyword:
+keyword
+alert         1103
+prompt         637
+parseInt       517
+for            484
+let            409
+if             348
+E              280
+parseFloat     258
+var            246
+else           228
+while          209
+function       169
+return         144
+const           88
+console         80
+length          77
+break           74
+do              69
+log             67
+Math            60
+dtype: int64
+
+============================================================
+AGRUPAMENTO POR ARQUIVO DE ORIGEM
+============================================================
+arquivo_origem
+aprovacao.json        753
+funcaovetor.json      344
+funcaosoma.json       315
+aprovacao2.json       237
+revisaovetor.json     186
+merge.json            172
+insertionsort.json    138
+time.json             123
+inserto02.json        110
+domingos.json         106
+dtype: int64
+
+============================================================
+AGRUPAMENTO POR REPOSITÓRIO
+============================================================
+repositorio
+genilsonsouzzaa-alt            729
+barbosalevir3-rgb              622
+Brenda-ketleyn                 580
+ericasilvacosta25              406
+jeilsonsales25                 374
+mariabessagn                   352
+aliciargn                      345
+thammyressouza123-spec         343
+Raqueli-S                      287
+joerlenss                      261
+tamilabl                       243
+elenizarocha0411-cyber         242
+natanaelalvesf92-eng           232
+ketilaAnjos                    224
+veronica2006sabrina-bot        218
+mel13-source                   176
+Tais-Araujo                    164
+jady2025                        17
+ribamarvasconcelos51-dotcom      6
+dtype: int64
+
+============================================================
+LINHAS COM MAIS OCORRÊNCIAS
+============================================================
+line
+2     975
+1     707
+3     691
+4     501
+5     420
+6     368
+7     296
+8     269
+10    181
+9     167
+dtype: int64
+
+============================================================
+AGRUPAMENTO POR DATA/HORA
+============================================================
+
+Por data: 16 dias diferentes
+data
+2026-02-20     90
+2026-02-24    136
+2026-02-26    248
+2026-02-27    257
+2026-03-03    278
+2026-03-05    602
+2026-03-06    898
+2026-03-10    144
+2026-03-12    407
+2026-03-13     99
+dtype: int64
+
+Por hora do dia:
+hora
+18       2
+19     881
+20    2101
+21    1867
+22     970
+dtype: int64
+
+

@@ -1,0 +1,216 @@
+\chapter{Resultados e Discussões}
+\label{cap-resultados-discussoes}
+
+Este capítulo apresenta os resultados obtidos a partir da coleta de logs de palavras reservadas utilizando o LOGADO. Conforme descrito na metodologia (Capítulo \ref{cap:metodologia}), a análise assume caráter exploratório, buscando identificar padrões emergentes de uso de palavras-chave da linguagem de programação JavaScript sem categorias pré-definidas.
+
+\section{Caracterização da amostra}
+\label{sec:caracterizacao-amostra}
+
+Foram coletados logs de aprendizado de estudantes do curso técnico em Informática do IFAM Campus Boca do Acre, durante atividades práticas da disciplina de Estrutura de Dados. Participaram efetivamente 23 estudantes ao longo de 5 semanas, totalizando 19 repositórios registrados. O número de estudantes é diferente do número de repositórios, pois alguns estudantes não quiseram participar da pesquisa em algum momento ou assinaram o Termo de Consentimento Livre e Esclarecido (TCLE) e não compareceram às aulas.
+
+\noindent
+\textbf{Processamento dos dados.} Os logs coletados foram processados utilizando a linguagem \texttt{Python} versão 3.x, com o auxílio das bibliotecas \texttt{Pandas} \cite{mckinney2011pandas} para manipulação e agregação dos dados, \texttt{Matplotlib} \cite{hunter2007matplotlib} e \texttt{Seaborn} \cite{waskom2021seaborn} para a geração das visualizações, e \texttt{NetworkX} \cite{hagberg2008exploring} para a construção da rede de co-ocorrência entre palavras-chave.
+
+A Figura \ref{fig:top20-keywords} apresenta as 20 palavras-chave mais frequentes nos logs coletados.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{figura_resultado_01_top20_keywords.png}
+    \caption{Top 20 palavras-chave mais frequentes nos logs coletados}
+    \label{fig:top20-keywords}
+    \fonte{Elaborado pelo autor}
+\end{figure}
+
+Observa-se que \texttt{alert}, \texttt{prompt} e \texttt{for} estão entre as palavras-chave mais frequentes nos logs coletados. Este resultado reflete a natureza das atividades práticas da disciplina de Estrutura de Dados, nas quais os algoritmos implementados demandam: (i) interação com o usuário para entrada de dados (\texttt{prompt}); (ii) exibição de resultados (\texttt{alert}); e (iii) estruturas de repetição (\texttt{for}) para processamento de dados.
+
+A palavra \texttt{let}, com 818 ocorrências (quarta posição), indica a necessidade de declaração de variáveis para armazenamento e manipulação de dados. Sua frequência, embora expressiva, é inferior à das palavras relacionadas à interação e repetição, sugerindo que, no contexto observado, a ênfase das atividades recaiu mais sobre o fluxo de entrada-processamento-saída do que sobre a complexidade das estruturas de dados em si.
+
+Vale notar a presença relativamente modesta de \texttt{console} (160 ocorrências), indicando que a depuração por meio do console não foi uma estratégia frequente entre os estudantes — possivelmente refletindo baixa autonomia na verificação do código ou preferência por métodos mais diretos de exibição de resultados como \texttt{alert}.
+
+Este resultado deve ser interpretado à luz do contexto institucional: trata-se de um curso técnico em Informática na forma subsequente, com estudantes que possuem diferentes níveis de experiência prévia em programação. Aliado a isso, o calendário acadêmico e a necessidade de reprodução de códigos apresentados em sala de aula influenciam diretamente os padrões observados. Os rastros capturados evidenciam, portanto, a tentativa dos estudantes de reproduzir exemplos da docência e de aplicar palavras-chave consultadas na documentação da linguagem.
+
+Vale notar que \texttt{var} aparece com menor frequência que \texttt{let}, o que pode indicar a adoção das práticas modernas de JavaScript ensinadas em aula, embora transições entre os dois sejam observadas em situações envolvendo escopo de variáveis.
+
+A Figura \ref{fig:distribuicao-arquivos} mostra como os logs se distribuem entre os diferentes arquivos criados pelos estudantes.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\textwidth]{figura_resultado_02_distribuicao_arquivos.png}
+    \caption{Distribuição dos logs por arquivo}
+    \label{fig:distribuicao-arquivos}
+    \fonte{Elaborado pelo autor}
+\end{figure}
+
+Nota-se que poucos arquivos concentram a maior parte dos logs, enquanto a maioria dos arquivos apresenta baixa frequência de registros. Este comportamento era esperado: algoritmos mais complexos exigem maior quantidade de palavras-chave e lógica mais elaborada, gerando naturalmente mais rastros. Além disso, a padronização de nomenclatura adotada pela equipe permitiu identificar quais arquivos correspondiam aos exercícios principais da disciplina e quais eram secundários ou experimentais.
+
+A Figura \ref{fig:ocorrencia-hora} mostra a distribuição temporal dos logs ao longo do dia.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{figura_resultado_03_ocorrencia_hora.png}
+    \caption{Ocorrência de logs por hora do dia}
+    \label{fig:ocorrencia-hora}
+    \fonte{Elaborado pelo autor}
+\end{figure}
+
+Observa-se que os logs concentram-se em períodos específicos, com picos acentuados em determinados horários. Este padrão reflete a dinâmica da sala de aula: o professor resolve os algoritmos no quadro em momentos definidos e, a partir daí, os estudantes reproduzem as soluções em seus editores. As ocorrências em horários similares indicam baixa autonomia na produção dos códigos, uma vez que poucos estudantes iniciam ou desenvolvem as atividades por conta própria antes da mediação docente.
+
+As variações observadas entre os horários podem ser atribuídas a diferenças individuais, como ritmo de digitação ou tempo necessário para compreender e transcrever a solução apresentada. Contudo, a ausência de registros significativos fora dos períodos de exposição do professor sugere dependência da mediação pedagógica para o avanço nas atividades.
+
+A Figura \ref{fig:rede-coocorrencia} apresenta a rede de co-ocorrência entre as palavras-chave utilizadas pelos estudantes.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{figura_resultado_04_rede_coocorrencia.png}
+    \caption{Rede de co-ocorrência entre palavras reservadas}
+    \label{fig:rede-coocorrencia}
+    \fonte{Elaborado pelo autor}
+\end{figure}
+
+A rede revela que os estudantes utilizam um conjunto relativamente restrito de palavras-chave para resolver os algoritmos propostos, evidenciando repertório limitado ou fortemente influenciado pelos exemplos apresentados em sala de aula. Observa-se a formação de clusters bem definidos: condicionais (\texttt{if}, \texttt{else}), laços de repetição (\texttt{for}, \texttt{while}), interação com o usuário (\texttt{prompt}, \texttt{alert}) e funções (\texttt{function}, \texttt{return}).
+
+Um aspecto relevante na estrutura da rede é o papel da palavra \texttt{return}, que atua como elemento de conexão entre o cluster de funções e o cluster de condicionais. Esta interconexão reflete a prática comum em algoritmos que utilizam estruturas condicionais no interior de funções para controlar o fluxo de execução e retornar valores conforme a lógica implementada.
+
+Destaca-se também a presença de \texttt{let} e \texttt{var} como palavras-chave para declaração de variáveis. Embora ambas cumpram funções semelhantes, a análise contextual dos logs — aliada ao conhecimento da dinâmica da turma — indica que \texttt{let} foi predominantemente utilizado para declarações de variáveis locais (dentro de blocos e laços), enquanto \texttt{var} apareceu em situações que exigiam escopo global ou funções específicas de contexto. Esta distinção, embora sutil na rede, é pedagogicamente significativa: revela a transição conceitual dos estudantes em relação ao entendimento de escopo de variáveis.
+
+Não foram identificadas palavras isoladas sem conexões na rede, o que sugere que todo o vocabulário utilizado pelos estudantes está integrado às estruturas básicas da linguagem necessárias para resolver os algoritmos propostos. Este padrão, contudo, pode refletir tanto a adequação das atividades quanto a limitação do repertório dos discentes.
+
+A Figura \ref{fig:centralidade} apresenta as palavras-chave com maior centralidade na rede de co-ocorrência.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{figura_resultado_05_centralidade.png}
+    \caption{Palavras com maior centralidade na rede de co-ocorrência}
+    \label{fig:centralidade}
+    \fonte{Elaborado pelo autor}
+\end{figure}
+
+Das três formas de exibição de resultados — \texttt{document.write}, \texttt{console.log} e \texttt{alert} — os estudantes preferiram \texttt{alert} pela simplicidade e foco no resultado.
+
+Entre os laços de repetição, \texttt{for} foi mais utilizado que \texttt{while}. Esta diferença explica-se pela dificuldade dos estudantes com \texttt{while}: frequentemente esquecem de iterar a variável de controle, gerando laços infinitos. O \texttt{for}, por sua vez, quando apresenta erro de sintaxe, simplesmente não executa, comportamento mais fácil de diagnosticar.
+
+Quanto à declaração de variáveis, \texttt{let} foi o mais frequente entre \texttt{const}, \texttt{var} e \texttt{let}, indicando preferência pela forma moderna.
+
+A Tabela \ref{tab:comparacao-lacos} sintetiza as diferenças observadas entre as duas estruturas de repetição no contexto de aprendizagem.
+
+\begin{table}[H]
+\centering
+\caption{Comparação entre \texttt{for} e \texttt{while} no contexto observado}
+\label{tab:comparacao-lacos}
+\begin{tabular}{|p{0.3\linewidth}|p{0.3\linewidth}|p{0.3\linewidth}|}
+\hline
+\textbf{Aspecto} & \texttt{for} & \texttt{while} \\
+\hline
+Frequência de uso & Alta & Baixa \\
+\hline
+Comportamento com erro de sintaxe & Não executa (seguro) & Pode executar indefinidamente \\
+\hline
+Erro comum & Esquecer a condição de parada & Esquecer a iteração da variável \\
+\hline
+Consequência do erro & Código não produz saída & Laço infinito (travamento) \\
+\hline
+Facilidade de diagnóstico & Alta & Baixa \\
+\hline
+\end{tabular}
+\fonte{Elaborado pelo autor}
+\end{table}
+
+A Figura \ref{fig:palavras-emergentes} apresenta as palavras-chave que tiveram maior crescimento de frequência ao longo das semanas.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{figura_resultado_06_palavras_emergentes.png}
+    \caption{Palavras com maior crescimento ao longo das semanas}
+    \label{fig:palavras-emergentes}
+    \fonte{Elaborado pelo autor}
+\end{figure}
+
+O resultado revela que não houve ampliação significativa do vocabulário técnico dos estudantes durante o período analisado. As palavras emergentes pertencem a categorias já dominadas desde o início: declaração de variáveis (\texttt{let}), conversão de tipos (\textit{cast}), operações de medição (\texttt{length}) e interação com o usuário (\texttt{prompt}, \texttt{console}).
+
+Do ponto de vista pedagógico, a ausência de evolução do tesauro técnico é um achado relevante. Esperar-se-ia que, ao longo de disciplinas como Estrutura de Dados, palavras como \texttt{array}, \texttt{object}, \texttt{class}, \texttt{return} ou \texttt{try} surgissem entre as emergentes. Sua ausência sugere que:
+\begin{itemize}
+    \item Os estudantes não incorporaram novos conceitos ao seu repertório ativo;
+    \item O vocabulário utilizado manteve-se restrito ao mínimo necessário para reproduzir os exemplos do professor;
+    \item A dependência pedagógica, identificada na análise temporal, também se manifesta na estagnação do vocabulário técnico.
+\end{itemize}
+
+Este padrão corrobora a hipótese de que a mediação intensiva do professor, embora necessária no contexto, pode limitar a autonomia e a ampliação do repertório dos estudantes quando não acompanhada de estímulos à exploração independente da linguagem.
+
+Este resultado reforça o argumento central desta pesquisa: os logs de palavras reservadas revelam dimensões do processo de aprendizagem que não seriam capturadas pela análise do código final. A estagnação do vocabulário técnico — evidenciada pela ausência de palavras emergentes mais avançadas — é um fenômeno que apenas os rastros de construção, analisados longitudinalmente, podem revelar.
+
+\subsection{Estrutura do dataset gerado}
+
+Após o pré-processamento e a consolidação dos logs coletados, foi gerado um \textit{dataset} com \textbf{4.614 registros}, organizados nas seguintes colunas:
+
+\begin{itemize}
+    \item \texttt{arquivo.json}: nome do arquivo de log original (ex.: \texttt{vaquinha.json}, \texttt{jogos.json});
+    \item \texttt{keyword}: palavra reservada capturada (ex.: \texttt{prompt}, \texttt{for}, \texttt{let}, \texttt{alert});
+    \item \texttt{timestamp}: data e hora do evento no formato \texttt{YYYY-MM-DD HH:MM:SS};
+    \item \texttt{arquivo.js}: nome do arquivo fonte onde a palavra foi digitada;
+    \item \texttt{linha}: número da linha no arquivo fonte;
+    \item \texttt{coluna}: posição da coluna onde a palavra foi digitada;
+    \item \texttt{data\_processamento}: data de consolidação do registro no formato ISO.
+\end{itemize}
+
+A Tabela \ref{tab:amostra-dataset} apresenta uma amostra real dos registros coletados, ilustrando a diversidade de palavras-chave e arquivos envolvidos nas atividades.
+
+\begin{table}[H]
+\centering
+\caption{Amostra real do dataset gerado}
+\label{tab:amostra-dataset}
+\small
+\begin{tabular}{|p{0.12\linewidth}|p{0.10\linewidth}|p{0.18\linewidth}|p{0.12\linewidth}|p{0.06\linewidth}|p{0.06\linewidth}|p{0.12\linewidth}|}
+\hline
+\textbf{arquivo.json} & \textbf{keyword} & \textbf{timestamp} & \textbf{arquivo.js} & \textbf{linha} & \textbf{coluna} & \textbf{data\_processamento} \\
+\hline
+vaquinha.json & prompt & 2026-03-12 19:48:00 & vaquinha.js & 3 & 29 & 2026-04-01 08:13:07 \\
+\hline
+vaquinha.json & for & 2026-03-12 19:49:18 & vaquinha.js & 4 & 5 & 2026-04-01 08:13:07 \\
+\hline
+vaquinha.json & alert & 2026-03-12 19:56:13 & vaquinha.js & 8 & 5 & 2026-04-01 08:13:07 \\
+\hline
+jogos.json & for & 2026-02-26 20:04:05 & jogos.js & 3 & 1 & 2026-04-01 08:13:07 \\
+\hline
+jogos.json & let & 2026-02-26 20:04:05 & jogos.js & 3 & 6 & 2026-04-01 08:13:07 \\
+\hline
+par\_impar.json & prompt & 2026-02-26 22:20:19 & par\_impar.js & 2 & 22 & 2026-04-01 08:13:07 \\
+\hline
+par\_impar.json & else & 2026-02-26 22:24:30 & par\_impar.js & 8 & 1 & 2026-04-01 08:13:07 \\
+\hline
+funcao\_soma.json & function & 2026-03-25 21:17:02 & funcao\_soma.js & 1 & 1 & 2026-04-01 08:13:07 \\
+\hline
+funcao\_soma.json & return & 2026-03-25 21:17:54 & funcao\_soma.js & 2 & 5 & 2026-04-01 08:13:07 \\
+\hline
+funcao\_soma.json & prompt & 2026-03-25 21:18:47 & funcao\_soma.js & 4 & 16 & 2026-04-01 08:13:07 \\
+\hline
+\end{tabular}
+\end{table}
+
+Os dados apresentados na Tabela \ref{tab:amostra-dataset} ilustram a variedade de contextos de programação capturados: desde algoritmos simples como verificação de par/ímpar (\texttt{par\_impar.js}) e cálculos com estruturas de repetição (\texttt{vaquinha.js}), até implementações de funções (\texttt{funcao\_soma.js}) e jogos (\texttt{jogos.js}). Essa diversidade demonstra a aplicabilidade da extensão LOGADO em diferentes tipos de atividades práticas da disciplina de Estrutura de Dados.
+
+\subsection{Contribuições para a telemetria educacional}
+
+O agrupamento de logs fortalece a telemetria educacional ao oferecer evidências objetivas sobre dimensões do processo de aprendizagem que os critérios tradicionais de avaliação não capturam. Estes critérios concentram-se predominantemente na tríade léxica, semântica e lógica dos programas, ou em métricas computacionais de execução — como número de linhas, funções, métodos e outros indicadores típicos da engenharia de software \cite{pressman2021software, sommerville2019engineering}. Contudo, tais abordagens não consideram os \textbf{rastros da construção do código} ao longo do tempo: a sequência de decisões sintáticas, as tentativas de correção, a alternância entre declarações e interações, e outros padrões processuais que evidenciam o \textit{como} o estudante construiu sua solução, não apenas o produto final ou sua conformidade com critérios estáticos.
+
+\subsection{Limitações contextuais: a contenção de estudantes}
+
+Um fenômeno adicional que caracteriza o contexto investigado, e que não poderia deixar de ser registrado, é a chamada \textit{contenção de estudantes}. Diante de limitações estruturais (falta de computadores, formação prévia fragilizada) e institucionais (pressão por retenção e evasão), docentes raramente aplicam os critérios de avaliação que seriam esperados em disciplinas de algoritmos e estrutura de dados. Esta flexibilização, embora compreensível no curto prazo para manter estudantes matriculados, reforça a descrença na necessidade do conhecimento técnico e compromete a qualidade da formação.
+
+Este trabalho não propõe, nem poderia propor, uma solução para a contenção — um problema estrutural que escapa ao escopo da pesquisa em telemetria educacional. Reconhecer sua existência é, contudo, essencial para situar adequadamente os resultados e as limitações do estudo. A contribuição que se oferece é modesta, mas não trivial: fornecer ao professor evidências baseadas em dados que, mesmo em um contexto de contenção, permitem decisões pedagógicas mais informadas e intervenções mais precisas.
+
+\subsection{Comportamento observado: interação dos estudantes com os logs}
+
+Durante o período de coleta de dados, observou-se um fenômeno não previsto inicialmente: os estudantes frequentemente acessavam e examinavam os arquivos \texttt{.json} gerados pela extensão LOGADO, mesmo sem compreender completamente sua finalidade ou o formato dos dados.
+
+Este comportamento, documentado por meio da observação direta em laboratório e dos próprios registros de acesso aos arquivos, revela aspectos importantes:
+
+\begin{itemize}
+    \item \textbf{Efeito da transparência}: a presença visível dos arquivos de log no explorador do VS Code despertou a curiosidade dos estudantes, confirmando que a coleta de dados não passava despercebida — um aspecto ético relevante;
+
+    \item \textbf{Estranhamento tecnológico}: o fato de estudantes examinarem arquivos cujo propósito não compreendiam plenamente sugere uma lacuna na compreensão sobre telemetria e registro de dados, possivelmente associada à falta de familiaridade com práticas de \textit{logging};
+
+    \item \textbf{Oportunidade pedagógica}: este comportamento abre espaço para discussões em sala de aula sobre transparência de dados, privacidade e rastreamento digital — temas transversais relevantes na formação técnica.
+\end{itemize}
+
+Embora a análise aprofundada deste fenômeno escape ao escopo central deste trabalho — focado no agrupamento de logs para identificação de padrões de aprendizagem —, sua ocorrência é documentada como um achado secundário que sugere direções para pesquisas futuras sobre a percepção discente acerca de ferramentas de telemetria educacional.
+

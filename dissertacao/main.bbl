@@ -47,14 +47,6 @@
   CONFERENCE ON SYSTEM SCIENCES. 2005. \textbf{Anais [...]} [\textit{S.l.}],
   2005. p. 7b--7b.}
 
-\bibitem[{ECMA International} 2017]{ecmajson}
-\abntrefinfo{{ECMA International}}{{ECMA International}}{2017}
-{{ECMA International}. \textbf{The JSON Data Interchange Syntax}.
-  [\textit{S.l.}]: ,  2017.
-Standard ECMA-404.
-Dispon{\'\i}vel em:
-  \url{https://www.ecma-international.org/publications-and-standards/standards/ecma-404/}.}
-
 \bibitem[Fayyad, Piatetsky-Shapiro e Smyth 1996]{fayyad1996knowledge}
 \abntrefinfo{Fayyad, Piatetsky-Shapiro e Smyth}{Fayyad; Piatetsky-shapiro;
   Smyth}{1996}
@@ -121,6 +113,11 @@ Dispon{\'\i}vel em: \url{https://doi.org/10.1007/978-1-4842-6998-5\_12}.}
 {HEVNER, A.~R. \textit{et al.} Design science in information systems research.
 \textbf{MIS Quarterly},  JSTOR v.~28, n.~1, p. 75--105, 2004.}
 
+\bibitem[Hevner \textit{et al.} 2024]{hevner2024transparency}
+\abntrefinfo{Hevner \textit{et al.}}{Hevner \textit{et al.}}{2024}
+{HEVNER, A.~R. \textit{et al.} Transparency in design science research.
+\textbf{Decision Support Systems},  Elsevier v.~182,, p. 114236, 2024.}
+
 \bibitem[Huang \textit{et al.} 2020]{huang2020predicting}
 \abntrefinfo{Huang \textit{et al.}}{Huang \textit{et al.}}{2020}
 {HUANG, A.~Y. \textit{et al.} Predicting students’ academic performance by
@@ -148,10 +145,12 @@ Dispon{\'\i}vel em: \url{https://doi.org/10.1007/978-1-4842-6998-5\_12}.}
   improve the educational experience in introductory programming courses}.
 2015. Tese (Doutorado) 2015.}
 
-\bibitem[Kitchenham 2004]{kitchenham2004procedures}
-\abntrefinfo{Kitchenham}{Kitchenham}{2004}
-{KITCHENHAM, B. Procedures for performing systematic reviews.
-\textbf{Keele, UK, Keele University},  v.~33, n.~2004, p. 1--26, 2004.}
+\bibitem[Kitchenham, Madeyski e Budgen 2023]{kitchenham2023segress}
+\abntrefinfo{Kitchenham, Madeyski e Budgen}{Kitchenham; Madeyski; Budgen}{2023}
+{KITCHENHAM, B.; MADEYSKI, L.; BUDGEN, D. Segress: Software engineering
+  guidelines for reporting secondary studies.
+\textbf{IEEE Transactions on Software Engineering},  v.~49, n.~3, p.
+  1273--1298, 2023.}
 
 \bibitem[Lima \textit{et al.} 2022]{lima2022avaliaccao}
 \abntrefinfo{Lima \textit{et al.}}{Lima \textit{et al.}}{2022}
@@ -182,17 +181,6 @@ Dispon{\'\i}vel em:
   statistics.
 \textbf{Python for High Performance and Scientific Computing},  v.~14, n.~9,
   p.~1--9, 2011.}
-
-\bibitem[{Microsoft} 2025]{typescript}
-\abntrefinfo{{Microsoft}}{{Microsoft}}{2025a}
-{{Microsoft}. \textbf{TypeScript: JavaScript With Syntax For Types}.
-  [\textit{S.l.}]: ,  2025.
-Dispon{\'\i}vel em: \url{https://www.typescriptlang.org}.}
-
-\bibitem[{Microsoft} 2025]{vscodeapi}
-\abntrefinfo{{Microsoft}}{{Microsoft}}{2025b}
-{{Microsoft}. \textbf{Visual Studio Code API}. [\textit{S.l.}]: ,  2025.
-Dispon{\'\i}vel em: \url{https://code.visualstudio.com/api}.}
 
 \bibitem[Nguyen, Ha e Chen 2023]{nguyen_analyzing_2023}
 \abntrefinfo{Nguyen, Ha e Chen}{Nguyen; Ha; Chen}{2023}
@@ -229,10 +217,10 @@ Dispon{\'\i}vel em: \url{https://survey.stackoverflow.co/2025/technology}.}
 \textbf{British journal of educational technology},  Wiley Online Library
   v.~51, n.~4, p. 955--972, 2020.}
 
-\bibitem[Pressman 2014]{pressman2014}
-\abntrefinfo{Pressman}{Pressman}{2014}
+\bibitem[Pressman 2020]{pressman2020}
+\abntrefinfo{Pressman}{Pressman}{2020}
 {PRESSMAN, R.~S. \textbf{Engenharia de Software: Uma Abordagem Profissional}.
-  7. ed. [\textit{S.l.}]: AMGH,  2014.}
+  9. ed. [\textit{S.l.}]: AMGH,  2020.}
 
 \bibitem[Pressman e Maxim 2021]{pressman2021software}
 \abntrefinfo{Pressman e Maxim}{Pressman; Maxim}{2021}
@@ -260,12 +248,6 @@ Dispon{\'\i}vel em: \url{https://survey.stackoverflow.co/2025/technology}.}
 \textbf{Journal of the American Society for Information Science},  Wiley Online
   Library v.~34, n.~4, p. 247--256, 1983.}
 
-\bibitem[Rodrigues e Gava 2016]{rodriguesuniversidades}
-\abntrefinfo{Rodrigues e Gava}{Rodrigues; Gava}{2016}
-{RODRIGUES, F. C.~R.; GAVA, R. Universidades federais no estado de minas
-  gerais: Um estudo comparativo.
-\textbf{REAd | Porto Alegre – Edição 83},  SciELO Brasil,,, 2016.}
-
 \bibitem[Silva \textit{et al.} 2022]{silva2022previsao}
 \abntrefinfo{Silva \textit{et al.}}{Silva \textit{et al.}}{2022}
 {SILVA, E.~S. \textit{et al.} Previsão de indicadores de dificuldade de
@@ -273,10 +255,10 @@ Dispon{\'\i}vel em: \url{https://survey.stackoverflow.co/2025/technology}.}
   \textit{In}: SBC. ANAIS DO XXXIII SIMPóSIO BRASILEIRO DE INFORMáTICA NA
   EDUCAçãO. 2022. \textbf{Anais [...]} [\textit{S.l.}], 2022. p. 859--870.}
 
-\bibitem[Sommerville 2011]{sommerville2011}
-\abntrefinfo{Sommerville}{Sommerville}{2011}
-{SOMMERVILLE, I. \textbf{Engenharia de Software}. 9. ed. [\textit{S.l.}]:
-  Pearson,  2011.}
+\bibitem[Sommerville 2016]{sommerville2016}
+\abntrefinfo{Sommerville}{Sommerville}{2016}
+{SOMMERVILLE, I. \textbf{Engenharia de Software}. 10. ed. [\textit{S.l.}]:
+  Pearson,  2016.}
 
 \bibitem[Sommerville 2019]{sommerville2019engineering}
 \abntrefinfo{Sommerville}{Sommerville}{2019}

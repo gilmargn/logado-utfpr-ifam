@@ -1,30 +1,35 @@
 \chapter{Fundamentação Teórica}
 \label{cap:fundamentacao}
 
-Este capítulo apresenta a fundamentação teórica necessária para o entendimento desta dissertação. Inicialmente, contextualiza os desafios do ensino de programação e introduz o conceito de \textit{logging} como uma prática crucial da Engenharia de Software. Em seguida, explora o uso de \textit{logs} no contexto educacional, detalha a taxonomia e os tipos de informações registradas, e apresenta a metodologia proposta para a análise desses dados. Por fim, é descrita a extensão \textit{Logado}, que constitui a contribuição prática deste trabalho.
+Este capítulo contextualiza os desafios do ensino de programação e introduz o conceito de \textit{logging} como uma prática crucial da Engenharia de Software. Em seguida, explora o uso de \textit{logs} no contexto educacional, detalha a taxonomia de conceitos relacionados e descreve a extensão LOGADO, contribuição prática deste trabalho, bem como a Design Science Research como abordagem metodológica adotada.
 
 \section{Desafios no Ensino de Programação e a Lacuna Instrucional sobre Logging}
 \label{sec:desafios-lacuna}
 
-O ensino de programação transcende a mera transmissão de conhecimentos técnicos, abrangendo aspectos como boas práticas de desenvolvimento, integridade acadêmica e a compreensão do ciclo de vida do software. No entanto, uma análise da literatura pedagógica fundamental revela uma lacuna significativa.
+O ensino de programação vai além da transmissão de conhecimentos técnicos, abrangendo boas práticas de desenvolvimento, integridade acadêmica e a compreensão do ciclo de vida do software. No entanto, a literatura pedagógica apresenta uma lacuna significativa nesse aspecto.
 
-O mapeamento do estado da arte~--~realizado por meio de uma revisão sistemática de livros-texto fundamentais~--~revelou uma lacuna educacional significativa. Obras amplamente adotadas, como as de \citet{sommerville2011} e \citet{pressman2014} em âmbito internacional, e a principal referência nacional, ``Engenharia de Software Moderna'' \citet{valente2020}, dedicam capítulos substanciais a tópicos como testes e qualidade de software. Contudo, nenhuma delas aborda o \textit{logging} de forma pedagógica e estruturada, como uma prática de engenharia com estratégias e boas práticas específicas a serem ensinadas. Esta constatação corrobora observações da literatura recente de pesquisa \cite{gu2022logging}, fortalecendo a pertinência do presente trabalho.
+O mapeamento do estado da arte, realizado por meio de uma revisão sistemática de livros-texto fundamentais, evidencia essa lacuna. Obras amplamente adotadas internacionalmente, como as de \citet{pressman2020} e \citet{sommerville2016}, e, no contexto nacional, \textit{Engenharia de Software Moderna} \citet{valente2020}, dedicam capítulos substanciais a temas como testes e qualidade de software. Nenhuma delas, porém, aborda o \textit{logging} de forma pedagógica e estruturada, como uma prática de engenharia com estratégias e boas práticas específicas, o que está alinhado com observações da literatura recente \cite{gu2022logging}.
 
-Esta omissão na literatura educacional é notável, dada a criticalidade dos logs na indústria de software, e contrasta fortemente com o potencial pedagógico inexplorado da análise dos rastros digitais que os alunos naturalmente geram durante a codificação. No contexto brasileiro, o tema se revela ainda mais incipiente. Uma busca sistemática conduzida no Portal da Sociedade Brasileira de Computação (SBC) com a string log OR logging AND ``ensino de programação" retornou um número insignificante de trabalhos, resultado consistente com o panorama geral de escassez documentado na busca mais ampla (ver Tabela \ref{tab:repositorios} no Apêndice A).
+\subsection{Pesquisas sobre Logs no Ensino de Programação no Brasil}
+
+Diante da lacuna identificada, este trabalho busca reforçar o potencial pedagógico dos rastros digitais no ensino de programação. Para fundamentar essa proposta, foi conduzida uma busca sistemática no Portal da Sociedade Brasileira de Computação (SBC) com a string \texttt{"log"~ OR "logging"~ AND "ensino de programação"}, que retornou um número insignificante de trabalhos, conforme detalhado na Tabela \ref{tab:repositorios} (Apêndice A).
 
 \section{Logging: Conceitos e Aplicações na Engenharia de Software}
 \label{sec:conceitos-logging}
-As práticas de registro de rastros em sistemas computacionais abrangem diversos conceitos. Como exemplo, a taxonomia de \cite{gu2022logging} define os seguintes elementos fundamentais:
+
+As práticas de registro de rastros em sistemas computacionais abrangem diversos conceitos. Como exemplo, a taxonomia de \cite{gu2022logging} define os seguintes elementos fundamentais\footnote{Os termos originais em inglês foram mantidos por serem amplamente utilizados na literatura da área de Engenharia de Software e não terem tradução consagrada no português técnico.}:
 
 \begingroup
 \renewcommand{\arraystretch}{1.2}
 \begin{tabular}{p{0.3\textwidth}p{0.3\textwidth}p{0.3\textwidth}}
-    • Log statement       & • Log message     & • Log \\
-    • Log level           & • Log content     & • Log location \\
-    • Log placement       & • Logging         & • Logging practice \\
+    \texttt{Log statement} & \texttt{Log message} & \texttt{Log} \\
+    \texttt{Log level} & \texttt{Log content} & \texttt{Log location} \\
+    \texttt{Log placement} & \texttt{Logging} & \texttt{Logging practice} \\
 \end{tabular}
 \endgroup
 \vspace{2em}
+
+Para os fins desta pesquisa, não é necessário aprofundar cada um desses termos; interessa prioritariamente a distinção entre \textit{log} (registro completo) e \textit{log message} (entrada individual), conforme adotado adiante.
 
 Neste trabalho, \textit{log} refere-se ao registro completo das atividades do sistema, enquanto \textit{log message} compreende entradas individuais com marcação temporal que representam eventos específicos durante o desenvolvimento de código.
 
@@ -33,7 +38,7 @@ Segundo \cite{rice1983use}, o monitoramento de sistemas pode ser entendido como 
 \section{A Análise de Logs como Ferramenta Educacional}
 \label{sec:logs-educacionais}
 
-A aplicação de análise de \textit{logs} no ensino de programação representa uma transposição dessa prática da Engenharia de Software para a avaliação do \textbf{processo de aprendizagem}. Para que essa análise seja viável, é necessário um mecanismo de captura dos rastros gerados durante a atividade. A Figura \ref{fig:fluxograma-logado} ilustra esse modelo conceitual de coleta.
+A aplicação de análise de \textit{logs} no ensino de programação representa uma transposição dessa prática da Engenharia de Software para a avaliação do processo de aprendizagem. Para que essa análise seja viável, é necessário um mecanismo de captura dos rastros gerados durante a atividade. A Figura \ref{fig:fluxograma-logado} ilustra esse modelo conceitual de coleta.
 
 \begin{figure}[h]
 \centering
@@ -41,8 +46,6 @@ A aplicação de análise de \textit{logs} no ensino de programação representa
 \caption{Modelo de coleta de dados educacionais durante a atividade de codificação. O plugin LOGADO monitora o processo, gerando logs que registram a jornada do aprendiz, em contraste com o artefato final (código) que é o foco da avaliação tradicional.}
 \label{fig:fluxograma-logado}
 \end{figure}
-
-
 
 A Tabela \ref{tab:comparacao-avaliacao} contrasta a abordagem tradicional com a proposta deste trabalho:
 
@@ -66,67 +69,107 @@ Foco no indivíduo & Permite análise individual e em grupo \\
 Enquanto a avaliação tradicional concentra-se na lógica, sintaxe e funcionalidade do código entregue, a análise de \textit{logs} captura os rastros digitais do desenvolvimento, revelando padrões de raciocínio, dificuldades específicas e estratégias de resolução de problemas.
 
 Como sugerido por \cite{silva2022previsao}, variáveis preditoras podem ser extraídas diretamente do código-fonte, tais como: número de linhas lógicas, uso de estruturas de repetição, quantidade de identificadores e funções utilizadas. Esta abordagem alinha-se com a \textit{Learning Analytics}, que visa melhorar a qualidade do ensino e da aprendizagem por meio da análise de dados sobre o comportamento dos estudantes \cite{huang2020predicting}. Os \textit{logs} de programação funcionam, assim, como registros de aprendizagem (\textit{learning records}), revelando a experiência pessoal e as reflexões do estudante durante o processo de desenvolvimento \cite{du2005learning}.
-\section{Metodologia para Análise de Logs Educacionais}
-\label{sec:metodologia-analise}
 
-A análise dos dados coletados será realizada em três etapas principais:
+\section{Design Science Research}
+\label{sec:design-science-research}
 
-\subsection{Coleta e Pré-processamento}
-Os dados brutos são gerados a partir da interação dos estudantes com o ambiente de programação, capturando eventos como edições de código, compilações e erros. Esta fase envolve:
+Esta pesquisa adota a Design Science Research (DSR) como abordagem metodológica, amplamente utilizada em Computação para orientar o desenvolvimento de soluções tecnológicas voltadas a problemas práticos \cite{hevner2004design, peffers2007design}.
+
+Diferentemente de pesquisas que apenas descrevem ou explicam fenômenos, a DSR concentra-se na criação de algo novo, um artefato, que atenda a uma necessidade real. No caso deste trabalho, o artefato é a extensão LOGADO para o Visual Studio Code.
+
+Hevner et al. \cite{hevner2004design} estabelecem que pesquisas em DSR devem:
 \begin{itemize}
-    \item \textbf{Registro de Logs}: Captura de \textit{timestamp}, trechos de código editados e eventos de desenvolvimento.
-    \item \textbf{Filtragem e Anonimização}: Substituição de dados sensíveis por identificadores únicos para garantir a privacidade.
+    \item produzir um artefato útil;
+    \item endereçar um problema relevante;
+    \item avaliar rigorosamente o que foi construído;
+    \item comunicar claramente os resultados.
 \end{itemize}
 
-\subsection{Geração de Indicadores Educacionais}
-Os \textit{logs} brutos são transformados em métricas educacionais significativas (e.g., tempo para resolver um erro, padrões de tentativa-e-erro), criando um \textit{dataset} para pesquisa. Este \textit{dataset} permitirá estudos sobre a eficácia de metodologias de ensino e a correlação entre padrões de codificação e desempenho.
+Peffers et al. \cite{peffers2007design} propõem um processo prático em seis etapas: identificar o problema, definir os objetivos da solução, projetar e desenvolver o artefato, demonstrar seu uso, avaliá-lo e comunicar os resultados.
 
-\subsection{Análise de Padrões e Autoria}
-Com base no perfil de usuário (\textit{user profile}) construído—que inclui frequência de \textit{commits} e uso de estruturas específicas—é possível identificar discrepâncias na autoria de códigos, auxiliando na detecção de plágio e fornecendo uma base para avaliação personalizada.
+Este trabalho seguiu essas etapas. O problema identificado foi a falta de ferramentas de telemetria educacional no ensino de programação, para o qual se desenvolveu a extensão LOGADO. A avaliação ocorreu por meio da coleta e análise de logs gerados por estudantes em situação real de aula. Os resultados são apresentados e discutidos ao longo da dissertação, em especial nos Capítulos \ref{cap-resultados-discussoes} e \ref{cap-consideracoes-finais}.
 
-\section{A Extensão Logado: Proposta de Implementação}
+\section{A Extensão LOGADO: Proposta de Implementação}
 \label{sec:extensao-logado}
 
-A motivação para o desenvolvimento da extensão Logado reside na contínua evolução dos ambientes de programação e na necessidade de se compreender o processo de aprendizagem de forma mais granular. Embora existam diversos Ambientes de Desenvolvimento Integrado (IDEs) e editores de código — muitos focados em uma linguagem específica ou com ecossistemas próprios de plugins —, argumenta-se que é mais eficaz integrar a funcionalidade de logging de eventos diretamente em um editor já consagrado e amplamente adotado, como o Visual Studio Code (VS Code).
-
-A escolha pelo desenvolvimento de uma extensão para o VS Code, em detrimento de um \textit{plugin} para uma IDE menos comum ou de uma ferramenta isolada, é estratégica. Essa abordagem evita a dispersão do foco do aprendiz, que não precisa se adaptar a uma nova ferramenta, permitindo que se concentre exclusivamente na resolução de problemas de programação em um ambiente já familiar. Dessa forma, a extensão Logado será executada de forma transparente na IDE do estudante, capturando de modo integrado e não intrusivo os eventos de desenvolvimento detalhados na Seção \ref{sec:metodologia-analise}.
+A extensão LOGADO foi desenvolvida para coletar rastros de aprendizagem nas disciplinas de programação que usam JavaScript como linguagem e tem o Visual Studio Code (VS Code) como editor principal, que é amplamente adotado no contexto educacional por sua leveza, gratuidade e suporte a extensões. A ferramenta captura, de forma transparente e não intrusiva, as palavras reservadas digitadas pelos estudantes durante a resolução de problemas de programação, registrando eventos de edição e gerando arquivos de log no formato JSON.
 
 \subsection{Estado atual da implementação}
-\label{subsec:estado-implementacao}
 
-Atualmente, a extensão Logado encontra-se na versão \texttt{0.0.5} e está disponível para instalação no Visual Studio Code por meio do arquivo \texttt{.vsix}, acessível através da paleta de comandos da IDE. A Figura \ref{fig:icone-logado} apresenta o ícone da extensão, enquanto a Figura \ref{fig:vs-code-logado} ilustra o ambiente de desenvolvimento com o plugin instalado e em execução.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.12\textwidth]{../figuras/logado-icon.png}
-    \caption{Ícone da extensão Logado}
-    \label{fig:icone-logado}
-\end{figure}
+Atualmente, a extensão LOGADO encontra-se na versão \texttt{0.0.5} e está disponível para instalação no Visual Studio Code por meio do arquivo \texttt{.vsix}, acessível através da paleta de comandos da IDE. O código-fonte completo, a documentação e as instruções de instalação estão disponíveis publicamente no repositório GitHub do projeto\footnote{\url{https://github.com/gilmargn/logado-utfpr-ifam}}.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{../figuras/vscode-logado.png}
-    \caption{Visual Studio Code com a extensão Logado instalada e ativa}
-    \label{fig:vs-code-logado}
+    \begin{minipage}{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../figuras/logado-icon.png}
+        \caption{Ícone da extensão LOGADO}
+        \label{fig:icone-logado}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.65\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../figuras/vscode-logado.png}
+        \caption{Visual Studio Code com a extensão LOGADO instalada}
+        \label{fig:vs-code-logado}
+    \end{minipage}
 \end{figure}
 
-A extensão opera de forma transparente ao estudante, não requerendo configuração adicional ou interrupção do fluxo de trabalho. Uma vez instalada, a coleta de logs ocorre em segundo plano, registrando as palavras reservadas utilizadas, os respectivos \textit{timestamps} e a localização no código (arquivo, linha e coluna).
+A extensão opera em segundo plano, não requerendo configuração adicional. Uma vez instalada, a coleta de logs registra as palavras reservadas utilizadas, os respectivos \textit{timestamps} e a localização no código (arquivo, linha e coluna). O código é disponibilizado sob licença \textit{MIT}\footnote{Licença permissiva que permite reuso, modificação e distribuição, desde que mantido o aviso de direitos autorais.}, em consonância com os princípios da ciência aberta.
+
+\subsection{Funcionalidades Principais}
+
+A extensão LOGADO foi projetada para ser uma ferramenta leve e integrada ao fluxo natural do estudante, operando de forma transparente, mas nunca oculta.
+
+\begin{itemize}
+    \item Transparência: o estudante sabe exatamente quais informações são coletadas (palavras-chave, timestamp, arquivo, linha e coluna), não havendo coleta oculta de dados. Os logs são salvos em arquivos \texttt{.json} visíveis no explorador do VS Code.
+
+    \item Gerenciamento de privacidade: a extensão opera em modo estritamente local. Os dados não são transmitidos para servidores externos sem consentimento explícito.
+
+    \item Exportação de dados: os logs em JSON são salvos concomitantemente aos arquivos \texttt{.js}, podendo ser exportados para repositórios e compartilhados com pesquisadores ou instrutores.
+\end{itemize}
 
 \subsection{Arquitetura e Armazenamento de Dados}
-\label{subsec:arquitetura-armazenamento}
 
-A extensão será desenvolvida em TypeScript\cite{typescript}, utilizando a API oficial do Visual Studio Code \cite{vscodeapi}. O mecanismo de coleta será ativado assim que o usuário abrir um workspace contendo arquivos de código. Todos os eventos capturados (ex., edições, execuções, depuração) serão serializados no formato JSON (JavaScript Object Notation) \cite {ecmajson} e armazenados localmente em um arquivo de log. Este formato foi escolhido por sua legibilidade, ampla adoção e facilidade de parsing para análises futuras.
+A extensão foi desenvolvida em TypeScript, utilizando a API oficial do Visual Studio Code, com base na documentação oficial e em exemplos disponibilizados pela Microsoft. O trabalho consistiu em adaptar e aplicar os recursos existentes para a finalidade específica de coleta de logs educacionais.
 
-Cada entrada no log representará um evento atômico e conterá um carimbo de data/hora (timestamp) de alta precisão, um identificador único de sessão, o tipo de evento e um conjunto de metadados específicos. 
+O diferencial desta pesquisa não reside no código da extensão em si, mas na abordagem (telemetria de palavras reservadas como ferramenta pedagógica) e na aplicação (coleta de logs em contexto real de sala de aula). Os eventos capturados são salvos no formato JSON e armazenados localmente em arquivos de log, contendo palavra reservada, \textit{timestamp}, arquivo, linha e coluna.
 
-Para ilustrar a aplicação prática, considere o desenvolvimento do algoritmo de cálculo de impressão apresentado na Listagem \ref{lst:algoritmo-impressao-js}. Durante sua implementação, a extensão Logado capturaria o uso de elementos da linguagem, gerando os registros estruturados apresentados na Listagem \ref{lst:algoritmo-impressao-json}.
+A extensão não realiza análises automáticas sobre os dados coletados. Sua função limita-se à captura e ao armazenamento estruturado dos rastros, cabendo a pesquisas futuras aprofundar a análise desses registros.
 
-\begin{figure}[h!]
- \centering
-    \begin{lstlisting}[style=jsonstyle, caption={Algoritmo de cálculo de impressão - exemplo didático que simula o desenvolvimento típico de um estudante iniciante}, label={lst:algoritmo-impressao-js}]
+\subsection{Notificação de Ativação}
+
+Ao iniciar o VS Code com a extensão LOGADO instalada, uma notificação visual é exibida no canto inferior direito da tela (Figura \ref{fig:notificacao-logado}), informando ao estudante que os logs estão sendo coletados, em respeito aos princípios éticos de consentimento informado.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{../figuras/notificacoes-logado.png}
+    \caption{Notificação exibida pela extensão LOGADO ao ser ativada}
+    \label{fig:notificacao-logado}
+\end{figure}
+
+\subsection{Geração de Logs}
+
+Para cada arquivo JavaScript editado, a extensão gera automaticamente um arquivo de log homônimo no formato JSON (\texttt{.json}), salvo no mesmo diretório do código-fonte. A Figura \ref{fig:logado-explorer} ilustra essa correspondência.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{data-structure.png} 
+    \caption{Arquivos de log (\texttt{.json}) gerados para cada arquivo JavaScript}
+    \label{fig:logado-explorer}
+\end{figure}
+
+No exemplo apresentado, é possível observar a estrutura adotada durante as atividades da disciplina de Estrutura de Dados: os arquivos \texttt{lista.js}, \texttt{fila.js} e \texttt{pilha.js} representam as implementações solicitadas, enquanto os arquivos \texttt{lista.json}, \texttt{fila.json} e \texttt{pilha.json} armazenam os logs de palavras reservadas gerados durante a digitação de cada algoritmo. Essa separação preserva o código original do estudante e mantém os dados organizados, facilitando etapas posteriores de pré-processamento e agrupamento.
+
+Para ilustrar a aplicação prática, considere o desenvolvimento do algoritmo de cálculo de impressão apresentado na Listagem \ref{lst:algoritmo-impressao-js}. Durante sua implementação, a extensão LOGADO captura o uso de elementos da linguagem, gerando os registros estruturados apresentados na Listagem \ref{lst:algoritmo-impressao-json}.
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \begin{lstlisting}[style=jsonstyle, caption={Algoritmo de cálculo de impressão - exemplo didático}, label={lst:algoritmo-impressao-js}]
 let numero_paginas = parseInt(prompt("Número de páginas"))
 let tipo_impressao = prompt("Tipo de Impressão\n0 - Frente e verso\n1 - Frente")
-
 
 let valor = 0
 
@@ -138,69 +181,36 @@ else{
     valor = numero_paginas * 0.15
     document.writeln(`Páginas impressas: ${numero_paginas}<br> Valor final: R$ ${valor.toFixed(2)}`)
 }
-    \end{lstlisting}
-\ref{lst:algoritmo-impressao-js}
-\end{figure}
-
-
-\begin{figure}[h!]
-    \centering
-    \begin{lstlisting}[style=jsonstyle, caption={Exemplo de saída da extensão Logado capturando palavras-chave durante o desenvolvimento do algoritmo de cálculo de impressão}, label={lst:algoritmo-impressao-json}, firstnumber=1]
+        \end{lstlisting}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \begin{lstlisting}[style=jsonstyle, caption={Exemplo de saída da extensão LOGADO}, label={lst:algoritmo-impressao-json}]
 [
   {
     "keyword": "let",
-    "timestamp": "2025-10-27T15:30:45.123Z",
+    "timestamp": "2026-02-24 19:21:45",
     "file": "impressao.js",
     "line": 1,
     "column": 1
   },
   {
-    "keyword": "parseInt", 
-    "timestamp": "2025-10-27T15:30:47.256Z",
+    "keyword": "parseInt",
+    "timestamp": "2026-02-24 19:21:47",
     "file": "impressao.js",
-    "line": 1, 
+    "line": 1,
     "column": 18
+  },
+  {
+    "keyword": "prompt",
+    "timestamp": "2026-02-24 19:21:48",
+    "file": "impressao.js",
+    "line": 1,
+    "column": 28
   }
 ]
-    \end{lstlisting}
-    \ref{lst:algoritmo-impressao-json}
+        \end{lstlisting}
+    \end{minipage}
 \end{figure}
 
-\subsection{Funcionalidades Principais da Extensão}
-\label{subsec:funcionalidades-principais}
-
-A extensão LOGADO foi projetada para ser uma ferramenta leve e integrada ao fluxo natural do estudante, operando de forma transparente, mas nunca oculta.
-
-\begin{itemize}
-    \item \textbf{Configuração granular}: o estudante tem controle sobre o que é coletado, sabendo que o plugin não opera como uma ``caixa preta''. A extensão registra apenas códigos escritos em JavaScript, linguagem adotada nas atividades.
-
-    \item \textbf{Gerenciamento de privacidade}: a extensão opera em modo estritamente local. Os dados não são transmitidos para servidores externos sem o consentimento explícito do usuário, assegurando a privacidade e a conformidade com a LGPD.
-
-    \item \textbf{Exportação de dados}: os logs em JSON são salvos concomitantemente aos arquivos \texttt{.js}, podendo ser exportados para repositórios e compartilhados com instrutores em cenários de pesquisa ou tutoria.
-\end{itemize}
-
-\subsubsection{Notificação de Ativação}
-
-Ao iniciar o Visual Studio Code com a extensão instalada, uma notificação visual (\"balão\") é exibida, conforme ilustrado na Figura \ref{fig:notificacao-logado}. Esta notificação tem dupla função: (i) confirmar que a extensão está operacional e (ii) informar explicitamente ao estudante que os logs estão sendo coletados, respeitando os princípios éticos de consentimento informado.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\textwidth]{../figuras/notificacoes-logado.png}
-    \caption{Notificação exibida pela extensão LOGADO ao ser ativada no Visual Studio Code}
-    \label{fig:notificacao-logado}
-\end{figure}
-
-\subsubsection{Geração de Logs}
-
-Para cada arquivo JavaScript criado ou editado pelo estudante (ex., \texttt{aula.js}), a extensão gera automaticamente um arquivo de log homônimo no formato JSON (\texttt{aula.json}), armazenando os eventos de digitação capturados. A Figura \ref{fig:vscode-output} evidencia este comportamento na aba do Explorador do VS Code.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.65\textwidth]{logado-explorer.png} 
-    \caption{Arquivos de log (\texttt{.json}) gerados automaticamente para cada arquivo JavaScript do estudante}
-    \label{fig:vscode-output}
-\end{figure}
-
-A extensão opera em segundo plano, não requerendo configuração adicional. Uma vez instalada (por meio do arquivo \texttt{.vsix}), a coleta de logs registra as palavras reservadas utilizadas, os respectivos \textit{timestamps} e a localização no código (arquivo, linha e coluna).
-
-Esta proposta visa, portanto, criar uma ferramenta leve, eficaz e ética, que se integre perfeitamente ao fluxo de trabalho do estudante, gerando os dados necessários para um entendimento profundo de suas estratégias e dificuldades no ato de programar.

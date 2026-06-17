@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.2.2)  6 APR 2026 00:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.2.2)  5 JUN 2026 18:25
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2128,6 +2128,19 @@ File: pgfcalendar.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \gtt@left@slot=\count489
 \gtt@right@slot=\count490
 )
+(/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/fontawesome5.sty
+Package: fontawesome5 2021/06/04 v5.15.3 Font Awesome 5
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2022-01-12 L3 Experimental document command parser
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/fontawesome5-generic-help
+er.sty
+Package: fontawesome5-generic-helper 2021/06/04 v5.15.3 non-uTeX helper for fon
+tawesome5
+
+(/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/fontawesome5-mapping.def)
+))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryshapes.arrows.code.tex
 File: tikzlibraryshapes.arrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
@@ -2140,19 +2153,19 @@ File: pgflibraryshapes.arrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \glo@main@file=\write22
 \openout4 = `main.glo'.
 
-Package glossaries Info: Writing glossary file main.glo on input line 145.
+Package glossaries Info: Writing glossary file main.glo on input line 148.
 \glo@acronym@file=\write23
 \openout4 = `main.acn'.
 
-Package glossaries Info: Writing glossary file main.acn on input line 145.
+Package glossaries Info: Writing glossary file main.acn on input line 148.
 \glo@sigla@file=\write24
 \openout4 = `main.acn2'.
 
-Package glossaries Info: Writing glossary file main.acn2 on input line 145.
+Package glossaries Info: Writing glossary file main.acn2 on input line 148.
 \glo@abreviatura@file=\write25
 \openout4 = `main.acn3'.
 
-Package glossaries Info: Writing glossary file main.acn3 on input line 145.
+Package glossaries Info: Writing glossary file main.acn3 on input line 148.
 
 (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2022/01/07 version 5.0.2 text color boxes
@@ -2206,13 +2219,11 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
  (./main.aux
 (./PreTexto/agradecimentos.aux) (./PreTexto/resumo.aux)
 (./PreTexto/abstract.aux) (./capitulos/cap-introducao.aux)
-(./capitulos/cap-conceitos.aux) (./capitulos/cap-proposta.aux)
-(./capitulos/cap-metodologia.aux) (./capitulos/cap-consideracoes-finais.aux
-
-LaTeX Warning: Label `sec:caracterizacao-amostra' multiply defined.
-
-) (./PosTexto/apendicea.aux) (./PosTexto/apendiceb.aux)
-(./PosTexto/questionario-previo-tcle.pdf.aux))
+(./capitulos/cap-conceitos.aux) (./capitulos/cap-metodologia.aux)
+(./capitulos/cap-resultados-discussoes.aux)
+(./capitulos/cap-consideracoes-finais.aux) (./capitulos/cap-conclusoes.aux)
+(./PosTexto/apendicea.aux) (./PosTexto/apendiceb.aux) (./PosTexto/apendicec.aux
+) (./PosTexto/questionario-previo-tcle.pdf.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
@@ -2583,11 +2594,11 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 9.85492pt on input line 136.
 Package epstopdf Info: Source file: <./PreTexto/arquivos/licencasCC/by.eps>
-(epstopdf)                    date: 2025-05-22 21:08:26
+(epstopdf)                    date: 2025-05-22 22:08:26
 (epstopdf)                    size: 36313 bytes
 (epstopdf)             Output file: <./PreTexto/arquivos/licencasCC/by-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2025-09-28 22:31:11
+(epstopdf)                    date: 2025-09-28 23:31:11
 (epstopdf)                    size: 4610 bytes
 (epstopdf)             Command: <epstopdf --outfile=./PreTexto/arquivos/licenca
 sCC/by-eps-converted-to.pdf ./PreTexto/arquivos/licencasCC/by.eps>
@@ -2637,10 +2648,6 @@ l.36 \end{agradecimentos}
 \openout2 = `./PreTexto/resumo.aux'.
 
  (./PreTexto/resumo.tex
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 9.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 10.79993pt on input line 9.
 \openout4 = `main.mw'.
 
  [3
@@ -2689,6 +2696,10 @@ LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
 
 
 (./main.toc
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 39.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 10.79993pt on input line 39.
 \openout4 = `main.mw'.
 
  [6
@@ -2706,15 +2717,15 @@ LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
 
  (./capitulos/cap-introducao.tex
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 3
-1.
+3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 31.
+(Font)              scaled to size 10.79993pt on input line 33.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 9.85492pt on input line 70.
+(Font)              scaled to size 9.85492pt on input line 81.
 \openout4 = `main.mw'.
 
  [8
@@ -2724,6 +2735,10 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 ] (./main.mw)
 \openout4 = `main.mw'.
 
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on i
+nput line 140.
+
+(/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree3.fd)
 \openout4 = `main.mw'.
 
 
@@ -2745,26 +2760,36 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
  [12] (./main.mw)
 \openout4 = `main.mw'.
 
-)
 \openout4 = `main.mw'.
 
  [13]
 (./main.mw)
 \openout4 = `main.mw'.
 
+\openout4 = `main.mw'.
+
+ [14] (./main.mw)
+\openout4 = `main.mw'.
+
+)
+\openout4 = `main.mw'.
+
+ [15] (./main.mw)
+\openout4 = `main.mw'.
+
 \openout2 = `./capitulos/cap-conceitos.aux'.
 
  (./capitulos/cap-conceitos.tex
-LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 9.85492pt on input line 22.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 7.19995pt on input line 20.
 
-Overfull \hbox (26.04567pt too wide) in paragraph at lines 21--28
+Overfull \hbox (26.04567pt too wide) in paragraph at lines 24--31
 [][]
  []
 
 \openout4 = `main.mw'.
 
-[14
+[16
 
 
 
@@ -2772,102 +2797,93 @@ Overfull \hbox (26.04567pt too wide) in paragraph at lines 21--28
 ] (./main.mw)
 \openout4 = `main.mw'.
 
-<figuras//fluxograma-logado.png, id=407, 1071.00125pt x 729.72626pt>
+<figuras//fluxograma-logado.png, id=418, 1071.00125pt x 729.72626pt>
 File: figuras//fluxograma-logado.png Graphic file (type png)
 <use figuras//fluxograma-logado.png>
-Package pdftex.def Info: figuras//fluxograma-logado.png  used on input line 40.
+Package pdftex.def Info: figuras//fluxograma-logado.png  used on input line 45.
 
 (pdftex.def)             Requested size: 386.96027pt x 263.65884pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 55.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 58.
 LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
-(Font)              scaled to size 9.85492pt on input line 55.
+(Font)              scaled to size 9.85492pt on input line 58.
 \openout4 = `main.mw'.
 
- [15 <./figuras//fluxograma-logado.png>] (./main.mw)
+[17] (./main.mw)
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
 
- [16]
-(./main.mw)
+ [18 <./figuras//fluxograma-logado.png>] (./main.mw)
 \openout4 = `main.mw'.
 
-<figuras//../figuras/logado-icon.png, id=435, 108.405pt x 121.6545pt>
+<figuras//../figuras/logado-icon.png, id=458, 108.405pt x 121.6545pt>
 File: figuras//../figuras/logado-icon.png Graphic file (type png)
 <use figuras//../figuras/logado-icon.png>
 Package pdftex.def Info: figuras//../figuras/logado-icon.png  used on input lin
-e 101.
-(pdftex.def)             Requested size: 54.62706pt x 61.30415pt.
-<figuras//../figuras/vscode-logado.png, id=436, 880.28876pt x 633.36626pt>
+e 105.
+(pdftex.def)             Requested size: 136.57462pt x 153.28546pt.
+<figuras//../figuras/vscode-logado.png, id=459, 878.28125pt x 628.3475pt>
 File: figuras//../figuras/vscode-logado.png Graphic file (type png)
 <use figuras//../figuras/vscode-logado.png>
 Package pdftex.def Info: figuras//../figuras/vscode-logado.png  used on input l
-ine 108.
-(pdftex.def)             Requested size: 409.71692pt x 294.78287pt.
+ine 112.
+(pdftex.def)             Requested size: 295.90588pt x 211.69858pt.
 \openout4 = `main.mw'.
 
- [17 <./figuras//../figuras/logado-icon.png>] (./main.mw)
+ [19 <./figuras//../figuras/logado-icon.png> <./figuras//../figuras/vscode-loga
+do.png>]
+(./main.mw)
 \openout4 = `main.mw'.
 
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 126.
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 7.19995pt on input line 127.
 
+Underfull \hbox (badness 1681) in paragraph at lines 125--126
+[]\T1/phv/m/n/12 Transparência: o es-tu-dante sabe exa-ta-mente quais in-for-ma
+-ções são co-le-ta-das
+ []
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-\openout4 = `main.mw'.
-
-[18 <./figuras//../figuras/vscode-logado.png>] (./main.mw)
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
- [19] (./main.mw)
-\openout4 = `main.mw'.
-
-<figuras//../figuras/notificacoes-logado.png, id=504, 472.76625pt x 93.34875pt>
+<figuras//../figuras/notificacoes-logado.png, id=470, 472.76625pt x 93.34875pt>
 
 File: figuras//../figuras/notificacoes-logado.png Graphic file (type png)
 <use figuras//../figuras/notificacoes-logado.png>
 Package pdftex.def Info: figuras//../figuras/notificacoes-logado.png  used on i
-nput line 188.
-(pdftex.def)             Requested size: 318.66948pt x 62.92363pt.
-<figuras//logado-explorer.png, id=506, 379.4175pt x 361.35pt>
-File: figuras//logado-explorer.png Graphic file (type png)
-<use figuras//logado-explorer.png>
-Package pdftex.def Info: figuras//logado-explorer.png  used on input line 199.
-(pdftex.def)             Requested size: 295.90588pt x 281.81879pt.
+nput line 146.
+(pdftex.def)             Requested size: 386.96027pt x 76.4083pt.
 \openout4 = `main.mw'.
 
+[20] (./main.mw)
+\openout4 = `main.mw'.
 
-[20 <./figuras//../figuras/notificacoes-logado.png>] (./main.mw)
+<figuras//data-structure.png, id=477, 499.8675pt x 231.86626pt>
+File: figuras//data-structure.png Graphic file (type png)
+<use figuras//data-structure.png>
+Package pdftex.def Info: figuras//data-structure.png  used on input line 157.
+(pdftex.def)             Requested size: 386.96027pt x 179.4999pt.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 170.
+\openout4 = `main.mw'.
+
+ [21 <./figuras//../figuras/notificacoes-logado.png> <./figuras//data-structure
+.png>] (./main.mw)
 \openout4 = `main.mw'.
 
 )
 \openout4 = `main.mw'.
 
- [21 <./figuras//logado-explorer.png>] (./main.mw)
+ [22] (./main.mw)
 \openout4 = `main.mw'.
 
-\openout2 = `./capitulos/cap-proposta.aux'.
-
- (./capitulos/cap-proposta.tex)
 \openout2 = `./capitulos/cap-metodologia.aux'.
 
 
 (./capitulos/cap-metodologia.tex
 \openout4 = `main.mw'.
 
- [22
-
-
-
+ [23
 
 
 
@@ -2877,162 +2893,338 @@ Package pdftex.def Info: figuras//logado-explorer.png  used on input line 199.
 
 \openout4 = `main.mw'.
 
- [23] (./main.mw)
+ [24] (./main.mw)
 \openout4 = `main.mw'.
 
-<figuras//../figuras/caso-de-uso-discentes.png, id=556, 834.11626pt x 461.725pt
+<figuras//../figuras/caso-de-uso-discentes.png, id=570, 834.11626pt x 461.725pt
 >
 File: figuras//../figuras/caso-de-uso-discentes.png Graphic file (type png)
 <use figuras//../figuras/caso-de-uso-discentes.png>
 Package pdftex.def Info: figuras//../figuras/caso-de-uso-discentes.png  used on
- input line 95.
+ input line 84.
 (pdftex.def)             Requested size: 500.77129pt x 277.20622pt.
 
-Overfull \hbox (45.52718pt too wide) in paragraph at lines 95--96
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 84--85
  [][] 
  []
 
-<figuras//../figuras/caso-de-uso-pesquisa.png, id=557, 863.225pt x 587.19376pt>
+\openout4 = `main.mw'.
+
+[25] (./main.mw)
+\openout4 = `main.mw'.
+
+<figuras//../figuras/caso-de-uso-pesquisa.png, id=578, 863.225pt x 587.19376pt>
 
 File: figuras//../figuras/caso-de-uso-pesquisa.png Graphic file (type png)
 <use figuras//../figuras/caso-de-uso-pesquisa.png>
 Package pdftex.def Info: figuras//../figuras/caso-de-uso-pesquisa.png  used on 
-input line 102.
+input line 91.
 (pdftex.def)             Requested size: 500.77129pt x 340.63533pt.
 
-Overfull \hbox (45.52718pt too wide) in paragraph at lines 102--103
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 91--92
  [][] 
  []
 
 \openout4 = `main.mw'.
 
-[24 <./figuras//../figuras/caso-de-uso-discentes.png>] (./main.mw)
+[26 <./figuras//../figuras/caso-de-uso-discentes.png> <./figuras//../figuras/ca
+so-de-uso-pesquisa.png>] (./main.mw)
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
 
- [25 <./figuras//../figuras/caso-de-uso-pesquisa.png>] (./main.mw)
+ [27] (./main.mw)
 \openout4 = `main.mw'.
 
-\openout4 = `main.mw'.
-
- [26] (./main.mw)
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
- [27]
-(./main.mw)
-\openout4 = `main.mw'.
-
-)
 \openout4 = `main.mw'.
 
  [28] (./main.mw)
 \openout4 = `main.mw'.
 
-\openout2 = `./capitulos/cap-consideracoes-finais.aux'.
 
- (./capitulos/cap-consideracoes-finais.tex
-<figuras//figura_resultado_01_top20_keywords.png, id=603, 711.3777pt x 567.0786
+
+LaTeX Warning: Reference `subsec:revisao-sistematica' on page 29 undefined on i
+nput line 161.
+
+\openout4 = `main.mw'.
+
+[29] (./main.mw)
+\openout4 = `main.mw'.
+
+)
+\openout4 = `main.mw'.
+
+ [30] (./main.mw)
+\openout4 = `main.mw'.
+
+\openout2 = `./capitulos/cap-resultados-discussoes.aux'.
+
+ (./capitulos/cap-resultados-discussoes.tex
+<figuras//figura_resultado_01_top20_keywords.png, id=619, 711.3777pt x 567.0786
 pt>
 File: figuras//figura_resultado_01_top20_keywords.png Graphic file (type png)
 <use figuras//figura_resultado_01_top20_keywords.png>
 Package pdftex.def Info: figuras//figura_resultado_01_top20_keywords.png  used 
-on input line 36.
+on input line 18.
 (pdftex.def)             Requested size: 364.19667pt x 290.31383pt.
 \openout4 = `main.mw'.
 
 
-[29
+[31
 
 
 
-] (./main.mw)
+
+ <./figuras//figura_resultado_01_top20_keywords.png>] (./main.mw)
 \openout4 = `main.mw'.
 
-\openout4 = `main.mw'.
-
- [30 <./figuras//figura_resultado_01_top20_keywords.png>]
-(./main.mw)
-\openout4 = `main.mw'.
-
-<figuras//figura_resultado_02_distribuicao_arquivos.png, id=619, 577.4373pt x 5
+<figuras//figura_resultado_02_distribuicao_arquivos.png, id=630, 577.4373pt x 5
 66.5968pt>
 File: figuras//figura_resultado_02_distribuicao_arquivos.png Graphic file (type
  png)
 <use figuras//figura_resultado_02_distribuicao_arquivos.png>
 Package pdftex.def Info: figuras//figura_resultado_02_distribuicao_arquivos.png
-  used on input line 72.
-(pdftex.def)             Requested size: 273.14923pt x 268.02965pt.
-<figuras//figura_resultado_03_ocorrencia_hora.png, id=621, 711.3777pt x 422.779
+  used on input line 38.
+(pdftex.def)             Requested size: 204.85846pt x 201.00926pt.
+\openout4 = `main.mw'.
+
+ [32 <./figuras//figura_resultado_02_distribuicao_arquivos.png>] (./main.mw)
+\openout4 = `main.mw'.
+
+<figuras//figura_resultado_03_ocorrencia_hora.png, id=637, 711.3777pt x 422.779
 5pt>
 File: figuras//figura_resultado_03_ocorrencia_hora.png Graphic file (type png)
 <use figuras//figura_resultado_03_ocorrencia_hora.png>
 Package pdftex.def Info: figuras//figura_resultado_03_ocorrencia_hora.png  used
- on input line 84.
+ on input line 50.
 (pdftex.def)             Requested size: 364.19667pt x 216.44043pt.
-\openout4 = `main.mw'.
-
- [31 <./figuras//figura_resultado_02_distribuicao_arquivos.png>]
-(./main.mw)
-\openout4 = `main.mw'.
-
-<figuras//figura_resultado_04_rede_coocorrencia.png, id=628, 1000.2168pt x 855.
+<figuras//figura_resultado_04_rede_coocorrencia.png, id=639, 1000.2168pt x 855.
 9177pt>
 File: figuras//figura_resultado_04_rede_coocorrencia.png Graphic file (type png
 )
 <use figuras//figura_resultado_04_rede_coocorrencia.png>
 Package pdftex.def Info: figuras//figura_resultado_04_rede_coocorrencia.png  us
-ed on input line 98.
-(pdftex.def)             Requested size: 409.71692pt x 350.61508pt.
+ed on input line 64.
+(pdftex.def)             Requested size: 455.24411pt x 389.57376pt.
 \openout4 = `main.mw'.
 
- [32 <./figuras//figura_resultado_03_ocorrencia_hora.png>]
-(./main.mw)
+ [33 <./figuras//figura_resultado_03_ocorrencia_hora.png>] (./main.mw)
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
 
- [33 <./figuras//figura_resultado_04_rede_coocorrencia.png>]
-(./main.mw)
+ [34 <./figuras//figura_resultado_04_rede_coocorrencia.png>] (./main.mw)
 \openout4 = `main.mw'.
 
-<figuras//figura_resultado_05_centralidade.png, id=640, 711.3777pt x 567.3195pt
+<figuras//figura_resultado_05_centralidade.png, id=651, 711.3777pt x 567.3195pt
 >
 File: figuras//figura_resultado_05_centralidade.png Graphic file (type png)
 <use figuras//figura_resultado_05_centralidade.png>
 Package pdftex.def Info: figuras//figura_resultado_05_centralidade.png  used on
- input line 117.
+ input line 82.
 (pdftex.def)             Requested size: 364.19667pt x 290.43716pt.
 \openout4 = `main.mw'.
 
- [34 <./figuras//figura_resultado_05_centralidade.png>] (./main.mw)
+ [35 <./figuras//figura_resultado_05_centralidade.png>] (./main.mw)
 \openout4 = `main.mw'.
 
-<figuras//figura_resultado_06_palavras_emergentes.png, id=649, 851.5815pt x 567
+<figuras//figura_resultado_06_palavras_emergentes.png, id=660, 851.5815pt x 567
 .5604pt>
 File: figuras//figura_resultado_06_palavras_emergentes.png Graphic file (type p
 ng)
 <use figuras//figura_resultado_06_palavras_emergentes.png>
 Package pdftex.def Info: figuras//figura_resultado_06_palavras_emergentes.png  
-used on input line 158.
+used on input line 122.
 (pdftex.def)             Requested size: 364.19667pt x 242.72984pt.
 \openout4 = `main.mw'.
 
-
-[35 <./figuras//figura_resultado_06_palavras_emergentes.png>] (./main.mw)
-\openout4 = `main.mw'.
-
+ [36 <./figuras//figura_resultado_06_palavras_emergentes.png>] (./main.mw)
 \openout4 = `main.mw'.
 
 
-[36] (./main.mw)
-\openout4 = `main.mw'.
+Underfull \hbox (badness 3354) in paragraph at lines 146--147
+[]\T1/pcr/m/n/12 arquivo.json\T1/phv/m/n/12 : nome do ar-quivo de log ori-gi-na
+l (ex.: \T1/pcr/m/n/12 vaquinha.json\T1/phv/m/n/12 ,
+ []
+
+
+Overfull \hbox (3.4769pt too wide) in paragraph at lines 164--164
+[]|\T1/phv/b/n/10.95 arquivo.json| 
+ []
+
+
+Overfull \hbox (4.44856pt too wide) in paragraph at lines 164--164
+[]|\T1/phv/b/n/10.95 coluna| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
+[]|\T1/phv/b/n/10.95 data_-pro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
+\T1/phv/b/n/10.95 ces-sa-
+ []
+
+
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 166--166
+[]|\T1/phv/m/n/10.95 vaquinha.json| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+[]|\T1/phv/m/n/10.95 2026-03-12
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--167
+[]|\T1/phv/m/n/10.95 2026-04-01
+ []
+
+
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 168--168
+[]|\T1/phv/m/n/10.95 vaquinha.json| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--168
+[]|\T1/phv/m/n/10.95 2026-03-12
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
+[]|\T1/phv/m/n/10.95 2026-04-01
+ []
+
+
+Overfull \hbox (5.93066pt too wide) in paragraph at lines 170--170
+[]|\T1/phv/m/n/10.95 vaquinha.json| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--170
+[]|\T1/phv/m/n/10.95 2026-03-12
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
+[]|\T1/phv/m/n/10.95 2026-04-01
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
+[]|\T1/phv/m/n/10.95 2026-02-26
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
+[]|\T1/phv/m/n/10.95 2026-04-01
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--174
+[]|\T1/phv/m/n/10.95 2026-02-26
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
+[]|\T1/phv/m/n/10.95 2026-04-01
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--176
+[]|\T1/phv/m/n/10.95 par_-im-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--176
+[]|\T1/phv/m/n/10.95 2026-02-26
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
+[]|\T1/phv/m/n/10.95 2026-04-01
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--178
+[]|\T1/phv/m/n/10.95 par_-im-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--178
+[]|\T1/phv/m/n/10.95 2026-02-26
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
+[]|\T1/phv/m/n/10.95 2026-04-01
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--180
+[]|\T1/phv/m/n/10.95 funcao_-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--180
+[]|\T1/phv/m/n/10.95 2026-03-25
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--180
+[]|\T1/phv/m/n/10.95 funcao_-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
+[]|\T1/phv/m/n/10.95 2026-04-01
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
+[]|\T1/phv/m/n/10.95 funcao_-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
+[]|\T1/phv/m/n/10.95 2026-03-25
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
+[]|\T1/phv/m/n/10.95 funcao_-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
+[]|\T1/phv/m/n/10.95 2026-04-01
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
+[]|\T1/phv/m/n/10.95 funcao_-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
+[]|\T1/phv/m/n/10.95 2026-03-25
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
+[]|\T1/phv/m/n/10.95 funcao_-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
+[]|\T1/phv/m/n/10.95 2026-04-01
+ []
 
 \openout4 = `main.mw'.
 
- [37] (./main.mw)
+[37] (./main.mw)
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
@@ -3046,12 +3238,45 @@ used on input line 158.
  [39] (./main.mw)
 \openout4 = `main.mw'.
 
+\openout2 = `./capitulos/cap-consideracoes-finais.aux'.
 
-(./main.bbl
+
+(./capitulos/cap-consideracoes-finais.tex
+\openout4 = `main.mw'.
+
+ [40
+
+
+
+
+] (./main.mw)
+\openout4 = `main.mw'.
+
+)
+\openout4 = `main.mw'.
+
+ [41] (./main.mw)
+\openout4 = `main.mw'.
+
+\openout2 = `./capitulos/cap-conclusoes.aux'.
+
+
+(./capitulos/cap-conclusoes.tex)
+\openout4 = `main.mw'.
+
+ [42
+
+
+
+
+] (./main.mw)
+\openout4 = `main.mw'.
+
+ (./main.bbl
 bibitemlist
 \openout4 = `main.mw'.
 
-[40
+[43
 
 
 
@@ -3060,13 +3285,13 @@ bibitemlist
 
 \openout4 = `main.mw'.
 
- [41] (./main.mw)
+ [44] (./main.mw)
 \openout4 = `main.mw'.
 
 )
 \openout4 = `main.mw'.
 
- [42] (./main.mw)
+ [45] (./main.mw)
 \openout4 = `main.mw'.
 
 \openout2 = `./PosTexto/apendicea.aux'.
@@ -3075,124 +3300,121 @@ bibitemlist
 \openout4 = `main.mw'.
 
 
-[43
+[46
 
 
 ] (./main.mw)
 \openout4 = `main.mw'.
 
-<figuras//../figuras/prisma-fluxograma.png, id=721, 937.5025pt x 787.94376pt>
-File: figuras//../figuras/prisma-fluxograma.png Graphic file (type png)
-<use figuras//../figuras/prisma-fluxograma.png>
-Package pdftex.def Info: figuras//../figuras/prisma-fluxograma.png  used on inp
-ut line 13.
-(pdftex.def)             Requested size: 500.77129pt x 420.87846pt.
 
-Overfull \hbox (45.52718pt too wide) in paragraph at lines 13--14
+Overfull \hbox (12.79996pt too wide) in paragraph at lines 42--63
  [][] 
  []
 
+\openout4 = `main.mw'.
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--27
+[47
+
+] (./main.mw)
+\openout4 = `main.mw'.
+
+<figuras//../figuras/prisma-fluxograma.png, id=746, 937.5025pt x 787.94376pt>
+File: figuras//../figuras/prisma-fluxograma.png Graphic file (type png)
+<use figuras//../figuras/prisma-fluxograma.png>
+Package pdftex.def Info: figuras//../figuras/prisma-fluxograma.png  used on inp
+ut line 99.
+(pdftex.def)             Requested size: 500.77129pt x 420.87846pt.
+
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 99--100
+ [][] 
+ []
+
+\openout4 = `main.mw'.
+
+[48] (./main.mw)
+\openout4 = `main.mw'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
 []|\T1/phv/m/n/10.95 Arabyarmohamady
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
 []|\T1/phv/m/n/10.95 Dificuldades de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
 []|\T1/phv/m/n/10.95 Comportamento
  []
 
 
-Underfull \hbox (badness 2790) in paragraph at lines 37--38
+Underfull \hbox (badness 2790) in paragraph at lines 125--126
 []|\T1/phv/m/n/10.95 Logs de IDE + On-line
  []
 
 
-Underfull \hbox (badness 1931) in paragraph at lines 47--47
+Underfull \hbox (badness 1931) in paragraph at lines 135--135
 []|\T1/phv/m/n/10.95 Avaliação au-to-má-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--49
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
 []|\T1/phv/m/n/10.95 Complexidade vs
  []
 
 
-Underfull \hbox (badness 1540) in paragraph at lines 53--53
+Underfull \hbox (badness 1540) in paragraph at lines 141--141
 []|\T1/phv/m/n/10.95 Erros de com-pi-la-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--55
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
 []|\T1/phv/m/n/10.95 Liz-Domínguez et
  []
 
 
-Underfull \hbox (badness 2591) in paragraph at lines 55--55
+Underfull \hbox (badness 2591) in paragraph at lines 143--143
 []|\T1/phv/m/n/10.95 Desempenho aca-
  []
 
+\openout4 = `main.mw'.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+[49 <./figuras//../figuras/prisma-fluxograma.png>] (./main.mw)
+\openout4 = `main.mw'.
 
-<figuras//../figuras/caracteristicas.png, id=723, 704.6325pt x 592.46344pt>
+<figuras//../figuras/caracteristicas.png, id=764, 704.6325pt x 592.46344pt>
 File: figuras//../figuras/caracteristicas.png Graphic file (type png)
 <use figuras//../figuras/caracteristicas.png>
 Package pdftex.def Info: figuras//../figuras/caracteristicas.png  used on input
- line 69.
+ line 156.
 (pdftex.def)             Requested size: 341.43307pt x 287.08224pt.
-\openout4 = `main.mw'.
-
-[44
-
- <./figuras//../figuras/prisma-fluxograma.png>] (./main.mw)
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
- [45] (./main.mw)
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-[46 <./figuras//../figuras/caracteristicas.png (PNG copy)>] (./main.mw)
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-
-[47] (./main.mw)
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
- [48] (./main.mw)
-\openout4 = `main.mw'.
-
-
-Overfull \hbox (12.79996pt too wide) in paragraph at lines 151--172
- [][] 
- []
-
-\openout4 = `main.mw'.
-
-[49] (./main.mw)
-\openout4 = `main.mw'.
-
 \openout4 = `main.mw'.
 
  [50] (./main.mw)
 \openout4 = `main.mw'.
 
+\openout4 = `main.mw'.
+
+[51 <./figuras//../figuras/caracteristicas.png (PNG copy)>] (./main.mw)
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+
+[52] (./main.mw)
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+ [53] (./main.mw)
+\openout4 = `main.mw'.
+
 )
 \openout4 = `main.mw'.
 
- [51] (./main.mw)
+ [54] (./main.mw)
 \openout4 = `main.mw'.
 
 \openout2 = `./PosTexto/apendiceb.aux'.
@@ -3201,7 +3423,7 @@ Overfull \hbox (12.79996pt too wide) in paragraph at lines 151--172
 \openout4 = `main.mw'.
 
 
-[52
+[55
 
 
 
@@ -3211,18 +3433,18 @@ Overfull \hbox (12.79996pt too wide) in paragraph at lines 151--172
 
 \openout4 = `main.mw'.
 
- [53
+ [56
 
 ] (./main.mw)
 \openout4 = `main.mw'.
 
-<figuras//../figuras/instituicoes.png, id=798, 762.85pt x 401.5pt>
+<figuras//../figuras/instituicoes.png, id=816, 762.85pt x 401.5pt>
 File: figuras//../figuras/instituicoes.png Graphic file (type png)
 <use figuras//../figuras/instituicoes.png>
 Package pdftex.def Info: figuras//../figuras/instituicoes.png  used on input li
 ne 42.
 (pdftex.def)             Requested size: 455.24411pt x 239.60306pt.
-<figuras//../figuras/ferramentas.png, id=799, 706.13812pt x 592.46344pt>
+<figuras//../figuras/ferramentas.png, id=817, 706.13812pt x 592.46344pt>
 File: figuras//../figuras/ferramentas.png Graphic file (type png)
 <use figuras//../figuras/ferramentas.png>
 Package pdftex.def Info: figuras//../figuras/ferramentas.png  used on input lin
@@ -3230,10 +3452,10 @@ e 50.
 (pdftex.def)             Requested size: 455.24411pt x 381.9597pt.
 \openout4 = `main.mw'.
 
- [54 <./figuras//../figuras/instituicoes.png>] (./main.mw)
+ [57 <./figuras//../figuras/instituicoes.png>] (./main.mw)
 \openout4 = `main.mw'.
 
-<figuras//../figuras/comparacoes.png, id=807, 705.38531pt x 197.98969pt>
+<figuras//../figuras/comparacoes.png, id=824, 705.38531pt x 197.98969pt>
 File: figuras//../figuras/comparacoes.png Graphic file (type png)
 <use figuras//../figuras/comparacoes.png>
 Package pdftex.def Info: figuras//../figuras/comparacoes.png  used on input lin
@@ -3241,10 +3463,10 @@ e 60.
 (pdftex.def)             Requested size: 455.24411pt x 127.7794pt.
 \openout4 = `main.mw'.
 
- [55 <./figuras//../figuras/ferramentas.png (PNG copy)>] (./main.mw)
+ [58 <./figuras//../figuras/ferramentas.png (PNG copy)>] (./main.mw)
 \openout4 = `main.mw'.
 
-<figuras//../figuras/dataset-e-correcoes-automatizada.png, id=813, 706.13812pt 
+<figuras//../figuras/dataset-e-correcoes-automatizada.png, id=830, 706.13812pt 
 x 592.46344pt>
 File: figuras//../figuras/dataset-e-correcoes-automatizada.png Graphic file (ty
 pe png)
@@ -3254,11 +3476,11 @@ ng  used on input line 70.
 (pdftex.def)             Requested size: 341.43307pt x 286.46751pt.
 \openout4 = `main.mw'.
 
- [56 <./figuras//../figuras/comparacoes.png> <./figuras//../figuras/dataset-e-c
+ [59 <./figuras//../figuras/comparacoes.png> <./figuras//../figuras/dataset-e-c
 orrecoes-automatizada.png (PNG copy)>] (./main.mw)
 \openout4 = `main.mw'.
 
-<figuras//../figuras/plugins-no-ensino-opiniao.png, id=820, 706.13812pt x 592.4
+<figuras//../figuras/plugins-no-ensino-opiniao.png, id=837, 706.13812pt x 592.4
 6344pt>
 File: figuras//../figuras/plugins-no-ensino-opiniao.png Graphic file (type png)
 
@@ -3268,11 +3490,11 @@ d on input line 80.
 (pdftex.def)             Requested size: 455.24411pt x 381.9597pt.
 \openout4 = `main.mw'.
 
- [57 <./figuras//../figuras/plugins-no-ensino-opiniao.png (PNG copy)>] (./main.
+ [60 <./figuras//../figuras/plugins-no-ensino-opiniao.png (PNG copy)>] (./main.
 mw)
 \openout4 = `main.mw'.
 
-<figuras//../figuras/IDEs.png, id=826, 987.69pt x 472.76625pt>
+<figuras//../figuras/IDEs.png, id=845, 987.69pt x 472.76625pt>
 File: figuras//../figuras/IDEs.png Graphic file (type png)
 <use figuras//../figuras/IDEs.png>
 Package pdftex.def Info: figuras//../figuras/IDEs.png  used on input line 98.
@@ -3280,212 +3502,564 @@ Package pdftex.def Info: figuras//../figuras/IDEs.png  used on input line 98.
 )
 \openout4 = `main.mw'.
 
- [58 <./figuras//../figuras/IDEs.png>] (./main.mw)
+ [61 <./figuras//../figuras/IDEs.png>] (./main.mw)
 \openout4 = `main.mw'.
 
-<./PosTexto/Mod1TermodeCompromisso.pdf, id=832, 597.50786pt x 845.04686pt>
+\openout2 = `./PosTexto/apendicec.aux'.
+
+ (./PosTexto/apendicec.tex
+\openout4 = `main.mw'.
+
+ [62
+
+
+
+
+] (./main.mw)
+\openout4 = `main.mw'.
+
+
+Underfull \hbox (badness 4967) in paragraph at lines 8--9
+[]\T1/phv/m/n/12 O \T1/phv/m/sl/12 da-ta-set \T1/phv/m/n/12 con-so-li-dado con-
+tém \T1/phv/b/n/12 4.614 re-gis-tros \T1/phv/m/n/12 (li-nhas), re-sul-tan-tes d
+o pré-
+ []
+
+
+Underfull \hbox (badness 4132) in paragraph at lines 24--25
+[]|\T1/phv/m/n/10.95 Palavra re-ser-vada cap-tu-rada (ex.: \T1/pcr/m/n/10.95 le
+t\T1/phv/m/n/10.95 , \T1/pcr/m/n/10.95 if\T1/phv/m/n/10.95 , \T1/pcr/m/n/10.95 
+for\T1/phv/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 2922) in paragraph at lines 26--27
+[]|\T1/phv/m/n/10.95 Data e hora do evento no for-mato \T1/pcr/m/n/10.95 YYYY-M
+M-DD
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+[]|\T1/pcr/m/n/10.95 data_-
+ []
+
+
+Overfull \hbox (14.83635pt too wide) in paragraph at lines 18--37
+ [][] 
+ []
+
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 8.09995pt on input line 47.
+
+Overfull \hbox (4.44856pt too wide) in paragraph at lines 50--50
+[]|\T1/phv/b/n/10.95 coluna| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+[]|\T1/phv/b/n/10.95 data_-pro-ces-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
+[]|\T1/phv/m/n/10.95 2026-03-12
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+[]|\T1/phv/m/n/10.95 2026-04-01
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--54
+[]|\T1/phv/m/n/10.95 2026-03-12
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+[]|\T1/phv/m/n/10.95 2026-04-01
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+[]|\T1/phv/m/n/10.95 2026-03-12
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+[]|\T1/phv/m/n/10.95 2026-04-01
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]|\T1/phv/m/n/10.95 2026-03-12
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+[]|\T1/phv/m/n/10.95 2026-04-01
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
+[]|\T1/phv/m/n/10.95 2026-03-12
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+[]|\T1/phv/m/n/10.95 2026-04-01
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
+[]|\T1/phv/m/n/10.95 2026-02-26
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
+[]|\T1/phv/m/n/10.95 2026-04-01
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
+[]|\T1/phv/m/n/10.95 2026-02-26
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+[]|\T1/phv/m/n/10.95 2026-04-01
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--66
+[]|\T1/phv/m/n/10.95 2026-02-26
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+[]|\T1/phv/m/n/10.95 2026-04-01
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+[]|\T1/phv/m/n/10.95 2026-02-26
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+[]|\T1/phv/m/n/10.95 2026-04-01
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
+[]|\T1/phv/m/n/10.95 2026-02-26
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+[]|\T1/phv/m/n/10.95 2026-04-01
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
+[]|\T1/phv/m/n/10.95 2026-02-26
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+[]|\T1/phv/m/n/10.95 2026-04-01
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+[]|\T1/phv/m/n/10.95 2026-02-20
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+[]|\T1/phv/m/n/10.95 2026-04-01
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+[]|\T1/phv/m/n/10.95 par_-im-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+[]|\T1/phv/m/n/10.95 2026-02-26
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+[]|\T1/phv/m/n/10.95 2026-04-01
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
+[]|\T1/phv/m/n/10.95 par_-im-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
+[]|\T1/phv/m/n/10.95 2026-02-26
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+[]|\T1/phv/m/n/10.95 2026-04-01
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
+[]|\T1/phv/m/n/10.95 par_-im-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
+[]|\T1/phv/m/n/10.95 2026-02-26
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+[]|\T1/phv/m/n/10.95 2026-04-01
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+[]|\T1/phv/m/n/10.95 funcao_-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+[]|\T1/phv/m/n/10.95 2026-03-25
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+[]|\T1/phv/m/n/10.95 funcao_-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+[]|\T1/phv/m/n/10.95 2026-04-01
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+[]|\T1/phv/m/n/10.95 funcao_-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+[]|\T1/phv/m/n/10.95 2026-03-25
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+[]|\T1/phv/m/n/10.95 funcao_-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+[]|\T1/phv/m/n/10.95 2026-04-01
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
+[]|\T1/phv/m/n/10.95 funcao_-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
+[]|\T1/phv/m/n/10.95 2026-03-25
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
+[]|\T1/phv/m/n/10.95 funcao_-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+[]|\T1/phv/m/n/10.95 2026-04-01
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+[]|\T1/phv/m/n/10.95 funcao_-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+[]|\T1/phv/m/n/10.95 2026-03-25
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+[]|\T1/phv/m/n/10.95 funcao_-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+[]|\T1/phv/m/n/10.95 2026-04-01
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
+[]|\T1/phv/m/n/10.95 funcao_-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
+[]|\T1/phv/m/n/10.95 2026-03-25
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
+[]|\T1/phv/m/n/10.95 funcao_-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+[]|\T1/phv/m/n/10.95 2026-04-01
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+[]|\T1/phv/m/n/10.95 funcao_-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+[]|\T1/phv/m/n/10.95 2026-03-25
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+[]|\T1/phv/m/n/10.95 funcao_-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+[]|\T1/phv/m/n/10.95 2026-04-01
+ []
+
+\openout4 = `main.mw'.
+
+[63
+
+] (./main.mw)
+\openout4 = `main.mw'.
+
+)
+\openout4 = `main.mw'.
+
+ [64] (./main.mw)
+\openout4 = `main.mw'.
+
+<./PosTexto/Mod1TermodeCompromisso.pdf, id=868, 597.50786pt x 845.04686pt>
 File: ./PosTexto/Mod1TermodeCompromisso.pdf Graphic file (type pdf)
 <use ./PosTexto/Mod1TermodeCompromisso.pdf>
 Package pdftex.def Info: ./PosTexto/Mod1TermodeCompromisso.pdf  used on input l
-ine 271.
+ine 273.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: ./PosTexto/Mod1TermodeCompromisso.pdf Graphic file (type pdf)
 <use ./PosTexto/Mod1TermodeCompromisso.pdf>
 Package pdftex.def Info: ./PosTexto/Mod1TermodeCompromisso.pdf  used on input l
-ine 271.
+ine 273.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
-<./PosTexto/Mod1TermodeCompromisso.pdf, id=835, page=1, 597.50786pt x 845.04686
+<./PosTexto/Mod1TermodeCompromisso.pdf, id=871, page=1, 597.50786pt x 845.04686
 pt>
 File: ./PosTexto/Mod1TermodeCompromisso.pdf Graphic file (type pdf)
 <use ./PosTexto/Mod1TermodeCompromisso.pdf, page 1>
 Package pdftex.def Info: ./PosTexto/Mod1TermodeCompromisso.pdf , page1 used on 
-input line 271.
+input line 273.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: ./PosTexto/Mod1TermodeCompromisso.pdf Graphic file (type pdf)
 <use ./PosTexto/Mod1TermodeCompromisso.pdf, page 1>
 Package pdftex.def Info: ./PosTexto/Mod1TermodeCompromisso.pdf , page1 used on 
-input line 271.
+input line 273.
 (pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
 File: ./PosTexto/Mod1TermodeCompromisso.pdf Graphic file (type pdf)
 <use ./PosTexto/Mod1TermodeCompromisso.pdf, page 1>
 Package pdftex.def Info: ./PosTexto/Mod1TermodeCompromisso.pdf , page1 used on 
-input line 271.
+input line 273.
 (pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
 File: ./PosTexto/Mod1TermodeCompromisso.pdf Graphic file (type pdf)
 <use ./PosTexto/Mod1TermodeCompromisso.pdf, page 1>
 Package pdftex.def Info: ./PosTexto/Mod1TermodeCompromisso.pdf , page1 used on 
-input line 271.
+input line 273.
 (pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
 File: ./PosTexto/Mod1TermodeCompromisso.pdf Graphic file (type pdf)
 <use ./PosTexto/Mod1TermodeCompromisso.pdf, page 1>
 Package pdftex.def Info: ./PosTexto/Mod1TermodeCompromisso.pdf , page1 used on 
-input line 271.
+input line 273.
 (pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
 \openout4 = `main.mw'.
 
- [59
+ [65
 
 
- <./PosTexto/Mod1TermodeCompromisso.pdf>]
-(./main.mw)
+ <./PosTexto/Mod1TermodeCompromisso.pdf>] (./main.mw)
 \openout4 = `main.mw'.
 
-<./PosTexto/autorizacao-labin-assinado.pdf, id=865, 597.50786pt x 845.04686pt>
+<./PosTexto/autorizacao-labin-assinado.pdf, id=900, 597.50786pt x 845.04686pt>
 File: ./PosTexto/autorizacao-labin-assinado.pdf Graphic file (type pdf)
 <use ./PosTexto/autorizacao-labin-assinado.pdf>
 Package pdftex.def Info: ./PosTexto/autorizacao-labin-assinado.pdf  used on inp
-ut line 272.
+ut line 274.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: ./PosTexto/autorizacao-labin-assinado.pdf Graphic file (type pdf)
 <use ./PosTexto/autorizacao-labin-assinado.pdf>
 Package pdftex.def Info: ./PosTexto/autorizacao-labin-assinado.pdf  used on inp
-ut line 272.
+ut line 274.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
-<./PosTexto/autorizacao-labin-assinado.pdf, id=868, page=1, 597.50786pt x 845.0
+<./PosTexto/autorizacao-labin-assinado.pdf, id=903, page=1, 597.50786pt x 845.0
 4686pt>
 File: ./PosTexto/autorizacao-labin-assinado.pdf Graphic file (type pdf)
 <use ./PosTexto/autorizacao-labin-assinado.pdf, page 1>
 Package pdftex.def Info: ./PosTexto/autorizacao-labin-assinado.pdf , page1 used
- on input line 272.
+ on input line 274.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: ./PosTexto/autorizacao-labin-assinado.pdf Graphic file (type pdf)
 <use ./PosTexto/autorizacao-labin-assinado.pdf, page 1>
 Package pdftex.def Info: ./PosTexto/autorizacao-labin-assinado.pdf , page1 used
- on input line 272.
+ on input line 274.
 (pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
 File: ./PosTexto/autorizacao-labin-assinado.pdf Graphic file (type pdf)
 <use ./PosTexto/autorizacao-labin-assinado.pdf, page 1>
 Package pdftex.def Info: ./PosTexto/autorizacao-labin-assinado.pdf , page1 used
- on input line 272.
+ on input line 274.
 (pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
 File: ./PosTexto/autorizacao-labin-assinado.pdf Graphic file (type pdf)
 <use ./PosTexto/autorizacao-labin-assinado.pdf, page 1>
 Package pdftex.def Info: ./PosTexto/autorizacao-labin-assinado.pdf , page1 used
- on input line 272.
+ on input line 274.
 (pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
 File: ./PosTexto/autorizacao-labin-assinado.pdf Graphic file (type pdf)
 <use ./PosTexto/autorizacao-labin-assinado.pdf, page 1>
 Package pdftex.def Info: ./PosTexto/autorizacao-labin-assinado.pdf , page1 used
- on input line 272.
+ on input line 274.
 (pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
 \openout4 = `main.mw'.
 
- [60 <./PosTexto/autorizacao-labin-assinado.pdf>] (./main.mw)
+ [66 <./PosTexto/autorizacao-labin-assinado.pdf>] (./main.mw)
 \openout4 = `main.mw'.
 
-<./PosTexto/termo-utilizacao-dados.pdf, id=908, 597.50786pt x 845.04686pt>
+<./PosTexto/termo-utilizacao-dados.pdf, id=943, 597.50786pt x 845.04686pt>
 File: ./PosTexto/termo-utilizacao-dados.pdf Graphic file (type pdf)
 <use ./PosTexto/termo-utilizacao-dados.pdf>
 Package pdftex.def Info: ./PosTexto/termo-utilizacao-dados.pdf  used on input l
-ine 273.
+ine 275.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: ./PosTexto/termo-utilizacao-dados.pdf Graphic file (type pdf)
 <use ./PosTexto/termo-utilizacao-dados.pdf>
 Package pdftex.def Info: ./PosTexto/termo-utilizacao-dados.pdf  used on input l
-ine 273.
+ine 275.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
-<./PosTexto/termo-utilizacao-dados.pdf, id=911, page=1, 597.50786pt x 845.04686
+<./PosTexto/termo-utilizacao-dados.pdf, id=946, page=1, 597.50786pt x 845.04686
 pt>
 File: ./PosTexto/termo-utilizacao-dados.pdf Graphic file (type pdf)
 <use ./PosTexto/termo-utilizacao-dados.pdf, page 1>
 Package pdftex.def Info: ./PosTexto/termo-utilizacao-dados.pdf , page1 used on 
-input line 273.
+input line 275.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: ./PosTexto/termo-utilizacao-dados.pdf Graphic file (type pdf)
 <use ./PosTexto/termo-utilizacao-dados.pdf, page 1>
 Package pdftex.def Info: ./PosTexto/termo-utilizacao-dados.pdf , page1 used on 
-input line 273.
+input line 275.
 (pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
 File: ./PosTexto/termo-utilizacao-dados.pdf Graphic file (type pdf)
 <use ./PosTexto/termo-utilizacao-dados.pdf, page 1>
 Package pdftex.def Info: ./PosTexto/termo-utilizacao-dados.pdf , page1 used on 
-input line 273.
+input line 275.
 (pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
 File: ./PosTexto/termo-utilizacao-dados.pdf Graphic file (type pdf)
 <use ./PosTexto/termo-utilizacao-dados.pdf, page 1>
 Package pdftex.def Info: ./PosTexto/termo-utilizacao-dados.pdf , page1 used on 
-input line 273.
+input line 275.
 (pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
 File: ./PosTexto/termo-utilizacao-dados.pdf Graphic file (type pdf)
 <use ./PosTexto/termo-utilizacao-dados.pdf, page 1>
 Package pdftex.def Info: ./PosTexto/termo-utilizacao-dados.pdf , page1 used on 
-input line 273.
+input line 275.
 (pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
 \openout4 = `main.mw'.
 
 
-[61 <./PosTexto/termo-utilizacao-dados.pdf>] (./main.mw)
+[67 <./PosTexto/termo-utilizacao-dados.pdf>] (./main.mw)
 \openout4 = `main.mw'.
 
-<./capitulos/tcle.pdf, id=950, 597.50829pt x 845.0471pt>
+<./capitulos/tcle.pdf, id=985, 597.50829pt x 845.0471pt>
 File: ./capitulos/tcle.pdf Graphic file (type pdf)
 <use ./capitulos/tcle.pdf>
-Package pdftex.def Info: ./capitulos/tcle.pdf  used on input line 274.
+Package pdftex.def Info: ./capitulos/tcle.pdf  used on input line 276.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: ./capitulos/tcle.pdf Graphic file (type pdf)
 <use ./capitulos/tcle.pdf>
-Package pdftex.def Info: ./capitulos/tcle.pdf  used on input line 274.
+Package pdftex.def Info: ./capitulos/tcle.pdf  used on input line 276.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<./capitulos/tcle.pdf, id=953, page=1, 597.50829pt x 845.0471pt>
+<./capitulos/tcle.pdf, id=988, page=1, 597.50829pt x 845.0471pt>
 File: ./capitulos/tcle.pdf Graphic file (type pdf)
 <use ./capitulos/tcle.pdf, page 1>
-Package pdftex.def Info: ./capitulos/tcle.pdf , page1 used on input line 274.
+Package pdftex.def Info: ./capitulos/tcle.pdf , page1 used on input line 276.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: ./capitulos/tcle.pdf Graphic file (type pdf)
 <use ./capitulos/tcle.pdf, page 1>
-Package pdftex.def Info: ./capitulos/tcle.pdf , page1 used on input line 274.
+Package pdftex.def Info: ./capitulos/tcle.pdf , page1 used on input line 276.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./capitulos/tcle.pdf Graphic file (type pdf)
 <use ./capitulos/tcle.pdf, page 1>
-Package pdftex.def Info: ./capitulos/tcle.pdf , page1 used on input line 274.
+Package pdftex.def Info: ./capitulos/tcle.pdf , page1 used on input line 276.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./capitulos/tcle.pdf Graphic file (type pdf)
 <use ./capitulos/tcle.pdf, page 1>
-Package pdftex.def Info: ./capitulos/tcle.pdf , page1 used on input line 274.
+Package pdftex.def Info: ./capitulos/tcle.pdf , page1 used on input line 276.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./capitulos/tcle.pdf Graphic file (type pdf)
 <use ./capitulos/tcle.pdf, page 1>
-Package pdftex.def Info: ./capitulos/tcle.pdf , page1 used on input line 274.
+Package pdftex.def Info: ./capitulos/tcle.pdf , page1 used on input line 276.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 \openout4 = `main.mw'.
 
- [62 <./capitulos/tcle.pdf>] (./main.mw)
+ [68 <./capitulos/tcle.pdf>] (./main.mw)
 \openout4 = `main.mw'.
 
-<./capitulos/tcle.pdf, id=975, page=2, 597.50829pt x 845.0471pt>
+<./capitulos/tcle.pdf, id=1011, page=2, 597.50829pt x 845.0471pt>
 File: ./capitulos/tcle.pdf Graphic file (type pdf)
 <use ./capitulos/tcle.pdf, page 2>
-Package pdftex.def Info: ./capitulos/tcle.pdf , page2 used on input line 274.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./capitulos/tcle.pdf Graphic file (type pdf)
-<use ./capitulos/tcle.pdf, page 2>
-Package pdftex.def Info: ./capitulos/tcle.pdf , page2 used on input line 274.
+Package pdftex.def Info: ./capitulos/tcle.pdf , page2 used on input line 276.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./capitulos/tcle.pdf Graphic file (type pdf)
 <use ./capitulos/tcle.pdf, page 2>
-Package pdftex.def Info: ./capitulos/tcle.pdf , page2 used on input line 274.
+Package pdftex.def Info: ./capitulos/tcle.pdf , page2 used on input line 276.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ./capitulos/tcle.pdf Graphic file (type pdf)
+<use ./capitulos/tcle.pdf, page 2>
+Package pdftex.def Info: ./capitulos/tcle.pdf , page2 used on input line 276.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 \openout4 = `main.mw'.
 
- [63 <./capitulos/tcle.pdf>] (./main.mw)
+ [69 <./capitulos/tcle.pdf>] (./main.mw)
 \openout4 = `main.mw'.
 
-<./capitulos/tcle.pdf, id=986, page=3, 597.50829pt x 845.0471pt>
+<./capitulos/tcle.pdf, id=1022, page=3, 597.50829pt x 845.0471pt>
 File: ./capitulos/tcle.pdf Graphic file (type pdf)
 <use ./capitulos/tcle.pdf, page 3>
-Package pdftex.def Info: ./capitulos/tcle.pdf , page3 used on input line 274.
+Package pdftex.def Info: ./capitulos/tcle.pdf , page3 used on input line 276.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./capitulos/tcle.pdf Graphic file (type pdf)
 <use ./capitulos/tcle.pdf, page 3>
-Package pdftex.def Info: ./capitulos/tcle.pdf , page3 used on input line 274.
+Package pdftex.def Info: ./capitulos/tcle.pdf , page3 used on input line 276.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: ./capitulos/tcle.pdf Graphic file (type pdf)
 <use ./capitulos/tcle.pdf, page 3>
-Package pdftex.def Info: ./capitulos/tcle.pdf , page3 used on input line 274.
+Package pdftex.def Info: ./capitulos/tcle.pdf , page3 used on input line 276.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 \openout4 = `main.mw'.
 
- [64 <./capitulos/tcle.pdf>] (./main.mw)
+ [70 <./capitulos/tcle.pdf>] (./main.mw)
 \openout4 = `main.mw'.
 
 \openout2 = `./PosTexto/questionario-previo-tcle.pdf.aux'.
@@ -3651,16 +4225,7 @@ AED: lastpage setting LastPage
 
 \openout4 = `main.mw'.
 
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-) (./capitulos/cap-proposta.aux)
-(./capitulos/cap-metodologia.aux
+) (./capitulos/cap-metodologia.aux
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
@@ -3693,83 +4258,6 @@ AED: lastpage setting LastPage
 
 \openout4 = `main.mw'.
 
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-\openout4 = `main.mw'.
-
-) (./capitulos/cap-consideracoes-finais.aux
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
@@ -3835,6 +4323,87 @@ AED: lastpage setting LastPage
 \openout4 = `main.mw'.
 
 )
+(./capitulos/cap-resultados-discussoes.aux
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+)
+(./capitulos/cap-consideracoes-finais.aux
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+) (./capitulos/cap-conclusoes.aux
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+)
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
@@ -3853,6 +4422,18 @@ AED: lastpage setting LastPage
 
 
 (./PosTexto/apendicea.aux
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
@@ -3970,10 +4551,14 @@ AED: lastpage setting LastPage
 
 \openout4 = `main.mw'.
 
-)
-(./PosTexto/questionario-previo-tcle.pdf.aux))
+) (./PosTexto/apendicec.aux
+\openout4 = `main.mw'.
 
-LaTeX Warning: There were multiply-defined labels.
+\openout4 = `main.mw'.
+
+) (./PosTexto/questionario-previo-tcle.pdf.aux))
+
+LaTeX Warning: There were undefined references.
 
 \openout4 = `main.glo'.
 
@@ -3993,25 +4578,27 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 53969 strings out of 478287
- 1017297 string characters out of 5849290
- 1641818 words of memory out of 5000000
- 70618 multiletter control sequences out of 15000+600000
- 510207 words of font info for 97 fonts, out of 8000000 for 9000
+ 57114 strings out of 478287
+ 1087996 string characters out of 5849290
+ 1730242 words of memory out of 5000000
+ 73708 multiletter control sequences out of 15000+600000
+ 511915 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  125i,19n,131p,1397b,2593s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf/
-fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.
-pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/hel
-vetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8
-a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (65 pages, 2648272 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texliv
+e/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc}</usr/share/texlive/texm
+f-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/l
+mr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
+w/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/u
+hvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on main.pdf (71 pages, 2687707 bytes).
 PDF statistics:
- 1340 PDF objects out of 1440 (max. 8388607)
- 1144 compressed objects within 12 object streams
- 289 named destinations out of 1000 (max. 500000)
- 913 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1378 PDF objects out of 1440 (max. 8388607)
+ 1174 compressed objects within 12 object streams
+ 299 named destinations out of 1000 (max. 500000)
+ 905 words of extra memory for PDF output out of 10000 (max. 10000000)
 
