@@ -1,0 +1,51 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\geometry{a4paper, margin=2cm}
+\usepackage{pgfgantt}
+
+\begin{document}
+
+
+
+\begin{center}
+    {\Large \textbf{Cronograma de Execução da Pesquisa - 2026}}
+\end{center}
+
+\vspace{1cm}
+
+\begin{ganttchart}[
+    vgrid={*{5}{gray, dotted}, *1{black, dashed}},
+    bar label node/.append style={
+        align=left,
+        text width=width("Agrupamento e Análise dos Dados")
+    },
+    x unit=1.85cm,
+    y unit chart=0.8cm,
+    bar/.style={fill=yellow!30, draw=black!50},
+    milestone/.style={fill=green!50, draw=red!90}
+]{1}{6}
+
+% Título com os nomes dos meses
+\gantttitle{Jul}{1} 
+\gantttitle{Ago}{1} 
+\gantttitle{Set}{1} 
+\gantttitle{Out}{1} 
+\gantttitle{Nov}{1} 
+\gantttitle{Dez}{1} \\
+
+% Barras do cronograma
+\ganttbar{Submissão ao CEP}{1}{1} \\
+%\ganttbar{Avaliação e Ajustes}{2}{3} \\
+\ganttmilestone{Aprovação do CEP}{1}{4} \\
+\ganttbar{Recrutamento e TCLE}{3}{4} \\
+\ganttbar{Coleta de Dados (Logs)}{3}{4} \\
+\ganttbar{Coleta de Dados (Survey)}{4}{5} \\
+\ganttbar{Agrupamento e Análise}{5}{5} \\
+\ganttbar{Redação Final}{6}{6} \\
+%\ganttmilestone{Conclusão}{6}
+
+\end{ganttchart}
+
+\end{document}

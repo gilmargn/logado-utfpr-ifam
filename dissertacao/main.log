@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.2.2)  19 JUN 2026 00:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.2.2)  21 JUN 2026 23:47
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -3252,24 +3252,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 184--185
 ] (./main.mw)
 \openout4 = `main.mw'.
 
-)
 \openout4 = `main.mw'.
 
  [41] (./main.mw)
 \openout4 = `main.mw'.
 
-\openout2 = `./capitulos/cap-conclusoes.aux'.
-
-
-(./capitulos/cap-conclusoes.tex)
+)
 \openout4 = `main.mw'.
 
- [42
 
-
-
-
-] (./main.mw)
+[42] (./main.mw)
 \openout4 = `main.mw'.
 
  (./main.bbl
@@ -3318,7 +3310,7 @@ Overfull \hbox (12.79996pt too wide) in paragraph at lines 42--63
 ] (./main.mw)
 \openout4 = `main.mw'.
 
-<figuras//../figuras/prisma-fluxograma.png, id=740, 937.5025pt x 787.94376pt>
+<figuras//../figuras/prisma-fluxograma.png, id=746, 937.5025pt x 787.94376pt>
 File: figuras//../figuras/prisma-fluxograma.png Graphic file (type png)
 <use figuras//../figuras/prisma-fluxograma.png>
 Package pdftex.def Info: figuras//../figuras/prisma-fluxograma.png  used on inp
@@ -3384,7 +3376,7 @@ Underfull \hbox (badness 2591) in paragraph at lines 143--143
 [49 <./figuras//../figuras/prisma-fluxograma.png>] (./main.mw)
 \openout4 = `main.mw'.
 
-<figuras//../figuras/caracteristicas.png, id=758, 704.6325pt x 592.46344pt>
+<figuras//../figuras/caracteristicas.png, id=764, 704.6325pt x 592.46344pt>
 File: figuras//../figuras/caracteristicas.png Graphic file (type png)
 <use figuras//../figuras/caracteristicas.png>
 Package pdftex.def Info: figuras//../figuras/caracteristicas.png  used on input
@@ -3438,13 +3430,13 @@ Package pdftex.def Info: figuras//../figuras/caracteristicas.png  used on input
 ] (./main.mw)
 \openout4 = `main.mw'.
 
-<figuras//../figuras/instituicoes.png, id=810, 762.85pt x 401.5pt>
+<figuras//../figuras/instituicoes.png, id=816, 762.85pt x 401.5pt>
 File: figuras//../figuras/instituicoes.png Graphic file (type png)
 <use figuras//../figuras/instituicoes.png>
 Package pdftex.def Info: figuras//../figuras/instituicoes.png  used on input li
 ne 42.
 (pdftex.def)             Requested size: 455.24411pt x 239.60306pt.
-<figuras//../figuras/ferramentas.png, id=811, 706.13812pt x 592.46344pt>
+<figuras//../figuras/ferramentas.png, id=817, 706.13812pt x 592.46344pt>
 File: figuras//../figuras/ferramentas.png Graphic file (type png)
 <use figuras//../figuras/ferramentas.png>
 Package pdftex.def Info: figuras//../figuras/ferramentas.png  used on input lin
@@ -3455,7 +3447,7 @@ e 50.
  [57 <./figuras//../figuras/instituicoes.png>] (./main.mw)
 \openout4 = `main.mw'.
 
-<figuras//../figuras/comparacoes.png, id=818, 705.38531pt x 197.98969pt>
+<figuras//../figuras/comparacoes.png, id=824, 705.38531pt x 197.98969pt>
 File: figuras//../figuras/comparacoes.png Graphic file (type png)
 <use figuras//../figuras/comparacoes.png>
 Package pdftex.def Info: figuras//../figuras/comparacoes.png  used on input lin
@@ -3466,7 +3458,7 @@ e 60.
  [58 <./figuras//../figuras/ferramentas.png (PNG copy)>] (./main.mw)
 \openout4 = `main.mw'.
 
-<figuras//../figuras/dataset-e-correcoes-automatizada.png, id=824, 706.13812pt 
+<figuras//../figuras/dataset-e-correcoes-automatizada.png, id=830, 706.13812pt 
 x 592.46344pt>
 File: figuras//../figuras/dataset-e-correcoes-automatizada.png Graphic file (ty
 pe png)
@@ -3480,7 +3472,7 @@ ng  used on input line 70.
 orrecoes-automatizada.png (PNG copy)>] (./main.mw)
 \openout4 = `main.mw'.
 
-<figuras//../figuras/plugins-no-ensino-opiniao.png, id=831, 706.13812pt x 592.4
+<figuras//../figuras/plugins-no-ensino-opiniao.png, id=837, 706.13812pt x 592.4
 6344pt>
 File: figuras//../figuras/plugins-no-ensino-opiniao.png Graphic file (type png)
 
@@ -3494,7 +3486,7 @@ d on input line 80.
 mw)
 \openout4 = `main.mw'.
 
-<figuras//../figuras/IDEs.png, id=839, 987.69pt x 472.76625pt>
+<figuras//../figuras/IDEs.png, id=845, 987.69pt x 472.76625pt>
 File: figuras//../figuras/IDEs.png Graphic file (type png)
 <use figuras//../figuras/IDEs.png>
 Package pdftex.def Info: figuras//../figuras/IDEs.png  used on input line 98.
@@ -3858,7 +3850,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--93
  [64] (./main.mw)
 \openout4 = `main.mw'.
 
-<./PosTexto/Mod1TermodeCompromisso.pdf, id=862, 597.50786pt x 845.04686pt>
+<./PosTexto/Mod1TermodeCompromisso.pdf, id=868, 597.50786pt x 845.04686pt>
 File: ./PosTexto/Mod1TermodeCompromisso.pdf Graphic file (type pdf)
 <use ./PosTexto/Mod1TermodeCompromisso.pdf>
 Package pdftex.def Info: ./PosTexto/Mod1TermodeCompromisso.pdf  used on input l
@@ -3869,7 +3861,7 @@ File: ./PosTexto/Mod1TermodeCompromisso.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./PosTexto/Mod1TermodeCompromisso.pdf  used on input l
 ine 273.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
-<./PosTexto/Mod1TermodeCompromisso.pdf, id=865, page=1, 597.50786pt x 845.04686
+<./PosTexto/Mod1TermodeCompromisso.pdf, id=871, page=1, 597.50786pt x 845.04686
 pt>
 File: ./PosTexto/Mod1TermodeCompromisso.pdf Graphic file (type pdf)
 <use ./PosTexto/Mod1TermodeCompromisso.pdf, page 1>
@@ -3904,7 +3896,7 @@ input line 273.
  <./PosTexto/Mod1TermodeCompromisso.pdf>] (./main.mw)
 \openout4 = `main.mw'.
 
-<./PosTexto/autorizacao-labin-assinado.pdf, id=894, 597.50786pt x 845.04686pt>
+<./PosTexto/autorizacao-labin-assinado.pdf, id=900, 597.50786pt x 845.04686pt>
 File: ./PosTexto/autorizacao-labin-assinado.pdf Graphic file (type pdf)
 <use ./PosTexto/autorizacao-labin-assinado.pdf>
 Package pdftex.def Info: ./PosTexto/autorizacao-labin-assinado.pdf  used on inp
@@ -3915,7 +3907,7 @@ File: ./PosTexto/autorizacao-labin-assinado.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./PosTexto/autorizacao-labin-assinado.pdf  used on inp
 ut line 274.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
-<./PosTexto/autorizacao-labin-assinado.pdf, id=897, page=1, 597.50786pt x 845.0
+<./PosTexto/autorizacao-labin-assinado.pdf, id=903, page=1, 597.50786pt x 845.0
 4686pt>
 File: ./PosTexto/autorizacao-labin-assinado.pdf Graphic file (type pdf)
 <use ./PosTexto/autorizacao-labin-assinado.pdf, page 1>
@@ -3947,7 +3939,7 @@ Package pdftex.def Info: ./PosTexto/autorizacao-labin-assinado.pdf , page1 used
  [66 <./PosTexto/autorizacao-labin-assinado.pdf>] (./main.mw)
 \openout4 = `main.mw'.
 
-<./PosTexto/termo-utilizacao-dados.pdf, id=937, 597.50786pt x 845.04686pt>
+<./PosTexto/termo-utilizacao-dados.pdf, id=943, 597.50786pt x 845.04686pt>
 File: ./PosTexto/termo-utilizacao-dados.pdf Graphic file (type pdf)
 <use ./PosTexto/termo-utilizacao-dados.pdf>
 Package pdftex.def Info: ./PosTexto/termo-utilizacao-dados.pdf  used on input l
@@ -3958,7 +3950,7 @@ File: ./PosTexto/termo-utilizacao-dados.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./PosTexto/termo-utilizacao-dados.pdf  used on input l
 ine 275.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
-<./PosTexto/termo-utilizacao-dados.pdf, id=940, page=1, 597.50786pt x 845.04686
+<./PosTexto/termo-utilizacao-dados.pdf, id=946, page=1, 597.50786pt x 845.04686
 pt>
 File: ./PosTexto/termo-utilizacao-dados.pdf Graphic file (type pdf)
 <use ./PosTexto/termo-utilizacao-dados.pdf, page 1>
@@ -3991,7 +3983,7 @@ input line 275.
 [67 <./PosTexto/termo-utilizacao-dados.pdf>] (./main.mw)
 \openout4 = `main.mw'.
 
-<./capitulos/tcle.pdf, id=979, 597.50829pt x 845.0471pt>
+<./capitulos/tcle.pdf, id=985, 597.50829pt x 845.0471pt>
 File: ./capitulos/tcle.pdf Graphic file (type pdf)
 <use ./capitulos/tcle.pdf>
 Package pdftex.def Info: ./capitulos/tcle.pdf  used on input line 276.
@@ -4000,7 +3992,7 @@ File: ./capitulos/tcle.pdf Graphic file (type pdf)
 <use ./capitulos/tcle.pdf>
 Package pdftex.def Info: ./capitulos/tcle.pdf  used on input line 276.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<./capitulos/tcle.pdf, id=982, page=1, 597.50829pt x 845.0471pt>
+<./capitulos/tcle.pdf, id=988, page=1, 597.50829pt x 845.0471pt>
 File: ./capitulos/tcle.pdf Graphic file (type pdf)
 <use ./capitulos/tcle.pdf, page 1>
 Package pdftex.def Info: ./capitulos/tcle.pdf , page1 used on input line 276.
@@ -4026,7 +4018,7 @@ Package pdftex.def Info: ./capitulos/tcle.pdf , page1 used on input line 276.
  [68 <./capitulos/tcle.pdf>] (./main.mw)
 \openout4 = `main.mw'.
 
-<./capitulos/tcle.pdf, id=1005, page=2, 597.50829pt x 845.0471pt>
+<./capitulos/tcle.pdf, id=1011, page=2, 597.50829pt x 845.0471pt>
 File: ./capitulos/tcle.pdf Graphic file (type pdf)
 <use ./capitulos/tcle.pdf, page 2>
 Package pdftex.def Info: ./capitulos/tcle.pdf , page2 used on input line 276.
@@ -4044,7 +4036,7 @@ Package pdftex.def Info: ./capitulos/tcle.pdf , page2 used on input line 276.
  [69 <./capitulos/tcle.pdf>] (./main.mw)
 \openout4 = `main.mw'.
 
-<./capitulos/tcle.pdf, id=1016, page=3, 597.50829pt x 845.0471pt>
+<./capitulos/tcle.pdf, id=1022, page=3, 597.50829pt x 845.0471pt>
 File: ./capitulos/tcle.pdf Graphic file (type pdf)
 <use ./capitulos/tcle.pdf, page 3>
 Package pdftex.def Info: ./capitulos/tcle.pdf , page3 used on input line 276.
@@ -4394,7 +4386,14 @@ AED: lastpage setting LastPage
 
 \openout4 = `main.mw'.
 
-) (./capitulos/cap-conclusoes.aux
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
+\openout4 = `main.mw'.
+
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
@@ -4420,8 +4419,7 @@ AED: lastpage setting LastPage
 
 \openout4 = `main.mw'.
 
-
-(./PosTexto/apendicea.aux
+ (./PosTexto/apendicea.aux
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
@@ -4490,7 +4488,8 @@ AED: lastpage setting LastPage
 
 \openout4 = `main.mw'.
 
-) (./PosTexto/apendiceb.aux
+)
+(./PosTexto/apendiceb.aux
 \openout4 = `main.mw'.
 
 \openout4 = `main.mw'.
@@ -4556,9 +4555,13 @@ AED: lastpage setting LastPage
 
 \openout4 = `main.mw'.
 
-) (./PosTexto/questionario-previo-tcle.pdf.aux))
+)
+(./PosTexto/questionario-previo-tcle.pdf.aux))
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 \openout4 = `main.glo'.
 
@@ -4578,27 +4581,36 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 57114 strings out of 478287
- 1087996 string characters out of 5849290
- 1730240 words of memory out of 5000000
- 73708 multiletter control sequences out of 15000+600000
+ 57101 strings out of 478287
+ 1087061 string characters out of 5849290
+ 1730242 words of memory out of 5000000
+ 73693 multiletter control sequences out of 15000+600000
  511915 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  125i,19n,131p,1575b,2593s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texliv
-e/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc}</usr/share/texlive/texm
-f-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/t
-exmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/l
-mr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
-w/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/u
-hvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (71 pages, 2688327 bytes).
+pdfTeX warning (dest): name{chapter.6} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.5.0.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.5.0.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/
+texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc}</usr/share/texlive/texmf-
+dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/tex
+mf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr
+12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
+helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhv
+bo8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on main.pdf (71 pages, 2688028 bytes).
 PDF statistics:
- 1372 PDF objects out of 1440 (max. 8388607)
- 1168 compressed objects within 12 object streams
- 299 named destinations out of 1000 (max. 500000)
- 905 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1388 PDF objects out of 1440 (max. 8388607)
+ 1184 compressed objects within 12 object streams
+ 305 named destinations out of 1000 (max. 500000)
+ 929 words of extra memory for PDF output out of 10000 (max. 10000000)
 
